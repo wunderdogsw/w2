@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+.idea
+npm-debug.log
+.env
+.env.production
+.cache
+.jshintrc
+.jshintignore
+.cache
+.localstorage
+__dev__
+newrelic_agent.log
+dist

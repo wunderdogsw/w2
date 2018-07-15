@@ -1,0 +1,11 @@
+:root {
+  --color-background: #fff;
+  --color-text-on-background: #000;
+}
+
+
+html, body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--text-on-background);
+}

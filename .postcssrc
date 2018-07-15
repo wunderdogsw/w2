@@ -1,0 +1,20 @@
+{
+  "modules": false,
+  "plugins": {
+    "postcss-browser-reporter": {},
+    "postcss-reporter": {},
+    "postcss-modules": {
+      "generateScopedName": "[name]_[local]_[hash:base64:5]"
+    },
+    "postcss-calc": {},
+    "postcss-nesting": {},
+    "postcss-custom-media": {},
+    "postcss-media-minmax": {},
+    "postcss-custom-selectors": {},
+    "postcss-pseudoelements": {},
+    "postcss-selector-matches": {},
+    "postcss-pseudo-class-any-link": {},
+    "autoprefixer": {},
+    "postcss-apply": {},
+  }
+}

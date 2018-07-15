@@ -1,0 +1,4 @@
+.TestComponent {
+  background-color: #f0f;
+  color: var(--color-text-on-background);
+}
