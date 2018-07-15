@@ -12,3 +12,4 @@ npm-debug.log
 __dev__
 newrelic_agent.log
 dist
+yarn-error.log
