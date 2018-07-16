@@ -1,0 +1,59 @@
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Logo--animate {
+  & > svg > * {
+    animation-name: letterFadeIn;
+    animation-duration: var(--animation-duration);
+    animation-fill-mode: backwards;
+    animation-timing-function: var(--animation-ease);
+  }
+}
+
+
+
+
+.Logo__default {
+  display: block;
+  width: 800px;
+  max-width: 100%;
+
+  @media ( width < 768px ) {
+    display: none;
+  }
+}
+
+
+
+
+.Logo__grid {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+
+  @media ( width >= 768px ) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+@keyframes letterFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

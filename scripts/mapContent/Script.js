@@ -10,21 +10,20 @@ fs.readdirSync(contentDir).forEach(dir => {
   if (!fs.lstatSync(`${path}`).isDirectory()) return
 
   const rows = []
-  rows.push('// File generated with `mapContent` Script')
+  rows.push('// Do not modify by hand')
+  rows.push('// File generated with `mapContent` script')
   rows.push(`// ${new Date()}`)
   rows.push('')
   rows.push('import importedComponent from \'react-imported-component\'')
   rows.push('')
-  rows.push('export default {')
   fs.readdirSync(path)
     .filter( Boolean )
     .filter( subDir => subDir !== 'index.js')
     .forEach( subDir => {
       if (!fs.lstatSync(`${path}/${subDir}`).isDirectory()) return
       if (subDir.includes(' ')) throw new Error(`Dir names cannot contain spaces => '${subDir}'`)
-      rows.push(`  ${subDir.toLowerCase()}: importedComponent(() => import('./${subDir}')),`)
+      rows.push(`export const ${subDir} = importedComponent(() => import('./${subDir}'))`)
     })
-  rows.push('}')
   fs.writeFileSync(`${path}/index.js`, rows.join('\n'), 'utf-8')
   console.log(`Updated -> '${dir}/index.js'`)
 })

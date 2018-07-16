@@ -1,4 +1,4 @@
-import cx from 'index.css'
+import './index.css'
 
 import ReactDom from 'react-dom'
 import React from 'react'

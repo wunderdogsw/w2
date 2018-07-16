@@ -1,6 +1,9 @@
 :root {
   --color-background: #fff;
   --color-text-on-background: #000;
+
+  --animation-duration: 400ms;
+  --animation-ease: cubic-bezier(.77,0,.41,.99);
 }
 
 
