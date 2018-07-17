@@ -3,12 +3,34 @@
   --color-text-on-background: #000;
 
   --animation-duration: 400ms;
+  --animation-duration-slow: 1s;
   --animation-ease: cubic-bezier(.77,0,.41,.99);
+
+
+  --spacing-small: 20px;
+  --spacing: 40px;
+  @media (width >= 768px) {
+    --spacing: 120px;
+  }
 }
+
 
 
 html, body {
   margin: 0;
   background-color: var(--color-background);
+
   color: var(--text-on-background);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2;
+
+  @media (width >= 768px) {
+    font-size: 80px;
+  }
 }

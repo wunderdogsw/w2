@@ -9,7 +9,18 @@
   align-items: center;
   background-color: var(--color-text-on-background);
 
+  opacity: 0;
+  pointer-events: none;
+  transition-property: opacity;
+  transition-duration: var(--animation-duration-slow);
+  transition-timing-function: var(--animation-ease);
+
   & > .Logo > svg > * {
     fill: var(--color-background);
   }
+}
+
+.Splash--showing {
+  opacity: 1;
+  pointer-events: all;
 }

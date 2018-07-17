@@ -2,10 +2,18 @@ import './index.css'
 import React from 'react'
 import * as cases from 'App/contents/cases'
 
-export default ({ match }) => {
-  const contentKey = match.params.content.toLowerCase()
+const casesLower = Object
+  .entries(cases)
+  .reduce((res, [key, value]) => {
+    res[key.toLowerCase()] = value
+    return res
+  }, {})
 
-  const Content = cases[contentKey]
+export default ({ match }) => {
+  const contentKey =
+    match.params.content
+    && match.params.content.toLowerCase()
+  const Content = casesLower[contentKey]
 
   if (!Content) return 'wat no content'
 

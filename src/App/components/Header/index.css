@@ -1,0 +1,62 @@
+.Header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--spacing);
+  padding-top: var(--spacing);
+
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+
+  transition-property: opacity transform;
+  transition-delay: 2s;
+  transition-duration: var(--animation-duration-slow);
+  transition-timing-function: var(--animation-ease);
+
+
+  @media (width >= 768px) {
+    justify-content: space-between;
+    padding-top: calc(var(--spacing) / 4);
+  }
+}
+
+.Header--showContent {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+
+.Header > .Logo {
+  width: 180px;
+}
+
+
+
+
+.Header > nav {
+  display: none;
+  font-size: 16px;
+
+  & > a {
+    margin-left: var(--spacing-small);
+    text-decoration: none;
+    color: var(--color-text-on-background);
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @media (width >= 768px) {
+    display: flex;
+  }
+}

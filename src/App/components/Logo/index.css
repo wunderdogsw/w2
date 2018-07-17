@@ -19,7 +19,7 @@
 
 
 
-.Logo__default {
+.Logo__horizontal {
   display: block;
   width: 800px;
   max-width: 100%;
@@ -29,17 +29,25 @@
   }
 }
 
+.Logo--useHorizontal .Logo__horizontal {
+  display: block;
+}
+
 
 
 
 .Logo__grid {
   display: block;
-  width: 300px;
+  width: 200px;
   max-width: 100%;
 
   @media ( width >= 768px ) {
     display: none;
   }
+}
+
+.Logo--useHorizontal .Logo__grid {
+  display: none;
 }
 
 

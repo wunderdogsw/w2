@@ -1,0 +1,21 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  text-align: center;
+  padding: 0 var(--spacing);
+
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-delay: 1s;
+  transition-duration: var(--animation-duration-slow);
+  transition-timing-function: var(--animation-ease);
+}
+
+.Hero--showContent {
+  opacity: 1;
+}

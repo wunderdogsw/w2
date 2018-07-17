@@ -1,8 +1,9 @@
 import cx from './index.css'
 
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import shuffle from 'lodash.shuffle'
-import classNames from 'classnames'
+import cs from 'classnames'
+import { Link } from 'react-router-dom'
 import prefixStyles from 'inline-style-prefixer/static'
 
 
@@ -25,28 +26,31 @@ export default class extends Component {
   }
 
   render() {
-    const { animate, className } = this.props
+    const { animate, className, useHorizontal, to } = this.props
 
-    return (
-      <div
-        className={ classNames(
-          'Logo',
-          animate && 'Logo--animate',
-          className
-        )}
-      >
-        <LogoDefault letterStyles={ this.letterStyles } />
+    return React.createElement( to ? Link : 'div', {
+      to: to,
+      className: cs(
+        'Logo',
+        animate && 'Logo--animate',
+        useHorizontal && 'Logo--useHorizontal',
+        className
+      ),
+    }, (
+      <Fragment>
+        <LogoHorizontal letterStyles={ this.letterStyles } />
         <LogoGrid letterStyles={ this.letterStyles } />
-      </div>
-    )
+      </Fragment>
+    ))
+
   }
 }
 
 
 
-const LogoDefault = ({ letterStyles }) => (
+const LogoHorizontal = ({ letterStyles }) => (
   <svg
-    className="Logo__default"
+    className="Logo__horizontal"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1000 86.6"
   >
