@@ -1,28 +1,36 @@
 .Header {
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
+  z-index: 9999;
+  box-sizing: border-box;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0 var(--spacing);
-  padding-top: var(--spacing);
+  padding: var(--spacing);
+  padding-bottom: 0;
 
   opacity: 0;
-  transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, calc(var(--spacing-small) * -1), 0);
 
-  transition-property: opacity transform;
+  transition-property: opacity transform background-color box-shadow;
   transition-delay: 2s;
   transition-duration: var(--animation-duration-slow);
   transition-timing-function: var(--animation-ease);
 
 
   @media (width >= 768px) {
+    /* position: fixed; */
     justify-content: space-between;
-    padding-top: calc(var(--spacing) / 4);
+    padding: calc(var(--spacing) / 2) var(--spacing);
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+    &:hover {
+      /* background-color: var(--color-background);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+      transition-duration: var(--animation-duration); */
+    }
   }
 }
 
@@ -34,14 +42,31 @@
 
 
 
-.Header > .Logo {
+.Header__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+
+  @media (width >= 768px) {
+    justify-content: space-between;
+  }
+}
+
+
+
+
+.Header__inner > .Logo {
   width: 180px;
 }
 
 
 
 
-.Header > nav {
+.Header__inner > nav {
   display: none;
   font-size: 16px;
 

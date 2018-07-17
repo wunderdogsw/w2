@@ -1,0 +1,40 @@
+.CaseCards {
+  padding: 0 var(--spacing);
+}
+
+
+
+.CaseCards__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: var(--spacing);
+
+  box-sizing: border-box;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+
+  transition-property: transform;
+  transition-delay: 2s;
+  transition-duration: var(--animation-duration-slow);
+  transition-timing-function: var(--animation-ease);
+
+}
+
+.CaseCards--showContent .CaseCards__inner {
+  transform: translate3d(0, calc(var(--spacing) * -1.5), 0);
+}
+
+
+
+.CaseCards__inner > * {
+  margin-bottom: var(--spacing);
+
+  &:nth-child(even) {
+    /* margin-top: var(--spacing); */
+    transform: translate3d(0, var(--spacing), 0);
+  }
+
+  &:nth-child(3) {
+    margin-top: calc(var(--spacing) * -1);
+  }
+}

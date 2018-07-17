@@ -6,12 +6,15 @@
   --animation-duration-slow: 1s;
   --animation-ease: cubic-bezier(.77,0,.41,.99);
 
+  --content-max-width: 1800px;
 
   --spacing-small: 20px;
   --spacing: 40px;
   @media (width >= 768px) {
     --spacing: 120px;
   }
+
+
 }
 
 
@@ -29,8 +32,37 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.2;
+  margin: 0;
+
+  @media (width >= 768px) {
+    font-size: 100px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
 
   @media (width >= 768px) {
     font-size: 80px;
   }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+
+  @media (width >= 768px) {
+    font-size: 30px;
+  }
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.7px;
 }

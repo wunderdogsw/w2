@@ -9,11 +9,13 @@ import Logo from 'App/components/Logo'
 export default withState(
   ({ splashShowing }) => (
     <header className={ cs('Header', !splashShowing && 'Header--showContent') }>
-      <Logo useHorizontal to="/" />
-      <nav>
-        <Link to="/about" children="About" />
-        <Link to="/career" children="Career" />
-      </nav>
+      <div className="Header__inner">
+        <Logo useHorizontal to="/" />
+        <nav>
+          <Link to="/about" children="About" />
+          <Link to="/career" children="Career" />
+        </nav>
+      </div>
     </header>
   )
 )

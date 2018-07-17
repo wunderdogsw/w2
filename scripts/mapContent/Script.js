@@ -12,7 +12,6 @@ fs.readdirSync(contentDir).forEach(dir => {
   const rows = []
   rows.push('// Do not modify by hand')
   rows.push('// File generated with `mapContent` script')
-  rows.push(`// ${new Date()}`)
   rows.push('')
   rows.push('import importedComponent from \'react-imported-component\'')
   rows.push('')

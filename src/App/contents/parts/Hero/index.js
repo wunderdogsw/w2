@@ -2,6 +2,6 @@ import React, { Fragment } from 'react'
 
 export default () => (
   <Fragment>
-    <h1>We code and design</h1>
+    <h1>We code & design</h1>
   </Fragment>
 )

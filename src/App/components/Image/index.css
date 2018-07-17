@@ -1,0 +1,50 @@
+.Image {
+  position: relative;
+  display: block;
+}
+
+
+
+
+.Image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.Image--loaded > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+.Image__main {
+  animation-name: fadeIn;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-ease);
+}
+
+.Image--hasThumb .Image__main {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Image--loaded .Image__main {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
