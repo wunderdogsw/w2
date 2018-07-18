@@ -7,6 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  padding: var(--spacing);
   background-color: var(--color-text-on-background);
 
   opacity: 0;

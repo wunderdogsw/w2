@@ -12,16 +12,17 @@
   transition-timing-function: var(--animation-ease);
 
   &:hover {
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.1);
     transform:
-      translate3d(0, calc(var(--spacing-small) / -4), 0)
-      scale3d(1.01, 1.01, 1);
+      translate3d(0, -4px, 0)
+      scale3d(1.005, 1.005, 1);
   }
 
 }
 
 .Card > * {
   margin-top: var(--spacing-small);
+  text-align: center;
 
   &:first-child {
     margin-top: 0;

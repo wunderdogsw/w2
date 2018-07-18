@@ -5,9 +5,8 @@
 
 
 .CaseCards__inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: var(--spacing);
+  display: block;
+
 
   box-sizing: border-box;
   max-width: var(--content-max-width);
@@ -18,6 +17,11 @@
   transition-duration: var(--animation-duration-slow);
   transition-timing-function: var(--animation-ease);
 
+  @media (width >= 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: var(--spacing);
+  }
 }
 
 .CaseCards--showContent .CaseCards__inner {
@@ -25,16 +29,17 @@
 }
 
 
-
 .CaseCards__inner > * {
   margin-bottom: var(--spacing);
 
-  &:nth-child(even) {
-    /* margin-top: var(--spacing); */
-    transform: translate3d(0, var(--spacing), 0);
-  }
+  @media (width >= 768px) {
+    &:nth-child(even) {
+      /* margin-top: var(--spacing); */
+      transform: translate3d(0, var(--spacing), 0);
+    }
 
-  &:nth-child(3) {
-    margin-top: calc(var(--spacing) * -1);
+    &:nth-child(3) {
+      margin-top: calc(var(--spacing) * -1);
+    }
   }
 }

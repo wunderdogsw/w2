@@ -7,7 +7,7 @@ import picture from './perusterveys-card.png'
 export default () => (
   <Fragment>
     <Image thumbSrc={ thumb } src={ picture } alt="PerusTerveys" />
-    <h3>PerusTerveys omgomgomg</h3>
-    <p>Sum sum</p>
+    <h3>Feeling better about booking online</h3>
+    <p>PerusTerveys</p>
   </Fragment>
 )

@@ -10,7 +10,8 @@
 
   --spacing-small: 20px;
   --spacing: 40px;
-  @media (width >= 768px) {
+
+  @media (width >= 1024px) {
     --spacing: 120px;
   }
 

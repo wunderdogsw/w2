@@ -8,7 +8,7 @@ The point is to kiss. Easily hackable by anybody because everything is just code
 ### Usage
 
 * `yarn`
-* `yarn dev`
+* `yarn dev` or `yarn dev --open` to magically open in browser
 * Go to [localhost:1234](http://localhost:1234)
 
 
