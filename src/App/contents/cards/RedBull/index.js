@@ -7,7 +7,7 @@ import picture from './redbull-card.png'
 export default () => (
   <Fragment>
     <Image thumbSrc={ thumb } src={ picture } alt="RedBull" />
-    <h3>RedBull omgomgomg</h3>
-    <p>Sum sum</p>
+    <h3>A marketing campaign game in two weeks? Game on</h3>
+    <p>Red Bull</p>
   </Fragment>
 )
