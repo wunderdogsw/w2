@@ -11,44 +11,57 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: calc(var(--spacing-small) * 4);
+
+  /* TODO: Remove this when footer is ready */
+  @media (width >= 1024px) {
+    padding-bottom: calc(var(--spacing-small) * 4);
+  }
+}
+
+
+
+
+.Case__inner > * {
+  margin-top: calc(var(--spacing-small) * 2);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
 }
 
 
 
 
 .Case__inner > .MainTitle {
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
+  margin-top: 0;
 }
 
 .Case__inner > .SubTitle {
-  margin-top: calc(var(--spacing-small) * 2);
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
 }
 
 .Case__inner > hr {
   width: 60px;
-  border: 0;
-  border-top: 2px solid var(--color-text-on-background);
   margin-left: var(--spacing);
   margin-top: var(--spacing-small);
+  border: 0;
+  border-top: 2px solid var(--color-text-on-background);
 }
 
 .Case__inner > .Keywords  {
   margin-top: var(--spacing-small);
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
 }
 
 .Case__inner > .Image {
-  margin-top: calc(var(--spacing-small) * 2);
+  max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Case__inner > .Image:first-of-type {
+  max-width: none;
 }
 
 .Case__inner > .Chapter  {
-  margin-top: calc(var(--spacing-small) * 2);
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
   width: 100%;
   max-width: var(--text-content-max-width);
   margin-left: auto;
@@ -56,8 +69,6 @@
 }
 
 .Case__inner > .Summary {
-  margin-top: calc(var(--spacing-small) * 2);
-
   @media (width >= 1024px) {
     margin-left: var(--spacing);
     margin-right: var(--spacing);

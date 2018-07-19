@@ -21,6 +21,14 @@
 
 
 
+.Image__thumb {
+
+}
+.Image--thumbHidden .Image__thumb {
+  display: none;
+}
+
+
 
 
 .Image__main {
