@@ -13,7 +13,6 @@
   margin: 0 auto;
 
   transition-property: transform;
-  transition-delay: 2s;
   transition-duration: var(--animation-duration-slow);
   transition-timing-function: var(--animation-ease);
 
@@ -24,9 +23,11 @@
   }
 }
 
-.CaseCards--showContent .CaseCards__inner {
+.CaseCards--nudged .CaseCards__inner {
   transform: translate3d(0, calc(var(--spacing) * -1.5), 0);
 }
+
+
 
 
 .CaseCards__inner > * {
