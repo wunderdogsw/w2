@@ -1,12 +1,15 @@
 :root {
   --color-background: #fff;
   --color-text-on-background: #000;
+  --color-accent: #000;
+  --color-text-on-accent: #fff;
 
   --animation-duration: 400ms;
   --animation-duration-slow: 1s;
   --animation-ease: cubic-bezier(.77,0,.41,.99);
 
   --content-max-width: 1800px;
+  --text-content-max-width: 1200px;
 
   --spacing-small: 40px;
   --spacing: 40px;
@@ -67,7 +70,7 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.6;
   margin: 0;
 
   @media (width >= 1024px) {

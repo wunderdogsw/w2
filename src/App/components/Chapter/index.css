@@ -1,6 +1,7 @@
 .Chapter {
   display: block;
-  
+  box-sizing: border-box;
+
   @media (width >= 1024px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,10 +13,15 @@
   margin-bottom: var(--spacing-small);
 
   &:last-child {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
   }
 }
 
-.Chapter > h4 {
+.Chapter > :first-child {
   grid-row-start: span 10;
+
+  /* adjust baseline of next element */
+  & + * {
+    margin-top: 5px;
+  }
 }

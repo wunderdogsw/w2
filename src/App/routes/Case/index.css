@@ -10,7 +10,7 @@
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
-  padding-top: calc(var(--spacing-small) * 5);
+  padding-top: calc(var(--spacing-small) * 4);
 }
 
 
@@ -49,4 +49,17 @@
   margin-top: calc(var(--spacing-small) * 2);
   padding-left: var(--spacing);
   padding-right: var(--spacing);
+  width: 100%;
+  max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Case__inner > .Summary {
+  margin-top: calc(var(--spacing-small) * 2);
+
+  @media (width >= 1024px) {
+    margin-left: var(--spacing);
+    margin-right: var(--spacing);
+  }
 }
