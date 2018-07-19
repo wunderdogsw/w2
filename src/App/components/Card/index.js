@@ -1,11 +1,9 @@
 import './index.css'
 import React from 'react'
-import { Link } from 'react-router-dom'
-
-
+import TransitionLink from 'App/components/TransitionLink'
 
 export default ({ children, to }) => (
-  <Link to={ to } className="Card">
+  <TransitionLink to={ to } className="Card">
     { children }
-  </Link>
+  </TransitionLink>
 )

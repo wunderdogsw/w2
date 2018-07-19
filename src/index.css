@@ -29,19 +29,38 @@ html, body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 10px;
   hyphens: auto;
-
 }
 
+
+
+
+#root {
+  transform-origin: 50% 50%;
+  transition-property: opacity transform;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--animation-ease);
+}
+
+
+
+
 h1 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 1.2;
   margin: 0;
+
+  @media (width >= 420px) {
+    font-size: 60px;
+  }
 
   @media (width >= 1024px) {
     font-size: 100px;
   }
 }
+
+
+
 
 h2 {
   font-size: 40px;
@@ -53,6 +72,9 @@ h2 {
     font-size: 80px;
   }
 }
+
+
+
 
 h3 {
   font-family: 'PT Serif', serif;
@@ -67,6 +89,9 @@ h3 {
   }
 }
 
+
+
+
 h4 {
   font-size: 24px;
   font-weight: 700;
@@ -77,6 +102,9 @@ h4 {
     font-size: 30px;
   }
 }
+
+
+
 
 p {
   margin: 0;
