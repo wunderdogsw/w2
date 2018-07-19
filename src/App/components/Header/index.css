@@ -5,36 +5,26 @@
   right: 0;
   z-index: 9999;
   box-sizing: border-box;
-
   padding: var(--spacing);
   padding-bottom: 0;
 
-  opacity: 0;
-  transform: translate3d(0, calc(var(--spacing-small) * -1), 0);
-
-  transition-property: opacity transform background-color box-shadow;
-  transition-delay: 2s;
-  transition-duration: var(--animation-duration-slow);
-  transition-timing-function: var(--animation-ease);
-
-
   @media (width >= 768px) {
-    /* position: fixed; */
-    justify-content: space-between;
     padding: calc(var(--spacing) / 2) var(--spacing);
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-
-    &:hover {
-      /* background-color: var(--color-background);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      transition-delay: 0s;
-      transition-duration: var(--animation-duration); */
-    }
   }
 }
 
-.Header--showContent {
+.Header--animate {
+  opacity: 0;
+  transform: translate3d(0, calc(var(--spacing-small) * -1), 0);
+  transition-property: opacity transform;
+  transition-delay: 3s;
+  transition-duration: var(--animation-duration-slow);
+  transition-timing-function: var(--animation-ease);
+}
+
+.Header--animate.Header--showContent {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }

@@ -1,3 +1,52 @@
 .Case {
-  
+  padding: 0;
+}
+
+
+
+
+.Case__inner {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: calc(var(--spacing-small) * 5);
+}
+
+
+
+
+.Case__inner > .MainTitle {
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.Case__inner > .SubTitle {
+  margin-top: calc(var(--spacing-small) * 2);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.Case__inner > hr {
+  width: 60px;
+  border: 0;
+  border-top: 2px solid var(--color-text-on-background);
+  margin-left: var(--spacing);
+  margin-top: var(--spacing-small);
+}
+
+.Case__inner > .Keywords  {
+  margin-top: var(--spacing-small);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.Case__inner > .Image {
+  margin-top: calc(var(--spacing-small) * 2);
+}
+
+.Case__inner > .Chapter  {
+  margin-top: calc(var(--spacing-small) * 2);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
 }

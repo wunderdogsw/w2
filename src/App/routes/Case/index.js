@@ -1,5 +1,5 @@
 import './index.css'
-import React from 'react'
+import React, { Component } from 'react'
 import * as cases from 'App/contents/cases'
 
 const casesLower = Object
@@ -9,17 +9,27 @@ const casesLower = Object
     return res
   }, {})
 
-export default ({ match }) => {
-  const contentKey =
-    match.params.content
-    && match.params.content.toLowerCase()
-  const Content = casesLower[contentKey]
 
-  if (!Content) return 'wat no content'
+export default class extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
-  return (
-    <div className="Case">
-      <Content />
-    </div>
-  )
+  render () {
+    const { match } = this.props
+    const contentKey =
+      match.params.content
+      && match.params.content.toLowerCase()
+    const Content = casesLower[contentKey]
+
+    if (!Content) return 'wat no content'
+
+    return (
+      <div className="Case">
+        <article className="Case__inner">
+          <Content />
+        </article>
+      </div>
+    )
+  }
 }

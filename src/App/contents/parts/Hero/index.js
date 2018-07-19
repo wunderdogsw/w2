@@ -1,7 +1,15 @@
 import React, { Fragment } from 'react'
+import Helmet from 'react-helmet'
+import MainTitle from 'App/components/MainTitle'
 
 export default () => (
   <Fragment>
-    <h1>We code & design</h1>
+    <MainTitle>We code & design</MainTitle>
+    <Helmet>
+      <meta
+        name="description"
+        content="We are your partner in turning good ideas into well working digital products and service"
+      />
+    </Helmet>
   </Fragment>
 )

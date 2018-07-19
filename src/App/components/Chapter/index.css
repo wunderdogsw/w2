@@ -1,0 +1,21 @@
+.Chapter {
+  display: block;
+  
+  @media (width >= 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: var(--spacing-small);
+  }
+}
+
+.Chapter > * {
+  margin-bottom: var(--spacing-small);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Chapter > h4 {
+  grid-row-start: span 10;
+}

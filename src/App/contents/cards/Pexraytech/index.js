@@ -7,7 +7,7 @@ import picture from './pexraytech-card.png'
 export default () => (
   <Fragment>
     <Image thumbSrc={ thumb } src={ picture } alt="Pexraytech" />
-    <h3>X-pertise on time and on budget</h3>
+    <h4>X-pertise on time and on budget</h4>
     <p>Pexraytech</p>
   </Fragment>
 )
