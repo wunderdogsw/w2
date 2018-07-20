@@ -55,7 +55,7 @@ export default withState(
       const { splashShowing } = this.props
       const { nudged, nudgeCancelled } = this.state
       return(
-        <div className={cs(
+        <section className={cs(
           'CaseCards',
           nudged && !nudgeCancelled && 'CaseCards--nudged',
         )}>
@@ -73,7 +73,7 @@ export default withState(
                 { cards['RedBull']() }
               </Card>
           </div>
-        </div>
+        </section>
       )
     }
   }

@@ -6,6 +6,7 @@
   --color-light-gray: #f8f8f8;
 
   --animation-duration: 400ms;
+  --animation-duration-fast: 200ms;
   --animation-duration-slow: 1s;
   --animation-ease: cubic-bezier(.77,0,.41,.99);
 

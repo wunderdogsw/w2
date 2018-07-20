@@ -50,6 +50,7 @@
     "react-imported-component": "^4.6.2",
     "react-redux": "5.0.7",
     "react-router-dom": "4.2.2",
+    "react-tilt": "^0.1.4",
     "redux": "4.0.0",
     "redux-thunk": "2.2.0",
     "whatwg-fetch": "2.0.4"
