@@ -22,12 +22,12 @@ export default withRouter(
     }
 
     render() {
-      const { children, to, className } = this.props
+      const { children, to, className, onClick } = this.props
       return (
         <a
           className={cs( 'TransitionLink', className )}
           href={ to }
-          onClick={ this.handleClick }
+          onClick={ onClick ? onClick : this.handleClick }
           children={ children }
         />
       )

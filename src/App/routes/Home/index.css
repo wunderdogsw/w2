@@ -9,3 +9,11 @@
 .Home > .Clients {
   padding: 0 var(--spacing);
 }
+
+.Home > .JoinThePackBox {
+  margin: 0 var(--spacing);
+  margin-top: calc(var(--spacing) * 2);
+
+  /* TODO: REMOVE THIS */
+  margin-bottom: calc(var(--spacing) * 2);
+}

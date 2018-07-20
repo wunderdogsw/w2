@@ -1,0 +1,28 @@
+.Button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 50px;
+  background-color: var(--color-background);
+  color: var(--color-text-on-background);
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.Button--reversed {
+  background-color: var(--color-text-on-background);
+  color: var(--color-background);
+}
+
+.Button--useAccent {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+}
+.Button--useAccent.Button--reversed {
+  background-color: var(--color-text-on-accent);
+  color: var(--color-accent);
+}
