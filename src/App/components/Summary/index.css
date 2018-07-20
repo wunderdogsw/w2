@@ -17,10 +17,12 @@
 
 .Summary > * {
   margin-bottom: var(--spacing-small);
+  max-width: calc(var(--text-content-max-width) / 2);
 }
 
 .Summary > h4 {
   margin-bottom: calc(var(--spacing-small) / 2);
+  max-width: none;
 }
 
 .Summary > :first-child {
