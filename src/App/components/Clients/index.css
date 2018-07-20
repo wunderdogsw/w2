@@ -17,3 +17,7 @@
     margin-top: 0;
   }
 }
+
+.Clients > .LogoGrid {
+  margin-top: calc(var(--spacing-small) * 1.4);
+}
