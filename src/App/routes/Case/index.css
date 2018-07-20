@@ -46,17 +46,29 @@
   margin-top: var(--spacing-small);
 }
 
-.Case__inner > .Image {
-  max-width: var(--text-content-max-width);
-  margin-left: auto;
-  margin-right: auto;
+
+
+.Case__inner > .Image:first-of-type {
+  /* Hero image is full-width */
+  max-width: none;
   padding-left: 0;
   padding-right: 0;
 }
 
-.Case__inner > .Image:first-of-type {
-  max-width: none;
+.Case__inner > .Image + .ImageRow {
+  margin-top: var(--spacing-small)
 }
+
+.Case__inner > .ImageRow + .ImageRow {
+  margin-top: var(--spacing-small)
+}
+
+.Case__inner > .ImageRow + .Image {
+  margin-top: var(--spacing-small)
+}
+
+
+
 
 .Case__inner > .Chapter  {
   width: 100%;
