@@ -2,7 +2,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  min-width: 250px;
+  min-width: 200px;
   min-height: 50px;
   background-color: var(--color-background);
   color: var(--color-text-on-background);
