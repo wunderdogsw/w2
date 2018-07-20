@@ -7,7 +7,6 @@
 .CaseCards__inner {
   display: block;
 
-
   box-sizing: border-box;
   max-width: var(--content-max-width);
   margin: 0 auto;
@@ -20,6 +19,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: var(--spacing);
+    align-items: flex-start;
   }
 }
 
@@ -35,8 +35,8 @@
 
   @media (width >= 768px) {
     &:nth-child(even) {
-      /* margin-top: var(--spacing); */
-      transform: translate3d(0, var(--spacing), 0);
+      position: relative;
+      top: var(--spacing);
     }
 
     &:nth-child(3) {

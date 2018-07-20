@@ -60,26 +60,18 @@ export default withState(
           nudged && !nudgeCancelled && 'CaseCards--nudged',
         )}>
           <div className="CaseCards__inner">
-            <div>
-            <Card to="/case/perusterveys">
-              { cards['PerusTerveys']() }
-            </Card>
-            </div>
-            <div>
-            <Card to="/case/pexraytech">
-              { cards['Pexraytech']() }
-            </Card>
-            </div>
-            <div>
-            <Card to="/case/smartly">
-              { cards['Smartly']() }
-            </Card>
-            </div>
-            <div>
-            <Card to="/case/redbull">
-              { cards['RedBull']() }
-            </Card>
-            </div>
+              <Card to="/case/perusterveys">
+                { cards['PerusTerveys']() }
+              </Card>
+              <Card to="/case/pexraytech">
+                { cards['Pexraytech']() }
+              </Card>
+              <Card to="/case/smartly">
+                { cards['Smartly']() }
+              </Card>
+              <Card to="/case/redbull">
+                { cards['RedBull']() }
+              </Card>
           </div>
         </div>
       )
