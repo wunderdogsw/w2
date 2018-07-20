@@ -3,6 +3,7 @@
   --color-text-on-background: #000;
   --color-accent: #000;
   --color-text-on-accent: #fff;
+  --color-light-gray: #f8f8f8;
 
   --animation-duration: 400ms;
   --animation-duration-slow: 1s;
@@ -10,6 +11,7 @@
 
   --content-max-width: 1800px;
   --text-content-max-width: 1400px;
+  --narrow-content-max-width: 600px;
 
   --spacing-small: 40px;
   --spacing: 40px;

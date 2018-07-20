@@ -1,0 +1,19 @@
+.Clients {
+
+}
+
+.Clients > h1,
+.Clients > p {
+  max-width: var(--narrow-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Clients > * {
+  margin-top: var(--spacing-small);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}

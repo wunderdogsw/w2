@@ -1,3 +1,11 @@
 .Home {
-  
+
+}
+
+.Home > .CaseCards {
+  padding: 0 var(--spacing);
+}
+
+.Home > .Clients {
+  padding: 0 var(--spacing);
 }
