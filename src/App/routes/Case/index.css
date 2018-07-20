@@ -38,7 +38,8 @@
   padding-left: 0;
   padding-right: 0;
   border: 0;
-  border-top: 2px solid var(--color-text-on-background);
+  height: 2px;
+  background-color: var(--color-text-on-background);
 }
 
 .Case__inner > .Keywords  {
@@ -47,10 +48,21 @@
 
 
 
-.Case__inner > .Image:first-of-type {
-  /* Hero image */
+
+.Case__inner > .Image,
+.Case__inner > .ImageRow {
   padding-left: 0;
   padding-right: 0;
+  margin-left: var(--spacing);
+  margin-right: var(--spacing);
+}
+
+
+
+.Case__inner > .Image:first-of-type {
+  /* Hero image */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .Case__inner > .Image + .ImageRow {

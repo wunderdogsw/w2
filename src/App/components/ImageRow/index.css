@@ -1,15 +1,25 @@
 .ImageRow {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media (width >= 1024px) {
+    flex-direction: row;
+  }
 }
 
 .ImageRow > * {
   flex: 1;
-  margin-right: var(--spacing-small);
+  margin-bottom: var(--spacing-small);
+
+  @media (width >= 1024px) {
+    margin-bottom: 0;
+    margin-right: var(--spacing-small);
+  }
 
   &:last-child {
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
