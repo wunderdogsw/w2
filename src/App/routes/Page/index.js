@@ -1,9 +1,9 @@
 import './index.css'
 import React, { Component } from 'react'
-import * as cases from 'App/contents/cases'
+import * as pages from 'App/contents/pages'
 
-const casesLower = Object
-  .entries(cases)
+const pagesLower = Object
+  .entries(pages)
   .reduce((res, [key, value]) => {
     res[key.toLowerCase()] = value
     return res
@@ -18,15 +18,15 @@ export default class extends Component {
   render () {
     const { match } = this.props
     const contentKey =
-      match.params.content
-      && match.params.content.toLowerCase()
-    const Content = casesLower[contentKey]
+      match.params.page
+      && match.params.page.toLowerCase()
+    const Content = pagesLower[contentKey]
 
     if (!Content) return 'wat no content'
 
     return (
-      <div className="Case">
-        <article className="Case__inner">
+      <div className="Page">
+        <article className="Page__inner">
           <Content />
         </article>
       </div>

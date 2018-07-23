@@ -3,6 +3,7 @@
 
 import importedComponent from 'react-imported-component'
 
+export const Career = importedComponent(() => import('./Career'))
 export const PerusTerveys = importedComponent(() => import('./PerusTerveys'))
 export const Pexraytech = importedComponent(() => import('./Pexraytech'))
 export const RedBull = importedComponent(() => import('./RedBull'))

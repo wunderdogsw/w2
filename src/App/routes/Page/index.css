@@ -1,11 +1,11 @@
-.Case {
+.Page {
   padding: 0;
 }
 
 
 
 
-.Case__inner {
+.Page__inner {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -21,17 +21,17 @@
 
 
 
-.Case__inner > * {
+.Page__inner > * {
   margin-top: calc(var(--spacing-small) * 2);
   padding-left: var(--spacing);
   padding-right: var(--spacing);
 }
 
-.Case__inner > .SubTitle {
+.Page__inner > .SubTitle {
   margin-top: var(--spacing-small);
 }
 
-.Case__inner > hr {
+.Page__inner > hr {
   width: 60px;
   margin-left: var(--spacing);
   margin-top: var(--spacing-small);
@@ -42,15 +42,15 @@
   background-color: var(--color-text-on-background);
 }
 
-.Case__inner > .Keywords  {
+.Page__inner > .Keywords  {
   margin-top: var(--spacing-small);
 }
 
 
 
 
-.Case__inner > .Image,
-.Case__inner > .ImageRow {
+.Page__inner > .Image,
+.Page__inner > .ImageRow {
   padding-left: 0;
   padding-right: 0;
   margin-left: var(--spacing);
@@ -59,35 +59,35 @@
 
 
 
-.Case__inner > .Image:first-of-type {
+.Page__inner > .Image:first-of-type {
   /* Hero image */
   margin-left: 0;
   margin-right: 0;
 }
 
-.Case__inner > .Image + .ImageRow {
+.Page__inner > .Image + .ImageRow {
   margin-top: var(--spacing-small)
 }
 
-.Case__inner > .ImageRow + .ImageRow {
+.Page__inner > .ImageRow + .ImageRow {
   margin-top: var(--spacing-small)
 }
 
-.Case__inner > .ImageRow + .Image {
+.Page__inner > .ImageRow + .Image {
   margin-top: var(--spacing-small)
 }
 
 
 
 
-.Case__inner > .Chapter  {
+.Page__inner > .Chapter  {
   width: 100%;
   max-width: var(--text-content-max-width);
   margin-left: auto;
   margin-right: auto;
 }
 
-.Case__inner > .Summary {
+.Page__inner > .Summary {
   @media (width >= 1024px) {
     margin-left: var(--spacing);
     margin-right: var(--spacing);

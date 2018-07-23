@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import MainTitle from 'App/components/MainTitle'
 import Button from 'App/components/Button'
 
 export default () => (
@@ -9,7 +8,7 @@ export default () => (
       We believe happy people create the best workplace.<br />
       Welcome to join our pack!
     </p>
-    <Button to="/careers" useAccent reversed>
+    <Button to="/career" useAccent reversed>
       Read more
     </Button>
   </Fragment>
