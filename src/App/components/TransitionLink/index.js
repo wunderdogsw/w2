@@ -8,6 +8,7 @@ export default withRouter(
   class extends Component {
     handleClick = e => {
       const { history, to } = this.props
+      const external = to && to.indexOf('http') === 0
       const root = document.getElementById('root')
       e.preventDefault()
 
@@ -15,6 +16,11 @@ export default withRouter(
       root.style.transform = 'scale3d(0.99, 0.99, 1)'
 
       setTimeout(() => {
+        if (external) {
+          window.location = to
+          return
+        }
+        
         history.push(to)
         root.style.opacity = ''
         root.style.transform = ''

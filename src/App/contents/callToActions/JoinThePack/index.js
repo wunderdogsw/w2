@@ -8,7 +8,7 @@ export default () => (
       We believe happy people create the best workplace.<br />
       Welcome to join our pack!
     </p>
-    <Button to="/career" useAccent reversed>
+    <Button to="/career" useAccent>
       Read more
     </Button>
   </Fragment>

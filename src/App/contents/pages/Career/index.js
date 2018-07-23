@@ -5,6 +5,9 @@ import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import ImageTextRow from 'App/components/ImageTextRow'
+import CallToAction from 'App/components/CallToAction'
+
+import { OpenPositions } from 'App/contents/callToActions'
 
 import heroThumb from './career-hero-thumb.jpg'
 import hero from './career-hero.png'
@@ -24,6 +27,9 @@ export default () => (
       Welcome to join our pack!
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
+    <CallToAction>
+      <OpenPositions />
+    </CallToAction>
     <ImageTextRow>
       <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />
       <h4>The most important thing is that we all enjoy being at work</h4>

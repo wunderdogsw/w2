@@ -10,7 +10,7 @@
   padding: 0 var(--spacing);
 }
 
-.Home > .CareerBox {
+.Home > .CallToAction {
   margin: 0 var(--spacing);
   margin-top: calc(var(--spacing) * 2);
 

@@ -2,7 +2,7 @@ import './index.css'
 import React from 'react'
 import cs from 'classnames'
 import { withState } from 'App/state'
-import { Hero as Content } from 'App/contents/parts'
+import { Hero as Content } from 'App/contents/other'
 
 
 export default withState(

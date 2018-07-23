@@ -1,6 +1,7 @@
 :root {
   --color-background: #fff;
   --color-text-on-background: #000;
+  /* --color-accent: #f995c7; */
   --color-accent: #000;
   --color-text-on-accent: #fff;
   --color-light-gray: #f8f8f8;
@@ -8,6 +9,7 @@
   --animation-duration: 400ms;
   --animation-duration-fast: 200ms;
   --animation-duration-slow: 1s;
+  --animation-duration-super-slow: 4s;
   --animation-ease: cubic-bezier(.77,0,.41,.99);
 
   --content-max-width: 1800px;

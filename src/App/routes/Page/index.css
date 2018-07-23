@@ -94,3 +94,10 @@
     margin-right: var(--spacing);
   }
 }
+
+.Page__inner > .CallToAction {
+  @media (width >= 1024px) {
+    margin-left: var(--spacing);
+    margin-right: var(--spacing);
+  }
+}

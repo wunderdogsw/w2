@@ -1,0 +1,22 @@
+.CallToAction {
+  padding: var(--spacing);
+  background-color: var(--color-light-gray);
+  color: var(--color-text-on-background);
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: var(--animation-duration-super-slow);
+  transition-timing-function: var(--animation-ease);
+
+  &:hover {
+    background-color: var(--color-background);
+  }
+
+  & > * {
+    margin-top: var(--spacing-small);
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

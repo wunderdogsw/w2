@@ -40,6 +40,8 @@
   display: block;
   width: 400px;
   max-width: 100%;
+  box-sizing: border-box;
+  padding: var(--spacing-small);
 
   @media ( width >= 768px ) {
     display: none;
