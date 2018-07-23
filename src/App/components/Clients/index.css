@@ -1,5 +1,9 @@
 .Clients {
-
+  display: none;
+  
+  @media (width >= 768px) {
+    display: block;
+  }
 }
 
 .Clients > h1,
