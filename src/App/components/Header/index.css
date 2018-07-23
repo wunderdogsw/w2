@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: var(--content-max-width);
+  /* max-width: var(--content-max-width); */
   margin: 0 auto;
 
   @media (width >= 768px) {
