@@ -1,7 +1,7 @@
 import fs from 'fs'
 const contentDir = process.argv[2]
 
-console.log('Mapping content components in -> ', contentDir)
+console.log('Mapping content components in ->', contentDir)
 
 fs.readdirSync(contentDir).forEach(dir => {
   const path = `${contentDir}/${dir}`
