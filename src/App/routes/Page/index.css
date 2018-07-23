@@ -80,7 +80,8 @@
 
 
 
-.Page__inner > .Chapter  {
+.Page__inner > .Chapter,
+.Page__inner > .ImageTextRow {
   width: 100%;
   max-width: var(--text-content-max-width);
   margin-left: auto;

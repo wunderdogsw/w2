@@ -1,0 +1,52 @@
+.ImageTextRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  @media (width >= 1024px) {
+    flex-direction: row;
+  }
+}
+
+.ImageTextRow--reversed {
+  @media (width >= 1024px) {
+    flex-direction: row-reverse;
+  }
+}
+
+
+
+
+.ImageTextRow > * {
+  flex: 1;
+  margin-bottom: var(--spacing-small);
+
+  @media (width >= 1024px) {
+    margin-bottom: 0;
+    margin-right: calc(var(--spacing-small) * 2);
+  }
+
+  &:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.ImageTextRow--reversed > * {
+  @media (width >= 1024px) {
+    margin-right: 0;
+    margin-left: calc(var(--spacing-small) * 2);
+  }
+
+  &:last-child {
+    margin-left: 0;
+  }
+}
+
+
+
+.ImageTextRow__content > p {
+  margin-top: var(--spacing-small);
+}
