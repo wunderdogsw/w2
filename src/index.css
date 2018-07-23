@@ -33,7 +33,6 @@ html, body {
   color: var(--text-on-background);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 10px;
-  hyphens: auto;
 }
 
 
@@ -117,7 +116,8 @@ p {
   letter-spacing: 0.7px;
   line-height: 1.8;
   text-align: justify;
-
+  hyphens: auto;
+  
   @media (width >= 1024px) {
     text-align: left;
   }
