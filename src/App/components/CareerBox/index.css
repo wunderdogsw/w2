@@ -1,0 +1,15 @@
+.CareerBox {
+  padding: var(--spacing);
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+  text-align: center;
+
+  & > * {
+    margin-top: var(--spacing-small);
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

@@ -10,7 +10,7 @@
   padding: 0 var(--spacing);
 }
 
-.Home > .JoinThePackBox {
+.Home > .CareerBox {
   margin: 0 var(--spacing);
   margin-top: calc(var(--spacing) * 2);
 
