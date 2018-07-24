@@ -90,7 +90,9 @@
     margin-right: var(--spacing);
   }
   @media (width < 1024px) {
-    margin-bottom: calc(var(--spacing) * -1);
+    &:last-child {
+      margin-bottom: calc(var(--spacing) * -1);
+    }
   }
 }
 
