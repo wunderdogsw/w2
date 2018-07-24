@@ -16,8 +16,19 @@ export default class extends Component {
   }
 
   componentDidMount() {
-    window.scrollTo(0, 0)
+    this.initPage()
+  }
 
+  componentDidUpdate(lastProps) {
+    const { match: lastMatch } = lastProps
+    const { match } = this.props
+    if (match.params.page !== lastMatch.params.page) {
+      this.initPage()
+    }
+  }
+
+  initPage() {
+    window.scrollTo(0, 0)
     const footer = document.querySelector('.Footer')
     this.setState({
       minHeight: window.innerHeight - footer.clientHeight,
