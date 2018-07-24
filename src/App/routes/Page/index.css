@@ -9,7 +9,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: var(--spacing-small);
+  padding-top: calc(var(--spacing-small) * 2);
 
   /* TODO: Remove this when footer is ready */
   @media (width >= 1024px) {
