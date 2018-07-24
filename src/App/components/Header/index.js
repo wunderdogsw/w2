@@ -18,7 +18,7 @@ export default withRouter(withState(
     )}>
       <Logo useHorizontal to="/" />
       <nav>
-        <TransitionLink to="/about" children="About" />
+        <TransitionLink to="/contact" children="Contact" />
         <TransitionLink to="/career" children="Career" />
       </nav>
     </header>
