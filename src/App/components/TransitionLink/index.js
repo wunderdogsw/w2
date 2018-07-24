@@ -46,7 +46,6 @@ export default withState(withRouter(
 
       setTimeout(() => {
         resolve()
-        console.log(external)
         setTimeout(() => {
           Object.keys(style).forEach(prop => root.style[prop] = '')
         }, external ? 1000 : 50)

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, useAsMeta }) => (
+export default ({ children, useAsMeta, className, ...props }) => (
   <Fragment>
     { useAsMeta && (
       <Helmet>
