@@ -18,11 +18,11 @@ export default class extends Component {
         <Hero />
         <Nudge>
           <CaseCards />
-          <Clients />
-          <CallToAction>
-            <JoinThePack />
-          </CallToAction>
         </Nudge>
+        <Clients />
+        <CallToAction>
+          <JoinThePack />
+        </CallToAction>
       </div>
     )
   }

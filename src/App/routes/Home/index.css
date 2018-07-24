@@ -1,20 +1,17 @@
 .Home {
-
+  padding-bottom: calc(var(--spacing) * 1);
 }
 
-.Home > .Nudge > .CaseCards {
+.Home > .Nudge {
   padding: 0 var(--spacing);
 }
 
-.Home > .Nudge > .Clients {
+.Home > .Clients {
   padding: 0 var(--spacing);
-  margin-top: calc(var(--spacing) * 2);
+  margin-top: calc(var(--spacing) * 1);
 }
 
-.Home > .Nudge > .CallToAction {
+.Home > .CallToAction {
   margin: 0 var(--spacing);
-  margin-top: calc(var(--spacing) * 2);
-
-  /* TODO: REMOVE THIS */
-  margin-bottom: calc(var(--spacing) * 2);
+  margin-top: calc(var(--spacing) * 1);
 }
