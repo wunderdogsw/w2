@@ -1,5 +1,5 @@
 .Home {
-  padding-bottom: calc(var(--spacing) * 1);
+  padding-bottom: var(--spacing);
 }
 
 .Home > .Nudge {
@@ -8,10 +8,14 @@
 
 .Home > .Clients {
   padding: 0 var(--spacing);
-  margin-top: calc(var(--spacing) * 1);
+  margin-top: var(--spacing);
 }
 
 .Home > .CallToAction {
-  margin: 0 var(--spacing);
-  margin-top: calc(var(--spacing) * 1);
+  margin-top: var(--spacing);
+
+  @media (width >= 768px) {
+    margin-left: var(--spacing);
+    margin-right: var(--spacing);
+  }
 }

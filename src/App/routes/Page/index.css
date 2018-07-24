@@ -97,3 +97,9 @@
     margin-right: var(--spacing);
   }
 }
+
+.Page__inner > .Image:first-of-type + .CallToAction {
+  @media (width < 1024px) {
+    margin-top: 0;
+  }
+}
