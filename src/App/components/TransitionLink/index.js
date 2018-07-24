@@ -15,7 +15,7 @@ export default withState(withRouter(
       e.preventDefault()
       if ( history.location.pathname === to ) return
 
-      await this.transition()
+      await this.transition(external)
       userNavigated()
 
       if (external) {
@@ -25,7 +25,7 @@ export default withState(withRouter(
       }
     }
 
-    transition = () => new Promise(resolve => {
+    transition = external => new Promise(resolve => {
       const root = document.getElementById('root')
       const style = prefixStyles({
         opacity: 0,
@@ -46,9 +46,10 @@ export default withState(withRouter(
 
       setTimeout(() => {
         resolve()
+        console.log(external)
         setTimeout(() => {
           Object.keys(style).forEach(prop => root.style[prop] = '')
-        }, 50)
+        }, external ? 1000 : 50)
       }, 150)
     })
 
