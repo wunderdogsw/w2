@@ -1,3 +1,11 @@
 .TransitionLink {
+}
 
+
+.TransitionLink:hover {
+  /* color: var(--color-accent); */
+
+  & * {
+    /* fill: var(--color-accent); */
+  }
 }

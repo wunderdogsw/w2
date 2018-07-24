@@ -1,62 +1,57 @@
 .Header {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
-  z-index: 9999;
+  left: 0;
+  z-index: 100;
   box-sizing: border-box;
-  padding: var(--spacing);
-  padding-bottom: 0;
+  height: calc(var(--spacing-small) * 4);
+  padding: 0 var(--spacing);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   @media (width >= 768px) {
-    padding: calc(var(--spacing) / 2) var(--spacing);
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    padding: 0 var(--spacing);
+    justify-content: space-between;
   }
 }
 
 .Header--animate {
   opacity: 0;
-  transform: translate3d(0, calc(var(--spacing-small) * -1), 0);
   transition-property: opacity transform;
-  transition-delay: 3s;
-  transition-duration: var(--animation-duration-slow);
+  transition-delay: 2s;
+  transition-duration: var(--animation-duration-super-slow);
   transition-timing-function: var(--animation-ease);
 }
 
 .Header--animate.Header--showContent {
   opacity: 1;
-  transform: translate3d(0, 0, 0);
 }
 
 
 
 
-.Header__inner {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /* max-width: var(--content-max-width); */
-  margin: 0 auto;
+.Header {
+
 
   @media (width >= 768px) {
-    justify-content: space-between;
   }
 }
 
 
 
 
-.Header__inner > .Logo {
+.Header > .Logo {
   width: 180px;
 }
 
 
 
 
-.Header__inner > nav {
+.Header > nav {
   display: none;
   font-size: 16px;
 
@@ -66,6 +61,7 @@
     color: var(--color-text-on-background);
     opacity: 0.5;
 
+    &.active,
     &:hover {
       opacity: 1;
     }

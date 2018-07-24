@@ -52,12 +52,16 @@ export default withState(
     }
 
     render() {
-      const { splashShowing } = this.props
+      const { splashShowing, userHasNavigated } = this.props
       const { nudged, nudgeCancelled } = this.state
+
+      console.log(userHasNavigated)
+
       return(
         <section className={cs(
           'CaseCards',
           nudged && !nudgeCancelled && 'CaseCards--nudged',
+          userHasNavigated && 'CaseCards--nudgeInstant'
         )}>
           <div className="CaseCards__inner">
               <Card to="/perusterveys">

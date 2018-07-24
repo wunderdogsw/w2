@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import './index.css'
 
 import ReactDom from 'react-dom'

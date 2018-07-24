@@ -1,9 +1,10 @@
 import './index.css'
 import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
 import cs from 'classnames'
 import { withState } from 'App/state'
 import Logo from 'App/components/Logo'
+import TransitionLink from 'App/components/TransitionLink'
 
 
 export default withRouter(withState(
@@ -15,13 +16,11 @@ export default withRouter(withState(
       // only animate when exact path, default is '/'
       match.isExact && 'Header--animate'
     )}>
-      <div className="Header__inner">
-        <Logo useHorizontal to="/" />
-        <nav>
-          <Link to="/about" children="About" />
-          <Link to="/career" children="Career" />
-        </nav>
-      </div>
+      <Logo useHorizontal to="/" />
+      <nav>
+        <TransitionLink to="/about" children="About" />
+        <TransitionLink to="/career" children="Career" />
+      </nav>
     </header>
   )
 ))

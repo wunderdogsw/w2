@@ -17,8 +17,15 @@
   }
 }
 
-.CaseCards--nudged .CaseCards__inner {
-  transform: translate3d(0, calc(var(--spacing) * -1.5), 0);
+.CaseCards--nudgeInstant,
+.CaseCards--nudged {
+  & .CaseCards__inner {
+    transform: translate3d(0, calc(var(--spacing-small) * -4), 0);
+  }
+}
+
+.CaseCards--nudgeInstant .CaseCards__inner {
+  transition-property: none;
 }
 
 

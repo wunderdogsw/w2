@@ -11,10 +11,12 @@ const { Provider, Consumer } = createContext()
 export class State extends Component {
   state = {
     splashShowing: true,
+    userHasNavigated: false,
   }
 
   methods = {
     hideSplash: () => this.setState({ splashShowing: false }),
+    userNavigated: () => this.setState({ userHasNavigated: true }),
   }
 
   render() {

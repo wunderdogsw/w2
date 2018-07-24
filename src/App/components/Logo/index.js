@@ -3,8 +3,8 @@ import cx from './index.css'
 import React, { Component, Fragment } from 'react'
 import shuffle from 'lodash.shuffle'
 import cs from 'classnames'
-import { Link } from 'react-router-dom'
 import prefixStyles from 'inline-style-prefixer/static'
+import TransitionLink from 'App/components/TransitionLink'
 
 
 
@@ -28,7 +28,7 @@ export default class extends Component {
   render() {
     const { animate, className, useHorizontal, to } = this.props
 
-    return React.createElement( to ? Link : 'div', {
+    return React.createElement( to ? TransitionLink : 'div', {
       to: to,
       className: cs(
         'Logo',

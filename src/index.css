@@ -1,8 +1,8 @@
 :root {
   --color-background: #fff;
   --color-text-on-background: #000;
-  /* --color-accent: #f995c7; */
-  --color-accent: #000;
+  --color-accent: #f995c7;
+  /* --color-accent: #000; */
   --color-text-on-accent: #fff;
   --color-light-gray: #f8f8f8;
 
@@ -117,7 +117,7 @@ p {
   line-height: 1.8;
   text-align: justify;
   hyphens: auto;
-  
+
   @media (width >= 1024px) {
     text-align: left;
   }

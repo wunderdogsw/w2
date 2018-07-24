@@ -2,36 +2,65 @@ import './index.css'
 import React, { Component } from 'react'
 import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
+import { withState } from 'App/state'
+import prefixStyles from 'inline-style-prefixer/static'
 
 
-export default withRouter(
+export default withState(withRouter(
   class extends Component {
-    handleClick = e => {
-      const { history, to } = this.props
+    handleClick = async e => {
+      const { history, to, userNavigated } = this.props
       const external = to && to.indexOf('http') === 0
-      const root = document.getElementById('root')
+
       e.preventDefault()
+      if ( history.location.pathname === to ) return
 
-      root.style.opacity = 0
-      root.style.transform = 'scale3d(0.99, 0.99, 1)'
+      await this.transition()
+      userNavigated()
 
-      setTimeout(() => {
-        if (external) {
-          window.location = to
-          return
-        }
-        
+      if (external) {
+        window.location = to
+      } else {
         history.push(to)
-        root.style.opacity = ''
-        root.style.transform = ''
-      }, 800)
+      }
     }
 
+    transition = () => new Promise(resolve => {
+      const root = document.getElementById('root')
+      const style = prefixStyles({
+        opacity: 0,
+        transform: 'translate3d(0, -5px, 0)',
+        transitionDuration: '100ms',
+      })
+      Object.entries(style).forEach(([prop, value]) =>
+        root.style[prop] = value
+      )
+
+      setTimeout(() => {
+        Object.entries(prefixStyles({
+          transform: 'translate3d(0, 5px, 0)',
+        })).forEach(([prop, value]) =>
+          root.style[prop] = value
+        )
+      }, 100)
+
+      setTimeout(() => {
+        resolve()
+        setTimeout(() => {
+          Object.keys(style).forEach(prop => root.style[prop] = '')
+        }, 50)
+      }, 150)
+    })
+
     render() {
-      const { children, to, className, onClick } = this.props
+      const { children, to, className, onClick, history } = this.props
       return (
         <a
-          className={cs( 'TransitionLink', className )}
+          className={cs(
+            'TransitionLink',
+            history.location.pathname === to && 'active',
+            className
+          )}
           href={ to }
           onClick={ onClick ? onClick : this.handleClick }
           children={ children }
@@ -39,4 +68,4 @@ export default withRouter(
       )
     }
   }
-)
+))
