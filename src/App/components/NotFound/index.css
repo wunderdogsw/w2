@@ -1,0 +1,16 @@
+.NotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  & > * {
+    text-align: center;
+    margin-top: var(--spacing-small);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

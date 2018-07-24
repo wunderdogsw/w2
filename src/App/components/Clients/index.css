@@ -1,6 +1,6 @@
 .Clients {
   display: none;
-  
+
   @media (width >= 768px) {
     display: block;
   }
@@ -23,5 +23,5 @@
 }
 
 .Clients > .LogoGrid {
-  margin-top: calc(var(--spacing-small) * 1.4);
+  margin-top: calc(var(--spacing-small) * 2);
 }

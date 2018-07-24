@@ -1,10 +1,16 @@
 :root {
+  --color-light-gray: #f8f8f8;
+
   --color-background: #fff;
   --color-text-on-background: #000;
+
   --color-accent: #f995c7;
-  /* --color-accent: #000; */
+  --color-accent: #000;
   --color-text-on-accent: #fff;
-  --color-light-gray: #f8f8f8;
+
+
+  --color-footer: #000;
+  --color-text-on-footer: #fff;
 
   --animation-duration: 400ms;
   --animation-duration-fast: 200ms;
@@ -29,7 +35,6 @@
 html, body {
   margin: 0;
   background-color: var(--color-background);
-
   color: var(--text-on-background);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 10px;
@@ -125,4 +130,11 @@ p {
 
 p.medium {
   font-size: 20px;
+}
+
+
+
+
+a {
+  color: inherit;
 }

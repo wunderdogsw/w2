@@ -20,7 +20,7 @@
 }
 
 .Card > * {
-  margin-top: calc(var(--spacing-small) / 2);
+  margin-top: var(--spacing-small);
   padding: 0 calc(var(--spacing-small) / 2);
   text-align: center;
 
@@ -31,6 +31,8 @@
 }
 
 .Card > p {
+  margin-top: calc(var(--spacing-small) / 2);
   opacity: 0.5;
   text-transform: uppercase;
+  font-size: 14px;
 }

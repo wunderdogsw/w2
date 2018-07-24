@@ -19,6 +19,7 @@ export default withState(
     componentDidMount() {
       window.addEventListener('scroll', this.cancelNudge)
       this.nudgeMaybe()
+      if (window.innerHeight > 1440) this.cancelNudge()
     }
 
     componentWillUnmount() {

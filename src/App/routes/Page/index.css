@@ -10,6 +10,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: calc(var(--spacing-small) * 2);
+  box-sizing: border-box;
 
   /* TODO: Remove this when footer is ready */
   @media (width >= 1024px) {

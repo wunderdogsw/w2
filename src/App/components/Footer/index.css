@@ -1,0 +1,19 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--spacing);
+  background-color: var(--color-footer);
+  color: var(--color-text-on-footer);
+  min-height: 600px;
+}
+
+.Footer > * {
+  text-align: center;
+  margin-top: var(--spacing-small);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
