@@ -9,7 +9,9 @@ export default ({ children }) => {
         { childs[0] }
       </div>
       <ul className="ContactRow__faces">
-        { childs.filter((_, i) => i !== 0).map(child => <li>{ child }</li>) }
+        { childs.filter((_, i) => i !== 0).map((child, i) =>
+          <li key={i}>{ child }</li>
+        )}
       </ul>
     </section>
   )
