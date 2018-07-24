@@ -2,15 +2,16 @@
 
 }
 
-.Home > .CaseCards {
+.Home > .Nudge > .CaseCards {
   padding: 0 var(--spacing);
 }
 
-.Home > .Clients {
+.Home > .Nudge > .Clients {
   padding: 0 var(--spacing);
+  margin-top: calc(var(--spacing) * 2);
 }
 
-.Home > .CallToAction {
+.Home > .Nudge > .CallToAction {
   margin: 0 var(--spacing);
   margin-top: calc(var(--spacing) * 2);
 

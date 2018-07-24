@@ -1,13 +1,9 @@
-.CaseCards__inner {
+.CaseCards {
   display: block;
 
   box-sizing: border-box;
   max-width: var(--content-max-width);
   margin: 0 auto;
-
-  transition-property: transform;
-  transition-duration: var(--animation-duration-slow);
-  transition-timing-function: var(--animation-ease);
 
   @media (width >= 768px) {
     display: grid;
@@ -17,21 +13,7 @@
   }
 }
 
-.CaseCards--nudgeInstant,
-.CaseCards--nudged {
-  & .CaseCards__inner {
-    transform: translate3d(0, calc(var(--spacing-small) * -4), 0);
-  }
-}
-
-.CaseCards--nudgeInstant .CaseCards__inner {
-  transition-property: none;
-}
-
-
-
-
-.CaseCards__inner > * {
+.CaseCards > * {
   margin-bottom: var(--spacing);
 
   @media (width >= 768px) {
