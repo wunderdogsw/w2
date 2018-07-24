@@ -114,6 +114,15 @@ h4 {
 
 
 
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+}
+
+
+
 
 p {
   margin: 0;
@@ -129,7 +138,7 @@ p {
 }
 
 p.medium {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 
@@ -137,4 +146,9 @@ p.medium {
 
 a {
   color: inherit;
+}
+
+
+.centered {
+  text-align: center;
 }

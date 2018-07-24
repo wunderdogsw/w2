@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import cs from 'classnames'
 
-export default ({ children }) => (
+export default ({ children, className, ...props }) => (
   <Fragment>
     <Helmet>
       <title>{ children } | Wunderdog</title>
@@ -14,6 +15,12 @@ export default ({ children }) => (
         content={`${ children } | Wunderdog`}
       />
     </Helmet>
-    <h1 className="MainTitle">{ children }</h1>
+    <h1 { ...props }
+      className={cs(
+        'MainTitle',
+        className
+      )}
+      children={ children }
+    />
   </Fragment>
 )

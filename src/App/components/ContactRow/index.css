@@ -1,0 +1,58 @@
+.ContactRow {
+  display: flex;
+  flex-direction: column;
+  
+  @media (width >= 1024px) {
+    flex-direction: row;
+  }
+}
+
+
+
+
+.ContactRow > * {
+  flex: 1;
+}
+
+
+
+
+.ContactRow__info {
+  margin-bottom: var(--spacing-small);
+}
+
+.ContactRow__info > h4 + p {
+  margin-top: calc(var(--spacing-small) / 2);
+}
+
+
+
+
+.ContactRow__faces {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.ContactRow__faces > li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: var(--spacing-small);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  & > * {
+    margin-top: calc(var(--spacing-small) / 2);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

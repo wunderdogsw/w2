@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import cs from 'classnames'
 
 export default ({ children, useAsMeta }) => (
   <Fragment>
@@ -16,6 +17,12 @@ export default ({ children, useAsMeta }) => (
         />
       </Helmet>
     )}
-    <h3 className="SubTitle">{ children }</h3>
+    <h3 { ...props }
+      className={cs(
+        'SubTitle',
+        className
+      )}
+      children={ children }
+    />
   </Fragment>
 )

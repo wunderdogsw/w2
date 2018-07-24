@@ -23,6 +23,14 @@
   padding-right: var(--spacing);
 }
 
+
+
+.Page__inner > .MainTitle + p {
+  margin-top: calc(var(--spacing) / 2);
+}
+
+
+
 .Page__inner > .SubTitle {
   margin-top: var(--spacing-small);
 }
@@ -84,7 +92,8 @@
   margin-right: auto;
 }
 
-.Page__inner > .Summary {
+.Page__inner > .Summary,
+.Page__inner > .CallToAction {
   @media (width >= 1024px) {
     margin-left: var(--spacing);
     margin-right: var(--spacing);
@@ -96,15 +105,16 @@
   }
 }
 
-.Page__inner > .CallToAction {
-  @media (width >= 1024px) {
-    margin-left: var(--spacing);
-    margin-right: var(--spacing);
-  }
-}
 
 .Page__inner > .Image:first-of-type + .CallToAction {
   @media (width < 1024px) {
     margin-top: 0;
   }
+}
+
+
+
+
+.Page__inner > .ContactRow + .ContactRow {
+  margin-top: calc(var(--spacing) * 2)
 }
