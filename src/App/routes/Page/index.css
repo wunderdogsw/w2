@@ -89,6 +89,9 @@
     margin-left: var(--spacing);
     margin-right: var(--spacing);
   }
+  @media (width < 1024px) {
+    margin-bottom: calc(var(--spacing) * -1);
+  }
 }
 
 .Page__inner > .CallToAction {
