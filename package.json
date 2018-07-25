@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "main": "index.js",
   "author": "Viljami Anttonen",
+  "license": "UNLICENSED",
   "scripts": {
     "predev": "echoascii dev && run-s update-content-maps",
     "dev": "parcel ./src/index.html --no-cache -d __dev__",
