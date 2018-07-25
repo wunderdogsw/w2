@@ -1,4 +1,4 @@
-import React, { Fragment } from 'React'
+import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'

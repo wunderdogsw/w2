@@ -1,4 +1,4 @@
-import React, { Fragment } from 'React'
+import React, { Fragment } from 'react'
 import Image from 'App/components/Image'
 
 import thumb from './redbull-card-thumb.jpg'
