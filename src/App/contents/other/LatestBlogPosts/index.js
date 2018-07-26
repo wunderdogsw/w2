@@ -4,7 +4,7 @@ import Button from 'App/components/Button'
 export default () => (
   <Fragment>
     <Button
-      to="https://medium.com/@wunderdog"
+      to="https://medium.com/@WunderdogSW"
       outlined
       children="More Posts"
     />

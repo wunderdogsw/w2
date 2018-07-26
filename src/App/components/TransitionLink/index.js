@@ -1,5 +1,5 @@
 import './index.css'
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
 import { withState } from 'App/state'
@@ -19,7 +19,7 @@ export default withState(withRouter(
       userNavigated()
 
       if (external) {
-        window.location = to
+        window.open(to, '_blank')
       } else {
         history.push(to)
       }
@@ -54,6 +54,7 @@ export default withState(withRouter(
 
     render() {
       const { children, to, className, onClick, history } = this.props
+      const external = to && to.indexOf('http') === 0
       return (
         <a
           className={cs(
@@ -63,7 +64,7 @@ export default withState(withRouter(
           )}
           href={ to }
           onClick={ onClick ? onClick : this.handleClick }
-          children={ children }
+          children={ <Fragment>{ children }{ external ? ' ↗' : null }</Fragment> }
         />
       )
     }

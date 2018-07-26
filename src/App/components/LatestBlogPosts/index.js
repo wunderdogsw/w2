@@ -27,6 +27,9 @@ export default class extends Component {
 
   render() {
     const posts = this.state.posts.filter((_, i) => i < 2)
+
+    if (!posts.length) return null
+
     return (
       <section className="LatestBlogPosts">
         <div className="LatestBlogPosts__posts">
