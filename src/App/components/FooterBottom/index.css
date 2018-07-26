@@ -1,0 +1,41 @@
+.FooterBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  width: 100%;
+}
+
+
+
+
+.FooterBottom > .Logo {
+  width: 120px;
+
+  & > svg * {
+    fill: var(--color-text-on-footer);
+  }
+}
+
+
+
+
+.FooterBottom > nav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  & > * {
+    margin-left: var(--spacing-small);
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}

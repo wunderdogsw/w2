@@ -28,7 +28,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>Red Bull</MainTitle>
-    <SubTitle useAsMeta>A marketing campaign game in two weeks? Game on.</SubTitle>
+    <SubTitle useAsMetaTitle>A marketing campaign game in two weeks? Game on.</SubTitle>
     <hr />
     <Keywords>UI design, UX design, game design, full-stack development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Redbull hero" />

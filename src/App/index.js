@@ -7,6 +7,7 @@ import Footer from 'App/components/Footer'
 import Home from 'App/routes/Home'
 import Page from 'App/routes/Page'
 import { LetsTalk } from 'App/contents/callToActions'
+import { FooterBottom } from 'App/contents/other'
 
 export default () => (
   <BrowserRouter>
@@ -16,7 +17,11 @@ export default () => (
         <Route path="*" component={ Home } />
       </Switch>
       <Footer>
-        <LetsTalk />
+        <Switch>
+          <Route path="/contact" />
+          <Route path="*" component={ LetsTalk }/>
+        </Switch>
+        <FooterBottom />
       </Footer>
       <Header />
       <Splash />

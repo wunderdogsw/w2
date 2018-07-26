@@ -1,7 +1,7 @@
 .ContactRow {
   display: flex;
   flex-direction: column;
-  
+
   @media (width >= 1024px) {
     flex-direction: row;
   }
@@ -33,16 +33,24 @@
   margin: 0;
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  @media (width >= 768px) {
+    flex-direction: row;
+  }
 }
 
 
 
 .ContactRow__faces > li {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin-right: var(--spacing-small);
+  display: block;
+  margin-bottom: var(--spacing-small);
+
+  @media (width >= 768px) {
+    margin-right: var(--spacing-small);
+    margin-bottom: 0;
+  }
 
   &:last-child {
     margin-right: 0;

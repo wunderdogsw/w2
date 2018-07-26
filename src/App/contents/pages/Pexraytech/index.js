@@ -24,7 +24,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>Pexraytech</MainTitle>
-    <SubTitle useAsMeta>X-pertise on time and on budget</SubTitle>
+    <SubTitle useAsMetaTitle>X-pertise on time and on budget</SubTitle>
     <hr />
     <Keywords>UX design, UX development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="PerusTerveys app screenshot" />

@@ -25,7 +25,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>Fiuden Demo</MainTitle>
-    <SubTitle useAsMeta>Fiudenaattori koodaa</SubTitle>
+    <SubTitle useAsMetaTitle>Fiudenaattori koodaa</SubTitle>
     <hr />
     <Keywords>Dev</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly hero" />
@@ -35,8 +35,8 @@ export default () => (
         If you know anything about the Finnish startup scene, you’ve almost
         certainly heard about Smartly.io. The success of the company has been
         nothing short of staggering, with fast growth and an ever-increasing
-        number of clients using Smartly.io’s solution to optimize their social
-        media marketing.
+        number of clients using Smartly.io’s solution to optimize their
+        social <a href="#">this is a link</a> media marketing.
       </p>
     </Chapter>
     <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly photo stock 1" />

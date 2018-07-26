@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, useAsMeta, className, ...props }) => (
+export default ({ children, useAsMetaTitle, className, ...props }) => (
   <Fragment>
-    { useAsMeta && (
+    { useAsMetaTitle && (
       <Helmet>
         <title>{ children } | Wunderdog</title>
         <meta
@@ -17,6 +17,9 @@ export default ({ children, useAsMeta, className, ...props }) => (
         />
       </Helmet>
     )}
+    <Helmet>
+      <meta name="description" content={ children } />
+    </Helmet>
     <h3 { ...props }
       className={cs(
         'SubTitle',

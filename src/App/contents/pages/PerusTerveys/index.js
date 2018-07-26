@@ -23,7 +23,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>PerusTerveys</MainTitle>
-    <SubTitle useAsMeta>Feeling better about booking online</SubTitle>
+    <SubTitle useAsMetaTitle>Feeling better about booking online</SubTitle>
     <hr />
     <Keywords>Full-stack development, Service design</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="PerusTerveys app screenshot" />

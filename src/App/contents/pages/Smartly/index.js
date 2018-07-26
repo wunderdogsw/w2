@@ -29,7 +29,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>Smartly</MainTitle>
-    <SubTitle useAsMeta>Teamwork makes the dream work</SubTitle>
+    <SubTitle useAsMetaTitle>Teamwork makes the dream work</SubTitle>
     <hr />
     <Keywords>DevOps</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly hero" />

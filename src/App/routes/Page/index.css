@@ -30,6 +30,13 @@
 
 
 
+
+.Page__inner > p + p {
+  margin-top: var(--spacing-small);
+}
+
+
+
 .Page__inner > .MainTitle + p {
   margin-top: calc(var(--spacing) / 2);
 }
@@ -120,9 +127,16 @@
 
 
 
-.Page__inner > .ContactRow + .ContactRow {
-  margin-top: calc(var(--spacing) * 2)
+.Page__inner > .ContactRow:first-of-type {
+  @media (width < 1024px) {
+    margin-top: calc(var(--spacing) * 2);
+  }
 }
+
+.Page__inner > .ContactRow + .ContactRow {
+  margin-top: var(--spacing);
+}
+
 
 
 

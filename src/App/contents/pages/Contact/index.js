@@ -17,6 +17,9 @@ export default () => (
       Feel free to throw us a question or two!<br />
       Let's get together and make some wunders happen!
     </p>
+    <p className="medium centered">
+      <a href="mailto:hello@wunder.dog">hello@wunder.dog</a>
+    </p>
 
     <ContactRow>
       <Helsinki />

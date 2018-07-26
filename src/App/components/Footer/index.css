@@ -6,7 +6,6 @@
   padding: 0 var(--spacing);
   background-color: var(--color-footer);
   color: var(--color-text-on-footer);
-  min-height: 600px;
 }
 
 .Footer > * {
@@ -14,6 +13,37 @@
   margin-top: var(--spacing-small);
 
   &:first-child {
+    margin-top: auto;
+    padding-top: calc(var(--spacing-small) * 2);
+  }
+}
+
+
+
+
+.Footer > .FooterBottom {
+  position: relative;
+  margin-top: calc(var(--spacing-small) * 2);
+  padding-top: 0;
+  width: 100%;
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 1px;
+    background-color: var(--color-text-on-footer);
+    opacity: 0.25;
+  }
+
+  &:first-child {
     margin-top: 0;
+
+    &::before {
+      content: none;
+    }
   }
 }
