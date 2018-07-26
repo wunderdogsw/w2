@@ -11,40 +11,19 @@ const pagesLower = Object
   }, {})
 
 export default class extends Component {
-  state = {
-    minHeight: 0,
-  }
-
   componentDidMount() {
-    this.initPage()
-  }
-
-  componentDidUpdate(lastProps) {
-    const { match: lastMatch } = lastProps
-    const { match } = this.props
-    if (match.params.page !== lastMatch.params.page) {
-      this.initPage()
-    }
-  }
-
-  initPage() {
     window.scrollTo(0, 0)
-    const footer = document.querySelector('.Footer')
-    this.setState({
-      minHeight: window.innerHeight - footer.clientHeight,
-    })
   }
 
   render () {
     const { match } = this.props
-    const { minHeight } = this.state
     const contentKey =
       match.params.page
       && match.params.page.toLowerCase()
     const Content = pagesLower[contentKey]
 
     return (
-      <div className="Page" style={{ minHeight }}>
+      <div className="Page">
         <article className="Page__inner">
           { Content ? <Content /> : <NotFound /> }
         </article>
