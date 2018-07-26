@@ -22,6 +22,10 @@
   margin-top: var(--spacing);
   padding-left: var(--spacing);
   padding-right: var(--spacing);
+
+  animation-name: fadeIn;
+  animation-duration: var(--animation-duration-super-fast);
+  animation-iteration-count: 1;
 }
 
 
@@ -118,4 +122,13 @@
 
 .Page__inner > .ContactRow + .ContactRow {
   margin-top: calc(var(--spacing) * 2)
+}
+
+
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }

@@ -13,6 +13,7 @@
   --color-text-on-footer: #fff;
 
   --animation-duration: 400ms;
+  --animation-duration-super-fast: 100ms;
   --animation-duration-fast: 200ms;
   --animation-duration-slow: 1s;
   --animation-duration-super-slow: 4s;

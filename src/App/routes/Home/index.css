@@ -1,6 +1,16 @@
 .Home {
+  box-sizing: border-box;
+  min-height: 100vh;
   padding-bottom: var(--spacing);
 }
+
+.Home > * {
+  animation-name: fadeIn;
+  animation-duration: var(--animation-duration-super-fast);
+  animation-iteration-count: 1;
+}
+
+
 
 .Home > .Nudge {
   padding: 0 var(--spacing);
@@ -18,4 +28,10 @@
     margin-left: var(--spacing);
     margin-right: var(--spacing);
   }
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
