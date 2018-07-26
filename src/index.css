@@ -125,7 +125,7 @@ h5 {
 
 
 
-
+address,
 p {
   margin: 0;
   font-size: 18px;
@@ -137,16 +137,27 @@ p {
   @media (width >= 1024px) {
     text-align: left;
   }
-}
 
-p.medium {
-  font-size: 20px;
-}
+  &.medium {
+    font-size: 20px;
+  }
 
-p.narrow {
-  max-width: var(--narrow-content-max-width);
-  margin-left: auto;
-  margin-right: auto;
+  &.narrow {
+    max-width: var(--narrow-content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & > a {
+    opacity: 0.5;
+    text-decoration: none;
+
+    &:hover {
+     opacity: 1;
+     text-decoration: underline;
+    }
+  }
+
 }
 
 
@@ -154,16 +165,6 @@ p.narrow {
 
 a {
   color: inherit;
-}
-
-p > a {
-  opacity: 0.5;
-  text-decoration: none;
-
-  &:hover {
-   opacity: 1;
-   text-decoration: underline;
-  }
 }
 
 

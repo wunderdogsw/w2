@@ -21,6 +21,7 @@
   margin-bottom: var(--spacing-small);
 }
 
+.ContactRow__info > h4 + address,
 .ContactRow__info > h4 + p {
   margin-top: calc(var(--spacing-small) / 2);
 }
