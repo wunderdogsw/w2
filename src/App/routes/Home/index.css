@@ -1,7 +1,9 @@
 .Home {
   box-sizing: border-box;
   min-height: 100vh;
-  padding-bottom: var(--spacing);
+  @media ( width >= 768px) {
+    padding-bottom: var(--spacing);
+  }
 }
 
 .Home > * {
@@ -34,6 +36,7 @@
 .Home > .LatestBlogPosts {
   margin-top: var(--spacing);
   padding: 0 var(--spacing);
+  padding-bottom: var(--spacing);
 }
 
 
