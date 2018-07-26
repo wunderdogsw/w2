@@ -1,5 +1,7 @@
 # WUNDERDOG 🦒
 
+![Build status](https://api.travis-ci.com/thatsprettyfaroutman/w2.svg?branch=master)
+
 React site with hardcoded content, no ssr, no cms
 
 The point is to kiss. Easily hackable by anybody because everything is just code. No need to make complicated UIs for CMS integrations etc.
