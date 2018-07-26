@@ -10,7 +10,7 @@ export default () => (
         +49 175 1080044
       </a>
       <br />
-      <a className="noHyphen" href="mailto:joanna.rindell<span>@</span>wunder.dog">
+      <a className="noHyphen" href="mailto:joanna.rindell@wunder.dog">
         joanna.rindell<span>@</span>wunder.dog
       </a>
     </p>
