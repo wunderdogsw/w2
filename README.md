@@ -26,6 +26,9 @@ Make a pull request. Add Luffis as a reviewer. In case you made visual changes, 
 
 ### Deployment
 
+Changes to master will be deployed automatically via travis ci.
+
+##### Manual deployment
 * Create profile for `wunderdog-site` in your aws config file. Get credentials from 'aws-sandbox' account
 * Running `deploy` script will make a new build and sync it to s3
 
@@ -33,5 +36,5 @@ Make a pull request. Add Luffis as a reviewer. In case you made visual changes, 
 ### Todo
 
 * The site
-* CI
 * Staging
+* CI tuning so master isn't automatically deployed. Maybe use git tag or slack integration 😱
