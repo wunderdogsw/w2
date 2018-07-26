@@ -5,10 +5,10 @@ export default () => (
   <Fragment>
     <h4>Lund</h4>
     <address>
-      Mikonkatu 13 A, 4 krs.<br />
-      00100 Helsinki, Finland<br />
+      Bankgatan 1<br />
+      22352 Lund, Sweden<br />
       <TransitionLink
-        to="https://www.google.fi/maps/place/Mikonkatu+13,+00100+Helsinki"
+        to="https://www.google.fi/maps/place/Bankgatan+1+22352+Lund"
         children="Map"
       />
     </address>
