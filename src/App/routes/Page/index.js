@@ -12,6 +12,18 @@ const pagesLower = Object
 
 export default class extends Component {
   componentDidMount() {
+    this.initPage()
+  }
+
+  componentDidUpdate(lastProps) {
+    const { match: lastMatch } = lastProps
+    const { match } = this.props
+    if (match.params.page !== lastMatch.params.page) {
+      this.initPage()
+    }
+  }
+
+  initPage() {
     window.scrollTo(0, 0)
   }
 
