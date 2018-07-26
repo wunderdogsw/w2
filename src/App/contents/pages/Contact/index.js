@@ -7,7 +7,7 @@ import CallToAction from 'App/components/CallToAction'
 import ContactRow from 'App/components/ContactRow'
 
 import { ElectronicInvoicing } from 'App/contents/callToActions'
-import { Helsinki, Berlin, Lund } from 'App/contents/contactRows'
+import { Helsinki, Berlin, Lund } from 'App/contents/contactOffices'
 import { MikaViskari } from 'App/contents/contactFaces'
 
 export default () => (
