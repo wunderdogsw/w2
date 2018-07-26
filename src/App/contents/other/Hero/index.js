@@ -8,7 +8,7 @@ export default () => (
     <Helmet>
       <meta
         name="description"
-        content="We are your partner in turning good ideas into well working digital products and service"
+        content="We are your partner in turning good ideas into well working digital products and services"
       />
     </Helmet>
   </Fragment>
