@@ -3,6 +3,7 @@
 
 import importedComponent from 'react-imported-component'
 
+export const AboutUs = importedComponent(() => import('./AboutUs'))
 export const Career = importedComponent(() => import('./Career'))
 export const Contact = importedComponent(() => import('./Contact'))
 export const FiudenDemo = importedComponent(() => import('./FiudenDemo'))
