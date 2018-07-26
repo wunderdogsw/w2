@@ -2,11 +2,11 @@ import React, { Fragment } from 'react'
 
 export default () => (
   <Fragment>
-    <h5>Mika Viskari</h5>
+    <h5>Redha Cherif</h5>
     <p className="breakAll noHyphen">
-      CEO<br />
+      Country Lead<br />
       <a href="tel:+358503139423">+358 50 3139423</a><br />
-      <a href="mailto:mika.viskari@wunder.dog">mika.viskari@wunder.dog</a>
+      <a href="mailto:redha.cherif@wunder.dog">redha.cherif@wunder.dog</a>
     </p>
   </Fragment>
 )
