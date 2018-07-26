@@ -143,6 +143,12 @@ p.medium {
   font-size: 20px;
 }
 
+p.narrow {
+  max-width: var(--narrow-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 

@@ -13,8 +13,8 @@ import { MikaViskari } from 'App/contents/contactFaces'
 export default () => (
   <Fragment>
     <MainTitle className="centered">Contact Us</MainTitle>
-    <p className="medium centered">
-      Feel free to throw us a question or two!<br />
+    <p className="medium centered narrow">
+      Feel free to throw us a question or two!
       Let's get together and make some wunders happen!
     </p>
     <p className="medium centered">

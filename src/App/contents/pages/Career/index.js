@@ -79,6 +79,8 @@ export default () => (
         we are always happy to give.
       </p>
     </ImageTextRow>
-
+    <CallToAction>
+      <OpenPositions />
+    </CallToAction>
   </Fragment>
 )

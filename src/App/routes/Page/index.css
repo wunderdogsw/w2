@@ -128,6 +128,7 @@
 
 
 .Page__inner > .ContactRow:first-of-type {
+  margin-top: calc(var(--spacing) * 1.5);
   @media (width < 1024px) {
     margin-top: calc(var(--spacing) * 2);
   }
