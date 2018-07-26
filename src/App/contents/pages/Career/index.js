@@ -6,6 +6,7 @@ import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import ImageTextRow from 'App/components/ImageTextRow'
 import CallToAction from 'App/components/CallToAction'
+import LatestBlogPosts from 'App/components/LatestBlogPosts'
 
 import { OpenPositions } from 'App/contents/callToActions'
 
@@ -82,5 +83,6 @@ export default () => (
     <CallToAction>
       <OpenPositions />
     </CallToAction>
+    <LatestBlogPosts />
   </Fragment>
 )

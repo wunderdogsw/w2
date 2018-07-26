@@ -55,6 +55,7 @@
     "react-tilt": "^0.1.4",
     "redux": "4.0.0",
     "redux-thunk": "2.2.0",
+    "rss-parser-browser": "^2.2.2",
     "whatwg-fetch": "2.0.4"
   }
 }

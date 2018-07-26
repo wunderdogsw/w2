@@ -6,4 +6,5 @@ import importedComponent from 'react-imported-component'
 export const Clients = importedComponent(() => import('./Clients'))
 export const FooterBottom = importedComponent(() => import('./FooterBottom'))
 export const Hero = importedComponent(() => import('./Hero'))
+export const LatestBlogPosts = importedComponent(() => import('./LatestBlogPosts'))
 export const NotFound = importedComponent(() => import('./NotFound'))

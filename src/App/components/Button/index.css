@@ -26,3 +26,18 @@
   background-color: var(--color-text-on-accent);
   color: var(--color-accent);
 }
+
+
+.Button--outlined {
+  background-color: transparent;
+  border: 3px solid var(--color-text-on-background);
+}
+.Button--outlined.Button--reversed {
+  border-color: var(--color-background);
+}
+.Button--outlined.Button--useAccent {
+  border-color: var(--text-on-color-accent);
+}
+.Button--outlined.Button--useAccent.Button--reversed {
+  border-color: var(--color-accent);
+}
