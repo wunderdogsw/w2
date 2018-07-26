@@ -18,7 +18,7 @@ export default () => (
       Let's get together and make some wunders happen!
     </p>
     <p className="medium centered">
-      <a href="mailto:hello@wunder.dog">hello@wunder.dog</a>
+      <a className="noHyphen" href="mailto:hello<span>@</span>wunder.dog">hello<span>@</span>wunder.dog</a>
     </p>
 
     <ContactRow>

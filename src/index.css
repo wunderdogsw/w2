@@ -159,6 +159,8 @@ p {
     }
   }
 
+  & > a > span { display: inline-block }
+
 }
 
 

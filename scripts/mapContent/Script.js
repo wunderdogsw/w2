@@ -23,6 +23,7 @@ fs.readdirSync(contentDir).forEach(dir => {
       if (subDir.includes(' ')) throw new Error(`Dir names cannot contain spaces => '${subDir}'`)
       rows.push(`export const ${subDir} = importedComponent(() => import('./${subDir}'))`)
     })
+  rows.push('')
   fs.writeFileSync(`${path}/index.js`, rows.join('\n'), 'utf-8')
   console.log(`Updated -> '${dir}/index.js'`)
 })
