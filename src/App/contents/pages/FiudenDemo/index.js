@@ -52,7 +52,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <h4>The inevitable challenge</h4>
+      <h4>The inevitable muutos wowowowo</h4>
       <p>
         DevOps – the seamless interplay of people, technology, and processes –
         is a good way to give developers solid ground to work on and develop a
