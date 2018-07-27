@@ -4,7 +4,6 @@ import rss from 'rss-parser-browser'
 
 export const getMediumPosts = async () => {
   let feed = await fetch('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@WunderdogSW')
-  // let feed = await fetch('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@reaktornow')
   feed = await feed.text()
   feed = await ( new Promise(resolve => {
     rss.parseString(feed, (_, res) => resolve(res))

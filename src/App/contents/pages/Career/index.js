@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
@@ -29,6 +30,12 @@ import photo5 from './career-photo5.jpg'
 
 export default () => (
   <Fragment>
+    <CssVars>
+      {{
+        '--color-accent': '#f995c7',
+        '--color-text-on-accent': '#fff',
+      }}
+    </CssVars>
     <MainTitle>Join the Pack</MainTitle>
     <SubTitle>
       Our people are at the heart of our culture. We help each other to be the
@@ -56,7 +63,7 @@ export default () => (
         accordingly.
       </p>
     </ImageTextRow>
-    <Stats>
+    <Stats useAccent>
       <FunStats />
     </Stats>
     <ImageTextRow>

@@ -13,10 +13,10 @@ import { MikaViskari, AnteroTorhonen, JoannaRindell, JasperVanGhemen, RedhaCheri
 export default () => (
   <Fragment>
     <MainTitle className="centered">Contact Us</MainTitle>
-    <p className="medium centered narrow">
+    <SubTitle alt>
       Feel free to throw us a question or two!
       Let's get together and make some wunders happen!
-    </p>
+    </SubTitle>
     <p className="medium centered">
       <a className="noHyphen" href="mailto:hello@wunder.dog">hello<span>@</span>wunder.dog</a>
     </p>

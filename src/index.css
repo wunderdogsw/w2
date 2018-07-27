@@ -11,8 +11,8 @@
   --color-footer: #000;
   --color-text-on-footer: #fff;
 
-  --color-stats: #f995c7;
-  --color-text-on-stats: #fff;
+  --color-stats: #f8f8f8;
+  --color-text-on-stats: #000;
 
   --animation-duration: 400ms;
   --animation-duration-super-fast: 100ms;

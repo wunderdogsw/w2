@@ -1,8 +1,9 @@
+import './index.css'
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, useAsMetaTitle, className, ...props }) => (
+export default ({ children, useAsMetaTitle, className, alt, ...props }) => (
   <Fragment>
     { useAsMetaTitle && (
       <Helmet>
@@ -23,6 +24,7 @@ export default ({ children, useAsMetaTitle, className, ...props }) => (
     <h3 { ...props }
       className={cs(
         'SubTitle',
+        alt && 'SubTitle--alt',
         className
       )}
       children={ children }

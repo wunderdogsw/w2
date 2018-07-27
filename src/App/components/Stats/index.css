@@ -8,6 +8,13 @@
   }
 }
 
+.Stats--useAccent {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+}
+
+
+
 .Stats > ul {
   display: flex;
   flex-direction: row;
@@ -33,22 +40,6 @@
     & > span:first-child {
       font-size: 60px;
       font-weight: 600;
-    }
-
-
-    &::after {
-      position: absolute;
-      content: ' ';
-      width: 1px;
-      height: 100%;
-      right: 0;
-      top: 0;
-      background-color: var(--color-text-on-stats);
-      opacity: 0.25;
-    }
-
-    &:last-child::after {
-      content: none;
     }
   }
 }

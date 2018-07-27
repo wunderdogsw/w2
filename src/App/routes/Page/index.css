@@ -31,6 +31,7 @@
 
 
 
+.Page__inner > h3 + p,
 .Page__inner > p + p {
   margin-top: var(--spacing-small);
 }
