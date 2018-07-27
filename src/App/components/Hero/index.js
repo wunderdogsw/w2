@@ -30,7 +30,7 @@ export default withState(
       // Resize in 100px intervals to prevent weird behaviour on mobile devces
       const { height } = this.state
       const nextHeight = window.innerHeight
-      if (Math.abs(height - nextHeight) < 100) return
+      if (Math.abs(height - nextHeight) < 150) return
       this.updateHeight()
     }, 50)
 
