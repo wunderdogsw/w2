@@ -37,9 +37,11 @@
 
 
 
+
 .Page__inner > .MainTitle + p {
   margin-top: calc(var(--spacing) / 2);
 }
+
 
 
 
@@ -47,9 +49,13 @@
   margin-top: var(--spacing-small);
 }
 
+
+
+
 .Page__inner > hr {
   width: 60px;
   margin-left: var(--spacing);
+  margin-right: auto;
   margin-top: var(--spacing-small);
   padding-left: 0;
   padding-right: 0;
@@ -97,6 +103,7 @@
 
 
 .Page__inner > .Chapter,
+.Page__inner > .ChapterRow,
 .Page__inner > .ImageTextRow {
   width: 100%;
   max-width: var(--text-content-max-width);

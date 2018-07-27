@@ -1,0 +1,15 @@
+.ChapterRow {
+  box-sizing: border-box;
+  @media (width >= 1024px) {
+    display: flex;
+    flex-direction: row;
+    & > .Chapter {
+      flex: 1;
+      display: block;
+      margin-right: var(--spacing-small);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
