@@ -8,6 +8,7 @@ import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
+import TransitionLink from 'App/components/TransitionLink'
 
 import heroThumb from './FiudenDemo-hero-thumb.jpg'
 import hero from './FiudenDemo-hero.png'
@@ -36,7 +37,7 @@ export default () => (
         certainly heard about Smartly.io. The success of the company has been
         nothing short of staggering, with fast growth and an ever-increasing
         number of clients using Smartly.io’s solution to optimize their
-        social <a href="#">this is a link</a> media marketing.
+        social <TransitionLink to="https://google.com">this is a link</TransitionLink> media marketing.
       </p>
     </Chapter>
     <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly photo stock 1" />

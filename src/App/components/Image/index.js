@@ -32,23 +32,44 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, thumbSrc, src, ...rest } = this.props
+    const { className, thumbSrc, src, asBackground, ...rest } = this.props
 
     return (
-      <div className={ cs(
+      <span className={ cs(
         'Image',
         thumbSrc && 'Image--hasThumb',
         loaded && 'Image--loaded',
         thumbHidden && 'Image--thumbHidden',
+        asBackground && 'Image--asBackground',
         className
       )}>
         { thumbSrc && (
-          <img { ...rest } src={ thumbSrc } className="Image__thumb" />
+          asBackground ? (
+            <span
+              className="Image__thumb"
+              style={{ backgroundImage: `url(${ thumbSrc })` }}
+            />
+          ) : (
+            <img { ...rest }
+              src={ thumbSrc }
+              className="Image__thumb"
+            />
+          )
         )}
         { (loaded || !thumbSrc) && (
-          <img { ...rest } src={ src } className="Image__main" />
+          asBackground ? (
+            <span
+              className="Image__main"
+              style={{ backgroundImage: `url(${ src })` }}
+            />
+          ) : (
+            <img { ...rest }
+              src={ src }
+              className="Image__main"
+            />
+          )
         )}
-      </div>
+      </span>
     )
   }
 }

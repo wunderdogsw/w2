@@ -6,8 +6,11 @@ import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import ImageTextRow from 'App/components/ImageTextRow'
 import CallToAction from 'App/components/CallToAction'
+import LatestBlogPosts from 'App/components/LatestBlogPosts'
+import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
+import { AboutUs } from 'App/contents/stats'
 
 import heroThumb from './career-hero-v2-thumb.jpg'
 import hero from './career-hero-v2.jpg'
@@ -53,6 +56,9 @@ export default () => (
         accordingly.
       </p>
     </ImageTextRow>
+    <Stats>
+      <AboutUs />
+    </Stats>
     <ImageTextRow>
       <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Wunderdogs" />
       <h4>We value our colleagues' success as much as our own</h4>
@@ -82,5 +88,6 @@ export default () => (
     <CallToAction>
       <OpenPositions />
     </CallToAction>
+    <LatestBlogPosts />
   </Fragment>
 )

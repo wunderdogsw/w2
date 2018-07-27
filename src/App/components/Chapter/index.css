@@ -25,3 +25,7 @@
     margin-top: 5px;
   }
 }
+
+.Chapter > h5 {
+  margin-bottom: calc(var(--spacing-small) / 4);
+}
