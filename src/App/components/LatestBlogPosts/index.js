@@ -1,8 +1,9 @@
 import './index.css'
 import React, { Component } from 'react'
+import cs from 'classnames'
 import Card from 'App/components/Card'
 import Image from 'App/components/Image'
-import { getMediumPosts } from 'App/external'
+import { getBlogPosts } from 'App/external'
 import { LatestBlogPosts as Content } from 'App/contents/other'
 
 export default class extends Component {
@@ -21,17 +22,19 @@ export default class extends Component {
   }
 
   init = async () => {
-    const posts = await getMediumPosts()
+    const posts = await getBlogPosts()
     if ( this.mounted ) this.setState({ posts })
   }
 
   render() {
     const posts = this.state.posts.filter((_, i) => i < 2)
-
-    if (!posts.length) return null
+    const loading = !posts.length
 
     return (
-      <section className="LatestBlogPosts">
+      <section className={cs(
+        'LatestBlogPosts',
+        loading && 'LatestBlogPosts--loading'
+      )}>
         <div className="LatestBlogPosts__posts">
           { posts.map( post => (
             <Card key={ post.guid } to={ post.link }>

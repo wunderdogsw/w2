@@ -2,18 +2,27 @@ import rss from 'rss-parser-browser'
 
 
 
-export const getMediumPosts = async () => {
-  let feed = await fetch('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@WunderdogSW')
+export const fetchRssEntries = async url => {
+  let feed = await fetch(url)
   feed = await feed.text()
   feed = await ( new Promise(resolve => {
     rss.parseString(feed, (_, res) => resolve(res))
   }))
   const entries = (feed && feed.feed && feed.feed.entries) || []
+  return entries
+}
+
+
+export const getBlogPosts = async () => {
+  let entries = await fetchRssEntries('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@WunderdogSW')
+  if (!entries.length) entries = await fetchRssEntries('http://blog.wunder.dog/rss.xml')
+
   return entries.map(entry => {
-    const image =
-      entry['content:encoded'].match(/(https\:\/\/.*?\.(jpg|png|gif))/i)
+    const content = entry['content'] || entry['content:encoded']
+    const image = content.match(/(https\:\/\/.*?\.(jpg|png|gif))/i)
     return {
       ...entry,
+      content,
       image: image && image[0],
     }
   })
