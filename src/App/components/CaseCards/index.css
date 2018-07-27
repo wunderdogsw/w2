@@ -1,9 +1,6 @@
 .CaseCards {
   display: block;
-
   box-sizing: border-box;
-  max-width: var(--content-max-width);
-  margin: 0 auto;
 
   @media (width >= 768px) {
     display: grid;

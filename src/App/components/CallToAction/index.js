@@ -6,7 +6,9 @@ export default ({ children }) => {
 
   return (
     <section className="CallToAction">
-      { children }
+      <div className="CallToAction__inner">
+        { children }
+      </div>
     </section>
   )
 }

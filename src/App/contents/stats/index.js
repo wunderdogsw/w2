@@ -3,4 +3,5 @@
 
 import importedComponent from 'react-imported-component'
 
-export const AboutUs = importedComponent(() => import('./AboutUs'))
+export const FunStats = importedComponent(() => import('./FunStats'))
+export const SeriousStats = importedComponent(() => import('./SeriousStats'))

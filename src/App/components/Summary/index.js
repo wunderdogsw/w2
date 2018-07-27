@@ -2,7 +2,9 @@ import './index.css'
 import React from 'react'
 
 export default ({ children }) => (
-  <div className="Summary">
-    { children }
-  </div>
+  <section className="Summary">
+    <div className="Summary__inner">
+      { children }
+    </div>
+  </section>
 )

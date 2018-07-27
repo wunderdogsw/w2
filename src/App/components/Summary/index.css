@@ -1,4 +1,6 @@
-.Summary {
+.Summary {}
+
+.Summary__inner {
   display: block;
   box-sizing: border-box;
   padding: calc(var(--spacing-small) * 2) var(--spacing-small);
@@ -15,17 +17,17 @@
   }
 }
 
-.Summary > * {
+.Summary__inner > * {
   margin-bottom: var(--spacing-small);
   max-width: calc(var(--text-content-max-width) / 2);
 }
 
-.Summary > h4 {
+.Summary__inner > h4 {
   margin-bottom: calc(var(--spacing-small) / 2);
   max-width: none;
 }
 
-.Summary > :first-child {
+.Summary__inner > :first-child {
   width: 100%;
   max-width: 200px;
   margin-left: auto;

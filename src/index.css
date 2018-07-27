@@ -8,9 +8,11 @@
   --color-accent: #000;
   --color-text-on-accent: #fff;
 
-
   --color-footer: #000;
   --color-text-on-footer: #fff;
+
+  --color-stats: #f995c7;
+  --color-text-on-stats: #fff;
 
   --animation-duration: 400ms;
   --animation-duration-super-fast: 100ms;

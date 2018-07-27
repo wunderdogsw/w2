@@ -10,7 +10,7 @@ import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
-import { AboutUs } from 'App/contents/stats'
+import { FunStats } from 'App/contents/stats'
 
 import heroThumb from './career-hero-v2-thumb.jpg'
 import hero from './career-hero-v2.jpg'
@@ -57,7 +57,7 @@ export default () => (
       </p>
     </ImageTextRow>
     <Stats>
-      <AboutUs />
+      <FunStats />
     </Stats>
     <ImageTextRow>
       <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Wunderdogs" />

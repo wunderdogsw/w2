@@ -1,5 +1,6 @@
 .Stats {
-  background-color: var(--color-light-gray);
+  background-color: var(--color-stats);
+  color: var(--color-text-on-stats);
   padding: var(--spacing) calc(var(--spacing) / 2);
 
   @media (width < 1024px) {
@@ -42,8 +43,8 @@
       height: 100%;
       right: 0;
       top: 0;
-      background-color: var(--color-text-on-background);
-      opacity: 0.1;
+      background-color: var(--color-text-on-stats);
+      opacity: 0.25;
     }
 
     &:last-child::after {

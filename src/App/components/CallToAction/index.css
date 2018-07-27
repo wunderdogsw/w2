@@ -1,4 +1,7 @@
-.CallToAction {
+.CallToAction {}
+
+.CallToAction__inner {
+  box-sizing: border-box;
   padding: var(--spacing);
   background-color: var(--color-light-gray);
   color: var(--color-text-on-background);
