@@ -1,26 +1,69 @@
 import './index.css'
-import React from 'react'
+import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import cs from 'classnames'
+import throttle from 'lodash.throttle'
 import { withState } from 'App/state'
 import Logo from 'App/components/Logo'
 import TransitionLink from 'App/components/TransitionLink'
 import { MainNav } from 'App/contents/other'
 
 
-export default withRouter(withState(
-  ({ splashShowing, match }) => (
-    <header className={cs(
-      'Header',
-      !splashShowing && 'Header--showContent',
 
-      // only animate when exact path, default is '/'
-      match.isExact && 'Header--animate'
-    )}>
-      <Logo useHorizontal to="/" />
-      <nav>
-        <MainNav />
-      </nav>
-    </header>
-  )
+export default withRouter(withState(
+  class extends Component {
+    state = {
+      navShowing: false,
+    }
+
+    componentDidMount() {
+      window.addEventListener('resize', this.hideNav)
+    }
+
+    componentWillUnmount() {
+      window.removeEventListener('resize', this.hideNav)
+    }
+
+    handleNavClick = e => {
+      this.hideNav()
+    }
+
+    toggleNav = e => {
+      e.preventDefault()
+      this.setState({ navShowing: !this.state.navShowing })
+    }
+
+    showNav = () => {
+      this.setState({ navShowing: true })
+    }
+
+    hideNav = throttle(() => {
+      this.setState({ navShowing: false })
+    }, 500)
+
+
+    render() {
+      const { splashShowing, match } = this.props
+      const { navShowing } = this.state
+      return (
+        <header className={cs(
+          'Header',
+          !splashShowing && 'Header--contentShowing',
+          navShowing && 'Header--navShowing',
+          // only animate when exact path, default is '/'
+          match.isExact && 'Header--animate'
+        )}>
+          <nav onClick={ this.handleNavClick }>
+            <MainNav />
+          </nav>
+          <Logo useHorizontal to="/" />
+          <a
+            href="#"
+            className="Header__toggleNav"
+            onClick={ this.toggleNav }
+          />
+        </header>
+      )
+    }
+  }
 ))

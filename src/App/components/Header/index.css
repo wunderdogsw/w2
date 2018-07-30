@@ -9,12 +9,13 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   @media (width >= 768px) {
     padding: 0 var(--spacing);
     justify-content: space-between;
+    flex-direction: row-reverse;
   }
 }
 
@@ -26,7 +27,7 @@
   transition-timing-function: var(--animation-ease);
 }
 
-.Header--animate.Header--showContent {
+.Header--animate.Header--contentShowing {
   opacity: 1;
 }
 
@@ -40,12 +41,30 @@
 
 
 
+
 .Header > nav {
-  display: none;
-  font-size: 16px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--color-background);
+  font-size: 30px;
+  padding: var(--spacing);
+  line-height: 1.6;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(0, 10px, 0);
+
+  transition-property: opacity, transform;
+  transition-duration: var(--animation-duration-fast);
+  transition-timing-function: var(--animation-ease);
 
   & > a {
-    margin-left: var(--spacing-small);
     text-decoration: none;
     color: var(--color-text-on-background);
     opacity: 0.5;
@@ -57,6 +76,48 @@
   }
 
   @media (width >= 768px) {
-    display: flex;
+    position: static;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: inherit;
+    padding: 0;
+    opacity: 1;
+    pointer-events: all;
+    transform: none;
+
+    & > a {
+      margin-left: var(--spacing-small);
+    }
   }
+}
+
+.Header--navShowing > nav {
+  opacity: 0.98;
+  transform: translate3d(0, 0, 0);
+  pointer-events: all;
+}
+
+
+
+
+.Header__toggleNav {
+  position: absolute;
+  top: calc(var(--spacing-small) * 2) - 9px;
+  right: var(--spacing);
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url('./header-menu.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (width >= 768px) {
+    display: none;
+  }
+}
+
+.Header--navShowing .Header__toggleNav {
+  position: fixed;
+  background-image: url('./header-close.svg');
 }
