@@ -5,6 +5,7 @@ import cs from 'classnames'
 import { withState } from 'App/state'
 import Logo from 'App/components/Logo'
 import TransitionLink from 'App/components/TransitionLink'
+import { MainNav } from 'App/contents/other'
 
 
 export default withRouter(withState(
@@ -18,10 +19,7 @@ export default withRouter(withState(
     )}>
       <Logo useHorizontal to="/" />
       <nav>
-        <TransitionLink to="/contact" children="Contact" />
-        <TransitionLink to="/career" children="Career" />
-        <TransitionLink to="/aboutus" children="About Us" />
-        <TransitionLink to="https://medium.com/@WunderdogSW" children="Blog" />
+        <MainNav />
       </nav>
     </header>
   )
