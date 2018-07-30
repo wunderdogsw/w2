@@ -33,16 +33,6 @@
 
 
 
-.Header {
-
-
-  @media (width >= 768px) {
-  }
-}
-
-
-
-
 .Header > .Logo {
   width: 180px;
 }
