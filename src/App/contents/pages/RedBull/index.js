@@ -7,6 +7,7 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
+import DatLine from 'App/components/DatLine'
 
 import heroThumb from './redbull-hero-thumb.jpg'
 import hero from './redbull-hero.png'
@@ -29,7 +30,7 @@ export default () => (
     </CssVars>
     <MainTitle>Red Bull</MainTitle>
     <SubTitle useAsMetaTitle>A marketing campaign game in two weeks? Game on.</SubTitle>
-    <hr />
+    <DatLine />
     <Keywords>UI design, UX design, game design, full-stack development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Redbull hero" />
     <Chapter>

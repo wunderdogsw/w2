@@ -1,0 +1,7 @@
+.MainTitle {
+  box-sizing: border-box;
+}
+
+.MainTitle--centered {
+  text-align: center;
+}

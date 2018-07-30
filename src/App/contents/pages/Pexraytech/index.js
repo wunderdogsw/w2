@@ -7,6 +7,7 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
+import DatLine from 'App/components/DatLine'
 
 import heroThumb from './pexraytech-hero-thumb.jpg'
 import hero from './pexraytech-hero.png'
@@ -25,7 +26,7 @@ export default () => (
     </CssVars>
     <MainTitle>Pexraytech</MainTitle>
     <SubTitle useAsMetaTitle>X-pertise on time and on budget</SubTitle>
-    <hr />
+    <DatLine />
     <Keywords>UX design, UX development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="PerusTerveys app screenshot" />
     <Chapter>

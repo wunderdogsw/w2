@@ -1,3 +1,4 @@
+import './index.css'
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 

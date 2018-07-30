@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, useAsMetaTitle, className, alt, ...props }) => (
+export default ({ children, useAsMetaTitle, className, alt, narrow, ...props }) => (
   <Fragment>
     { useAsMetaTitle && (
       <Helmet>
@@ -25,6 +25,7 @@ export default ({ children, useAsMetaTitle, className, alt, ...props }) => (
       className={cs(
         'SubTitle',
         alt && 'SubTitle--alt',
+        narrow && 'SubTitle--narrow',
         className
       )}
       children={ children }

@@ -1,8 +1,9 @@
+import './index.css'
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, className, ...props }) => (
+export default ({ children, className, centered, ...props }) => (
   <Fragment>
     <Helmet>
       <title>{ children } | Wunderdog</title>
@@ -22,6 +23,7 @@ export default ({ children, className, ...props }) => (
     <h1 { ...props }
       className={cs(
         'MainTitle',
+        centered && 'MainTitle--centered',
         className
       )}
       children={ children }

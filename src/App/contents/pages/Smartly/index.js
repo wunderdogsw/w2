@@ -8,6 +8,7 @@ import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
+import DatLine from 'App/components/DatLine'
 
 import heroThumb from './smartly-hero-thumb.jpg'
 import hero from './smartly-hero.png'
@@ -30,7 +31,7 @@ export default () => (
     </CssVars>
     <MainTitle>Smartly</MainTitle>
     <SubTitle useAsMetaTitle>Teamwork makes the dream work</SubTitle>
-    <hr />
+    <DatLine />
     <Keywords>DevOps</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly hero" />
     <Chapter>

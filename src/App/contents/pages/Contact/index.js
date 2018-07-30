@@ -12,8 +12,8 @@ import { MikaViskari, AnteroTorhonen, JoannaRindell, JasperVanGhemen, RedhaCheri
 
 export default () => (
   <Fragment>
-    <MainTitle className="centered">Contact Us</MainTitle>
-    <SubTitle alt>
+    <MainTitle centered>Contact Us</MainTitle>
+    <SubTitle alt narrow>
       Feel free to throw us a question or two!
       Let's get together and make some wunders happen!
     </SubTitle>

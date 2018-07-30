@@ -39,6 +39,14 @@
 
 
 
+.Page__inner > .MainTitle {
+  /* max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+
+
 .Page__inner > .MainTitle + p {
   margin-top: calc(var(--spacing) / 2);
 }
@@ -48,25 +56,28 @@
 
 .Page__inner > .SubTitle {
   margin-top: var(--spacing-small);
+  /* max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 
 
-
-.Page__inner > hr {
-  width: 60px;
-  margin-left: var(--spacing);
-  margin-right: auto;
+.Page__inner > .DatLine {
   margin-top: var(--spacing-small);
-  padding-left: 0;
-  padding-right: 0;
-  border: 0;
-  height: 2px;
-  background-color: var(--color-text-on-background);
+  /* max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto; */
 }
+
+
+
 
 .Page__inner > .Keywords  {
   margin-top: var(--spacing-small);
+  /* max-width: var(--text-content-max-width);
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 

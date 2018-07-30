@@ -1,7 +1,7 @@
 .Card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: inherit;
   text-decoration: none;
@@ -22,9 +22,10 @@
 
 .Card > * {
   width: 100%;
-  margin-top: var(--spacing-small);
+  margin-top: calc(var(--spacing-small) / 2);
   padding: 0 calc(var(--spacing-small) / 2);
   text-align: center;
+  box-sizing: border-box;
 
   &:first-child {
     margin-top: 0;

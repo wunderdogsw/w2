@@ -1,0 +1,15 @@
+.DatLine {
+  box-sizing: border-box;
+}
+
+
+
+
+.DatLine > hr {
+  width: 60px;
+  margin-left: 0;
+  margin-right: auto;
+  border: 0;
+  height: 2px;
+  background-color: var(--color-text-on-background);
+}

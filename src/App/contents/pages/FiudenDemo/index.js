@@ -10,6 +10,7 @@ import Chapter from 'App/components/Chapter'
 import ChapterRow from 'App/components/ChapterRow'
 import Summary from 'App/components/Summary'
 import TransitionLink from 'App/components/TransitionLink'
+import DatLine from 'App/components/DatLine'
 
 import heroThumb from './FiudenDemo-hero-thumb.jpg'
 import hero from './FiudenDemo-hero.png'
@@ -28,7 +29,7 @@ export default () => (
     </CssVars>
     <MainTitle>Fiuden Demo</MainTitle>
     <SubTitle useAsMetaTitle>Fiudenaattori koodaa</SubTitle>
-    <hr />
+    <DatLine />
     <Keywords>Dev</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly hero" />
     <Chapter>

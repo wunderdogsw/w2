@@ -7,6 +7,7 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
+import DatLine from 'App/components/DatLine'
 
 import heroThumb from './perusterveys-hero-thumb.jpg'
 import hero from './perusterveys-hero.png'
@@ -24,7 +25,7 @@ export default () => (
     </CssVars>
     <MainTitle>PerusTerveys</MainTitle>
     <SubTitle useAsMetaTitle>Feeling better about booking online</SubTitle>
-    <hr />
+    <DatLine />
     <Keywords>Full-stack development, Service design</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="PerusTerveys app screenshot" />
     <Chapter>

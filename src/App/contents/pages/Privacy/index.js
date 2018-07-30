@@ -7,7 +7,7 @@ import Chapter from 'App/components/Chapter'
 export default () => (
   <Fragment>
     <MainTitle className="centered">Privacy Policy</MainTitle>
-    <SubTitle alt>
+    <SubTitle alt narrow>
       Here we've gathered information on how we collect, store and use your
       personal information. Because we care about your privacy.
     </SubTitle>

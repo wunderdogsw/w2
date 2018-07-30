@@ -1,11 +1,8 @@
 .SubTitle {
-
+  box-sizing: border-box;
 }
 
 .SubTitle--alt {
-  max-width: var(--narrow-content-max-width);
-  margin-left: auto;
-  margin-right: auto;
   font-size: 18px;
   font-style: normal;
   font-family: inherit;
@@ -18,4 +15,10 @@
     font-size: 20px;
     text-align: center;
   }
+}
+
+.SubTitle--narrow {
+  max-width: var(--narrow-content-max-width) !important;
+  margin-left: auto;
+  margin-right: auto;
 }
