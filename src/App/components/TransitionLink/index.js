@@ -1,5 +1,6 @@
 import './index.css'
 import React, { Component, Fragment, createRef } from 'react'
+import { pageview, event } from 'App/utils/analytics'
 import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
 import { withState } from 'App/state'
@@ -32,6 +33,11 @@ export default withState(withRouter(
       userNavigated()
 
       if (external) {
+        pageview(to)
+        event({
+          category: 'User',
+          action: `Clicked external link: ${ to }`,
+        })
         window.open(to, '_blank')
       } else {
         history.push(to)

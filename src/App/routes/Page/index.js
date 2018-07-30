@@ -1,5 +1,6 @@
 import './index.css'
 import React, { Component } from 'react'
+import { pageview } from 'App/utils/analytics'
 import NotFound from 'App/components/NotFound'
 import * as pages from 'App/contents/pages'
 
@@ -25,6 +26,7 @@ export default class extends Component {
 
   initPage() {
     window.scrollTo(0, 0)
+    pageview()
   }
 
   render () {
