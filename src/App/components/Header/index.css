@@ -60,13 +60,12 @@
   pointer-events: none;
   transform: translate3d(0, 10px, 0);
 
-  transition-property: opacity, transform;
+  transition-property: transform;
   transition-duration: var(--animation-duration-fast);
   transition-timing-function: var(--animation-ease);
 
   & > a {
     text-decoration: none;
-    color: var(--color-text-on-background);
     opacity: 0.5;
 
     &.active,
@@ -92,9 +91,15 @@
 }
 
 .Header--navShowing > nav {
-  opacity: 0.98;
+  opacity: 1;
   transform: translate3d(0, 0, 0);
   pointer-events: all;
+  background-color: var(--color-text-on-background);
+  color: var(--color-background);
+
+  & > a {
+    opacity: 0.8;
+  }
 }
 
 

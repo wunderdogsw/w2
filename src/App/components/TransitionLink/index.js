@@ -22,6 +22,18 @@ export default withState(withRouter(
       })
     }
 
+    componentDidUpdate() {
+      const ref = this.ref.current
+      const nextColor = getComputedCss(ref, 'color') || 'inherit'
+
+      // Prevent inifnite looops booii
+      if (this.state.color === nextColor) return
+      
+      this.setState({
+        color: nextColor,
+      })
+    }
+
     handleClick = async e => {
       const { history, to, userNavigated } = this.props
       const external = to && to.indexOf('http') === 0
