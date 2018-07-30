@@ -20,6 +20,7 @@ export default withRouter(withState(
       <nav>
         <TransitionLink to="/contact" children="Contact" />
         <TransitionLink to="/career" children="Career" />
+        <TransitionLink to="/aboutus" children="About Us" />
         <TransitionLink to="https://medium.com/@WunderdogSW" children="Blog" />
       </nav>
     </header>
