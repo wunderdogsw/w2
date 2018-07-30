@@ -1,15 +1,16 @@
 import React, { Fragment } from 'react'
 import MainTitle from 'App/components/MainTitle'
+import SubTitle from 'App/components/SubTitle'
 import Chapter from 'App/components/Chapter'
 
 
 export default () => (
   <Fragment>
     <MainTitle className="centered">Privacy Policy</MainTitle>
-    <p className="medium centered narrow">
+    <SubTitle alt>
       Here we've gathered information on how we collect, store and use your
       personal information. Because we care about your privacy.
-    </p>
+    </SubTitle>
 
     <Chapter>
       <h4>1. Registry Holder</h4>

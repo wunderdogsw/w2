@@ -7,6 +7,7 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
+import ChapterRow from 'App/components/ChapterRow'
 import Summary from 'App/components/Summary'
 import TransitionLink from 'App/components/TransitionLink'
 
@@ -52,6 +53,62 @@ export default () => (
         that could help do just that. And guess what? We did.
       </p>
     </Chapter>
+    <ChapterRow>
+      <Chapter>
+        <h4>Conclusion</h4>
+        <p>
+          Smartly.io got in touch to find out if we had any seasoned engineers
+          that could help do just that. And guess what? We did.
+        </p>
+      </Chapter>
+      <Chapter>
+        <h4>Shit got real</h4>
+        <h5>Shit got real</h5>
+        <p>
+          DevOps – the seamless interplay of people, technology, and processes –
+          is a good way to give developers solid ground to work on and develop a
+          product. But Smartly.io’s DevOps team needed some external help to
+          drive the bits of DevOps development that were otherwise getting
+          neglected. The existing continuous integration system was at full
+          capacity, and the development experience needed to be improved with
+          easier development
+        </p>
+      </Chapter>
+    </ChapterRow>
+    <ChapterRow>
+      <Chapter>
+        <h4>Conclusion</h4>
+        <p>
+          Smartly.io got in touch to find out if we had any seasoned engineers
+          that could help do just that. And guess what? We did.
+        </p>
+      </Chapter>
+      <Chapter>
+        <h4>Shit got real</h4>
+        <h5>Shit got real</h5>
+        <p>
+          DevOps – the seamless interplay of people, technology, and processes –
+          is a good way to give developers solid ground to work on and develop a
+          product. But Smartly.io’s DevOps team needed some external help to
+          drive the bits of DevOps development that were otherwise getting
+          neglected. The existing continuous integration system was at full
+          capacity, and the development experience needed to be improved with
+          easier development
+        </p>
+      </Chapter>
+      <Chapter>
+        <h4>The inevitable muutos wowowowo</h4>
+        <p>
+          DevOps – the seamless interplay of people, technology, and processes –
+          is a good way to give developers solid ground to work on and develop a
+          product. But Smartly.io’s DevOps team needed some external help to
+          drive the bits of DevOps development that were otherwise getting neglected.
+          The existing continuous integration system was at full capacity, and the
+          development experience needed to be improved with easier development
+          environments and smoother deployments.
+        </p>
+      </Chapter>
+    </ChapterRow>
     <Chapter>
       <h4>The inevitable muutos wowowowo</h4>
       <p>
@@ -96,6 +153,22 @@ export default () => (
         smartly.
       </p>
     </Chapter>
+    <ChapterRow>
+      <Chapter>
+        <h4>Conclusion</h4>
+        <p>
+          Smartly.io got in touch to find out if we had any seasoned engineers
+          that could help do just that. And guess what? We did.
+        </p>
+      </Chapter>
+      <Chapter>
+        <h4>Summary</h4>
+        <p>
+          Smartly.io got in touch to find out if we had any seasoned engineers
+          that could help do just that. And guess what? We did.
+        </p>
+      </Chapter>
+    </ChapterRow>
     <Summary>
       <Image src={ summary } alt="" />
       <h4>The challenge</h4>

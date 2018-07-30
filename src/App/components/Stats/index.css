@@ -1,11 +1,19 @@
 .Stats {
-  background-color: var(--color-light-gray);
+  background-color: var(--color-stats);
+  color: var(--color-text-on-stats);
   padding: var(--spacing) calc(var(--spacing) / 2);
 
   @media (width < 1024px) {
     display: none;
   }
 }
+
+.Stats--useAccent {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+}
+
+
 
 .Stats > ul {
   display: flex;
@@ -32,22 +40,6 @@
     & > span:first-child {
       font-size: 60px;
       font-weight: 600;
-    }
-
-
-    &::after {
-      position: absolute;
-      content: ' ';
-      width: 1px;
-      height: 100%;
-      right: 0;
-      top: 0;
-      background-color: var(--color-text-on-background);
-      opacity: 0.1;
-    }
-
-    &:last-child::after {
-      content: none;
     }
   }
 }

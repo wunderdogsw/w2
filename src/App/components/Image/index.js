@@ -15,13 +15,11 @@ export default class extends Component {
     const { src } = this.props
     const loader = new Image()
     loader.onload = loader.onerror = () => {
-      // setTimeout(() => {
-        if (this.mounted) this.setState({ loaded: true }, () => {
-          setTimeout(() => {
-            if (this.mounted) this.setState({ thumbHidden: true })
-          }, 1000)
-        })
-      // }, 1000)
+      if (this.mounted) this.setState({ loaded: true }, () => {
+        setTimeout(() => {
+          if (this.mounted) this.setState({ thumbHidden: true })
+        }, 1000)
+      })
     }
     loader.src = src
   }

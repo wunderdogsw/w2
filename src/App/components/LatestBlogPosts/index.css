@@ -1,9 +1,19 @@
+.LatestBlogPosts {
+  animation-name: fadeIn;
+  animation-duration: var(--animation-duration);
+  animation-iteration-count: 1;
+}
+
 .LatestBlogPosts__posts {
   display: block;
-
   box-sizing: border-box;
   max-width: var(--content-max-width);
   margin: 0 auto;
+  min-height: 415px;
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--animation-ease);
 
   @media (width >= 768px) {
     display: grid;
@@ -13,11 +23,18 @@
   }
 }
 
+.LatestBlogPosts--loading .LatestBlogPosts__posts {
+  background-color: var(--color-light-gray);
+}
+
 
 
 
 .LatestBlogPosts__posts > .Card {
   height: 100%;
+  animation-name: fadeIn;
+  animation-duration: var(--animation-duration);
+  animation-iteration-count: 1;
 
   & > .Image {
     width: 100%;
@@ -35,3 +52,10 @@
   align-items: center;
   padding-top: var(--spacing-small);
 }
+
+
+
+  @keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+  }

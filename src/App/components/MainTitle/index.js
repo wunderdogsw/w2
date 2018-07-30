@@ -14,6 +14,10 @@ export default ({ children, className, ...props }) => (
         name="application-name"
         content={`${ children } | Wunderdog`}
       />
+      <meta
+        name="description"
+        content={ children }
+      />
     </Helmet>
     <h1 { ...props }
       className={cs(

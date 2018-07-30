@@ -8,9 +8,11 @@
   --color-accent: #000;
   --color-text-on-accent: #fff;
 
-
   --color-footer: #000;
   --color-text-on-footer: #fff;
+
+  --color-stats: #f8f8f8;
+  --color-text-on-stats: #000;
 
   --animation-duration: 400ms;
   --animation-duration-super-fast: 100ms;
@@ -105,7 +107,7 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.5;
   letter-spacing: 0.5px;
   margin: 0;
 

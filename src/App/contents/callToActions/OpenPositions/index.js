@@ -7,7 +7,7 @@ export default () => (
     <p>
       See our open positions @ recright
     </p>
-    <Button to="https://www.recright.com/careers/fi/wunderdog" useAccent>
+    <Button to="https://www.recright.com/careers/fi/wunderdog" reversed>
       Apply now
     </Button>
   </Fragment>
