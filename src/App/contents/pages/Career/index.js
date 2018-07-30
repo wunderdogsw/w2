@@ -32,8 +32,8 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#f995c7',
-        '--color-text-on-accent': '#fff',
+        '--color-accent': '#fff',
+        '--color-text-on-accent': '#6cd69d',
       }}
     </CssVars>
     <MainTitle>Join the Pack</MainTitle>
