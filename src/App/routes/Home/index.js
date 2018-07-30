@@ -7,6 +7,7 @@ import Clients from 'App/components/Clients'
 import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { JoinThePack } from 'App/contents/callToActions'
+import { HomeCaseCards } from 'App/contents/other'
 
 export default class extends Component {
   componentDidMount() {
@@ -18,7 +19,9 @@ export default class extends Component {
       <div className="Home">
         <Hero />
         <Nudge>
-          <CaseCards />
+          <CaseCards>
+            <HomeCaseCards />
+          </CaseCards>
         </Nudge>
         <Clients />
         <CallToAction>
