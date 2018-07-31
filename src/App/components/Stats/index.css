@@ -1,11 +1,8 @@
 .Stats {
   background-color: var(--color-stats);
   color: var(--color-text-on-stats);
-  padding: var(--spacing) calc(var(--spacing) / 2);
-
-  @media (width < 1024px) {
-    display: none;
-  }
+  padding: var(--spacing) 0;
+  overflow: hidden;
 }
 
 .Stats--useAccent {
@@ -13,9 +10,8 @@
   color: var(--color-text-on-accent);
 }
 
-
-
 .Stats > ul {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,23 +19,46 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  transition-property: transform;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--animation-ease);
 
+  @media (width >= 1024px) {
+    transition-property: none;
+  }
 
   & > li {
     flex: 1;
     position: relative;
     box-sizing: border-box;
     display: flex;
+    min-width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 0 var(--spacing-small);
     text-align: center;
 
+    @media (width >= 1024px) {
+      min-width: 0;
+    }
 
     & > span:first-child {
       font-size: 60px;
       font-weight: 600;
     }
   }
+}
+
+
+@media (width < 1024px) {
+  .Stats--1 > ul { transform: translate3d(-100%, 0, 0) }
+  .Stats--2 > ul { transform: translate3d(-200%, 0, 0) }
+  .Stats--3 > ul { transform: translate3d(-300%, 0, 0) }
+  .Stats--4 > ul { transform: translate3d(-400%, 0, 0) }
+  .Stats--5 > ul { transform: translate3d(-500%, 0, 0) }
+  .Stats--6 > ul { transform: translate3d(-600%, 0, 0) }
+  .Stats--7 > ul { transform: translate3d(-700%, 0, 0) }
+  .Stats--8 > ul { transform: translate3d(-800%, 0, 0) }
+  .Stats--9 > ul { transform: translate3d(-900%, 0, 0) }
 }
