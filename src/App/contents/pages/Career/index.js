@@ -33,7 +33,7 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#fff',
+        '--color-accent': '#fcfcfc',
         '--color-text-on-accent': '#35efa3',
       }}
     </CssVars>
