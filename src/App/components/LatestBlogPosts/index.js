@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 import cs from 'classnames'
 import Card from 'App/components/Card'
 import Image from 'App/components/Image'
-import { getBlogPosts } from 'App/external'
-import { LatestBlogPosts as Content } from 'App/contents/other'
+import { getBlogPosts, getCultureBlogPosts } from 'App/external'
 
 export default class extends Component {
   state = {
@@ -22,11 +21,13 @@ export default class extends Component {
   }
 
   init = async () => {
-    const posts = await getBlogPosts()
+    const { culture } = this.props
+    const posts = culture ? await getCultureBlogPosts() : await getBlogPosts()
     if ( this.mounted ) this.setState({ posts })
   }
 
   render() {
+    const { children } = this.props
     const posts = this.state.posts.filter((_, i) => i < 2)
     const loading = !posts.length
 
@@ -44,7 +45,7 @@ export default class extends Component {
           ))}
         </div>
         <div className="LatestBlogPosts__content">
-          <Content />
+          { children }
         </div>
       </section>
     )

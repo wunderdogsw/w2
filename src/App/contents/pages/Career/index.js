@@ -12,6 +12,7 @@ import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
+import { CareerBlogPostsContent } from 'App/contents/other'
 
 import heroThumb from './career-hero-v2-thumb.jpg'
 import hero from './career-hero-v2.jpg'
@@ -95,6 +96,8 @@ export default () => (
     <CallToAction>
       <OpenPositions />
     </CallToAction>
-    <LatestBlogPosts />
+    <LatestBlogPosts culture>
+      <CareerBlogPostsContent />
+    </LatestBlogPosts>
   </Fragment>
 )

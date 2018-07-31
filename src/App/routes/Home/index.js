@@ -8,7 +8,7 @@ import Clients from 'App/components/Clients'
 import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { JoinThePack } from 'App/contents/callToActions'
-import { HomeCaseCards } from 'App/contents/other'
+import { HomeCaseCards, HomeBlogPostsContent } from 'App/contents/other'
 
 export default class extends Component {
   componentDidMount() {
@@ -29,7 +29,9 @@ export default class extends Component {
         <CallToAction>
           <JoinThePack />
         </CallToAction>
-        <LatestBlogPosts />
+        <LatestBlogPosts>
+          <HomeBlogPostsContent />
+        </LatestBlogPosts>
       </div>
     )
   }

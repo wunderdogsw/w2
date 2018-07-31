@@ -56,6 +56,14 @@ export default withState(withRouter(
       }
     }
 
+    handleContactLinkClick = () => {
+      const { to } = this.props
+      event({
+        category: 'Contact link',
+        action: `${ to }`,
+      })
+    }
+
     transition = external => new Promise(resolve => {
       const root = document.getElementById('root')
       const style = prefixStyles({
@@ -96,7 +104,7 @@ export default withState(withRouter(
 
     whichClick = () => {
       if (this.props.onClick) return this.props.onClick
-      if (this.isContactLink()) return null
+      if (this.isContactLink()) return this.handleContactLinkClick
       return this.handleClick
     }
 

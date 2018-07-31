@@ -5,8 +5,8 @@ const currentUrl = window.location.pathname + window.location.search
 ga.initialize('UA-123083535-1')
 ga.pageview(currentUrl)
 ga.event({
-  category: 'User',
-  action: `Landed on ${ currentUrl }`,
+  category: 'User landed',
+  action: `${ currentUrl }`,
 })
 
 export const pageview = url => {
