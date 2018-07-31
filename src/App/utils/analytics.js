@@ -1,12 +1,13 @@
 import ga from 'react-ga'
+import noop from 'lodash.noop'
 
 const currentUrl = window.location.pathname + window.location.search
 
 ga.initialize('UA-123083535-1')
 ga.pageview(currentUrl)
 ga.event({
-  category: 'User landed',
-  action: `${ currentUrl }`,
+  category: 'User',
+  action: `Landed on: ${ currentUrl }`,
 })
 
 export const pageview = url => {
@@ -14,6 +15,7 @@ export const pageview = url => {
   ga.pageview(url)
 }
 
-export const event = e => {
-  ga.event(e)
+export const event = ga.event
+export const outboundLink = e => {
+  ga.outboundLink(e, noop)
 }

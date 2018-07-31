@@ -44,6 +44,7 @@
     "inline-style-prefixer": "^4.0.2",
     "lodash.capitalize": "^4.2.1",
     "lodash.flow": "^3.5.0",
+    "lodash.noop": "^3.0.1",
     "lodash.shuffle": "^4.2.0",
     "lodash.throttle": "^4.1.1",
     "react": "16.4.0",

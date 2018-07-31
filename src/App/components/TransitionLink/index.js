@@ -1,6 +1,6 @@
 import './index.css'
 import React, { Component, Fragment, createRef } from 'react'
-import { pageview, event } from 'App/utils/analytics'
+import { outboundLink } from 'App/utils/analytics'
 import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
 import { withState } from 'App/state'
@@ -36,7 +36,7 @@ export default withState(withRouter(
 
     handleClick = async e => {
       const { history, to, userNavigated } = this.props
-      const external = to && to.indexOf('http') === 0
+      const external = this.isExternalLink()
 
       e.preventDefault()
       if ( history.location.pathname === to ) return
@@ -45,10 +45,8 @@ export default withState(withRouter(
       userNavigated()
 
       if (external) {
-        pageview(to)
-        event({
-          category: 'External link',
-          action: `${ to }`,
+        outboundLink({
+          label: `Clicked outbound link: ${ to }`
         })
         window.open(to, '_blank')
       } else {
