@@ -28,7 +28,7 @@ export default withState(withRouter(
 
       // Prevent inifnite looops booii
       if (this.state.color === nextColor) return
-      
+
       this.setState({
         color: nextColor,
       })
@@ -47,8 +47,8 @@ export default withState(withRouter(
       if (external) {
         pageview(to)
         event({
-          category: 'User',
-          action: `Clicked external link: ${ to }`,
+          category: 'External link',
+          action: `${ to }`,
         })
         window.open(to, '_blank')
       } else {
@@ -83,15 +83,29 @@ export default withState(withRouter(
       }, 150)
     })
 
-    render() {
-      const { children, to, className, onClick, history } = this.props
-      const { color } = this.state
+    isExternalLink = () => {
+      const { to } = this.props
+      return to.toLowerCase().indexOf('http') === 0
+    }
 
-      const external = (
-        to
-        && to.indexOf('http') === 0
+    isContactLink = () => {
+      let { to } = this.props
+      to = to.toLowerCase()
+      return to.indexOf('mailto') === 0 || to.indexOf('tel') === 0
+    }
+
+    whichClick = () => {
+      if (this.props.onClick) return this.props.onClick
+      if (this.isContactLink()) return null
+      return this.handleClick
+    }
+
+    render() {
+      const { children, to, className, history } = this.props
+      const { color } = this.state
+      const drawArrow =
+        (this.isExternalLink() || this.isContactLink())
         && typeof children === 'string'
-      )
 
       return (
         <a
@@ -102,13 +116,13 @@ export default withState(withRouter(
             className
           )}
           href={ to }
-          onClick={ onClick ? onClick : this.handleClick }
+          onClick={ this.whichClick() }
           children={
             <Fragment>
               { children }
-              { external ? (
+              { drawArrow && (
                 <ExternalArrow color={ color } />
-              ) : null }
+              )}
             </Fragment>
           }
         />
