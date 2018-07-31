@@ -9,6 +9,7 @@ import Stats from 'App/components/Stats'
 import { SeriousStats } from 'App/contents/stats'
 import ChapterRow from 'App/components/ChapterRow'
 import CaseCards from 'App/components/CaseCards'
+import CssVars from 'App/components/CssVars'
 
 import heroThumb from './about-us-hero-thumb.jpg'
 import hero from './about-us-hero.jpg'
@@ -20,6 +21,12 @@ import photo2 from './about-us2.jpg'
 
 export default () => (
   <Fragment>
+    <CssVars>
+      {{
+        '--color-accent': '#fff',
+        '--color-text-on-accent': '#8f00e1',
+      }}
+    </CssVars>
     <MainTitle>About us</MainTitle>
     <SubTitle>
       We're your partner in turning good ideas into well working digital reality
@@ -57,7 +64,7 @@ export default () => (
       </Chapter>
     </ChapterRow>
 
-    <Stats>
+    <Stats useAccent>
       <SeriousStats />
     </Stats>
 

@@ -34,7 +34,7 @@ export default () => (
     <CssVars>
       {{
         '--color-accent': '#fff',
-        '--color-text-on-accent': '#6cd69d',
+        '--color-text-on-accent': '#35efa3',
       }}
     </CssVars>
     <MainTitle>Join the Pack</MainTitle>
