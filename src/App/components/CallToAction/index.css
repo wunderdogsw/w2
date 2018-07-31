@@ -23,3 +23,20 @@
     }
   }
 }
+
+.CallToAction__inner > .ChapterRow {
+  & > * {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--spacing-small);
+    align-items: center;
+
+    & > * {
+      text-align: center;
+    }
+
+    @media (width >= 1024px) {
+      margin-bottom: 0;
+    }
+  }
+}
