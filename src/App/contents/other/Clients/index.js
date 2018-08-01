@@ -13,7 +13,7 @@ import logoYle from './logo-yle.png'
 export default () => (
   <Fragment>
     <h1>Clients</h1>
-    <p className="narrow centered">
+    <p>
       We’re your partner in turning good ideas into well working
       digital products & services.
     </p>

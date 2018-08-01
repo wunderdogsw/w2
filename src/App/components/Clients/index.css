@@ -12,6 +12,10 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+  box-sizing: border-box;
+  hyphens: none;
 }
 
 .Clients > * {
