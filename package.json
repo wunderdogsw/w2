@@ -9,6 +9,7 @@
     "dev": "parcel ./src/index.html --no-cache -d __dev__",
     "prebuild": "echoascii build && run-s update-content-maps",
     "build": "rimraf dist && parcel build ./src/index.html --no-cache -d dist ",
+    "postbuild": "node scripts/addBanner dist/index.html",
     "predeploy": "run-s build",
     "deploy": "aws s3 sync dist/ s3://wunderdog-site-v2 --profile wunderdog-site --delete",
     "update-content-maps": "node scripts/mapContent src/App/contents"
