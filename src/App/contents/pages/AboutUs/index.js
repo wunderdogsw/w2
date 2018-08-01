@@ -29,12 +29,12 @@ export default () => (
     </CssVars>
     <MainTitle>About us</MainTitle>
     <SubTitle>
-      We're your partner in turning good ideas into well working digital reality
+      We're your partner in turning good ideas into well working digital reality.
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" />
 
     <Chapter>
-      <h4>We offer high-end consultancy in creating digital products and service</h4>
+      <h4>We offer high-end consultancy in creating digital products and services</h4>
       <p>
         We guide our customers through the maze of crafting digital services from
         ideation to execution. <br />
@@ -56,7 +56,7 @@ export default () => (
       </Chapter>
       <Chapter>
         <h5>Coding</h5>
-        <p>Expert execution of digital products & services</p>
+        <p>Delivering high-quality digital products & services</p>
       </Chapter>
       <Chapter>
         <h5>Coaching & Team leading</h5>
@@ -72,8 +72,8 @@ export default () => (
       <h4>We believe things can be done better</h4>
       <p>
         By challenging ourselves and the current thinking, we aim to make the
-        world work better and easier applying the latest technologies and smarter
-        ways of working.</p>
+        world work better and easier applying the latest technologies and
+        smarter ways of working.</p>
     </Chapter>
 
 
