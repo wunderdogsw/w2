@@ -34,6 +34,7 @@ Changes to master will be deployed automatically via travis ci.
 * CI tuning so master isn't automatically deployed. Maybe use git tag or slack integration 😱
 * Guide: How to create content ( for non-developers )
 * 301 redirects from old site
+* lynx support
 
 
 ### Known issues
