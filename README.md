@@ -4,7 +4,9 @@
 
 React site with hardcoded content, no ssr, no cms
 
-The point is to [kiss](https://gph.is/XIGARm). Easily hackable by anybody because everything is hardcoded. No need to make complicated UIs for CMS integrations etc.
+The point is to [kiss](https://gph.is/XIGARm). 
+Easily hackable by anybody because everything is hardcoded. 
+No need to make complicated UIs for CMS integrations etc.
 
 
 ### Usage
@@ -30,8 +32,8 @@ Changes to master will be deployed automatically via travis ci.
 
 * Staging
 * CI tuning so master isn't automatically deployed. Maybe use git tag or slack integration 😱
-* Guide: How to create content ( for non-developers ).
-* Map Ga to existing account
+* Guide: How to create content ( for non-developers )
+* 301 redirects from old site
 
 
 ### Known issues
