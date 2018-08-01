@@ -1,6 +1,6 @@
 # WUNDERDOG 🦒
 
-![Build status](https://api.travis-ci.com/thatsprettyfaroutman/w2.svg?branch=master)
+![Build status](https://api.travis-ci.com/wunderdogsw/w2.svg?branch=master)
 
 React site with hardcoded content, no ssr, no cms
 
