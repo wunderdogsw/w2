@@ -4,7 +4,7 @@
 
 React site with hardcoded content, no ssr, no cms
 
-The point is to [https://gph.is/XIGARm](kiss). Easily hackable by anybody because everything is hardcoded. No need to make complicated UIs for CMS integrations etc.
+The point is to [kiss](https://gph.is/XIGARm). Easily hackable by anybody because everything is hardcoded. No need to make complicated UIs for CMS integrations etc.
 
 
 ### Usage
