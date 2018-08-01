@@ -1,9 +1,4 @@
 .Clients {
-  display: none;
-
-  @media (width >= 768px) {
-    display: block;
-  }
 }
 
 .Clients > h1,
@@ -27,5 +22,9 @@
 }
 
 .Clients > .LogoGrid {
-  margin-top: calc(var(--spacing-small) * 2);
+  margin-top: var(--spacing-small);
+
+  @media (width >= 1024px) {
+    margin-top: calc(var(--spacing-small) * 2);
+  }
 }
