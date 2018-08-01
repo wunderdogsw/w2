@@ -11,11 +11,12 @@ import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
+import { OpenPositions2 } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import heroThumb from './career-hero-v2-thumb.jpg'
-import hero from './career-hero-v2.jpg'
+import heroThumb from './career-hero-new-thumb.jpg'
+import hero from './career-hero-new.jpg'
 import photo1Thumb from './career-photo1-thumb.jpg'
 import photo1 from './career-photo1.png'
 import photo2Thumb from './career-photo2-thumb.jpg'
@@ -39,9 +40,8 @@ export default () => (
     </CssVars>
     <MainTitle>Join the Pack</MainTitle>
     <SubTitle>
-      Our people are at the heart of our culture. We help each other to be the
-      better versions of ourselves.<br />
-      And we want to have fun whilst working.
+      We believe happy people create the best workplace. Welcome to
+      join the pack!
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
     <CallToAction>
@@ -94,7 +94,7 @@ export default () => (
       </p>
     </ImageTextRow>
     <CallToAction>
-      <OpenPositions />
+      <OpenPositions2 />
     </CallToAction>
     <LatestBlogPosts culture>
       <CareerBlogPostsContent />

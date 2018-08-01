@@ -5,8 +5,8 @@ export default () => (
   <Fragment>
     <h1>Join the pack</h1>
     <p>
-      We believe happy people create the best workplace.<br />
-      Welcome to join our pack!
+      We share a passion to solve real world problems with technology.<br />
+      Welcome to join us!
     </p>
     <Button to="/career" useAccent>
       Read more
