@@ -16,10 +16,20 @@ export default ({ children, useAsMetaTitle, className, alt, narrow, ...props }) 
           name="application-name"
           content={`${ children } | Wunderdog`}
         />
+        <meta
+          name="twitter:title"
+          content={`${ children } | Wunderdog`}
+        />
+        <meta
+          name="og:title"
+          content={`${ children } | Wunderdog`}
+        />
       </Helmet>
     )}
     <Helmet>
       <meta name="description" content={ children } />
+      <meta name="twitter:description" content={ children } />
+      <meta name="og:description" content={ children } />
     </Helmet>
     <h3 { ...props }
       className={cs(

@@ -16,7 +16,23 @@ export default ({ children, className, centered, ...props }) => (
         content={`${ children } | Wunderdog`}
       />
       <meta
+        name="twitter:title"
+        content={`${ children } | Wunderdog`}
+      />
+      <meta
+        name="og:title"
+        content={`${ children } | Wunderdog`}
+      />
+      <meta
         name="description"
+        content={ children }
+      />
+      <meta
+        name="twitter:description"
+        content={ children }
+      />
+      <meta
+        name="og:description"
         content={ children }
       />
     </Helmet>
