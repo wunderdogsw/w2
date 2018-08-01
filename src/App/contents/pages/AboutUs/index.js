@@ -11,12 +11,8 @@ import ChapterRow from 'App/components/ChapterRow'
 import CaseCards from 'App/components/CaseCards'
 import CssVars from 'App/components/CssVars'
 
-import heroThumb from './about-us-hero-thumb.jpg'
-import hero from './about-us-hero.jpg'
-import photo1Thumb from './about-us1-thumb.jpg'
-import photo1 from './about-us1.jpg'
-import photo2Thumb from './about-us2-thumb.jpg'
-import photo2 from './about-us2.jpg'
+import heroThumb from './about-us-hero-new-thumb.jpg'
+import hero from './about-us-hero-new.jpg'
 
 
 export default () => (
