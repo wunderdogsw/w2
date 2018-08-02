@@ -41,11 +41,20 @@
   animation-name: fadeIn;
   animation-duration: var(--animation-duration);
   animation-iteration-count: 1;
+  margin-bottom: var(--spacing-small);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   & > .Image {
     width: 100%;
     height: 300px;
     background-color: var(--color-accent);
+  }
+
+  @media (width >= 768px) {
+    margin-bottom: 0;
   }
 
   @media (width >= 1024px) {
