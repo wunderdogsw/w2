@@ -11,7 +11,6 @@ import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
-import { OpenPositions2 } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
@@ -94,7 +93,7 @@ export default () => (
       </p>
     </ImageTextRow>
     <CallToAction>
-      <OpenPositions2 />
+      <OpenPositions />
     </CallToAction>
     <LatestBlogPosts culture>
       <CareerBlogPostsContent />
