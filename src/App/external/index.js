@@ -1,6 +1,8 @@
 import rss from 'rss-parser-browser'
 
 
+const blogEntriesCache = {}
+
 
 
 export const getBlogPosts = async () => {
@@ -18,15 +20,20 @@ export const getCultureBlogPosts = async () => {
 
 
 
-export const fetchRssEntries = async url => {
-  let feed = await fetch(url)
-  feed = await feed.text()
-  feed = await ( new Promise(resolve => {
-    rss.parseString(feed, (_, res) => resolve(res))
-  }))
-  const entries = (feed && feed.feed && feed.feed.entries) || []
-  return entries
-}
+export const fetchRssEntries = (() => {
+  const cache = {}
+  return async url => {
+    if (cache[url]) return cache[url]
+    let feed = await fetch(url)
+    feed = await feed.text()
+    feed = await ( new Promise(resolve => {
+      rss.parseString(feed, (_, res) => resolve(res))
+    }))
+    const entries = (feed && feed.feed && feed.feed.entries) || []
+    if (entries.length) cache[url] = entries
+    return entries
+  }
+})()
 
 
 
