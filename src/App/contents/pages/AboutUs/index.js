@@ -20,7 +20,7 @@ export default () => (
     <CssVars>
       {{
         '--color-accent': '#fcfcfc',
-        '--color-text-on-accent': '#8f00e1',
+        '--color-text-on-accent': '#000000',
       }}
     </CssVars>
     <MainTitle>About us</MainTitle>
