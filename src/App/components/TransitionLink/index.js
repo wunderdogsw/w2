@@ -109,9 +109,8 @@ export default withState(withRouter(
     render() {
       const { children, to, className, history } = this.props
       const { color } = this.state
-      const drawArrow =
-        (this.isExternalLink() || this.isContactLink())
-        && typeof children === 'string'
+      const external = this.isExternalLink() || this.isContactLink()
+      const drawArrow = external && typeof children === 'string'
 
       return (
         <a
@@ -123,6 +122,7 @@ export default withState(withRouter(
           )}
           href={ to }
           onClick={ this.whichClick() }
+          rel={ external ? 'nofollow' : null }
           children={
             <Fragment>
               { children }
