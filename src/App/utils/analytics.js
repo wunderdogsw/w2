@@ -3,7 +3,9 @@ import noop from 'lodash.noop'
 
 const currentUrl = window.location.pathname + window.location.search
 
-ga.initialize('UA-58343009-1')
+ga.initialize('UA-58343009-1', {
+  anonymizeIp: true,
+})
 ga.pageview(currentUrl)
 
 export const pageview = url => {
