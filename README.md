@@ -1,6 +1,6 @@
-# WUNDERDOG 🦒
-
 ![Wunderdog](https://avatars1.githubusercontent.com/u/8065613?s=200&v=4)
+
+
 ![Build status](https://api.travis-ci.com/wunderdogsw/w2.svg?branch=master)
 
 React site with hardcoded content, no ssr, no cms
