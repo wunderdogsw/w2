@@ -51,7 +51,7 @@ export default () => (
         <p>Easy-to-use interfaces to generate great user experiences</p>
       </Chapter>
       <Chapter>
-        <h5>Coding</h5>
+        <h5>Development</h5>
         <p>Delivering high-quality digital products & services</p>
       </Chapter>
       <Chapter>
