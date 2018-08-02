@@ -5,6 +5,7 @@
 }
 
 .LatestBlogPosts__posts {
+  position: relative;
   display: block;
   box-sizing: border-box;
   max-width: var(--content-max-width);
@@ -31,6 +32,23 @@
 
 .LatestBlogPosts--loading .LatestBlogPosts__posts {
   background-color: var(--color-light-gray);
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 4px;
+    margin-top: -2;
+    margin-left: -20px;
+    background-color: var(--color-text-on-background);
+    opacity: 0.25;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
 }
 
 
@@ -80,3 +98,11 @@
     0% { opacity: 0 }
     100% { opacity: 1 }
   }
+
+
+
+
+@keyframes rotate {
+  0% { transform: rotate3d(0, 0, 1, 0deg) }
+  100% { transform: rotate3d(0, 0, 1, 360deg) }
+}
