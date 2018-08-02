@@ -33,8 +33,9 @@ export default () => (
       <h4>We offer high-end consultancy in creating digital products and services</h4>
       <p>
         We guide our customers through the maze of crafting digital services from
-        ideation to execution. <br />
-        <br />
+        ideation to execution.
+      </p>
+      <p>
         By combining the smart ways of working, human-centered design and
         high-quality code, we build future-proof digital services together with
         our customers.
