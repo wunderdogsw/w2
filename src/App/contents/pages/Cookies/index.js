@@ -30,7 +30,7 @@ export default () => (
         {' '}
         <TransitionLink to="https://policies.google.com/privacy?hl=en-GB&amp;amp;amp;gl=uk">
           Googles Privacy Policy
-        </TransitionLink>
+        </TransitionLink>.
         {' '}
         If you wish to opt-out you can do that
         {' '}
@@ -67,7 +67,7 @@ export default () => (
     <Chapter>
       <h4>Contact</h4>
       <p>
-        If you have any questions about our Privacy Policy, or Cookie Policy,
+        If you have any questions about our Cookie Policy,
         please contact us by email at
         {' '}
         <TransitionLink to="mailto:privacy@wunder.dog">
