@@ -1,6 +1,6 @@
 import './index.css'
 import React, { Component, Fragment, createRef } from 'react'
-import { outboundLink } from 'App/utils/analytics'
+import { outboundLink, event } from 'App/utils/analytics'
 import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
 import { withState } from 'App/state'
