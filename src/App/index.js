@@ -10,7 +10,7 @@ import Page from 'App/routes/Page'
 import { LetsTalk } from 'App/contents/callToActions'
 import {
   FooterBottom,
-  // CookieDisclamer, 
+  // CookieDisclamer,
 } from 'App/contents/other'
 
 export default () => (
