@@ -158,6 +158,17 @@ export default () => (
         of agreement with Wunderdog.
       </p>
     </Chapter>
+    <Chapter>
+      <h4>Contact</h4>
+      <p>
+        If you have any questions about our Privacy Policy,
+        please contact us by email at
+        {' '}
+        <TransitionLink to="mailto:privacy@wunder.dog">
+          privacy@wunder.dog
+        </TransitionLink>.
+      </p>
+    </Chapter>
 
 
 
