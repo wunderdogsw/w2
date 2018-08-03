@@ -8,6 +8,7 @@ export default () => (
     <FooterBottom>
       <Logo useHorizontal to="/" />
       <nav>
+        <TransitionLink to="/cookies">Cookies Policy</TransitionLink>
         <TransitionLink to="/privacy">Privacy Policy</TransitionLink>
       </nav>
     </FooterBottom>
