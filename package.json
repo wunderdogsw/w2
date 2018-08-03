@@ -43,6 +43,7 @@
     "babel-register": "6",
     "classnames": "^2.2.6",
     "inline-style-prefixer": "^4.0.2",
+    "js-cookie": "^2.2.0",
     "lodash.capitalize": "^4.2.1",
     "lodash.flow": "^3.5.0",
     "lodash.noop": "^3.0.1",

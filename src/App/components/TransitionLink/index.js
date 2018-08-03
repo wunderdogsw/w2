@@ -10,6 +10,10 @@ import { getComputedCss } from 'App/utils'
 
 export default withState(withRouter(
   class extends Component {
+    static defaultProps = {
+      to: '#',
+    }
+
     state = {
       color: 'inherit',
     }
@@ -26,7 +30,7 @@ export default withState(withRouter(
       const ref = this.ref.current
       const nextColor = getComputedCss(ref, 'color') || 'inherit'
 
-      // Prevent inifnite looops booii
+      // Prevent infinite looops booii
       if (this.state.color === nextColor) return
 
       this.setState({
@@ -107,7 +111,7 @@ export default withState(withRouter(
     }
 
     render() {
-      const { children, to, className, history } = this.props
+      const { children, to, className, history, name } = this.props
       const { color } = this.state
       const external = this.isExternalLink() || this.isContactLink()
       const drawArrow = external && typeof children === 'string'
@@ -131,6 +135,7 @@ export default withState(withRouter(
               )}
             </Fragment>
           }
+          name={ name }
         />
       )
     }

@@ -1,20 +1,36 @@
 import ga from 'react-ga'
 import noop from 'lodash.noop'
+import Cookies from 'js-cookie'
+import { ALLOW_COOKIES } from 'App/constants'
 
-const currentUrl = window.location.pathname + window.location.search
+export const okToTrack = (() => {
+  let inited = false
+  return () => {
+    // ALLOW_COOKIES is set in CookieMonster component
+    if ( Cookies.get(ALLOW_COOKIES) === '0' ) return false
+    if ( inited ) return true
 
-ga.initialize('UA-58343009-1', {
-  anonymizeIp: true,
-})
-ga.pageview(currentUrl)
+    ga.initialize('UA-58343009-1', {
+      anonymizeIp: true,
+    })
+    inited = true
+    return true
+  }
+})()
+
 
 export const pageview = url => {
+  if ( !okToTrack() ) return
   url = url || window.location.pathname + window.location.search
   ga.pageview(url)
 }
 
-export const event = ga.event
+export const event = (...args) => {
+  if ( !okToTrack() ) return
+  ga.event(...args)
+}
 export const outboundLink = e => {
+  if ( !okToTrack() ) return
 
   // React ga thinks that links with @ are email adresses and might ignore them
   // Medium links may contain @ characters sooooooo...
