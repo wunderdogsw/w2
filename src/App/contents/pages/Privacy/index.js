@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Chapter from 'App/components/Chapter'
+import TransitionLink from 'App/components/TransitionLink'
 
 
 export default () => (
