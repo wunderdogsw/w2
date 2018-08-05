@@ -43,6 +43,7 @@ export default () => (
         <Redirect from="/wundernuts-1" to="/" />
         <Redirect from="/we-do-wunders" to="/aboutus" />
         <Redirect from="/wedowunders-fi" to="/aboutus" />
+        <Redirect from="/main-2" to="/career" />
         <Redirect from="/fullstacker-to-our-lund-pack" to="/career" />
         <Redirect from="/fullstack-developer-berlin-germany" to="/career" />
         <Redirect from="/fullstack-developer-lund" to="/career" />
