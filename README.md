@@ -26,7 +26,7 @@ Additional info @ [wunderwiki](https://wunderdog.atlassian.net/wiki/spaces/WD/pa
 ### Deployment
 
 Site lives in amazon s3 bucket and uses cloudfront CDN.
-Changes to master will be deployed automatically via travis ci.
+Changes to master will be deployed automatically via [Travis CI](https://travis-ci.com/wunderdogsw/w2).
 
 
 ### Todo
