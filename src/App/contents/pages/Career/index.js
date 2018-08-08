@@ -40,7 +40,7 @@ export default () => (
     <MainTitle>Join the Pack</MainTitle>
     <SubTitle>
       We believe happy people create the best workplace. Welcome to
-      join the pack!
+      join our pack!
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
     <CallToAction>
