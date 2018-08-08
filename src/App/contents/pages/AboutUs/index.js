@@ -36,7 +36,7 @@ export default () => (
         ideation to execution.
       </p>
       <p>
-        By combining the smart ways of working, human-centered design and
+        By combining smart ways of working, human-centered design and
         high-quality code, we build future-proof digital services together with
         our customers.
       </p>
