@@ -14,7 +14,7 @@ export default () => (
   <Fragment>
     <h1>Clients</h1>
     <p>
-      We’re your partner in turning good ideas into well working
+      We’re your partner in turning good ideas into
       digital products & services.
     </p>
     <LogoGrid>
