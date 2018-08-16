@@ -9,7 +9,7 @@
   line-height: 1.8;
   letter-spacing: 0.7px;
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
 
   @media (width >= 420px) {
     font-size: 20px;

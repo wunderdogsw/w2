@@ -137,7 +137,7 @@ p {
   letter-spacing: 0.7px;
   line-height: 1.8;
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
 
   @media (width >= 1024px) {
     text-align: left;
