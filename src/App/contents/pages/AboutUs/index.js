@@ -25,15 +25,19 @@ export default () => (
     </CssVars>
     <MainTitle>About us</MainTitle>
     <SubTitle>
-      We're your partner in turning good ideas into well working digital reality.
+      We're your partner in turning good ideas into digital reality.
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" />
 
     <Chapter>
-      <h4>We offer high-end consultancy in creating digital products and services</h4>
+      <h4>High-end consultancy in creating digital products and services</h4>
+      <p>
+        We guide our customers through the maze of crafting digital products
+        and services from ideation to execution.
+      </p>
       <p>
         By combining smart ways of working, human-centered design and
-        high-quality code, we build future-proof digital services together with
+        high-quality code, we build future-proof services together with
         our customers.
       </p>
     </Chapter>
