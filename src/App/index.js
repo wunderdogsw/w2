@@ -42,6 +42,7 @@ export default () => (
         <Redirect from="/wunderkuutio" to="/" />
         <Redirect from="/wundernuts-1" to="/" />
         <Redirect from="/we-do-wunders" to="/aboutus" />
+        <Redirect from="/we-do-wunders-fi2" to="/aboutus" />
         <Redirect from="/wedowunders-fi" to="/aboutus" />
         <Redirect from="/main-2" to="/career" />
         <Redirect from="/fullstacker-to-our-lund-pack" to="/career" />
@@ -50,10 +51,12 @@ export default () => (
         <Redirect from="/join-the-pack" to="/career" />
         <Redirect from="/we-are-hiring-join-the-pack" to="/career" />
         <Redirect from="/liity-joukkoon" to="/career" />
+        <Redirect from="/liity-joukkoon-2" to="/career" />
         <Redirect from="/fullstack-developer" to="/career" />
         <Redirect from="/interaction-designer" to="/career" />
         <Redirect from="/ota-yhteytta" to="/contact" />
         <Redirect from="/contact-us" to="/contact" />
+        <Redirect from="/kulttuurimme-2" to="/career" />
 
         {/* Routes */}
         <Route path="/:page" component={ Page } />
