@@ -59,7 +59,7 @@ export default () => (
       <h4>We actively avoid setting obstacles in our way</h4>
       <p>
         We recruit only intelligent and competent people who can make
-        decisions independently. We are given freedom and responsibilty
+        decisions independently. We are given freedom and responsibility
         accordingly.
       </p>
     </ImageTextRow>
