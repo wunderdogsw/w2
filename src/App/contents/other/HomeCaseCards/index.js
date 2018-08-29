@@ -5,10 +5,17 @@ import {
   Smartly,
   PerusTerveys,
   Pexraytech,
+  Futistietaja,
 } from 'App/contents/cards'
 
 export default () => (
   <Fragment>
+    <Card to="/futistietaja">
+      <Futistietaja/>
+    </Card>
+    <Card to="/pexraytech">
+      <Pexraytech/>
+    </Card>
     <Card to="/redbull">
       <RedBull/>
     </Card>
@@ -17,9 +24,6 @@ export default () => (
     </Card>
     <Card to="/perusterveys">
       <PerusTerveys/>
-    </Card>
-    <Card to="/pexraytech">
-      <Pexraytech/>
     </Card>
   </Fragment>
 )
