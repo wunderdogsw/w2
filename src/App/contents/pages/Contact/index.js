@@ -25,10 +25,6 @@ export default () => (
       <Helsinki />
       <MikaViskari />
       <AnteroTorhonen />
-    </ContactRow>
-
-    <ContactRow>
-      <Empty />
       <AnnaMariaLaFiura />
       <MeriTuuliOlkkonen />
     </ContactRow>
