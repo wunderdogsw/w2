@@ -29,11 +29,11 @@ export default () => (
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
-    <MainTitle>Smartly</MainTitle>
+    <MainTitle>Smartly.io</MainTitle>
     <SubTitle useAsMetaTitle>Teamwork makes the dream work</SubTitle>
     <DatLine />
     <Keywords>DevOps</Keywords>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly hero" />
+    <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly.io" />
     <Chapter>
       <h4>Setting the scene</h4>
       <p>
@@ -44,7 +44,7 @@ export default () => (
         media marketing.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly photo stock 1" />
+    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly.io crew" />
     <Chapter>
       <h4>The bright idea</h4>
       <p>
@@ -69,8 +69,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly photo stock 2" />
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Smartly photo stock 3" />
+      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 2" />
+      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Smartly crew 3" />
     </ImageRow>
     <Chapter>
       <h4>Our hands-on solution</h4>
