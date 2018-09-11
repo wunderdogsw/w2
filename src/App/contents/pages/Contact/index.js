@@ -7,8 +7,8 @@ import CallToAction from 'App/components/CallToAction'
 import ContactRow from 'App/components/ContactRow'
 
 import { ElectronicInvoicing } from 'App/contents/callToActions'
-import { Helsinki, Berlin, Lund } from 'App/contents/contactOffices'
-import { MikaViskari, AnteroTorhonen, JoannaRindell, JasperVanGhemen, RedhaCherif } from 'App/contents/contactFaces'
+import { Helsinki, Berlin, Lund, Empty } from 'App/contents/contactOffices'
+import { MikaViskari, AnteroTorhonen, JoannaRindell, JasperVanGhemen, RedhaCherif, AnnaMariaLaFiura, MeriTuuliOlkkonen } from 'App/contents/contactFaces'
 
 export default () => (
   <Fragment>
@@ -28,6 +28,12 @@ export default () => (
     </ContactRow>
 
     <ContactRow>
+      <Empty />
+      <AnnaMariaLaFiura />
+      <MeriTuuliOlkkonen />
+    </ContactRow>
+
+    <ContactRow>
       <Berlin />
       <JoannaRindell />
       <JasperVanGhemen />
@@ -35,7 +41,7 @@ export default () => (
 
     <ContactRow>
       <Lund />
-      <MikaViskari />
+      <RedhaCherif />
     </ContactRow>
 
     <CallToAction>
