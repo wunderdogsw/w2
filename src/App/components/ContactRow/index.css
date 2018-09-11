@@ -38,6 +38,8 @@
 
   @media (width >= 768px) {
     flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -50,7 +52,6 @@
 
   @media (width >= 768px) {
     margin-right: var(--spacing-small);
-    margin-bottom: 0;
   }
 
   &:last-child {
