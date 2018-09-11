@@ -40,7 +40,7 @@ export const fetchRssEntries = (() => {
 
 export const fixEntries = (entries = []) => entries.map(entry => {
   const content = entry['content'] || entry['content:encoded']
-  const image = content.match(/(https\:\/\/.*?\.(jpg|png|gif))/i)
+  const image = content.match(/(https\:\/\/.*?\.(jpg|jpeg|png|gif))/i)
   return {
     ...entry,
     content,
