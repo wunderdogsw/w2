@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Card from 'App/components/Card'
 import {
-  RedBull,
+  Futistietaja,
   Smartly,
   PerusTerveys,
   Pexraytech,
@@ -9,11 +9,11 @@ import {
 
 export default () => (
   <Fragment>
-    <Card to="/redbull">
-      <RedBull/>
-    </Card>
     <Card to="/smartly">
       <Smartly/>
+    </Card>
+    <Card to="/futistietaja">
+      <Futistietaja/>
     </Card>
     <Card to="/perusterveys">
       <PerusTerveys/>
