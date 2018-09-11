@@ -3,8 +3,5 @@
 
 import importedComponent from 'react-imported-component'
 
-export const Futistietaja = importedComponent(() => import('./Futistietaja'))
-export const PerusTerveys = importedComponent(() => import('./PerusTerveys'))
 export const Pexraytech = importedComponent(() => import('./Pexraytech'))
-export const RedBull = importedComponent(() => import('./RedBull'))
 export const Smartly = importedComponent(() => import('./Smartly'))

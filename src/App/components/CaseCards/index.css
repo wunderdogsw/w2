@@ -20,7 +20,10 @@
     }
 
     &:nth-child(3) {
-      margin-top: calc(var(--spacing) * -3);
+      margin-top: calc(var(--spacing) * -0.5);
+    }
+    &:nth-child(5) {
+      margin-top: calc(var(--spacing) * -2);
     }
   }
 }
