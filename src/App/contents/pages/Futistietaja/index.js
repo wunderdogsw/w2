@@ -12,12 +12,12 @@ import DatLine from 'App/components/DatLine'
 
 import heroThumb from './futistietaja-hero-thumb.jpg'
 import hero from './futistietaja-hero.png'
-import photo1Thumb from './futistietaja-photo1-thumb.jpg'
-import photo1 from './futistietaja-photo1.png'
-import photo2Thumb from './futistietaja-photo2-thumb.jpg'
-import photo2 from './futistietaja-photo2.png'
-import photo3Thumb from './futistietaja-photo3-thumb.jpg'
-import photo3 from './futistietaja-photo3.png'
+import photo1Thumb from './wireframe-futistietaja-thumb.jpg'
+import photo1 from './wireframe-futistietaja.png'
+import photo2Thumb from './mockup-mobil-futistietaja-thumb.jpg'
+import photo2 from './mockup-mobil-futistietaja.png'
+import photo3Thumb from './mockup-ipad-futistietaja-thumb.jpg'
+import photo3 from './mockup-ipad-futistietaja.png'
 import summary from './futistietaja-summary.svg'
 
 
