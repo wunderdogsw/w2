@@ -8,7 +8,7 @@ export default () => (
     </li>
     <li>
       <span>150+</span>
-      <span>Succesful projects</span>
+      <span>Successful projects</span>
     </li>
     <li>
       <span>140+</span>
