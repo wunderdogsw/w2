@@ -6,8 +6,8 @@ export default () => (
     <p>
       Country Lead
       <br />
-      <a className="breakAll noHyphen" href="tel:+358503139423">
-        +358 50 3139423
+      <a className="breakAll noHyphen" href="tel:+46761442771">
+        +46 (0) 761 442 771
       </a>
       <br />
       <a className="noHyphen" href="mailto:redha.cherif@wunder.dog">
