@@ -6,13 +6,13 @@ const blogEntriesCache = {}
 
 
 export const getBlogPosts = async () => {
-  let entries = await fetchRssEntries('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@WunderdogSW')
+  let entries = await fetchRssEntries('https://wunderdog-cors-anywhere.herokuapp.com/https://medium.com/feed/@WunderdogSW')
   if (!entries.length) entries = await fetchRssEntries('http://blog.wunder.dog/rss.xml')
   return fixEntries(entries)
 }
 
 export const getCultureBlogPosts = async () => {
-  let entries = await fetchRssEntries('https://cors-anywhere.herokuapp.com/https://medium.com/feed/wunderdog-culture')
+  let entries = await fetchRssEntries('https://wunderdog-cors-anywhere.herokuapp.com/https://medium.com/feed/wunderdog-culture')
   if (!entries.length) entries = await fetchRssEntries('http://blog.wunder.dog/rss.xml')
   return fixEntries(entries)
 }
