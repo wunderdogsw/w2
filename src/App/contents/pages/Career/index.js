@@ -11,7 +11,6 @@ import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 
 import { OpenPositions } from 'App/contents/callToActions'
-import { OpenPositions2 } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
@@ -45,7 +44,7 @@ export default () => (
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
     <CallToAction>
-      <OpenPositions2 />
+      <OpenPositions />
     </CallToAction>
     <ImageTextRow>
       <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />
@@ -93,9 +92,6 @@ export default () => (
         we are always happy to give.
       </p>
     </ImageTextRow>
-    <CallToAction>
-      <OpenPositions />
-    </CallToAction>
     <LatestBlogPosts culture>
       <CareerBlogPostsContent />
     </LatestBlogPosts>
