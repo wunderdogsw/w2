@@ -7,7 +7,6 @@ export default () => (
     <address>
       Bankgatan 1<br />
       22352 Lund, Sweden<br />
-      Business ID, 559106-6435<br />
       <TransitionLink
         to="https://www.google.fi/maps/place/Bankgatan+1+22352+Lund"
         children="Map"
