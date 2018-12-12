@@ -7,6 +7,7 @@ export default () => (
     <address>
       Kottbusser Damm 103A<br />
       10967 Berlin, Germany<br />
+      Business ID, HRB 191256<br />
       <TransitionLink
         to="https://www.google.fi/maps/place/Kottbusser+Damm+103A+10967+Berlin"
         children="Map"
