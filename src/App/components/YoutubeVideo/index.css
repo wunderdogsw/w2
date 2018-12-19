@@ -1,0 +1,26 @@
+.YoutubeVideo {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  animation-name: YoutubeVideo__fadeIn;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-ease);
+}
+
+
+
+
+.YoutubeVideo > iframe {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+@keyframes YoutubeVideo__fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

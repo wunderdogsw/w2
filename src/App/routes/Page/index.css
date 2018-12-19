@@ -99,7 +99,8 @@
   margin-right: 0;
 }
 
-.Page__inner > .Image + .ImageRow {
+.Page__inner > .Image + .ImageRow,
+.Page__inner > .YoutubeVideo + .ImageRow {
   margin-top: var(--spacing-small)
 }
 
@@ -107,7 +108,8 @@
   margin-top: var(--spacing-small)
 }
 
-.Page__inner > .ImageRow + .Image {
+.Page__inner > .ImageRow + .Image,
+.Page__inner > .ImageRow + .YoutubeVideo {
   margin-top: var(--spacing-small)
 }
 
