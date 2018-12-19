@@ -11,6 +11,7 @@ import ChapterRow from 'App/components/ChapterRow'
 import Summary from 'App/components/Summary'
 import TransitionLink from 'App/components/TransitionLink'
 import DatLine from 'App/components/DatLine'
+import YoutubeVideo from 'App/components/YoutubeVideo'
 
 import heroThumb from './FiudenDemo-hero-thumb.jpg'
 import hero from './FiudenDemo-hero.png'
@@ -42,6 +43,12 @@ export default () => (
         social <TransitionLink to="https://google.com">this is a link</TransitionLink> media marketing.
       </p>
     </Chapter>
+    <ImageRow>
+      <YoutubeVideo videoId="Mw1lzj5l2zk" />
+      <YoutubeVideo videoId="AK-MUzWdpjU" />
+    </ImageRow>
+    <YoutubeVideo videoId="AK-MUzWdpjU" />
+    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly photo stock 1" />
     <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly photo stock 1" />
     <Chapter>
       <h4>The bright idea</h4>
