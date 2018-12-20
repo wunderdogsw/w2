@@ -7,6 +7,7 @@ export const AnnaMariaLaFiura = importedComponent(() => import('./AnnaMariaLaFiu
 export const AnteroTorhonen = importedComponent(() => import('./AnteroTorhonen'))
 export const JasperVanGhemen = importedComponent(() => import('./JasperVanGhemen'))
 export const JoannaRindell = importedComponent(() => import('./JoannaRindell'))
+export const MartinLyckestjarn = importedComponent(() => import('./MartinLyckestjarn'))
 export const MeriTuuliOlkkonen = importedComponent(() => import('./MeriTuuliOlkkonen'))
 export const MikaViskari = importedComponent(() => import('./MikaViskari'))
 export const RedhaCherif = importedComponent(() => import('./RedhaCherif'))
