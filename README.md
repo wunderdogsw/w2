@@ -3,10 +3,7 @@
 
 ![Build status](https://api.travis-ci.com/wunderdogsw/w2.svg?branch=master)
 
-React site with hardcoded content, no ssr, no cms
-
-The point is to [kiss](https://gph.is/XIGARm). 
-Easily hackable by anybody because everything is hardcoded. 
+React site with hardcoded content, no ssr, no cms. Easily hackable by anybody because everything is hardcoded. 
 No need to make complicated UIs for CMS integrations etc.
 
 
