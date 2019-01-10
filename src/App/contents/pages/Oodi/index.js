@@ -78,13 +78,9 @@ export default () => (
       <li>
         A fun quiz, Helsinki Test, where people could discover which Helsinki district they are
       </li>
-      </ul>
-      <ul>
       <li>
         A social media wall to gather content posted with the #unelmienkaupunki hashtag
       </li>
-      </ul>
-      <ul>
       <li>
         An audio-visual 3D map of Helsinki and its districts
       </li>
