@@ -12,11 +12,11 @@ import DatLine from 'App/components/DatLine'
 import YoutubeVideo from 'App/components/YoutubeVideo'
 
 import heroThumb from './oodi-hero-thumb.jpg'
-import hero from './oodi-hero.jpg'
+import hero from './oodi-hero.png'
 import photo1Thumb from './oodi-photo1-thumb.jpg'
-import photo1 from './oodi-photo1.jpg'
+import photo1 from './oodi-photo1.png'
 import photo2Thumb from './oodi-photo2-thumb.jpg'
-import photo2 from './oodi-photo2.jpg'
+import photo2 from './oodi-photo2.png'
 import summary from './smartly-summary.svg'
 
 
@@ -28,46 +28,83 @@ export default () => (
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
-    <MainTitle>Oodi Helsinki Central Library</MainTitle>
-    <SubTitle useAsMetaTitle>Teamwork makes the dream work</SubTitle>
+    <MainTitle>Oodi, Central Library</MainTitle>
+    <SubTitle useAsMetaTitle>An ode to the city</SubTitle>
     <DatLine />
-    <Keywords>Design & Development</Keywords>
+    <Keywords>React, Unity</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Oodi" />
     <Chapter>
       <h4>Setting the scene</h4>
       <p>
-        When talking about the new Helsinki central library, we aren’t talking
-        about the standard library but instead of a new monument in the central
-        Helsinki equipped with high-tech equipment for the people to use.
-        Besides the library’s 3D-laser printers, laser cutters and computerised
-        embroidery machines one can find books there too. For their grand
-        opening at the beginning of December 2018, Oodi (‘ode’ in Finnish) had
-        to organise the celebrations it deserved.
+        Oodi, Helsinki’s brand spanking new central library, is a world away
+        from the stereotypical libraries of the past. As well as books as far as
+        the eye can see, this new landmark in central Helsinki boasts a whole
+        host of high-tech equipment that everyone’s welcome to use – like
+        3D laser printers and computerized embroidery machines. For its grand
+        opening at the beginning of December 2018, a building this special
+        needed a celebration of the city to match
       </p>
     </Chapter>
-    <YoutubeVideo videoId="XyNlqQId-nk" />
     <Chapter>
       <h4>The bright idea</h4>
       <p>
-        As a part of the grand opening, the Helsinki Urban Environment Division
-        wanted to create inclusive space for people to contribute to the
-        development of the city and they shared duties with creative agency
-        Sherpa.
+        What if the power of digital could be harnessed to deliver interactive
+        experiences that would engage everyone with Helsinki as a city and
+        create a real buzz around Oodi?
       </p>
       <p>
-        With no technological background, Sherpa needed a partner to co-create
-        and execute the digital part of the experience to Oodi, and they
-        suggested collaboration - and it was the start of the partnership of
-        Sherpa and Wunderdog.
+        As a part of the grand opening, Helsinki Urban Environment Division
+        wanted to create an inclusive and interactive space where people could
+        get to know Helsinki and contribute to its development.
       </p>
     </Chapter>
     <Chapter>
       <h4>The inevitable challenge</h4>
       <p>
-        Together with Sherpa, we needed to create an interactive space where
-        the people could contribute to the development of Helsinki and get to
-        the know the contemporary Helsinki. We wanted to present Helsinki and
-        its districts in an engaging and different kind of ways.
+        Helsinki Urban Environment Division brought in creative agency Sherpa,
+        but with no technological background, Sherpa needed to find a partner to
+        co-create and execute the digital part of the experience. This was the
+        start of an inspiring partnership between Sherpa and Wunderdog.
+      </p>
+    </Chapter>
+    <YoutubeVideo videoId="nAMdgX7YXAA" />
+    <Chapter>
+      <h4>Our capital solution</h4>
+      <p>
+        We took the City of Helsinki style guide and ran with it, creating three
+        different experiences in collaboration with Sherpa:
+      </p>
+      <ul>
+      <li>
+        A fun quiz, Helsinki Test, where people could discover which Helsinki district they are
+      </li>
+      </ul>
+      <ul>
+      <li>
+        A social media wall to gather content posted with the #unelmienkaupunki hashtag
+      </li>
+      </ul>
+      <ul>
+      <li>
+        An audio-visual 3D map of Helsinki and its districts
+      </li>
+      </ul>
+      <p>
+      We created a beautiful look and feel for the Helsinki Test using modern CSS
+      animations, and used React for the quiz itself. The great thing about this
+      was that we didn’t need to worry about multiple browsers and resolutions
+      as the quiz was implemented for iPad only.
+      </p>
+      <p>
+      For the social media wall we benchmarked solutions that were already
+      available so we could get things up and running fast. We chose wall.io
+      because it gave us the flexibility to create exactly the look and feel we
+      wanted. Why start from scratch and waste time and money when someone’s
+      already created something that fits the bill perfectly?
+      </p>
+      <p>
+      Developing the 3D map was particularly exciting for us as we got our first
+      chance to use the Unity engine.
       </p>
     </Chapter>
     <ImageRow>
@@ -75,71 +112,43 @@ export default () => (
       <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 3" />
     </ImageRow>
     <Chapter>
-      <h4>Our hands-on solution</h4>
-      <p>
-        We used the style guide of Helsinki city and created three different
-        experiences for the people to use: A merry quiz to solve which Helsinki
-        district the user is, a social media wall that gathers all the content
-        posted in social media channels with the hashtag #unelmienkaupunki and
-        a 3D audiovisual map of Helsinki and its districts.
-      </p>
-      <p>
-        We designed and developed the experiences in smooth collaboration with
-        Sherpa, and for us, it was an exciting project as we had a chance to use
-        Unity with the 3D map that we haven’t used before. The current map
-        experience is made with Helsinki’s old lo-res 3D map and will be
-        upgraded to high-resolution version as soon as it’s available for
-        developers.
-      </p>
-      <p>
-        In Helsinki Test, we build a quite good look & feel using modern CSS
-        animations, and with the test itself, we used React. And it was an
-        excellent case for front-end too as we didn’t need to think other
-        browsers and resolutions as it was implemented only for iPad.
-      </p>
-      <p>
-        With the social media wall, we benchmarked the existing products as to
-        work smartly and efficiently it was the best option for creating it.
-        Why start from scratch and waste time and money when there is a good
-        product already existing? We found wall.io the best option for us as
-        there we could modify the look & feel strongly.
-      </p>
-    </Chapter>
-    <Chapter>
       <h4>So how did it go?</h4>
       <p>
-        In the grand opening, there was a buzz going on with the services we
-        created to Brygga and the Helsinki Urban Environment Division was happy
-        with the results. The collaboration with Sherpa went so well that we’re
-        planning new projects together in the future too. For us, it was fun to
-        invent services for consumers and be part of creating Oodi. It was also
-        the first time we collaborated with creative agency, and we love it when
-        we make a match with other great companies.
+        There was a real buzz around the grand opening and the Helsinki Urban
+        Environment Division was super happy with the results. We really got
+        a kick out of the opportunity to create new services for consumers and
+        be part of creating the Oodi experience. Oodi supports lifelong learning,
+        active citizenship, democracy, and freedom of expression – it has been
+        an honor and a pleasure to be part of its journey.
       </p>
     </Chapter>
     <Chapter>
       <h4>Success that speaks for itself</h4>
       <p>
-        Oodi stands for itself and promotes lifelong learning, active citizenship,
-        democracy and freedom of expression, and it has been a pleasure to be
-        part of this journey. The project itself was a success and everyone
-        involved are pleased with the outcome and the collaboration both city
-        of Helsinki and Sherpa are already continuing with new plans.
+        This project was the first time we’ve collaborated with a creative agency
+        and we just love it when we make a match with other great companies.
+        The project itself was a success and everyone involved is pleased with
+        the outcome. In fact, the collaboration with Sherpa went so well that
+        we’re planning to work together on more projects in future.
       </p>
     </Chapter>
     <Summary>
       <Image src={ summary } alt="" />
       <h4>The challenge</h4>
       <p>
-        To create an exciting and interactive way for people to familiarise
-        with Helsinki and contribute to developing the city together.
+        Create an exciting and engaging way for people to get to know Helsinki
+        and contribute to its development.
       </p>
       <h4>The result</h4>
       <p>
-        Combining the capabilities of a creative agency and a technology & design
-        company led to three different kinds of solutions that are in high use
-        of the people visiting the Oodi.
+        Three new interactive experiences that celebrate Helsinki and are actively
+        used by visitors to Oodi.
+      </p>
+      <h4>Technologies used</h4>
+      <p>
+        React, Unity
       </p>
     </Summary>
+
   </Fragment>
 )
