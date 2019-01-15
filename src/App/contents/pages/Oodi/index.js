@@ -24,14 +24,14 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#ffd400',
+        '--color-accent': '#f7f7f7',
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
     <MainTitle>Oodi, Central Library</MainTitle>
     <SubTitle useAsMetaTitle>An ode to the city</SubTitle>
     <DatLine />
-    <Keywords>React, Unity</Keywords>
+    <Keywords>React, Unity, UI Design, UX Design</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Oodi" />
     <Chapter>
       <h4>Setting the scene</h4>
