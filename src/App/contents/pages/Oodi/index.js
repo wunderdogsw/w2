@@ -42,7 +42,7 @@ export default () => (
         host of high-tech equipment that everyone’s welcome to use – like
         3D laser printers and computerized embroidery machines. For its grand
         opening at the beginning of December 2018, a building this special
-        needed a celebration of the city to match
+        needed a celebration of the city to match.
       </p>
     </Chapter>
     <Chapter>
@@ -61,10 +61,10 @@ export default () => (
     <Chapter>
       <h4>The inevitable challenge</h4>
       <p>
-        Helsinki Urban Environment Division brought in creative agency Sherpa,
-        but with no technological background, Sherpa needed to find a partner to
-        co-create and execute the digital part of the experience. This was the
-        start of an inspiring partnership between Sherpa and Wunderdog.
+        Helsinki Urban Environment Division brought in creative agency Sherpa who
+        needed to find a partner to co-create and execute the digital part 
+        of the experience. This was the start of an inspiring partnership between
+        Sherpa and Wunderdog.
       </p>
     </Chapter>
     <YoutubeVideo videoId="nAMdgX7YXAA" />
