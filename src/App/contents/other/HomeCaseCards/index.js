@@ -3,20 +3,20 @@ import Card from 'App/components/Card'
 import {
   Futistietaja,
   Smartly,
-  PerusTerveys,
+  Oodi,
   Pexraytech,
 } from 'App/contents/cards'
 
 export default () => (
   <Fragment>
-    <Card to="/smartly">
-      <Smartly/>
+    <Card to="/Oodi">
+      <Oodi/>
     </Card>
     <Card to="/futistietaja">
       <Futistietaja/>
     </Card>
-    <Card to="/perusterveys">
-      <PerusTerveys/>
+    <Card to="/smartly">
+      <Smartly/>
     </Card>
     <Card to="/pexraytech">
       <Pexraytech/>
