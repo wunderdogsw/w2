@@ -81,7 +81,7 @@ export default () => (
       </p>
       <Button to="https://yle.fi/urheilu/3-10531024" outlined >
         Play now
-    </Button>
+      </Button>
     </CallToAction>
   </Fragment>
 )
