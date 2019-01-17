@@ -75,13 +75,13 @@ export default () => (
       </p>
     </Chapter>
     <CallToAction>
-  <h4>Pum Pum Hiihto</h4>
-  <p>
-    Game is hosted on Yle's site go check it out
-  </p>
-  <Button to="https://yle.fi/urheilu/3-10531024" outlined >
-    Play now
-  </Button>
-</CallToAction>
+      <h4>Pum Pum Hiihto</h4>
+      <p>
+        Game is hosted on Yle's site go check it out
+      </p>
+    <Button to="https://yle.fi/urheilu/3-10531024" outlined >
+        Play now
+    </Button>
+    </CallToAction>
   </Fragment>
 )
