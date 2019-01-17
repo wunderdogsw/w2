@@ -7,17 +7,15 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
+import Stats from 'App/components/Stats'
 import DatLine from 'App/components/DatLine'
+import YoutubeVideo from 'App/components/YoutubeVideo'
+import { PumpumStats } from 'App/contents/stats'
+import CallToAction from 'App/components/CallToAction'
+import Button from 'App/components/Button'
 
 import heroThumb from './pumpum-hero-thumb.jpg'
 import hero from './pumpum-hero.png'
-import photo1Thumb from './smartly-photo1-thumb.jpg'
-import photo1 from './smartly-photo1.jpg'
-import photo2Thumb from './smartly-photo2-thumb.jpg'
-import photo2 from './smartly-photo2.jpg'
-import photo3Thumb from './smartly-photo3-thumb.jpg'
-import photo3 from './smartly-photo3.jpg'
 import summary from './smartly-summary.svg'
 
 
@@ -25,99 +23,65 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#FFBBC5',
-        '--color-text-on-accent': '#000',
+        '--color-accent': '#000',
+        '--color-text-on-accent': '#fff',
       }}
     </CssVars>
-    <MainTitle>Smartly.io</MainTitle>
-    <SubTitle useAsMetaTitle>Teamwork makes the dream work</SubTitle>
+    <MainTitle>Pumpum&shy;hiihto</MainTitle>
+    <SubTitle useAsMetaTitle>Bridgning the gap between TV and the audience</SubTitle>
     <DatLine />
-    <Keywords>DevOps</Keywords>
+    <Keywords>Categories: Best Design & Best Execution</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly.io" />
-    <Chapter>
-      <h4>Setting the scene</h4>
-      <p>
-        If you know anything about the Finnish startup scene, you’ve almost
-        certainly heard about Smartly.io. The success of the company has been
-        nothing short of staggering, with fast growth and an ever-increasing
-        number of clients using Smartly.io’s solution to optimize their social
-        media marketing.
-      </p>
-    </Chapter>
-    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly.io crew" />
-    <Chapter>
-      <h4>The bright idea</h4>
-      <p>
-        What if Smartly.io’s increasingly large and complex systems could be
-        iterated faster and more reliably?
-      </p>
-      <p>
-        Smartly.io got in touch to find out if we had any seasoned engineers
-        that could help do just that. And guess what? We did.
-      </p>
-    </Chapter>
+
     <Chapter>
       <h4>The inevitable challenge</h4>
       <p>
-        DevOps – the seamless interplay of people, technology, and processes –
-        is a good way to give developers solid ground to work on and develop a
-        product. But Smartly.io’s DevOps team needed some external help to
-        drive the bits of DevOps development that were otherwise getting neglected.
-        The existing continuous integration system was at full capacity, and the
-        development experience needed to be improved with easier development
-        environments and smoother deployments.
+        Yle, the Finland’s national public broadcaster, needed to rethink their
+        content to engage with the viewers and to bridge the gap between TV and
+        the audience. The challenge was to create content for younger audience
+        and making TV broadcast more immersive.
       </p>
     </Chapter>
-    <ImageRow>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 2" />
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Smartly crew 3" />
-    </ImageRow>
+    <YoutubeVideo videoId="3E0IeuA2xmY" />
     <Chapter>
-      <h4>Our hands-on solution</h4>
+      <h4>Our addictive solution</h4>
       <p>
-        We brought experience from multiple clients and different DevOps setups
-        that gave perspective to the discussion about how to best solve the
-        challenges at hand. This, combined with our ability to turn plans into
-        action, meant we were confident that the collaboration would deliver
-        the goods.
+        The solution is an easy and fast game that would captivate the
+        players. The idea itself is simple, but the challenge was in creating
+        it in an attractive way to engage players. At the same time, we needed
+        to keep in mind that the potential audience was huge, and the game would
+        also be played in live studios, so there was no room for bugs
+        development-wise
+      </p>
+      <p>
+        We started the design and development from scratch and created
+        Pumpumhiihto, a game where the player needs to ski as fast as possible
+        to the shooting ranges.
+      </p>
+      <p>
+        The essence of the game lays in its addictive idea and beautiful design.
       </p>
     </Chapter>
+    <Stats useAccent>
+        <PumpumStats />
+    </Stats>
     <Chapter>
-      <h4>So how did it go?</h4>
+      <h4>Project info</h4>
       <p>
-        This project is all about great collaboration, and our relationship
-        with Smartly.io has grown from strength to strength. The work has now
-        been going on for over a year and our strong contribution and the
-        progress made have shown that by joining forces we can deliver value
-        in a very demanding environment.
+        Customer: Yle<br/>
+        Design & Development: Wunderdog Oy<br/>
+        Cover Art: Brink Helsinki<br/>
+        Campaign is still ongoing and will finish on the 24th of March.
       </p>
     </Chapter>
-    <Chapter>
-      <h4>Success that speaks for itself</h4>
-      <p>
-        With the new continuous integration system we provided results are
-        delivered faster and more reliably. Development environments are
-        already easier and significantly faster to set up, saving time and
-        energy. And the DevOps team’s processes have also moved forward with
-        agile improvements such as Kanban, daily meetings, and retrospectives.
-        This collaboration continues to prove that working together is working
-        smartly.
-      </p>
-    </Chapter>
-    <Summary>
-      <Image src={ summary } alt="" />
-      <h4>The challenge</h4>
-      <p>
-        Assist the Smartly.io DevOps team with their work, migrating to a new
-        continuous integration system and improving the development
-        environments.
-      </p>
-      <h4>The result</h4>
-      <p>
-        A successful partnership leading to significant improvements in the
-        development environments, with faster test runs and better
-        modularization.
-      </p>
-    </Summary>
+    <CallToAction>
+  <h4>Pum Pum Hiihto</h4>
+  <p>
+    Game is hosted on Yle's site go check it out
+  </p>
+  <Button to="https://google.com" outlined >
+    Play now
+  </Button>
+</CallToAction>
   </Fragment>
 )

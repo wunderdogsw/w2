@@ -3,24 +3,20 @@ import React, { Fragment } from 'react'
 export default () => (
   <Fragment>
     <li>
-      <span>2014</span>
-      <span>Founded</span>
+      <span>74000</span>
+      <span>Games played</span>
     </li>
     <li>
-      <span>80</span>
-      <span>Wunderdogs</span>
+      <span>1.5 min</span>
+      <span>avg. play time</span>
     </li>
     <li>
-      <span>873</span>
-      <span>Custom Slack Emojis</span>
+      <span>340000</span>
+      <span>Page loads</span>
     </li>
     <li>
-      <span>3</span>
-      <span>Offices</span>
-    </li>
-    <li>
-      <span>1</span>
-      <span>Sauna</span>
+      <span>8+</span>
+      <span>Months spent playing in total</span>
     </li>
   </Fragment>
 )
