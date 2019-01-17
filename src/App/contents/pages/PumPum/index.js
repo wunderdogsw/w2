@@ -79,7 +79,7 @@ export default () => (
   <p>
     Game is hosted on Yle's site go check it out
   </p>
-  <Button to="https://google.com" outlined >
+  <Button to="https://yle.fi/urheilu/3-10531024" outlined >
     Play now
   </Button>
 </CallToAction>
