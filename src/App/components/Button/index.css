@@ -5,6 +5,8 @@
   box-sizing: border-box;
   min-width: 200px;
   min-height: 50px;
+  padding-left: calc(var(--spacing) / 8);
+  padding-right: calc(var(--spacing) / 8);
   background-color: var(--color-background);
   color: var(--color-text-on-background);
   font-size: 16px;
