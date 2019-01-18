@@ -16,7 +16,11 @@ import Button from 'App/components/Button'
 
 import heroThumb from './pumpum-hero-thumb.jpg'
 import hero from './pumpum-hero.png'
-import summary from './smartly-summary.svg'
+import photo1Thumb from './pumpum-photo1-thumb.jpg'
+import photo1 from './pumpum-photo1.png'
+import photo2Thumb from './pumpum-photo2-thumb.jpg'
+import photo2 from './pumpum-photo2.png'
+
 
 
 export default () => (
@@ -30,7 +34,7 @@ export default () => (
     <MainTitle>Pumpum&shy;hiihto</MainTitle>
     <SubTitle useAsMetaTitle>Bridgning the gap between TV and the audience</SubTitle>
     <DatLine />
-    <Keywords>Categories: Best Design & Best Execution</Keywords>
+    <Keywords>UI Design, UX Design & Development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly.io" />
 
     <Chapter>
@@ -42,7 +46,6 @@ export default () => (
         and making TV broadcast more immersive.
       </p>
     </Chapter>
-    <YoutubeVideo videoId="3E0IeuA2xmY" />
     <Chapter>
       <h4>Our addictive solution</h4>
       <p>
@@ -51,17 +54,28 @@ export default () => (
         it in an attractive way to engage players. At the same time, we needed
         to keep in mind that the potential audience was huge, and the game would
         also be played in live studios, so there was no room for bugs
-        development-wise
+        development-wise.
       </p>
       <p>
         We started the design and development from scratch and created
         Pumpumhiihto, a game where the player needs to ski as fast as possible
-        to the shooting ranges.
+        to the shooting ranges and answer to sports-related questions on each range.
       </p>
       <p>
-        The essence of the game lays in its addictive idea and beautiful design.
+        And the brilliance of the campaign is in its simplicity. Having design
+        and development working closely together made sure that the design and
+        technology were a perfect fit and nothing needless was done. We were
+        able to create something completely customised to fit the ultimate
+        campaign purpose of attracting younger audience and bridging the gap
+        between TV broadcasts and online content. Pumpumhiihto forms a big part
+        of Yle’s new direction of more interactive and multichannel content.
       </p>
     </Chapter>
+    <YoutubeVideo videoId="3E0IeuA2xmY" />
+    <ImageRow>
+      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly crew 2" />
+      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 3" />
+    </ImageRow>
     <Stats useAccent>
         <PumpumStats />
     </Stats>
@@ -71,17 +85,17 @@ export default () => (
         Customer: Yle<br/>
         Design & Development: Wunderdog Oy<br/>
         Cover Art: Brink Helsinki<br/>
-        Campaign is still ongoing and will finish on the 24th of March.
+        The game was launched at the begging of December 2018. The campaign is
+        still ongoing and will finish on the 24th of March.
       </p>
     </Chapter>
-    <CallToAction>
-      <h4>Pum Pum Hiihto</h4>
+    <Chapter>
+      <h4>Categories</h4>
       <p>
-        Game is hosted on Yle's site go check it out
+        Best Design (Paras Design)<br/>
+        Best Execution (Paras Toteutus)<br/>
       </p>
-      <Button to="https://yle.fi/urheilu/3-10531024" outlined >
-        Play now
-      </Button>
-    </CallToAction>
+    </Chapter>
+
   </Fragment>
 )
