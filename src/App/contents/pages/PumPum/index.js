@@ -13,7 +13,6 @@ import YoutubeVideo from 'App/components/YoutubeVideo'
 import { PumpumStats } from 'App/contents/stats'
 import CallToAction from 'App/components/CallToAction'
 import Button from 'App/components/Button'
-import TransitionLink from 'App/components/TransitionLink'
 
 import heroThumb from './pumpum-hero-thumb.jpg'
 import hero from './pumpum-hero.png'
@@ -60,7 +59,7 @@ export default () => (
         to the shooting ranges.
       </p>
       <p>
-        The essence of <TransitionLink to="http://google.com">the game</TransitionLink> lays in its addictive idea and beautiful design.
+        The essence of the game lays in its addictive idea and beautiful design.
       </p>
     </Chapter>
     <Stats useAccent>
