@@ -38,7 +38,7 @@ export default class extends Component {
     return (
       <Fragment>
         <MainTitle>{ FRAMES[frame] }</MainTitle>
-        <SubTitle useAsMetaTitle>404 content not found</SubTitle>
+        <SubTitle>404 content not found</SubTitle>
       </Fragment>
     )
   }
