@@ -30,7 +30,7 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, thumbSrc, src, asBackground, ...rest } = this.props
+    const { className, thumbSrc, src, asBackground, style, ...rest } = this.props
 
     return (
       <span className={ cs(
@@ -45,10 +45,11 @@ export default class extends Component {
           asBackground ? (
             <span
               className="Image__thumb"
-              style={{ backgroundImage: `url(${ thumbSrc })` }}
+              style={{ backgroundImage: `url(${ thumbSrc })`, ...style }}
             />
           ) : (
             <img { ...rest }
+              style={ style }
               src={ thumbSrc }
               className="Image__thumb"
             />
@@ -58,10 +59,11 @@ export default class extends Component {
           asBackground ? (
             <span
               className="Image__main"
-              style={{ backgroundImage: `url(${ src })` }}
+              style={{ backgroundImage: `url(${ src })`, ...style }}
             />
           ) : (
             <img { ...rest }
+              style={ style }
               src={ src }
               className="Image__main"
             />

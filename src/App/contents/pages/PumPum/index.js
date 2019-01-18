@@ -13,9 +13,10 @@ import YoutubeVideo from 'App/components/YoutubeVideo'
 import { PumpumStats } from 'App/contents/stats'
 import CallToAction from 'App/components/CallToAction'
 import Button from 'App/components/Button'
+import PumPumCustomHero from './PumPumCustomHero'
 
-import heroThumb from './pumpum-hero-thumb.jpg'
-import hero from './pumpum-hero.png'
+// import heroThumb from './pumpum-hero-thumb.jpg'
+// import hero from './pumpum-hero.png'
 import photo1Thumb from './pumpum-photo1-thumb.jpg'
 import photo1 from './pumpum-photo1.png'
 import photo2Thumb from './pumpum-photo2-thumb.jpg'
@@ -35,7 +36,8 @@ export default () => (
     <SubTitle useAsMetaTitle>Bridgning the gap between TV and the audience</SubTitle>
     <DatLine />
     <Keywords>UI Design, UX Design & Development</Keywords>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly.io" />
+
+    <PumPumCustomHero />
 
     <Chapter>
       <h4>The inevitable challenge</h4>
