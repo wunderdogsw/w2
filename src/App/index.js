@@ -8,6 +8,7 @@ import Footer from 'App/components/Footer'
 import Home from 'App/routes/Home'
 import Page from 'App/routes/Page'
 import { LetsTalk } from 'App/contents/callToActions'
+import { LetsPlay } from 'App/contents/callToActions'
 import {
   FooterBottom,
   // CookieDisclamer,
@@ -66,6 +67,7 @@ export default () => (
       <Footer>
         <Switch>
           <Route path="/contact" />
+          <Route path="/pumpum" component={ LetsPlay }/>
           <Route path="*" component={ LetsTalk }/>
         </Switch>
         <FooterBottom />
