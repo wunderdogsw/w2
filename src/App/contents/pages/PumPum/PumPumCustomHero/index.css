@@ -3,6 +3,7 @@
   padding-left: 0;
   padding-right: 0;
   height: 540px;
+  overflow: hidden;
 }
 
 
@@ -11,13 +12,20 @@
 .PumPumCustomHero__world {
   display: block;
   overflow: hidden;
+  background: linear-gradient(
+    #a1d7f5 64%,
+    #fff 64%, #fff 73%,
+    #eff7fc 73%, #eff7fc 79%,
+    #fff 79%
+  );
+  width: 100%;
+  height: 100%;
 }
 
 .PumPumCustomHero__world > span {
   position: absolute;
   left: 0;
   display: block;
-  animation-name: PumPumCustomHeroWorldLoop;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -26,32 +34,42 @@
   background-repeat: repeat;
 }
 
+@media (width < 768px) {
+  .PumPumCustomHero__world > span {
+    display: none;
+  }
+}
 
 
 
-.PumPumCustomHero__background {
+
+span.PumPumCustomHero__background {
+  animation-name: PumPumCustomHeroWorldLoop;
   width: 12398px;
   height: 540px;
   animation-duration: 12s;
 }
 
-.PumPumCustomHero__background > span {
+span.PumPumCustomHero__background > span {
   background-size: 6199px;
 }
 
 
 
-.PumPumCustomHero__foreground {
+
+
+span.PumPumCustomHero__foreground {
   top: 60px;
-  animation-name: PumPumCustomHeroWorldLoop2 !important;
+  animation-name: PumPumCustomHeroWorldLoop2;
   width: 7196px;
   height: 450px;
   animation-duration: 4s;
 }
 
-.PumPumCustomHero__foreground > span {
+span.PumPumCustomHero__foreground > span {
   background-size: 3598px;
 }
+
 
 
 
