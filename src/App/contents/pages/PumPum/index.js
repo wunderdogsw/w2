@@ -33,7 +33,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle>Pumpum&shy;hiihto</MainTitle>
-    <SubTitle useAsMetaTitle>Bridgning the gap between TV and the audience</SubTitle>
+    <SubTitle useAsMetaTitle>Bridging the gap between TV and the audience</SubTitle>
     <DatLine />
     <Keywords>UI Design, UX Design & Development</Keywords>
 
