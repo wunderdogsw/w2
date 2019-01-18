@@ -1,0 +1,109 @@
+.PumPumCustomHero {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  height: 540px;
+}
+
+
+
+
+.PumPumCustomHero__world {
+  display: block;
+  overflow: hidden;
+}
+
+.PumPumCustomHero__world > span {
+  position: absolute;
+  left: 0;
+  display: block;
+  animation-name: PumPumCustomHeroWorldLoop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.PumPumCustomHero__world > span > span {
+  background-repeat: repeat;
+}
+
+
+
+
+.PumPumCustomHero__background {
+  width: 12398px;
+  height: 540px;
+  animation-duration: 12s;
+}
+
+.PumPumCustomHero__background > span {
+  background-size: 6199px;
+}
+
+
+
+.PumPumCustomHero__foreground {
+  top: 60px;
+  animation-name: PumPumCustomHeroWorldLoop2 !important;
+  width: 7196px;
+  height: 450px;
+  animation-duration: 4s;
+}
+
+.PumPumCustomHero__foreground > span {
+  background-size: 3598px;
+}
+
+
+
+
+.PumPumCustomHero__skier {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110px);
+}
+
+.PumPumCustomHero__skier > span {
+  animation-name: PumPumCustomHeroSkierLoop;
+  animation-duration: 500ms;
+  animation-timing-function: steps(4);
+  animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes PumPumCustomHeroWorldLoop {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-6199px, 0, 0);
+  }
+}
+
+@keyframes PumPumCustomHeroWorldLoop2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-3598px, 0, 0);
+  }
+}
+
+
+
+
+@keyframes PumPumCustomHeroSkierLoop {
+  0%, 100% {
+    background-position: 0px;
+  }
+
+  50% {
+    background-position: -1000px;
+  }
+}
