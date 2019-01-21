@@ -4,7 +4,7 @@ export default () => (
   <Fragment>
     <li>
       <span>74000</span>
-      <span>Games played</span>
+      <span>Registered users</span>
     </li>
     <li>
       <span>1.5 min</span>
@@ -12,7 +12,7 @@ export default () => (
     </li>
     <li>
       <span>340000</span>
-      <span>Page loads</span>
+      <span>Games played</span>
     </li>
     <li>
       <span>8+</span>
