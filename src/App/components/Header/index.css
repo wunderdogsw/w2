@@ -22,8 +22,8 @@
 .Header--animate {
   opacity: 0;
   transition-property: opacity transform;
-  transition-delay: 2s;
-  transition-duration: var(--animation-duration-super-slow);
+  transition-delay: 1s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: var(--animation-ease);
 }
 

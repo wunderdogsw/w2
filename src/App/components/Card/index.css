@@ -11,13 +11,6 @@
   transition-property: transform box-shadow;
   transition-duration: 200ms;
   transition-timing-function: var(--animation-ease);
-
-  &:hover {
-    box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.1);
-    transform:
-      translate3d(0, -4px, 0)
-      scale3d(1.005, 1.005, 1);
-  }
 }
 
 .Card > * {
@@ -38,4 +31,16 @@
   opacity: 0.5;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.Card > h4 > span {
+  width: calc(100%);
+  background-image: linear-gradient(transparent calc(100% - 2px), black 2px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 400ms;
+}
+
+.Card:hover > h4 > span {
+  background-size: 100% 100%;
 }
