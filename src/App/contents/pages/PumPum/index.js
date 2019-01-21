@@ -92,7 +92,7 @@ export default () => (
 
         <strong>Cover Art:</strong><br/>
         Brink Helsinki<br/><br/>
-        The game was launched at the begging of December 2018. The campaign is
+        The game was launched at the beginning of December 2018. The campaign is
         still ongoing and will finish on the 24th of March.
       </p>
     </Chapter>
