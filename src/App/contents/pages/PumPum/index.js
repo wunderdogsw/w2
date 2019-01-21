@@ -84,9 +84,14 @@ export default () => (
     <Chapter>
       <h4>Project info</h4>
       <p>
-        Customer: Yle<br/>
-        Design & Development: Wunderdog Oy<br/>
-        Cover Art: Brink Helsinki<br/>
+        <strong>Customer:</strong><br/>
+        Yle<br/><br/>
+
+        <strong>Design & Development:</strong><br/>
+        Wunderdog Oy<br/><br/>
+
+        <strong>Cover Art:</strong><br/>
+        Brink Helsinki<br/><br/>
         The game was launched at the begging of December 2018. The campaign is
         still ongoing and will finish on the 24th of March.
       </p>
