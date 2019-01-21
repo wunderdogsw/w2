@@ -1,7 +1,6 @@
 import './index.css'
 import React, { Component, createRef } from 'react'
 import cs from 'classnames'
-import Tilt from 'react-tilt'
 
 export default class extends Component {
   state = {
@@ -40,11 +39,11 @@ export default class extends Component {
           children={
             children.map(([alt, url], i) => (
               <li title={ alt } key={ `${url}-${i}` }>
-                <Tilt options={{ reverse: true, scale: 1.05, reset: true }}>
+                <div>
                   <div
                     style={{ backgroundImage: `url(${ url })` }}
                   />
-                </Tilt>
+                </div>
               </li>
             ))
           }
