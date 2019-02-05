@@ -13,12 +13,56 @@ export default () => (
     <Chapter>
       <h4>What cookies are used? </h4>
       <p>
-        Cookies may be either "persistent" cookies or "session" cookies. A
-        persistent cookie consists of a text file sent to a web browser, which
-        will be stored by the browser and will remain valid until its specified
-        expiry date (unless deleted by the user before the expiry date). A session
-        cookie, on the other hand, will expire at the end of the user session,
-        when the web browser is closed.
+        We only use cookies to improve our website experience. Cookies may be
+        either "persistent" cookies or "session" cookies. A persistent cookie
+        consists of a text file sent to a web browser, which will be stored by
+        the browser and will remain valid until its specified expiry date (unless
+        deleted by the user before the expiry date). A session cookie, on the
+        other hand, will expire at the end of the user session, when the web
+        browser is closed. Cookies are small text files that a browser saves on
+        your device and they are used, for example, when a service wants to save
+        your information when moving from one website to another. If you do not
+        want to use cookies, you can change your cookie settings at any time in
+        your browser. Please note that disabling cookies might impact the how
+        our website functions.
+      </p>
+      <p>
+        When you access our website, we ask for your consent to allow us to store
+        the following cookies on your device:
+      </p>
+      <p>
+        <b>Google Analytics</b> – We use Google Analytics to collect information about
+        how users behave on our website. We use the information to compile
+        reports and to help us improve the site. These cookies collect the number
+        of visitors to the website, where visitors have come to the website
+        from and the pages they visited. You can read more about these cookies
+        and how Google safeguard them here.
+      </p>
+      <p>
+        <b>Twitter Analytics</b> – We use Twitter Analytics to measure Twitter campaign
+        efficiency.
+      </p>
+      <p>
+        <b>Facebook pixel</b> – We use Facebook Pixel to measure, optimize and build
+        audiences for our advertising campaigns served on Facebook. It allows
+        us to see how users move between devices when accessing our website and
+        Facebook and targeting Facebook advertising to users most likely
+        interested in such advertising by analyzing which content the user has
+        viewed on our website. For more information about Facebook Pixel,
+        please see here.
+      </p>
+      <p>
+        <b>Reddit</b> – We use Reddit Analytics to measure Reddit campaign efficiency.
+      </p>
+      <p>
+        <b>LinkedIn Insights</b> – We use LinkedIn Insights to measure LinkedIn campaign
+        efficiency.
+      </p>
+      <p>
+        <b>Hubspot</b> – We use Hubspot to analyze the use of our website, administer
+        the website and track users’ movements around the website. We also use
+        Hubspot for tracking our email marketing. For more information about
+        Hubspot, please see here.
       </p>
       <p>
         We only use cookies necessary to run and improve our website experience.
