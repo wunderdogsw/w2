@@ -12,11 +12,11 @@ export default () => (
     <Card to="/Oodi">
       <Oodi/>
     </Card>
-    <Card to="/futistietaja">
-      <Futistietaja/>
-    </Card>
     <Card to="/smartly">
-      <Smartly/>
+      <Smartly.io/>
+    </Card>
+    <Card to="/redbull">
+      <Redbull/>
     </Card>
     <Card to="/pexraytech">
       <Pexraytech/>
