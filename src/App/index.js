@@ -4,14 +4,14 @@ import { State } from 'App/state'
 import Splash from 'App/components/Splash'
 import Header from 'App/components/Header'
 import Footer from 'App/components/Footer'
-// import CookieMonster from 'App/components/CookieMonster'
+import CookieMonster from 'App/components/CookieMonster'
 import Home from 'App/routes/Home'
 import Page from 'App/routes/Page'
 import { LetsTalk } from 'App/contents/callToActions'
 import { LetsPlay } from 'App/contents/callToActions'
 import {
   FooterBottom,
-  // CookieDisclamer,
+  CookieDisclamer,
 } from 'App/contents/other'
 
 export default () => (
@@ -76,9 +76,9 @@ export default () => (
       <Splash />
 
       {/* Enable Cookiemonster to show cookie disclamer */}
-      {/* <CookieMonster>
+      <CookieMonster>
         <CookieDisclamer />
-      </CookieMonster> */}
+      </CookieMonster>
     </State>
   </BrowserRouter>
 )
