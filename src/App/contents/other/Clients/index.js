@@ -8,7 +8,7 @@ import logoRedbull from './logo-redbull.png'
 import logoRovio from './logo-rovio.png'
 import logoSanomaPro from './logo-sanoma-pro.png'
 import logoSmartly from './logo-smartly.png'
-import logoYle from './logo-yle.png'
+import logoAlma from './logo-alma.png'
 
 export default () => (
   <Fragment>
@@ -19,7 +19,7 @@ export default () => (
     </p>
     <LogoGrid>
       {[
-        ['Yle', logoYle],
+        ['Alma', logoAlma],
         ['Barona', logoBarona],
         ['Smartly', logoSmartly],
         ['Sanoma Pro', logoSanomaPro],
