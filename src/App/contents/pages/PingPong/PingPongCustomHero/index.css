@@ -1,0 +1,105 @@
+.PingPongCustomHero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  height: calc(85vh - 160px);
+  width: 100vw;
+}
+
+.PingPongCustomHero > .MainTitle {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: 20px;
+}
+
+.PingPongCustomHero > svg {
+  width: 500px;
+  max-width: 60vw;
+  height: auto;
+}
+
+.PingPongCustomHero > svg > .ping {
+  fill: #d11515;
+}
+
+.PingPongCustomHero > svg > .pong {
+  fill: #0e71d8;
+}
+
+.PingPongCustomHero > svg > .tournament {
+  fill: #fff;
+}
+
+@keyframes fadeInDown {
+  0%   {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.PingPongCustomHero > .PingPongBall {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  max-width: 120px;
+  max-height: 120px;
+  top: 0;
+  left: 0;
+  transform: translate(-250px, 50vh);
+  animation: animateCustomBall 5.5s infinite;
+  will-change: transform;
+}
+
+.PingPongCustomHero > .PingPongBall > circle {
+  fill: url(#PingPongBallGradient);
+}
+
+@keyframes animateCustomBall {
+  0%   {
+    transform: translate(-250px, 50vh);
+  }
+  10% {
+    transform: translate(calc(100vw + 250px), 0));
+  }
+  20% {
+    transform: translate(-250px, 0);
+  }
+  30% {
+    transform: translate(calc(110vw + 250px), 60vh);
+  }
+  45% {
+    transform: translate(-250px, 60vh);
+  }
+  60% {
+    transform: translate(calc(110vw + 250px), 0);
+  }
+  70% {
+    transform: translate(-250px, 20vh);
+  }
+  90% {
+    transform: translate(calc(110vw + 250px), 50vh);
+  }
+  95% {
+    transform: translate(-250px, 50vh);
+  }
+}
+
+.PingPongCustomHero > .PingPongBallShadow {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  max-width: 120px;
+  max-height: 120px;
+  top: 0;
+  left: 0;
+  fill: rgba(0,0,0,0.2);
+  transform: translate(-140px, 52vh);
+}
