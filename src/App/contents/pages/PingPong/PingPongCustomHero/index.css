@@ -8,6 +8,7 @@
   margin-top: 0;
   height: calc(85vh - 160px);
   width: 100vw;
+  overflow: hidden;
 }
 
 .PingPongCustomHero > .MainTitle {
@@ -33,16 +34,6 @@
 
 .PingPongCustomHero > svg > .tournament {
   fill: #fff;
-}
-
-@keyframes fadeInDown {
-  0%   {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .PingPongCustomHero > .PingPongBall {
@@ -73,7 +64,7 @@
     transform: translate(-250px, 0);
   }
   30% {
-    transform: translate(calc(110vw + 250px), 60vh);
+    transform: translate(calc(110vw + 250px), 40vh);
   }
   45% {
     transform: translate(-250px, 60vh);
@@ -85,21 +76,9 @@
     transform: translate(-250px, 20vh);
   }
   90% {
-    transform: translate(calc(110vw + 250px), 50vh);
+    transform: translate(calc(110vw + 250px), 30vh);
   }
   95% {
-    transform: translate(-250px, 50vh);
+    transform: translate(-250px, 40vh);
   }
-}
-
-.PingPongCustomHero > .PingPongBallShadow {
-  position: absolute;
-  width: 15vw;
-  height: 15vw;
-  max-width: 120px;
-  max-height: 120px;
-  top: 0;
-  left: 0;
-  fill: rgba(0,0,0,0.2);
-  transform: translate(-140px, 52vh);
 }
