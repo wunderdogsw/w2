@@ -4,12 +4,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   bottom: 0;
   left: 0;
   right: 0;
   box-sizing: border-box;
   padding: calc(var(--spacing-small) / 2);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+
+  @media ( width <= 768px ) {
+    padding: calc(var(--spacing-small) / 4);
+  }
 
   &::before {
     content: ' ';
@@ -28,6 +33,12 @@
 
   & > p {
     font-size: 12px;
+
+    @media ( width <= 768px ) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 6px;
+    }
 
     & > a {
       text-decoration: underline;
