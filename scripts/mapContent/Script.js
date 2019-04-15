@@ -20,6 +20,7 @@ fs.readdirSync(contentDir).forEach(dir => {
     .filter( subDir => subDir !== 'index.js')
     .forEach( subDir => {
       if (!fs.lstatSync(`${path}/${subDir}`).isDirectory()) return
+      if (!fs.existsSync(`${path}/${subDir}/index.js`)) return
       if (subDir.includes(' ')) throw new Error(`Dir names cannot contain spaces => '${subDir}'`)
       rows.push(`export const ${subDir} = importedComponent(() => import('./${subDir}'))`)
     })
