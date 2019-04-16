@@ -66,6 +66,7 @@ export default () => (
       </Switch>
       <Footer>
         <Switch>
+          <Route path="/pahkina" />
           <Route path="/pingpong" />
           <Route path="/contact" />
           <Route path="/pumpum" component={ LetsPlay }/>
