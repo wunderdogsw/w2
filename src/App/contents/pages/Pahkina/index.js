@@ -20,8 +20,10 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#f7f7f7',
-        '--color-text-on-accent': '#000',
+        '--color-accent': '#444444',
+        '--color-text-on-accent': '#ffffff',
+        '--color-background': '#000',
+        '--text-on-background': '#fff',
       }}
     </CssVars>
     <MainTitle>Wundernut</MainTitle>
