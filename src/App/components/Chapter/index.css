@@ -3,7 +3,7 @@
   box-sizing: border-box;
 
   @media (width >= 1024px) {
-    display: grid;
+    display: var(--chapter-large-device-display, grid);
     grid-template-columns: 1fr 1fr;
     grid-column-gap: var(--spacing-small);
   }
