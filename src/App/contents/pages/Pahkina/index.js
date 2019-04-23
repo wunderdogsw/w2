@@ -25,7 +25,8 @@ export default () => (
         '--color-text-on-accent': '#ffffff',
         '--color-background': '#000',
         '--text-on-background': '#fff',
-        '--chapter-large-device-display': 'block'
+        '--chapter-large-device-display': 'block',
+        '--body-font-size': '16px'
       }}
     </CssVars>
     <MainTitle>Wundernut</MainTitle>
