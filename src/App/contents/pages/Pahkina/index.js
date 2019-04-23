@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import Highlight from 'react-highlight'
 import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
@@ -32,9 +33,8 @@ export default () => (
     <SubTitle useAsMetaTitle>01/2019 Doggolang</SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Pahkina" />
     <Chapter>
-
-      <p>
       <h4>The problem</h4>
+      <p>
       The dogs have developed a new programming language to advance their
       control over the world! We have obtained some samples of their source
       code and have deciphered most of it but can't put it all together.
@@ -44,38 +44,87 @@ export default () => (
     </Chapter>
     <Chapter>
       <h4>This is what we know</h4>
-      </Chapter>
-      <Chapter>
-      <p>
-      lassie AWOO 5
-      luna AWOO 6
-      bailey AWOO lassie WOOF luna
-      bailey
-      </p>
+      <Highlight className='plaintext'>
+{`lassie AWOO 5
+luna AWOO 6
+bailey AWOO lassie WOOF luna
+bailey`}
+      </Highlight>
       <p>
       Result is 11
       </p>
-      <Chapter>
-      </Chapter>
-      <p>
-      roi AWOO 5
-      RUF? roi YAP 2 VUH
-      roi AWOO roi ARF 3
-      ROWH
-      roi AWOO roi WOOF 100
-      ARRUF
-      roi
-      </p>
+    </Chapter>
+    <Chapter>
+      <Highlight className='plaintext'>
+{`roi AWOO 5
+RUF? roi YAP 2 VUH
+    roi AWOO roi ARF 3
+ROWH
+    roi AWOO roi WOOF 100
+ARRUF
+roi`}
+      </Highlight>
       <p>
       Result is 15
       </p>
+    </Chapter>
+    <Chapter>
+    <Highlight className='plaintext'>
+{`roi AWOO 5
+RUF? roi YIP 2 VUH
+  roi AWOO roi ARF 3
+ROWH
+  roi AWOO roi WOOF 100
+ARRUF
+roi`}
+    </Highlight>
+    <p>
+    result is 105
+    </p>
+    </Chapter>
+    <Chapter>
+    <Highlight className='plaintext'>
+{`quark AWOO 6 BARK 2
+gromit AWOO 5
+milo AWOO 0
+GRRR milo YIP gromit BOW
+    quark AWOO quark WOOF 3
+    milo AWOO milo WOOF 1
+BORF
+quark`}
+    </Highlight>
+    <p>
+    result is 19
+    </p>
     </Chapter>
     <Chapter>
       <h4>The task</h4>
       <p>
         Please run this very important code and return the result and your
         interpreter source code to us as soon as possible:Kuva
-
+      </p>
+      <Highlight className='plaintext'>
+{`samantha AWOO 1
+hooch AWOO 500
+einstein AWOO 10
+fuji AWOO 0
+GRRR fuji YIP hooch BOW
+    samantha AWOO samantha WOOF 3
+    RUF? samantha YAP 100 VUH
+      samantha AWOO samantha BARK 1
+    ROWH
+      einstein AWOO einstein WOOF 1
+      samantha AWOO samantha ARF einstein
+    ARRUF
+    fuji AWOO fuji WOOF 1
+BORF
+GRRR fuji YAP 0 BOW
+    samantha AWOO samantha WOOF 375
+    fuji AWOO fuji BARK 3
+BORF
+samantha`}
+      </Highlight>
+      <p>
         Your's truly,
         Leader Of Litter, Cat At Top
       </p>
