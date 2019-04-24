@@ -58,7 +58,7 @@ export default () => (
         You should register here before 7 May 2019.
       </p>
       <p>
-        The tournament takes place on Thursday 17 May at 16.00. The
+        The tournament takes place on Thursday 16 May at 16.00. The
         location of the tournament is at Wuffice HQ: Mikonkatu 13 A,
         00100 Helsinki. After the Tournament, we will have the Sauna ready for
         you! Snacks & refreshments are provided.
