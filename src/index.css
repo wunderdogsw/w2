@@ -190,3 +190,21 @@ a {
 .breakAll {
   word-break: break-all;
 }
+
+input.hs-input,
+input.hs-button {
+    font-size: 16px;
+}
+
+input[type=text].hs-input,
+input[type=email].hs-input {
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    padding: 0 15px;
+    border-style: solid;
+}
+
+div.hs-form-field {
+    margin-bottom: 20px;
+}
