@@ -25,10 +25,10 @@ export default () => (
 
     <SubTitle alt narrow>
       Our passion for table tennis is real, and we’ve heard rumours that there
-      are other ping pong lovers too. We are organizing a very first Table Tennis
+      are other ping-pong lovers too. We are organizing the very first Table Tennis
       Tournament between the tech companies in Helsinki to clear up who
       owns the game. At least in 2019! So pick your team, sharpen your
-      strategy and be ready for the battle!
+      strategy and get ready for the battle!
     </SubTitle>
 
     <Chapter>
