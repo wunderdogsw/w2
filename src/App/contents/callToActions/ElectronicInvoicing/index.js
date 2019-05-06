@@ -5,9 +5,9 @@ export default () => (
     <h1>Electronic Invoicing</h1>
     <p>
       Wunderdog Oy (2617416-4)<br />
-      Basware Oyj<br />
+      Pagero Oy<br />
       003726174164<br />
-      BAWCFI22
+      PAGERO
     </p>
   </Fragment>
 )
