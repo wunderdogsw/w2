@@ -1,0 +1,23 @@
+.PahkinaCustomHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: calc(var(--spacing-small)*4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.PahkinaCustomHeader > .Logo > svg {
+  height: auto;
+  width: 180px;
+  fill: #fff;
+}
