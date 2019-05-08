@@ -66,6 +66,7 @@ export default () => (
       </Switch>
       <Footer>
         <Switch>
+          <Route path="/pahkina" />
           <Route path="/pingpong" />
           <Route path="/contact" />
           <Route path="/pumpum" component={ LetsPlay }/>
@@ -74,10 +75,12 @@ export default () => (
         <FooterBottom />
       </Footer>
       <Switch>
+        <Route path="/pahkina" />
         <Route path="/pingpong" />
         <Route path="*" component={ Header }/>
       </Switch>
       <Switch>
+        <Route path="/pahkina" />
         <Route path="/pingpong" />
         <Route path="*" component={ Splash }/>
       </Switch>
@@ -85,6 +88,7 @@ export default () => (
       {/* Enable Cookiemonster to show cookie disclamer */}
       <CookieMonster>
         <Switch>
+          <Route path="/pahkina" />
           <Route path="/pingpong" />
           <Route path="*" component={ CookieDisclamer }/>
         </Switch>

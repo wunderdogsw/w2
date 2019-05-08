@@ -1,0 +1,135 @@
+label {
+  font-size: 15px;
+}
+
+fieldset,
+.field {
+  margin: 0 0 20px 0;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.hs-input[type="file"] {
+  padding: 5px 0 !important;
+}
+
+textarea,
+input {
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 5px 10px !important;
+  font-size: 15px;
+  border: 0;
+  box-sizing: border-box;
+  background: none;
+  color: #fff;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+legend {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.hs-error-msgs {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.hs-error-msgs label {
+  font-size: 10px;
+}
+
+.hs-error-msgs li {
+  margin: 0;
+  display: block;
+}
+
+input[type="submit"] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 200px;
+  min-height: 50px;
+  padding-left: calc(var(--spacing) / 8);
+  padding-right: calc(var(--spacing) / 8);
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  border: 0;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #c9c9c9;
+  color: #000;
+}
+
+.inputs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hs-richtext p {
+  font-size: 10px;
+  color: grey;
+}
+
+.hs-richtext em {
+  font-style: normal;
+}
+
+.inputs-list strong {
+  font-weight: normal;
+}
+
+.legal-consent-container {
+  margin-bottom: 20px;
+}
+
+.hs-form-booleancheckbox-display p {
+  font-size: 12px;
+  line-height: 1;
+  padding-left: 5px;
+}
+
+pre {
+  font-size: 16px;
+  padding: 15px;
+  line-height: 1.5;
+  background: #070707;
+  border: 1px solid #1e1e1e;
+}
+
+small {
+  opacity: .5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.PahkinaCountdown {
+  font-family: monospace;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: rgb(108, 109, 184);
+}
