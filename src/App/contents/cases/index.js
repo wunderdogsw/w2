@@ -3,5 +3,3 @@
 
 import importedComponent from 'react-imported-component'
 
-export const Pexraytech = importedComponent(() => import('./Pexraytech'))
-export const Smartly = importedComponent(() => import('./Smartly'))

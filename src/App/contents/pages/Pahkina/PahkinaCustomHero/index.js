@@ -2,8 +2,8 @@ import './index.css'
 import React, { Component } from 'react'
 import MainTitle from 'App/components/MainTitle'
 import Image from 'App/components/Image'
-import hero from './pahkina-hero.png'
-import heroThumb from './pahkina-hero-thumb1.jpg'
+import hero from './pahkina.jpg'
+import heroThumb from './pahkina-thumb.jpg'
 
 export default () => (
   <div className="PahkinaCustomHero">

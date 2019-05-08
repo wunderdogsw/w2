@@ -13,6 +13,10 @@ input[type="email"] {
   border-bottom: 1px solid #fff;
 }
 
+.hs-input[type="file"] {
+  padding: 5px 0 !important;
+}
+
 textarea,
 input {
   font-family: 'Nunito Sans', sans-serif;
@@ -100,9 +104,32 @@ input[type="submit"]:hover {
   margin-bottom: 20px;
 }
 
-.Logo > svg {
-  height: auto;
-  width: 180px;
-  fill: #fff;
-  align-content: center;
+.hs-form-booleancheckbox-display p {
+  font-size: 12px;
+  line-height: 1;
+  padding-left: 5px;
+}
+
+pre {
+  font-size: 16px;
+  padding: 15px;
+  line-height: 1.5;
+  background: #070707;
+  border: 1px solid #1e1e1e;
+}
+
+small {
+  opacity: .5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.PahkinaCountdown {
+  font-family: monospace;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: rgb(108, 109, 184);
 }

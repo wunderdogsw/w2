@@ -3,12 +3,9 @@ import React, { Fragment } from 'react'
 import Highlight from 'react-highlight'
 import HubspotForm from 'react-hubspot-form'
 import CssVars from 'App/components/CssVars'
-import SubTitle from 'App/components/SubTitle'
-import Keywords from 'App/components/Keywords'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import DatLine from 'App/components/DatLine'
-import YoutubeVideo from 'App/components/YoutubeVideo'
+import SubTitle from 'App/components/SubTitle'
 import PahkinaCustomHeader from './PahkinaCustomHeader'
 import PahkinaCustomHero from './PahkinaCustomHero'
 
@@ -23,26 +20,22 @@ export default () => (
         '--color-background': '#000',
         '--text-on-background': '#fff',
         '--chapter-large-device-display': 'block',
-        '--body-font-size': '16px',
-        '--text-content-max-width': '900px'
+        '--body-font-size': '16px'
       }}
     </CssVars>
     <PahkinaCustomHeader/>
     <PahkinaCustomHero/>
 
-    <Chapter>
-      <div style={{fontSize: '4em', textAlign: 'center'}}>
-        <Countdown date={1559519999000} />
-      </div>
-    </Chapter>
+    <div className={'PahkinaCountdown'}>
+      <Countdown date={1559519999000} />
+    </div>
 
-    <Chapter>
-      <p>
+    <SubTitle alt narrow>
       Time to give our brain a puzzle before the summer holidays! Our doggos
       have once again put their minds and hearts into developing a
       coding challenge for you. Have fun with it!
-      </p>
-    </Chapter>
+    </SubTitle>
+
     <Chapter>
       <h4>The problem</h4>
       <p>
@@ -61,11 +54,9 @@ luna AWOO 6
 bailey AWOO lassie WOOF luna
 bailey`}
       </Highlight>
-      <p>
+      <small>
       Result is 11
-      </p>
-    </Chapter>
-    <Chapter>
+      </small>
       <Highlight className='plaintext'>
 {`roi AWOO 5
 RUF? roi YAP 2 VUH
@@ -75,11 +66,9 @@ ROWH
 ARRUF
 roi`}
       </Highlight>
-      <p>
+      <small>
       Result is 15
-      </p>
-    </Chapter>
-    <Chapter>
+      </small>
     <Highlight className='plaintext'>
 {`roi AWOO 5
 RUF? roi YIP 2 VUH
@@ -89,11 +78,9 @@ ROWH
 ARRUF
 roi`}
     </Highlight>
-    <p>
-    result is 105
-    </p>
-    </Chapter>
-    <Chapter>
+    <small>
+    Result is 105
+    </small>
     <Highlight className='plaintext'>
 {`quark AWOO 6 BARK 2
 gromit AWOO 5
@@ -104,9 +91,9 @@ GRRR milo YIP gromit BOW
 BORF
 quark`}
     </Highlight>
-    <p>
-    result is 19
-    </p>
+    <small>
+    Result is 19
+    </small>
     </Chapter>
     <Chapter>
       <h4>The task</h4>
@@ -163,11 +150,11 @@ samantha`}
       used in the submitted solutions.
       </li>
       <li>
-        Submit your via the form below at latest June 7th 2019.
+        Submit your solution via the form below by June 2nd 2019 2:00am.
       </li>
       <li>
         The winner is chosen by our Wunderdog jury and he/she will be awarded
-        with Withings Steel activity watch.
+        with Withings Steel activity watch. The jury meets on the 7th of June. 
       </li>
       </ul>
       <p>
@@ -183,13 +170,11 @@ samantha`}
         formId='7f85dd29-488a-473c-9c65-bf74b4daf245'
         css=''
       />
+      <p>
+      Read the Wundernut task in Github here.
+      </p>
     </Chapter>
 
-    <Chapter>
-    <h4>
-    Share your thoughts and spread the challenge #Wundernut
-    </h4>
-    </Chapter>
 
 
   </Fragment>
