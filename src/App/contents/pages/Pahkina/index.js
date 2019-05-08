@@ -153,8 +153,8 @@ samantha`}
         Submit your solution via the form below by June 2nd 2019 2:00am.
       </li>
       <li>
-        The winner is chosen by our Wunderdog jury and he/she will be awarded
-        with Withings Steel activity watch. The jury meets on the 7th of June. 
+        The winner is chosen by our Wunderdog jury and they will be awarded
+        with Withings Steel activity watch. The jury meets on the 7th of June.
       </li>
       </ul>
       <p>
@@ -171,7 +171,7 @@ samantha`}
         css=''
       />
       <p>
-      Read the Wundernut task in Github here.
+      Read the Wundernut task in Github <a href="https://github.com/wunderdogsw/wunderpahkina-vol10" target="_blank">here</a>.
       </p>
     </Chapter>
 
