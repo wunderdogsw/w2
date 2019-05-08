@@ -124,6 +124,7 @@ samantha`}
       </Highlight>
       <p>
         Your's truly,
+        <br/>
         Leader Of Litter, Cat At Top
       </p>
     </Chapter>
@@ -150,7 +151,7 @@ samantha`}
       used in the submitted solutions.
       </li>
       <li>
-        Submit your solution via the form below by June 2nd 2019 2:00am.
+        Submit your solution via the form below by June 2nd 2019 2:00am Finnish time (GMT+3).
       </li>
       <li>
         The winner is chosen by our Wunderdog jury and they will be awarded
