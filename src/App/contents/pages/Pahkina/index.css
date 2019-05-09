@@ -116,7 +116,7 @@ pre {
   line-height: 1.5;
   background: #070707;
   border: 1px solid #1e1e1e;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 small {
