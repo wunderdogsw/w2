@@ -137,14 +137,12 @@ samantha`}
         You can use any programming language to solve the problem.
       </li>
       <li>
-        The solution must contain the right answer.
+        The solution must include the source to general Doggolang interpreter that can run any Doggolang code.<br/>
+        Find and replace type of solution is not an answer we are looking for.
       </li>
       <li>
         The winner will be the most elegant solution, decided by the Wundernut
         jury.
-      </li>
-      <li>
-        Performance is a part of elegance.
       </li>
       <li>
       The participant gives Wunderdog the right to publish their source code
