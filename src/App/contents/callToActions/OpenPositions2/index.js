@@ -5,9 +5,8 @@ export default () => (
   <Fragment>
     <h1>Wundernut</h1>
     <p>
-      Participate to our latest coding challenge in github!
-    </p>
-    <Button to="https://github.com/wunderdogsw/wunderpahkina-vol9" reversed>
+      Our latest coding challenge is out! Check it, and crack the nut by 2 June!</p>
+    <Button to="https://wunder.dog/pahkina" reversed>
       Crack the nut
     </Button>
   </Fragment>

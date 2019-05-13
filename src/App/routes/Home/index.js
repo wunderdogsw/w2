@@ -7,7 +7,7 @@ import CaseCards from 'App/components/CaseCards'
 import Clients from 'App/components/Clients'
 import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
-import { JoinThePack } from 'App/contents/callToActions'
+import { OpenPositions2 } from 'App/contents/callToActions'
 import { HomeCaseCards, HomeBlogPostsContent } from 'App/contents/other'
 
 export default class extends Component {
@@ -27,7 +27,7 @@ export default class extends Component {
         </Nudge>
         <Clients />
         <CallToAction>
-          <JoinThePack />
+          <OpenPositions2/>
         </CallToAction>
         <LatestBlogPosts>
           <HomeBlogPostsContent />
