@@ -4,6 +4,7 @@
 import importedComponent from 'react-imported-component'
 
 export const AboutUs = importedComponent(() => import('./AboutUs'))
+export const BlueprintGenetics = importedComponent(() => import('./BlueprintGenetics'))
 export const Career = importedComponent(() => import('./Career'))
 export const Contact = importedComponent(() => import('./Contact'))
 export const Cookies = importedComponent(() => import('./Cookies'))
