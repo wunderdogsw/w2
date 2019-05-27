@@ -4,7 +4,7 @@ export default () => (
   <Fragment>
     <h5>Anna-Maria La Fiura</h5>
     <p>
-      Brand Manager
+      Marketing & Media
       <br />
       <a className="breakAll noHyphen" href="tel:+358415442886">
         +358 41 5442886
