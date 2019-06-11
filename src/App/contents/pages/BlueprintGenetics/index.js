@@ -18,14 +18,20 @@ import photo2Thumb from './blueprint-photo2-thumb.jpg'
 import photo2 from './blueprint-photo2.jpg'
 import photo3Thumb from './blueprint-photo3-thumb.jpg'
 import photo3 from './blueprint-photo3.jpg'
-import summary from './redbull-summary.svg'
+import photo4Thumb from './blueprint-photo4-thumb.jpg'
+import photo4 from './blueprint-photo4.jpg'
+import photo5Thumb from './blueprint-photo5-thumb.jpg'
+import photo5 from './blueprint-photo5.jpg'
+import photo6Thumb from './blueprint-photo6-thumb.jpg'
+import photo6 from './blueprint-photo6.jpg'
+import summary from './blueprint-summary.svg'
 
 
 export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#f8f8f8',
+        '--color-accent': '#eef0f8',
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
@@ -85,7 +91,7 @@ export default () => (
         prioritisation and workloads. We also pitched in on building an
         architecture that’s capable of handling ever-increasing amounts of data
         in real time. We also helped to develop a new production process for
-        analysing sequenced DNA samples and reduce process lead times
+        analysing sequenced DNA samples and reduce process lead times.
       </p>
       <p>
         As workload increases alongside business growth, it is crucially
@@ -98,13 +104,17 @@ export default () => (
         of analyses their pipelines could handle.
       </p>
     </Chapter>
+    <ImageRow>
+      <Image thumbSrc={ photo5Thumb } src={ photo5 } alt="Blueprint lab" />
+      <Image thumbSrc={ photo6Thumb } src={ photo6 } alt="Blueprint lab" />
+    </ImageRow>
     <Chapter>
       <h4>So how did it go?</h4>
       <p>
         Blueprint Genetics is a great example of finding business success in a
         lean start-up way: quick experimentation with new ideas, short
         development cycles, and fast commercialisation have led to fast business
-        growth
+        growth.
       </p>
       <p>
         The turnover of Blueprint Genetics has more than doubled annually during
@@ -118,25 +128,33 @@ export default () => (
         ability to take improvements forward.
       </p>
     </Chapter>
+    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Red Bull prize pic" />
     <Chapter>
       <h4>Success that speaks for itself</h4>
       <p>
-        Not always all the processes can up with the pace of fast crowing company.
-        The updated process for software development have gained more agile ways of working for Blueprint Genetics.
+        Thanks to the new ways of working we’ve introduced and our contribution
+        to software development, work at Blueprint Genetics is now more
+        transparent, agile, and efficient. We created a solid platform for
+        Blueprint Genetics to continue their great growth and success. The
+        collaboration with two modern and fast-paced company was a success for
+        everyone involved.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Red Bull prize pic" />
     <Summary>
       <Image src={ summary } alt="" />
       <h4>The challenge</h4>
       <p>
-        Develop an engaging companion game for the Red Bull Crashed Ice extreme
-        sport event – in just two weeks.
+        Growing business meant a growing need for software development talent, and
+        the knowledge of Scrum to help the entire team from business stakeholders
+        and domain experts to product owners and individual developers to learn
+        the best practices and help to improve the products.
       </p>
       <h4>The result</h4>
       <p>
-        A successful game, launched on time, which has been easily modified for
-        repeated use in similar Red Bull campaigns.
+        We helped in the daily development work while at the same time coaching
+        the Blueprint Genetics team to help them sharpen up their software
+        development practices in terms of technologies, communication, and
+        leadership.
       </p>
     </Summary>
   </Fragment>
