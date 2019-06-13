@@ -18,8 +18,8 @@ export default () => (
     <Card to="/Smartly">
       <Smartly/>
     </Card>
-    <Card to="/Oodi">
-      <Oodi />
+    <Card to="/Pexraytech">
+      <Pexraytech />
     </Card>
   </Fragment>
 )
