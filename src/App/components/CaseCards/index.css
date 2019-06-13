@@ -1,6 +1,8 @@
 .CaseCards {
   display: block;
   box-sizing: border-box;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
 
   @media (width >= 768px) {
     display: grid;
@@ -12,7 +14,9 @@
 
 .CaseCards > * {
   margin-bottom: var(--spacing);
+}
 
+.CaseCards--unAligned > * {
   @media (width >= 768px) {
     &:nth-child(even) {
       position: relative;
@@ -23,4 +27,24 @@
       margin-top: calc(var(--spacing) * -3);
     }
   }
+}
+
+.CaseCards:not(.CaseCards--unAligned) > .Card > .Image {
+  height: 350px;
+
+  @media (width >= 768px) {
+  }
+
+  @media (width >= 1400px) {
+    height: 600px;
+  }
+}
+
+.CaseCards:not(.CaseCards--unAligned) > .Card {
+  margin-bottom: 0;
+}
+
+.CaseCards:not(.CaseCards--unAligned) > .Card > .Image > img {
+  height: 100%;
+  object-fit: cover;
 }

@@ -4,6 +4,7 @@
 import importedComponent from 'react-imported-component'
 
 export const CareerBlogPostsContent = importedComponent(() => import('./CareerBlogPostsContent'))
+export const CasesCaseCards = importedComponent(() => import('./CasesCaseCards'))
 export const Clients = importedComponent(() => import('./Clients'))
 export const CookieDisclamer = importedComponent(() => import('./CookieDisclamer'))
 export const FooterBottom = importedComponent(() => import('./FooterBottom'))

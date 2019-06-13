@@ -21,7 +21,7 @@ export default class extends Component {
       <div className="Home">
         <Hero />
         <Nudge>
-          <CaseCards>
+          <CaseCards unAligned>
             <HomeCaseCards />
           </CaseCards>
         </Nudge>
