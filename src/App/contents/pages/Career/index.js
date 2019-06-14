@@ -39,10 +39,23 @@ export default () => (
     </CssVars>
     <MainTitle>Join the Pack</MainTitle>
     <SubTitle>
-      We believe happy people create the best workplace. Welcome to
-      join our pack!
+      We offer a communal workplace and endless opportunities for personal
+      growth. The most important thing is the wellbeing of our people. Welcome
+      to join our pack!
     </SubTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
+    <Chapter>
+      <h4>Joku lause meillä työskentelyssä tai why join? yms</h4>
+      <p>
+        Ja tähän sitten selitetään 4 pv asiakkaalla työskentelystä ja
+        toimistoperjantaista. Vaihtuvat proggikset ja tiimit. 
+      </p>
+      <p>
+        By combining smart ways of working, human-centered design and
+        high-quality code, we build future-proof services together with
+        our customers.
+      </p>
+    </Chapter>
     <CallToAction>
       <OpenPositions />
     </CallToAction>

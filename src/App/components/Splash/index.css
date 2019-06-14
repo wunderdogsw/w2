@@ -9,7 +9,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: var(--spacing);
-  background-color: var(--color-text-on-background);
+  background: linear-gradient(to right, rgba(232,59,59,1) 0%,rgba(243,148,35,1) 19%,rgba(247,232,29,1) 40%,rgba(29,162,68,1) 61%,rgba(38,96,155,1) 81%,rgba(191,50,138,1) 99%);
 
   opacity: 0;
   pointer-events: none;
