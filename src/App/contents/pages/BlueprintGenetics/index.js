@@ -39,7 +39,7 @@ export default () => (
     <SubTitle useAsMetaTitle>Collaboration is in our DNA.</SubTitle>
     <DatLine />
     <Keywords>Scrum, full-stack development</Keywords>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Redbull hero" />
+    <Image thumbSrc={ heroThumb } src={ hero } alt="Blueprint hero" />
     <Chapter>
       <h4>Setting the scene</h4>
       <p>
@@ -141,7 +141,7 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
+      <Image src={ summary } alt="Blueprint summary" />
       <h4>The challenge</h4>
       <p>
         Growing business meant a growing need for software development talent, and
