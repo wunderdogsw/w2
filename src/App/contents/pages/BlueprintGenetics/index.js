@@ -128,7 +128,7 @@ export default () => (
         ability to take improvements forward.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Red Bull prize pic" />
+    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Blueprint pic" />
     <Chapter>
       <h4>Success that speaks for itself</h4>
       <p>
