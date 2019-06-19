@@ -9,7 +9,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: var(--spacing);
-  background-color: var(--color-text-on-background);
+  background: linear-gradient(45deg, #bb4b95 0%,#009356 35%,#d3c337 68%,#e53229 100%);
 
   opacity: 0;
   pointer-events: none;
