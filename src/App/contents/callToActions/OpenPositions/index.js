@@ -1,23 +1,22 @@
 import React, { Fragment } from 'react'
-import Button from 'App/components/Button'
 import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
     <h1>Open positions</h1>
     <p>
-      <TransitionLink to="https://www.recright.com/careers/en/wunderdog/full-stack-developer-5b6445f07c244b0001364709">
+      <TransitionLink to="https://wunderdog.breezy.hr/p/9fdd4744af8f">
         Full-stack developer, Lund
-      </TransitionLink><br/>
-      <TransitionLink to="https://www.recright.com/careers/en/wunderdog/full-stack-developer-5b6308472954ea0001a7ef5b">
+      </TransitionLink>
+      <br />
+      <TransitionLink to="https://wunderdog.breezy.hr/p/9aa01a0d81cd">
         Full-stack developer, Helsinki
-      </TransitionLink><br/>
-      <TransitionLink to= "https://www.recright.com/careers/en/wunderdog/full-stack-developer-5b6446f27c244b00013647d4">
+      </TransitionLink>
+      <br />
+      <TransitionLink to="https://wunderdog.breezy.hr/p/4512f54c796a">
         Full-stack developer, Berlin
-      </TransitionLink><br/>
+      </TransitionLink>
+      <br />
     </p>
-    <Button to="https://www.recright.com/careers/en/wunderdog" reversed>
-      All Positions
-    </Button>
   </Fragment>
 )
