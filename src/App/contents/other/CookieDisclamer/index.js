@@ -4,7 +4,9 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
-    <p>Yadda yadda cookies smookies. <TransitionLink to="/privacy">Check out our privacy policy</TransitionLink></p>
+    <p>Yadda yadda cookies smookies. Check out
+    our <TransitionLink to="/privacy">privacy policy</TransitionLink> and <TransitionLink to="/privacy"> cookie
+    policy</TransitionLink></p>
     <Button
       preventDefault
       name="allow"

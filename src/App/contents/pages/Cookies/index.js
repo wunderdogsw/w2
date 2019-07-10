@@ -65,6 +65,31 @@ export default () => (
         Hubspot, please see here.
       </p>
       <p>
+        <b>Hotjar</b> – We use Hotjar in order to optimize this service and
+        experience. Hotjar uses cookies and other technologies to collect data
+        on our users’ behavior and their devices (in particular device's IP
+        address (captured and stored only in anonymized form), device screen
+        size, device type (unique device identifiers), browser information,
+        geographic location (country only), preferred language used to display
+        our website). Hotjar stores this information in a pseudonymized user
+        profile. Neither Hotjar nor we will ever use this information to
+        identify individual users or to match it with further data on an
+        individual user. For further details, please see Hotjar’s privacy
+        {' '}
+        <TransitionLink to="https://www.hotjar.com/legal/policies/privacy">
+          here.
+        </TransitionLink>.
+        {' '}
+        You can opt-out to the creation of a user profile, Hotjar’s storing of
+        data about your usage of our site and Hotjar’s use of tracking cookies
+        on other websites
+        {' '}
+          <TransitionLink to="https://www.hotjar.com/legal/compliance/opt-out">
+            here.
+          </TransitionLink>
+        {' '}
+      </p>
+      <p>
         We only use cookies necessary to run and improve our website experience.
         We use Google Analytics for this purpose and Google Analytics uses both
         persistent and session cookies.
