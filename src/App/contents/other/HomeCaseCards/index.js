@@ -4,7 +4,7 @@ import {
   RedBull,
   Smartly,
   Oodi,
-  Pexraytech,
+  BluePrintGenetics,
 } from 'App/contents/cards'
 
 export default () => (
@@ -18,8 +18,8 @@ export default () => (
     <Card to="/Redbull">
       <RedBull/>
     </Card>
-    <Card to="/pexraytech">
-      <Pexraytech/>
+    <Card to="/BluePrintGenetics">
+      <BluePrintGenetics/>
     </Card>
   </Fragment>
 )
