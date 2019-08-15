@@ -11,7 +11,7 @@ import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
 import heroThumb from './blueprint-hero-thumb.jpg'
-import hero from './blueprint-hero.jpg'
+import hero from './blueprint-hero.png'
 import photo1Thumb from './blueprint-photo1-thumb.jpg'
 import photo1 from './blueprint-photo1.jpg'
 import photo2Thumb from './blueprint-photo2-thumb.jpg'
