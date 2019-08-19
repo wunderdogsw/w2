@@ -13,3 +13,8 @@ __dev__
 newrelic_agent.log
 dist
 yarn-error.log
+src/fonts/fonts.tar
+src/fonts/*.eot
+src/fonts/*.ttf
+src/fonts/*.woff
+src/fonts/*.woff2
