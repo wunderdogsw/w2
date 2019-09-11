@@ -16,7 +16,6 @@ import {
   RedhaCherif,
   AnnaMariaLaFiura,
   MeriTuuliOlkkonen,
-  TimoSand,
   MartinLyckestjarn,
   LauriPaalama,
 } from 'App/contents/contactFaces'
@@ -44,7 +43,6 @@ export default () => (
       <Berlin />
       <JoannaRindell />
       <JasperVanGhemen />
-      <TimoSand />
       <LauriPaalama />
     </ContactRow>
 
