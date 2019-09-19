@@ -30,7 +30,7 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, thumbSrc, src, asBackground, style, ...rest } = this.props
+    const { className, thumbSrc, src, asBackground, style, hero, indent, ...rest } = this.props
 
     return (
       <span className={ cs(
@@ -39,7 +39,8 @@ export default class extends Component {
         loaded && 'Image--loaded',
         thumbHidden && 'Image--thumbHidden',
         asBackground && 'Image--asBackground',
-        className
+        hero && 'Image--isHero',
+        indent && 'Image--indent'
       )}>
         { thumbSrc && (
           asBackground ? (

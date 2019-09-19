@@ -1,0 +1,8 @@
+.Indent {
+  margin-left: calc(var(--spacing) * 4);
+  padding-left: 0;
+}
+
+.Indent--twice {
+  margin-left: calc(var(--spacing) * 6);
+}

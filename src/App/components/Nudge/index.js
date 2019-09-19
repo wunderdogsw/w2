@@ -57,6 +57,7 @@ export default withState(
       return(
         <div className={cs(
           'Nudge',
+          nudgeCancelled && 'Nudge--nudged',
           nudged && !nudgeCancelled && 'Nudge--nudged',
           userHasNavigated && 'Nudge--nudgeInstant'
         )}>

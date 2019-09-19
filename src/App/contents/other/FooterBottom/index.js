@@ -6,7 +6,7 @@ import TransitionLink from 'App/components/TransitionLink'
 export default () => (
   <Fragment>
     <FooterBottom>
-      <Logo useHorizontal to="/" />
+      <p>© 2019 Wunderdog. WUNDERDOG and WE DO WUNDERS is a registered trademark of Wunderdog Oy in the European Union.</p>
       <nav>
         <TransitionLink to="/cookies">Cookies Policy</TransitionLink>
         <TransitionLink to="/privacy">Privacy Policy</TransitionLink>

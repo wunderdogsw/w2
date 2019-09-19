@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react'
 import Button from 'App/components/Button'
+import DoubleLine from 'App/components/DoubleLine'
 import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
-    <h1>Open positions</h1>
-    <p>
+    <h2>Open positions</h2>
+    <DoubleLine>
       <TransitionLink to="https://wunderdog.breezy.hr/p/9aa01a0d81cd-fullstack-developer-helsinki-finland">
         Full-stack developer, Helsinki
       </TransitionLink><br/>
@@ -14,10 +15,7 @@ export default () => (
       </TransitionLink><br/>
       <TransitionLink to= "https://wunderdog.breezy.hr/p/9fdd4744af8f-fullstack-developer-malm--sweden">
         Full-stack developer, Malmö
-      </TransitionLink><br/>
-    </p>
-    <Button to="https://wunderdog.breezy.hr/" reversed>
-      All Positions
-    </Button>
+      </TransitionLink>
+    </DoubleLine>
   </Fragment>
 )

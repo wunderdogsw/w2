@@ -5,3 +5,16 @@
 .MainTitle--centered {
   text-align: center;
 }
+
+.MainTitle--narrow {
+  width: 100%;
+  max-width: 1200px;
+
+  @media (width <= 1400px) {
+    width: 80vw;
+  }
+
+  @media (width <= 800px) {
+    width: 85vw;
+  }
+}

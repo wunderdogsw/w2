@@ -4,7 +4,7 @@ import MainTitle from 'App/components/MainTitle'
 
 export default () => (
   <Fragment>
-    <MainTitle>We code & design</MainTitle>
+    <MainTitle narrow>We design and code</MainTitle>
     <Helmet>
       <meta
         name="description"

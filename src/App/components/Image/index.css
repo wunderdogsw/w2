@@ -3,6 +3,25 @@
   display: block;
 }
 
+.Image:not(.Image--loaded) {
+  background: var(--color-blue);
+}
+
+.Image.Image--isHero {
+  margin: 50px;
+}
+
+.Image.Image--indent,
+.Page__inner > .Image.Image--indent {
+  margin-right: 0;
+  margin-left: calc(var(--spacing) * 2);
+
+  @media (width >= 1024px) {
+    margin-left: calc(var(--spacing) * 4);
+  }
+}
+
+
 
 
 

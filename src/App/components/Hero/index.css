@@ -1,12 +1,9 @@
 .Hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 400px;
+  min-height: 700px;
   max-height: 1440px;
-  text-align: center;
   padding: 0 var(--spacing);
   box-sizing: border-box;
 
@@ -18,7 +15,7 @@
   transition-timing-function: var(--animation-ease);
 
   @media (width >= 768px) {
-    min-height: 800px;
+    min-height: 700px;
   }
 }
 

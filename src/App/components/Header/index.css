@@ -1,5 +1,5 @@
 .Header {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -11,18 +11,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  @media (width >= 768px) {
-    padding: 0 var(--spacing);
-    justify-content: space-between;
-    flex-direction: row-reverse;
-  }
+  z-index: 10;
 }
 
 .Header--animate {
   opacity: 0;
   transition-property: opacity transform;
-  transition-delay: 1s;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--animation-ease);
 }
@@ -32,10 +26,15 @@
 }
 
 
-
-
 .Header > .Logo {
-  width: 180px;
+  width: 55px;
+  transition-duration: 200ms;
+  transition-timing-function: var(--animation-ease);
+}
+
+.Header .Logo__grid {
+  width: 55px;
+  padding: 0;
 }
 
 
@@ -52,54 +51,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  background-color: var(--color-background);
-  font-size: 30px;
+  font-size: 70px;
   padding: var(--spacing);
   line-height: 1.6;
   opacity: 0;
   pointer-events: none;
-  transform: translate3d(0, 10px, 0);
 
-  transition-property: transform;
+  transition-property: opacity;
   transition-duration: var(--animation-duration-fast);
-  transition-timing-function: var(--animation-ease);
 
   & > a {
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 1;
 
     &.active,
     &:hover {
-      opacity: 1;
-    }
-  }
-
-  @media (width >= 768px) {
-    position: static;
-    flex-direction: row;
-    font-size: 16px;
-    line-height: inherit;
-    padding: 0;
-    opacity: 1;
-    pointer-events: all;
-    transform: none;
-
-    & > a {
-      margin-left: var(--spacing-small);
+      opacity: 0.8;
     }
   }
 }
 
 .Header--navShowing > nav {
   opacity: 1;
-  transform: translate3d(0, 0, 0);
   pointer-events: all;
-  background-color: var(--color-text-on-background);
+  background-color: var(--color-blue);
   color: var(--color-background);
-
-  & > a {
-    opacity: 0.8;
-  }
 }
 
 
@@ -110,19 +86,18 @@
   top: calc(var(--spacing-small) * 2) - 9px;
   right: var(--spacing);
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 20px;
   background-image: url('./header-menu.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-
-  @media (width >= 768px) {
-    display: none;
-  }
+  background-color: #fff;
 }
 
 .Header--navShowing .Header__toggleNav {
   position: fixed;
+  width: 30px;
+  height: 30px;
   background-image: url('./header-close.svg');
 }

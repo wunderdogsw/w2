@@ -10,7 +10,7 @@ const { Provider, Consumer } = createContext()
 
 export class State extends Component {
   state = {
-    splashShowing: true,
+    splashShowing: false,
     userHasNavigated: false,
   }
 

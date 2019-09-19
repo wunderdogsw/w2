@@ -20,24 +20,33 @@
 
 
 
+.Footer .Logo {
+  display: block;
+  justify-content: flex-start;
+}
+
+
+.Footer .Logo svg {
+  width: auto;
+  height: 100px;
+  fill: #fff;
+  padding: 0;
+}
+
+.Footer address {
+  font-size: 20px;
+  width: 300px;
+  text-align: right;
+}
+
+
+
 
 .Footer > .FooterBottom {
   position: relative;
-  margin-top: calc(var(--spacing-small) * 3);
+  margin-top: calc(var(--spacing-small) * 2);
   padding-top: 0;
   width: 100%;
-
-  &::before {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: block;
-    height: 1px;
-    background-color: var(--color-text-on-footer);
-    opacity: 0.25;
-  }
 
   &:first-child {
     margin-top: 0;

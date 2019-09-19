@@ -12,11 +12,7 @@ import logoAlma from './logo-alma.png'
 
 export default () => (
   <Fragment>
-    <h1>Clients</h1>
-    <p>
-      We’re your partner in turning good ideas into
-      digital products & services.
-    </p>
+    <h3>Selected clients</h3>
     <LogoGrid>
       {[
         ['Alma', logoAlma],

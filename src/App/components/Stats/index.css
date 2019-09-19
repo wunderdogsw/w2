@@ -1,64 +1,18 @@
 .Stats {
-  background-color: var(--color-stats);
-  color: var(--color-text-on-stats);
-  padding: var(--spacing) 0;
-  overflow: hidden;
-}
-
-.Stats--useAccent {
-  background-color: var(--color-accent);
-  color: var(--color-text-on-accent);
-}
-
-.Stats > ul {
-  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  transition-property: transform;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-ease);
+  flex-wrap: wrap;
+  width: 40vw;
+  min-width: 300px;
 
-  @media (width >= 1024px) {
-    transition-property: none;
-  }
-
-  & > li {
-    flex: 1;
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    min-width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 var(--spacing-small);
-    text-align: center;
-
-    @media (width >= 1024px) {
-      min-width: 0;
-    }
+  & > div {
+    width: 50%;
+    margin-top: var(--spacing);
+    margin-bottom: calc(var(--spacing) / 2);
 
     & > span:first-child {
-      font-size: 60px;
-      font-weight: 600;
+      display: block;
+      font-size: var(--font-size-large);
+      line-height: 1;
     }
   }
-}
-
-
-@media (width < 1024px) {
-  .Stats--1 > ul { transform: translate3d(-100%, 0, 0) }
-  .Stats--2 > ul { transform: translate3d(-200%, 0, 0) }
-  .Stats--3 > ul { transform: translate3d(-300%, 0, 0) }
-  .Stats--4 > ul { transform: translate3d(-400%, 0, 0) }
-  .Stats--5 > ul { transform: translate3d(-500%, 0, 0) }
-  .Stats--6 > ul { transform: translate3d(-600%, 0, 0) }
-  .Stats--7 > ul { transform: translate3d(-700%, 0, 0) }
-  .Stats--8 > ul { transform: translate3d(-800%, 0, 0) }
-  .Stats--9 > ul { transform: translate3d(-900%, 0, 0) }
 }

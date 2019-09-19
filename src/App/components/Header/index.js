@@ -14,13 +14,16 @@ export default withRouter(withState(
   class extends Component {
     state = {
       navShowing: false,
+      logoShowing: true
     }
 
     componentDidMount() {
+      window.addEventListener('scroll', this.toggleLogo)
       window.addEventListener('resize', this.hideNav)
     }
 
     componentWillUnmount() {
+      window.removeEventListener('scroll', this.toggleLogo)
       window.removeEventListener('resize', this.hideNav)
     }
 
@@ -37,6 +40,10 @@ export default withRouter(withState(
       this.setState({ navShowing: true })
     }
 
+    toggleLogo = () => {
+      this.setState({ logoShowing: window.scrollY == 0 })
+    }
+
     hideNav = throttle(() => {
       this.setState({ navShowing: false })
     }, 500)
@@ -44,7 +51,7 @@ export default withRouter(withState(
 
     render() {
       const { splashShowing, match } = this.props
-      const { navShowing } = this.state
+      const { navShowing, logoShowing } = this.state
       return (
         <header className={cs(
           'Header',
@@ -56,7 +63,9 @@ export default withRouter(withState(
           <nav onClick={ this.handleNavClick }>
             <MainNav />
           </nav>
-          <Logo useHorizontal to="/" />
+          <Logo className={cs(
+            !logoShowing && 'Visibility--hidden'
+          )} useHorizontal to="/" />
           <a
             href="#"
             className="Header__toggleNav"

@@ -1,0 +1,19 @@
+.Block {
+  padding: var(--spacing);
+}
+
+.Block--dark {
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
+.Block .ChapterRow {
+  display: flex;
+  justify-content: space-around;
+  padding-top: calc(var(--spacing) / 2);
+  padding-bottom: calc(var(--spacing) / 2);
+}
+
+.Block .Chapter {
+  max-width: 35vw;
+}

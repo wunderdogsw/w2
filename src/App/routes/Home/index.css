@@ -12,7 +12,7 @@
 
 
 
-.Home > .Nudge {
+.Home > .Nudge > .CaseCards {
   padding: 0 var(--spacing);
   max-width: var(--content-max-width);
   margin-left: auto;

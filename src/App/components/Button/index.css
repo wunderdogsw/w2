@@ -3,17 +3,8 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  min-width: 200px;
-  min-height: 50px;
-  padding-left: calc(var(--spacing) / 8);
-  padding-right: calc(var(--spacing) / 8);
-  background-color: var(--color-background);
   color: var(--color-text-on-background);
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.7px;
+  font-size: 20px;
 }
 
 .Button--reversed {
@@ -28,19 +19,4 @@
 .Button--useAccent.Button--reversed {
   background-color: var(--color-text-on-accent);
   color: var(--color-accent);
-}
-
-
-.Button--outlined {
-  background-color: transparent;
-  border: 3px solid var(--color-text-on-background);
-}
-.Button--outlined.Button--reversed {
-  border-color: var(--color-background);
-}
-.Button--outlined.Button--useAccent {
-  border-color: var(--text-on-color-accent);
-}
-.Button--outlined.Button--useAccent.Button--reversed {
-  border-color: var(--color-accent);
 }

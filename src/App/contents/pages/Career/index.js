@@ -37,15 +37,8 @@ export default () => (
         '--color-text-on-accent': '#fff',
       }}
     </CssVars>
-    <MainTitle>Join the Pack</MainTitle>
-    <SubTitle>
-      We believe happy people create the best workplace. Welcome to
-      join our pack!
-    </SubTitle>
+    <MainTitle narrow>We believe happy people create the best workplace. Welcome to join our pack!</MainTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
-    <CallToAction>
-      <OpenPositions />
-    </CallToAction>
     <ImageTextRow>
       <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />
       <h4>The most important thing is that we all enjoy being at work</h4>
@@ -92,8 +85,8 @@ export default () => (
         we are always happy to give.
       </p>
     </ImageTextRow>
-    <LatestBlogPosts culture>
-      <CareerBlogPostsContent />
-    </LatestBlogPosts>
+    <CallToAction grid>
+      <OpenPositions />
+    </CallToAction>
   </Fragment>
 )

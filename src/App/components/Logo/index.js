@@ -26,22 +26,18 @@ export default class extends Component {
   }
 
   render() {
-    const { animate, className, useHorizontal, to } = this.props
+    const { animate, className, to } = this.props
 
     return React.createElement( to ? TransitionLink : 'div', {
       to: to,
       className: cs(
         'Logo',
         animate && 'Logo--animate',
-        useHorizontal && 'Logo--useHorizontal',
         className
       ),
     }, (
       <Fragment>
-        <LogoHorizontal letterStyles={ this.letterStyles } />
-        {!useHorizontal &&
-          <LogoGrid letterStyles={ this.letterStyles } />
-        }
+        <LogoGrid letterStyles={ this.letterStyles } />
       </Fragment>
     ))
 

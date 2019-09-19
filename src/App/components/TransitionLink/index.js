@@ -130,9 +130,6 @@ export default withState(withRouter(
           children={
             <Fragment>
               { children }
-              { drawArrow && (
-                <ExternalArrow color={ color } />
-              )}
             </Fragment>
           }
           name={ name }

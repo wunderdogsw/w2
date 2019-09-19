@@ -6,9 +6,8 @@ import Header from 'App/components/Header'
 import Footer from 'App/components/Footer'
 import CookieMonster from 'App/components/CookieMonster'
 import Home from 'App/routes/Home'
-import Page from 'App/routes/Page'
-import { LetsTalk } from 'App/contents/callToActions'
-import { LetsPlay } from 'App/contents/callToActions'
+import General from 'App/routes/General'
+import { Contact, LetsTalk, NextProject } from 'App/contents/callToActions'
 import {
   FooterBottom,
   CookieDisclamer,
@@ -60,7 +59,9 @@ export default () => (
         <Redirect from="/kulttuurimme-2" to="/career" />
 
         {/* Routes */}
-        <Route path="/:page" component={ Page } />
+
+        <Route path="/:subpath/:page" component={ General } />
+        <Route path="/:page" component={ General } />
         <Route path="*" component={ Home } />
 
       </Switch>
@@ -68,9 +69,9 @@ export default () => (
         <Switch>
           <Route path="/pahkina" />
           <Route path="/pingpong" />
-          <Route path="/contact" />
-          <Route path="/pumpum" component={ LetsPlay }/>
-          <Route path="*" component={ LetsTalk }/>
+          <Route path="/works/*" component={ NextProject }/>
+          <Route path="/contact" component={ LetsTalk }/>
+          <Route path="*" component={ Contact }/>
         </Switch>
         <FooterBottom />
       </Footer>
@@ -79,20 +80,6 @@ export default () => (
         <Route path="/pingpong" />
         <Route path="*" component={ Header }/>
       </Switch>
-      <Switch>
-        <Route path="/pahkina" />
-        <Route path="/pingpong" />
-        <Route path="*" component={ Splash }/>
-      </Switch>
-
-      {/* Enable Cookiemonster to show cookie disclamer */}
-      <CookieMonster>
-        <Switch>
-          <Route path="/pahkina" />
-          <Route path="/pingpong" />
-          <Route path="*" component={ CookieDisclamer }/>
-        </Switch>
-      </CookieMonster>
     </State>
   </BrowserRouter>
 )

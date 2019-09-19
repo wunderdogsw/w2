@@ -11,10 +11,7 @@ export default ({ useAccent, reversed, outlined, preventDefault, ...props}) => (
       } : null
     }
     className={cs(
-      'Button',
-      useAccent && 'Button--useAccent',
-      reversed && 'Button--reversed',
-      outlined && 'Button--outlined',
+      'Button'
     )}
   />
 )

@@ -1,12 +1,9 @@
 .Chapter {
   display: block;
   box-sizing: border-box;
-
-  @media (width >= 1024px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: var(--spacing-small);
-  }
+  width: 40vw;
+  min-width: 300px;
+  max-width: 100%;
 }
 
 .Chapter > * {
@@ -14,15 +11,6 @@
 
   &:last-child {
     /* margin-bottom: 0; */
-  }
-}
-
-.Chapter > :first-child {
-  grid-row-start: span 20;
-
-  /* adjust baseline of next element */
-  & + * {
-    margin-top: 5px;
   }
 }
 
