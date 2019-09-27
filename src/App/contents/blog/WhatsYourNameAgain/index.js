@@ -1,0 +1,65 @@
+import React, { Fragment } from 'react'
+import Helmet from 'react-helmet'
+import CssVars from 'App/components/CssVars'
+import MainTitle from 'App/components/MainTitle'
+import SubTitle from 'App/components/SubTitle'
+import Keywords from 'App/components/Keywords'
+import Image from 'App/components/Image'
+import Chapter from 'App/components/Chapter'
+import TransitionLink from 'App/components/TransitionLink'
+
+import heroThumb from './your-name-thumb.jpg'
+import hero from './your-name.jpg'
+
+export default () => (
+  <Fragment>
+    <MainTitle narrow>I had a problem: What’s your name again?</MainTitle>
+    <SubTitle useAsMetaTitle>By Paco&nbsp;&nbsp;•&nbsp;&nbsp;Dec 4, 2018&nbsp;&nbsp;•&nbsp;&nbsp;Read time 2 min</SubTitle>
+    <Keywords>Open-source project, culture , problem solving</Keywords>
+    <Image thumbSrc={ heroThumb } src={ hero } alt="OpenSource" />
+    <Chapter>
+      <p>
+        We all encounter a range of everyday problems in our lives, both large
+        and small. At Wunderdog we’re no different, but we do have the advantage
+        of being excellent problem solvers with some pretty advanced technical
+        skills — helping us to find innovative answers to some of life’s tricky
+        problems.
+      </p>
+      <h2>An awkward problem</h2>
+      <p>
+        You know what it’s like when you start a new job. So much new information
+        and so many new faces and names — it’s completely overwhelming. And when
+        you’re meeting and getting to know a host of new colleagues in a short
+        period of time, it’s easy to forget a name or two.
+      </p>
+      <p>
+        When I joined the wonderful pack of doggos at Wunderdog, I was faced
+        with that very challenge — doubled. Everyone at Wunderdog is given a
+        nickname, so I had to learn everyone’s real-life name and their
+        Wundername! I thought there has to be a way of making this easier, so as
+        a programmer, I turned to technology for the solution.
+      </p>
+      <h2>A doggedly good solution</h2>
+      <p>
+        I made a Clojure application that fetches each colleague’s profile
+        picture, their real name, and their Wundername from our internal Slack,
+        then creates a gallery of these pictures with the names attached. Thus
+        was born the Doggo Gallery. I also added a script that publishes this
+        gallery on the internal wiki where all the important information about
+        our company is available to all employees. As an added bonus, newbies
+        can just add their photos to Slack without needing to upload them to the
+        wiki separately.
+      </p>
+      <h2>Problem solved</h2>
+      <p>
+        The gallery now serves as a useful tool for new and old doggos alike. A
+        bit of code <TransitionLink to="https://github.com/paasar/slack-user-gallery">(check it out here)</TransitionLink>
+        and now there are far fewer of those awkward moments where you have to
+        ask someone’s name for the hundredth time — or when you just resign
+        yourself to never using their name again! You can thank me later,
+        introverts.
+      </p>
+    </Chapter>
+
+  </Fragment>
+)

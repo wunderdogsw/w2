@@ -5,9 +5,7 @@ import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
-import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import BlockQuote from 'App/components/BlockQuote'
 
 import heroThumb from './i-had-a-problem.jpeg'
 import hero from './i-had-a-problem.jpeg'
@@ -15,7 +13,7 @@ import hero from './i-had-a-problem.jpeg'
 export default () => (
   <Fragment>
     <MainTitle narrow>I had a problem, and the solution was terminal</MainTitle>
-    <SubTitle useAsMetaTitle>By Kiti&nbsp;&nbsp;•&nbsp;&nbsp;June 17, 2019&nbsp;&nbsp;•&nbsp;&nbsp;Read time 8 min</SubTitle>
+    <SubTitle useAsMetaTitle>By Piispa&nbsp;&nbsp;•&nbsp;&nbsp;August 7, 2019&nbsp;&nbsp;•&nbsp;&nbsp;Read time 3 min</SubTitle>
     <Keywords>javascript, hsl</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Oodi" />
     <Chapter>
