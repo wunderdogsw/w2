@@ -76,6 +76,14 @@
 
 
 
+::selection {
+  color: var(--color-white);
+  background: var(--color-blue);
+}
+
+
+
+
 html, body {
   margin: 0;
   background-color: var(--color-background);

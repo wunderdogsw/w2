@@ -78,6 +78,13 @@
   color: var(--color-background);
 }
 
+.Header svg {
+  fill: #ffffff;
+}
+
+.Header .Logo {
+  mix-blend-mode: difference;
+}
 
 
 
@@ -92,12 +99,12 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #fff;
 }
 
 .Header--navShowing .Header__toggleNav {
   position: fixed;
   width: 30px;
   height: 30px;
+  background-color: transparent;
   background-image: url('./header-close.svg');
 }
