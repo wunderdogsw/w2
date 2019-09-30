@@ -1,30 +1,53 @@
 // Do not modify by hand
 // File generated with `mapContent` script
 
-import importedComponent from 'react-imported-component'
-
-export const AgileMethods = importedComponent(() => import('./AgileMethods'))
-export const AreWeCeosEveryone = importedComponent(() => import('./AreWeCeosEveryone'))
-export const BabyItsColdOutside = importedComponent(() => import('./BabyItsColdOutside'))
-export const ControlFreak = importedComponent(() => import('./ControlFreak'))
-export const DontPlayItAgain = importedComponent(() => import('./DontPlayItAgain'))
-export const Hank = importedComponent(() => import('./Hank'))
-export const Hunttis = importedComponent(() => import('./Hunttis'))
-export const ImportanceOfCommunicationsInProductDevelopment = importedComponent(() => import('./ImportanceOfCommunicationsInProductDevelopment'))
-export const ImprovingYourProduct = importedComponent(() => import('./ImprovingYourProduct'))
-export const InvisibleSoftware = importedComponent(() => import('./InvisibleSoftware'))
-export const ItsTheWritingThatsWrong = importedComponent(() => import('./ItsTheWritingThatsWrong'))
-export const Kiti = importedComponent(() => import('./Kiti'))
-export const LosingControl = importedComponent(() => import('./LosingControl'))
-export const Monitoring = importedComponent(() => import('./Monitoring'))
-export const NorthStarMetric = importedComponent(() => import('./NorthStarMetric'))
-export const Nukka = importedComponent(() => import('./Nukka'))
-export const OpenToGoodIdeas = importedComponent(() => import('./OpenToGoodIdeas'))
-export const PairProgramming = importedComponent(() => import('./PairProgramming'))
-export const PairProgrammingPartTwo = importedComponent(() => import('./PairProgrammingPartTwo'))
-export const Piispa = importedComponent(() => import('./Piispa'))
-export const Pomo = importedComponent(() => import('./Pomo'))
-export const SolutionWasTerminal = importedComponent(() => import('./SolutionWasTerminal'))
-export const TechnicalDebtThreatOrPossibility = importedComponent(() => import('./TechnicalDebtThreatOrPossibility'))
-export const Turger = importedComponent(() => import('./Turger'))
-export const WhatsYourNameAgain = importedComponent(() => import('./WhatsYourNameAgain'))
+import agilemethods from './AgileMethods'
+export const AgileMethods = agilemethods
+import areweceoseveryone from './AreWeCeosEveryone'
+export const AreWeCeosEveryone = areweceoseveryone
+import babyitscoldoutside from './BabyItsColdOutside'
+export const BabyItsColdOutside = babyitscoldoutside
+import controlfreak from './ControlFreak'
+export const ControlFreak = controlfreak
+import dontplayitagain from './DontPlayItAgain'
+export const DontPlayItAgain = dontplayitagain
+import hank from './Hank'
+export const Hank = hank
+import hunttis from './Hunttis'
+export const Hunttis = hunttis
+import importanceofcommunicationsinproductdevelopment from './ImportanceOfCommunicationsInProductDevelopment'
+export const ImportanceOfCommunicationsInProductDevelopment = importanceofcommunicationsinproductdevelopment
+import improvingyourproduct from './ImprovingYourProduct'
+export const ImprovingYourProduct = improvingyourproduct
+import invisiblesoftware from './InvisibleSoftware'
+export const InvisibleSoftware = invisiblesoftware
+import itsthewritingthatswrong from './ItsTheWritingThatsWrong'
+export const ItsTheWritingThatsWrong = itsthewritingthatswrong
+import kiti from './Kiti'
+export const Kiti = kiti
+import losingcontrol from './LosingControl'
+export const LosingControl = losingcontrol
+import monitoring from './Monitoring'
+export const Monitoring = monitoring
+import northstarmetric from './NorthStarMetric'
+export const NorthStarMetric = northstarmetric
+import nukka from './Nukka'
+export const Nukka = nukka
+import opentogoodideas from './OpenToGoodIdeas'
+export const OpenToGoodIdeas = opentogoodideas
+import pairprogramming from './PairProgramming'
+export const PairProgramming = pairprogramming
+import pairprogrammingparttwo from './PairProgrammingPartTwo'
+export const PairProgrammingPartTwo = pairprogrammingparttwo
+import piispa from './Piispa'
+export const Piispa = piispa
+import pomo from './Pomo'
+export const Pomo = pomo
+import solutionwasterminal from './SolutionWasTerminal'
+export const SolutionWasTerminal = solutionwasterminal
+import technicaldebtthreatorpossibility from './TechnicalDebtThreatOrPossibility'
+export const TechnicalDebtThreatOrPossibility = technicaldebtthreatorpossibility
+import turger from './Turger'
+export const Turger = turger
+import whatsyournameagain from './WhatsYourNameAgain'
+export const WhatsYourNameAgain = whatsyournameagain
