@@ -1,25 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import Card from '../../../components/Card'
-import { subPages } from '../../../routes/General'
-
-const allCategory = 'all'
-const categories = [allCategory]
-const posts = subPages.blog // Object: key: name, value: blogPost
-const convertedPosts = []
-
-for (const key in posts) {
-  if (posts.hasOwnProperty(key)) {
-    const post = posts[key]
-    const { category } = post
-    if (category) {
-      if (!!post.title) {
-        post.id = key
-        convertedPosts.push(post)
-      }
-      if (!categories.includes(category)) categories.push(category)
-    }
-  }
-}
+import { allCategory, categories, posts } from '../../../routes/General'
 
 export default () => {
   const [currentCategory, setCurrentCategory] = useState(allCategory)
@@ -33,7 +14,7 @@ export default () => {
           </button>
         ))}
 
-        {convertedPosts
+        {posts
           .filter(p => currentCategory === allCategory || p.category === currentCategory)
           .map(({ id, title }) => (
             <Card key={id} to={`blog/${id}`}>
