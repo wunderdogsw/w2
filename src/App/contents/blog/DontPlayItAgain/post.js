@@ -3,12 +3,11 @@ import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
 import photo1 from './dont-play-it-again1.png'
-import heroThumb from './dont-play-thumb.jpg'
 import hero from './dont-play.jpeg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Oodi' />
+    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no
@@ -35,7 +34,7 @@ export default () => (
         a website where you log in with your Spotify account information. The website fetches your user data and all
         your saved music from your Spotify account and allows you to search within your saved albums.
       </p>
-      <Image thumbSrc={photo1} src={photo1} alt='Albums' />
+      <Image src={photo1} alt='Albums' />
       <p>
         Being able to search for music by title or artist was great, but I decided to go even further. I added genre
         tags to albums by searching for data from last.fm. Now I can search for “atmospheric black metal” or whatever I

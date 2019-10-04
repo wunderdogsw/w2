@@ -3,13 +3,9 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import photo1Thumb from './productanalytic1-thumb.jpg'
 import photo1 from './productanalytic1.png'
-import photo2Thumb from './productanalytic2-thumb.jpg'
 import photo2 from './productanalytic2.png'
-import photo3Thumb from './productanalytic3-thumb.jpg'
 import photo3 from './productanalytic3.png'
-import photo4Thumb from './productanalytic4-thumb.jpg'
 import photo4 from './productanalytic4.png'
 
 export default () => (
@@ -65,7 +61,7 @@ export default () => (
         For each feature, place it on two axis: how many of your customers use it and how often it’s used. The outcome
         might look like this:
       </p>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='Backlog' />
+      <Image src={photo1} alt='Backlog' />
       <p>
         Features that are on the top right corner are the ones that create value for your customers. These features are
         the ones they signed up for.
@@ -74,12 +70,12 @@ export default () => (
         Another way is to create a chart of what percentage of users use a certain feature, like this for a ride-hailing
         app:
       </p>
-      <Image thumbSrc={photo2Thumb} src={photo2} alt='Chart' />
+      <Image src={photo2} alt='Chart' />
       <p>
         In the dream world, you only have features that are used by most of the people most of the time. That is just
         not the case and in reality and the feature adoption could look more like this:
       </p>
-      <Image thumbSrc={photo3Thumb} src={photo3} alt='Chart2' />
+      <Image src={photo3} alt='Chart2' />
       <p>How did this happen?</p>
       <p>How did you end up building and maintaining those rarely used features in the first place?</p>
       <p>
@@ -110,7 +106,7 @@ export default () => (
         drive you towards the NSM. For those features that are not your champions, you must make a tough decision
         whether to improve or remove them from your product.
       </p>
-      <Image thumbSrc={photo4Thumb} src={photo4} alt='Chart3' />
+      <Image src={photo4} alt='Chart3' />
       <p>
         Features on the top right corner are your champions. Protect them with all you got. When considering improving
         those features, ask yourself twice which direction on the graph the improvement will move the feature.

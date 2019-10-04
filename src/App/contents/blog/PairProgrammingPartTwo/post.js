@@ -1,10 +1,7 @@
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import photo2Thumb from './pairprog-thumb.jpg'
-import photo3Thumb from './pairprog3-thumb.jpg'
 import photo3 from './pairprog3.png'
-import photo1Thumb from './piispavissy-thumb.jpg'
 import photo1 from './piispavissy.jpg'
 
 export default () => (
@@ -54,7 +51,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='PiispaVissy' />
+      <Image src={photo1} alt='PiispaVissy' />
     </Chapter>
     <Chapter>
       <h2>3. Battlecruiser X Robot Hand Remote Warp Speed Edition</h2>
@@ -65,7 +62,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo2Thumb} src={photo2Thumb} alt='OneBrain' />
+      <Image src={photo3} alt='OneBrain' />
     </Chapter>
     <Chapter>
       <p>
@@ -93,7 +90,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo3Thumb} src={photo3} alt='OneBrain' />
+      <Image src={photo3} alt='OneBrain' />
     </Chapter>
     <Chapter>
       <p>

@@ -2,12 +2,11 @@ import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import heroThumb from './WDW-nukka-thumb.jpg'
 import hero from './WDW-nukka.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Oodi' />
+    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         <i>

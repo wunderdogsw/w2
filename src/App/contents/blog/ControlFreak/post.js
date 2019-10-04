@@ -6,7 +6,7 @@ import hero from './i-had-a-problem.jpeg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={hero} src={hero} alt='Oodi' />
+    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no

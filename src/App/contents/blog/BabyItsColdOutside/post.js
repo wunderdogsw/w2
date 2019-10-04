@@ -2,7 +2,6 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import photo1Thumb from './its-cold-outside-thumb.jpg'
 import photo1 from './its-cold-outside.jpeg'
 
 export default () => (
@@ -41,7 +40,7 @@ export default () => (
         So I gathered together the Raspberry Pi and all my programming and design knowledge and after a couple of late
         nights I ended up with this:
       </p>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='RasberryPi' />
+      <Image src={photo1} alt='RasberryPi' />
       <p>
         Here’s how it works: there are two trams I can catch to work, the number 7 and the number 9. The tram numbers
         are on either side of the screen, with the one that’s coming next lit. In the middle is the time in minutes

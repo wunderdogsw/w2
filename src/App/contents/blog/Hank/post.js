@@ -7,7 +7,7 @@ import hero from './hank.png'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Hank' />
+    <Image src={hero} alt='Hank' />
     <Chapter>
       <p>
         <i>

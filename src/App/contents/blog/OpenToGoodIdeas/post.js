@@ -1,12 +1,11 @@
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import heroThumb from './open-source-thumb.jpg'
 import hero from './open-source.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='OpenSource' />
+    <Image src={hero} alt='OpenSource' />
     <Chapter>
       <p>
         We all experience a multitude of oddly annoying problems in our everyday lives. Tiresome, isn’t it? At

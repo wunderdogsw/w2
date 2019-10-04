@@ -2,13 +2,12 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import heroThumb from './wrongwriting-thumb.jpg'
 import hero from './wrongwriting.png'
 import photo1 from './wrongwriting2.gif'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Dude' />
+    <Image src={hero} alt='Dude' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no
@@ -58,7 +57,7 @@ export default () => (
         I ended up naming the app Juhani, because that happens to be the name of my kind-of brother-in-law who is very
         helpful. Thanks Juhani, again.
       </p>
-      <Image thumbSrc={photo1} src={photo1} alt='juhani.mobi' />
+      <Image src={photo1} alt='juhani.mobi' />
       <h2>Problem solved</h2>
       <p>
         Now that I’ve solved my initial problem, I’ve begun to think of development ideas. I’d love to make shopping
