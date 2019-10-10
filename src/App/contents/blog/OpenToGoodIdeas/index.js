@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './open-source.jpg'
 
 export default {
   title: 'Open to good ideas',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 2,
   keywords: 'Open-source project, culture , problem solving',
   category: 'software development',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

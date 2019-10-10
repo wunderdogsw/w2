@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './wrongwriting.png'
 
 export default {
   title: 'I had a problem: It’s the writing that’s wrong',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 4,
   keywords: 'Web Speech API, problem solving',
   category: 'problem/solution',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

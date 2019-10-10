@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './dont-play.jpeg'
 
 export default {
   title: 'I had a problem: Don’t play it again, Sam!',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 4,
   keywords: 'javascript, HTTP, problem solving',
   category: 'problem/solution',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

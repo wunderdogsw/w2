@@ -1,45 +1,50 @@
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import photo2Thumb from './pairprog-thumb.jpg'
-import photo3Thumb from './pairprog3-thumb.jpg'
+import photo2 from './live-share.gif'
 import photo3 from './pairprog3.png'
-import photo1Thumb from './piispavissy-thumb.jpg'
 import photo1 from './piispavissy.jpg'
 
 export default () => (
   <Fragment>
     <Chapter>
-      <p>This is part II of our “Pair Programming — Uncharted Territories” blog posts. See also Part I.</p>
+      <p>This is part II of our “Pair Programming — Uncharted Territories” blog
+      posts. See also Part I.</p>
     </Chapter>
     <Chapter>
       <p>
-        Developers tend to use pair programming quite occasionally, which is understandable in a way. If the chemistry
-        between peers is not at that good level, pair programming might not be necessarily an investment worth doing.
-        According to our experience, however, pair programming can be tuned up to a level at which efficiency and
-        happiness surpass clearly two lone individual programmers. In what follows, different levels of pair programming
-        are listed and analyzed.
+        Developers tend to use pair programming quite occasionally, which is
+        understandable in a way. If the chemistry between peers is not at that
+        good level, pair programming might not be necessarily an investment
+        worth doing. According to our experience, however, pair programming can
+        be tuned up to a level at which efficiency and happiness surpass clearly
+        two lone individual programmers. In what follows, different levels of
+        pair programming are listed and analyzed.
       </p>
     </Chapter>
     <Chapter>
       <h2>1. Basic Freemium Edition</h2>
       <p>
-        A typical form of pair programming in which two random dudes try to get along with each other and solve a
-        problem together is called _Basic Freemium Edition_. In other words, this is the no-frills model of pair
+        A typical form of pair programming in which two random dudes try to get
+        along with each other and solve a problem together is called _Basic
+        Freemium Edition_. In other words, this is the no-frills model of pair
         programming.
       </p>
       <p>
-        In Basic Freemium Edition, pair programming is often considered a pedagogic tool used when there is a problem
-        that someone is not able to solve himself/herself. However, we believe that pair programming can be thought of
-        as a tool that is used constantly for producing value for customer efficiently.
+        In Basic Freemium Edition, pair programming is often considered a
+        pedagogic tool used when there is a problem that someone is not able to
+        solve himself/herself. However, we believe that pair programming can be
+        thought of as a tool that is used constantly for producing value for
+        customer efficiently.
       </p>
     </Chapter>
     <Chapter>
       <h2>2. Battlecruiser X Robot Hand</h2>
       <p>
-        In Battlecruiser X Robot Hand (BxR) pair programming, there are two clear roles for the peers. Battlecruiser
-        functions as the primary operator/programmer and Robot Hand as her adjutant who is capable of doing rapid, small
-        tasks initiated by Battlecruiser. Meanwhile, Battlecruiser can continue on her primary task and can then pull
+        In Battlecruiser X Robot Hand (BxR) pair programming, there are two clear
+        roles for the peers. Battlecruiser functions as the primary
+        operator/programmer and Robot Hand as her adjutant who is capable of
+        doing rapid, small tasks initiated by Battlecruiser. Meanwhile, Battlecruiser can continue on her primary task and can then pull
         Robot Hand’s contributions at a suitable moment.
       </p>
       <p>
@@ -54,7 +59,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='PiispaVissy' />
+      <Image src={photo1} alt='PiispaVissy' />
     </Chapter>
     <Chapter>
       <h2>3. Battlecruiser X Robot Hand Remote Warp Speed Edition</h2>
@@ -65,7 +70,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo2Thumb} src={photo2Thumb} alt='OneBrain' />
+      <Image src={photo2} alt='LiveShare' />
     </Chapter>
     <Chapter>
       <p>
@@ -93,7 +98,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo3Thumb} src={photo3} alt='OneBrain' />
+      <Image src={photo3} alt='OneBrain' />
     </Chapter>
     <Chapter>
       <p>

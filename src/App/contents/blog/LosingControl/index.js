@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './losing-control-hero.png'
 
 export default {
   title: 'I had a problem: I keep losing control',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 2,
   keywords: 'javascript, HTTP, problem solving',
   category: 'problem/solution',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

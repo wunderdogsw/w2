@@ -6,7 +6,7 @@ import hero from './pomo-developer.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={hero} src={hero} alt='Oodi' />
+    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         <i>

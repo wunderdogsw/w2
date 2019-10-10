@@ -2,6 +2,7 @@ import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
+import hero from './technical-dept.jpg'
 
 export default () => (
   <Fragment>

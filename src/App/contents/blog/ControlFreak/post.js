@@ -2,11 +2,11 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import hero from './i-had-a-problem.jpeg'
+import hero from './control-freak.png'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={hero} src={hero} alt='Oodi' />
+    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no

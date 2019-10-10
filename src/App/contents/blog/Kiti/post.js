@@ -2,14 +2,12 @@ import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import heroThumb from './kiti-thumb.jpg'
 import hero from './kiti.jpg'
-import photo1Thumb from './kiti2-thumb.jpg'
 import photo1 from './kiti2.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Kiti' />
+    <Image src={hero} alt='Kiti' />
     <Chapter>
       <p>
         <i>
@@ -51,7 +49,7 @@ export default () => (
         else at Wunderdog. And it works both ways, sometimes I help other teams at Wunderdog by facilitating
         retrospectives for them.
       </p>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='Albums' />
+      <Image src={photo1} alt='Albums' />
       <p>
         We are always working on the customer premises and I really like that. The direct benefit with this is that we
         can communicate face to face when needed and reach the right people more easily. But one indirect benefit is

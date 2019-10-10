@@ -1,11 +1,10 @@
+import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import { default as hero, default as heroThumb } from './i-had-a-problem.jpeg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Oodi' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no

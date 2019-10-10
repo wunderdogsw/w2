@@ -1,6 +1,7 @@
 import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import React, { Fragment } from 'react'
+import hero from './are-we-ceos.png'
 
 export default () => (
   <Fragment>

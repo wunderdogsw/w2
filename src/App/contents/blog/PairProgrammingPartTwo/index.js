@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './piispavissy.jpg'
 
 export default {
   title: 'Pair Programming — Uncharted Territories — Part II',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 4,
   keywords: 'programming, teamwork',
   category: 'software development',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

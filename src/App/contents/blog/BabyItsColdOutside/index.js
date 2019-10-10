@@ -1,12 +1,14 @@
 import importedComponent from 'react-imported-component'
+import image from './its-cold-outside.jpeg'
 
 export default {
-  title: 'I had a problem: Don’t play it again, Sam!',
+  title: 'I had a problem: Baby, it\'s cold outside!',
   author: 'Luffis',
   publishDate: 'Mar 4, 2019',
   readTimeMinutes: 3,
   keywords: 'Rasberry Pi, JavaScript, Linux, problem-solving',
   category: 'problem/solution',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

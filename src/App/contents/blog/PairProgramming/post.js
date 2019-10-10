@@ -2,7 +2,6 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import photo1Thumb from './pairprog1-thumb.jpg'
 import photo1 from './pairprog1.png'
 
 export default () => (
@@ -53,7 +52,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image thumbSrc={photo1Thumb} src={photo1} alt='PairProgramming' />
+      <Image src={photo1} alt='PairProgramming' />
     </Chapter>
     <Chapter>
       <h2>Decently distributed codebase knowledge</h2>

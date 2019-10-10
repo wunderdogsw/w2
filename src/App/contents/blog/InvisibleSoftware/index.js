@@ -1,4 +1,5 @@
 import importedComponent from 'react-imported-component'
+import image from './invisible.jpeg'
 
 export default {
   title: 'Make Your Software as Invisible as Possible',
@@ -7,6 +8,7 @@ export default {
   readTimeMinutes: 5,
   keywords: 'software development, self-management',
   category: 'software development',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

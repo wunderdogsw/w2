@@ -3,12 +3,11 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import heroThumb from './turger-thumb.jpg'
 import hero from './turger.jpeg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={heroThumb} src={hero} alt='Hunttis' />
+    <Image src={hero} alt='Hunttis' />
     <Chapter>
       <p>
         <i>
