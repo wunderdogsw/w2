@@ -10,12 +10,16 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
-import heroThumb from './hero-mieli-thumb.jpg'
-import hero from './hero-mieli.png'
+import heroThumb from './mieli-hero-thumb.jpg'
+import hero from './mieli-hero.jpg'
 import photo1Thumb from './mieli-photo1-thumb.jpg'
-import photo1 from './mieli-photo1.png'
+import photo1 from './mieli-photo1.jpg'
 import photo2Thumb from './mieli-photo2-thumb.jpg'
-import photo2 from './mieli-photo2.png'
+import photo2 from './mieli-photo2.jpg'
+import photo3Thumb from './mieli-photo3-thumb.jpg'
+import photo3 from './mieli-photo3.jpg'
+import photo4Thumb from './mieli-photo4-thumb.jpg'
+import photo4 from './mieli-photo4.jpg'
 import summary from './smartly-summary.svg'
 
 
@@ -23,15 +27,15 @@ export default () => (
   <Fragment>
     <CssVars>
       {{
-        '--color-accent': '#FFBBC5',
+        '--color-accent': '#f7f7f7',
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
-    <MainTitle>Mieli</MainTitle>
+    <MainTitle>Mieli - Mental Health Finland</MainTitle>
     <SubTitle useAsMetaTitle>Keeping data in mind</SubTitle>
     <DatLine />
-    <Keywords>DevOps</Keywords>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Smartly.io" />
+    <Keywords>Service Design, UI Design, Full-stack development</Keywords>
+    <Image thumbSrc={ heroThumb } src={ hero } alt="MieliPeople" />
     <Chapter>
       <h4>Setting the scene</h4>
       <p>
@@ -58,6 +62,7 @@ export default () => (
         calls to crisis support after an incident.
       </p>
     </Chapter>
+    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Working at Mieli" />
     <Chapter>
       <h4>The inevitable challenge</h4>
       <p>
@@ -68,10 +73,6 @@ export default () => (
         system – quite simply, it was time for something new.
       </p>
     </Chapter>
-    <ImageRow>
-      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Working at Mieli" />
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Mieli crew" />
-    </ImageRow>
     <Chapter>
       <h4>Our peace-of-mind solution</h4>
       <p>
@@ -102,6 +103,10 @@ export default () => (
         allowed procedures to be unified in the software.
       </p>
     </Chapter>
+    <ImageRow>
+      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Research" />
+      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Mieli crew" />
+    </ImageRow>
     <Chapter>
       <h4>So how did it go?</h4>
       <p>
@@ -123,6 +128,12 @@ export default () => (
         help MIELI in such a practical way.
       </p>
     </Chapter>
+    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Anni" />
+    <Chapter>
+      <p>
+        <i>*Drawing made by our talented workplace programmee Anni.</i>
+      </p>
+    </Chapter>
     <Summary>
       <Image src={ summary } alt="" />
       <h4>The challenge</h4>
@@ -140,11 +151,6 @@ export default () => (
         modified, maintained, and further developed whenever needed.
       </p>
     </Summary>
-    <Chapter>
-      <p>
-        <i>*The visual credit: Our talented workplace programmee Anni.</i>
-      </p>
-    </Chapter>
 
   </Fragment>
 )
