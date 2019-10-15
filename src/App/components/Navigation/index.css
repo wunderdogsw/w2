@@ -1,0 +1,29 @@
+.Navigation {
+  margin-top: calc(var(--spacing) / 2);
+  margin-bottom: var(--spacing);
+}
+
+.Navigation li {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 40px;
+  color: var(--color-grey);
+}
+
+.Navigation li:hover {
+  cursor: pointer;
+}
+
+.Navigation .Selected:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  bottom: -5px;
+  background: currentColor;
+}
+
+.Navigation .Selected {
+  color: var(--color-black);
+}

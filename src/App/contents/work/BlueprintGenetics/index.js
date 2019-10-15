@@ -8,7 +8,6 @@ import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
-import DatLine from 'App/components/DatLine'
 
 import heroThumb from './blueprint-hero-thumb.jpg'
 import hero from './blueprint-hero.png'
@@ -37,7 +36,6 @@ export default () => (
     </CssVars>
     <MainTitle>Blueprint Genetics</MainTitle>
     <SubTitle useAsMetaTitle>Collaboration is in our DNA.</SubTitle>
-    <DatLine />
     <Keywords>Scrum, full-stack development</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Blueprint hero" />
     <Chapter>

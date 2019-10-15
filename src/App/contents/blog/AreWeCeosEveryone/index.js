@@ -3,11 +3,14 @@ import image from './are-we-ceos.png'
 
 export default {
   title: 'Are we CEOs everyone?',
-  author: 'Vissy, software developer',
+  author: {
+    name: 'Vissy',
+    title: 'Software developer'
+  },
   publishDate: 'Oct 18, 2019',
   readTimeMinutes: 3,
   keywords: 'software development, self-management',
-  category: 'software development',
+  category: 'technology',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

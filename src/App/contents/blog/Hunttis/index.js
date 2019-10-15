@@ -3,11 +3,14 @@ import image from './hunttis.jpeg'
 
 export default {
   title: 'We do Wunders — Hunttis, Coder',
-  author: 'Hunttis',
+  author: {
+    name: 'Hunttis',
+    title: 'Software developer'
+  },
   publishDate: 'Jan 21, 2019',
   readTimeMinutes: 3,
   keywords: 'culture, development',
-  category: 'biography',
+  category: 'culture',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

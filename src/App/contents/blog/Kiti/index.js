@@ -3,11 +3,14 @@ import image from './kiti.jpg'
 
 export default {
   title: 'We do Wunders — Kiti, Developer',
-  author: 'Kiti',
+  author: {
+    name: 'Kiti',
+    title: 'Software engineer'
+  },
   publishDate: 'Jun 6, 2019',
   readTimeMinutes: 4,
   keywords: 'culture, development',
-  category: 'biography',
+  category: 'culture',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

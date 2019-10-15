@@ -2,11 +2,9 @@ import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import hero from './piispa.png'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Piispa' />
     <Chapter>
       <p>
         <i>

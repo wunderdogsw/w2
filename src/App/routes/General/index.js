@@ -1,5 +1,6 @@
 import Keywords from 'App/components/Keywords'
 import MainTitle from 'App/components/MainTitle'
+import Image from 'App/components/Image'
 import NotFound from 'App/components/NotFound'
 import SubTitle from 'App/components/SubTitle'
 import * as blogPages from 'App/contents/blog'
@@ -7,8 +8,10 @@ import * as generalPages from 'App/contents/pages'
 import * as workPages from 'App/contents/work'
 import { pageview } from 'App/utils/analytics'
 import React, { Component, Fragment } from 'react'
-import Button from '../../components/Button'
-import FooterBottom from '../../components/FooterBottom'
+import Button from 'App/components/Button'
+import Footer from 'App/components/Footer'
+import { FooterBottom } from 'App/contents/other'
+import { NextProject } from 'App/contents/callToActions'
 import './index.css'
 
 let pages = Object.entries(generalPages).reduce((res, [key, value]) => {
@@ -58,25 +61,34 @@ for (const key in subPages.blog) {
   }
 }
 
-posts.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate)) // From new to old
+categories.sort()
+posts.sort((a, b) => new Date(a.publishDate) - new Date(b.publishDate)) // From new to old
 
 posts.forEach((post, idx) => {
   const next = posts[idx + 1]
   if (next) post.next = { id: next.id, title: next.title }
 })
 
-const generateBlogPost = ({ title, author, publishDate, readTimeMinutes, keywords, BlogComponent, next }) => (
+const generateBlogPost = ({ category, title, image, author, publishDate, readTimeMinutes, keywords, BlogComponent, next }) => (
   <Fragment>
-    <MainTitle narrow>{title}</MainTitle>
-    <SubTitle useAsMetaTitle style={{ whiteSpace: 'no-wrap' }}>
-      {`By ${author} • ${publishDate} • Read time ${readTimeMinutes} min`}
-    </SubTitle>
-    <Keywords>{keywords}</Keywords>
-    <BlogComponent />
+    <div className='Page'>
+      <article className='Page__inner'>
+        <MainTitle narrow>{title}</MainTitle>
+        <SubTitle>
+          By { author.name } <span class="grey">{ author.title }</span> • { publishDate } • Read time { readTimeMinutes } min
+        </SubTitle>
+        {image && (
+          <Image src={ image } />
+        )}
+        <Keywords>{keywords}</Keywords>
+        <BlogComponent />
+      </article>
+    </div>
     {next && (
-      <FooterBottom>
-        <Button to={`${next.id}`}>{next.title}</Button>
-      </FooterBottom>
+      <Footer>
+        <NextProject to={next.id} action="Go to next post" title={next.title} />
+        <FooterBottom />
+      </Footer>
     )}
   </Fragment>
 )
@@ -108,12 +120,16 @@ export default class extends Component {
     const Content =
       subPages[subpath] && subPages[subpath][contentKey] ? subPages[subpath][contentKey] : pages[contentKey]
 
-    const isBlog = subpath === 'blog'
+    if (subpath === 'blog') {
+      return (
+        generateBlogPost(Content)
+      )
+    }
 
     return (
       <div className='Page'>
         <article className='Page__inner'>
-          {Content ? isBlog ? generateBlogPost(Content) : <Content /> : <NotFound />}
+          {Content ? <Content /> : <NotFound />}
         </article>
       </div>
     )

@@ -8,7 +8,6 @@ import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
-import DatLine from 'App/components/DatLine'
 import YoutubeVideo from 'App/components/YoutubeVideo'
 
 import heroThumb from './oodi-hero-thumb.jpg'
@@ -28,9 +27,8 @@ export default () => (
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
-    <MainTitle>Oodi, Central Library</MainTitle>
-    <SubTitle useAsMetaTitle>An ode to the city</SubTitle>
-    <DatLine />
+    <MainTitle>An ode to the city</MainTitle>
+    <SubTitle useAsMetaTitle>Oodi, Central Library</SubTitle>
     <Keywords>React, Unity, UI Design, UX Design</Keywords>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Oodi" />
     <Chapter>
@@ -62,7 +60,7 @@ export default () => (
       <h4>The inevitable challenge</h4>
       <p>
         Helsinki Urban Environment Division brought in creative agency Sherpa who
-        needed to find a partner to co-create and execute the digital part 
+        needed to find a partner to co-create and execute the digital part
         of the experience. This was the start of an inspiring partnership between
         Sherpa and Wunderdog.
       </p>

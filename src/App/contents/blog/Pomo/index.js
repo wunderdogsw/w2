@@ -3,11 +3,14 @@ import image from './pomo-developer.jpg'
 
 export default {
   title: 'We do wunders — Pomo, developer',
-  author: 'Pomo',
+  author: {
+    name: 'Pomo',
+    title: 'Software developer'
+  },
   publishDate: 'May 3, 2019',
   readTimeMinutes: 4,
   keywords: 'culture, Berlin',
-  category: 'biography',
+  category: 'culture',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

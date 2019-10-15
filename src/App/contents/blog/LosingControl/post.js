@@ -7,7 +7,6 @@ import photo1 from './losing-control-photo1.png'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no

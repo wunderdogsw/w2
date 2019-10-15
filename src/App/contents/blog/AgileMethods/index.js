@@ -3,12 +3,15 @@ import image from './quick-dirty.jpeg'
 
 export default {
   title: 'Agile Methods Are Everything But “Quick and Dirty”',
-  author: 'Remo, software developer',
+  author: {
+    name: 'Remo',
+    title: 'Software developer'
+  },
   publishDate: 'Aug 23, 2019',
   readTimeMinutes: 4,
   keywords: 'software development, agile methods',
-  category: 'software development',
-  image: image, 
+  category: 'technology',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

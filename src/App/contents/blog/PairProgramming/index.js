@@ -3,11 +3,13 @@ import image from './pairprog1.png'
 
 export default {
   title: 'Pair Programming — Uncharted Territories — Part I',
-  author: 'Piispa & Vissy',
+  author: {
+    name: 'Piispa & Vissy'
+  },
   publishDate: 'Feb 13, 2019',
   readTimeMinutes: 4,
   keywords: 'programming, teamwork',
-  category: 'software development',
+  category: 'technology',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

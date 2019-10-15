@@ -7,7 +7,6 @@ import photo1 from './kiti2.jpg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Kiti' />
     <Chapter>
       <p>
         <i>

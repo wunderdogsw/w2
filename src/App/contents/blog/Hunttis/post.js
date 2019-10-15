@@ -2,11 +2,9 @@ import BlockQuote from 'App/components/BlockQuote'
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import hero from './hunttis.jpeg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Hunttis' />
     <Chapter>
       <p>
         <i>
@@ -14,11 +12,11 @@ export default () => (
           words who they are and what they do!
         </i>
       </p>
+      <BlockQuote>
+        “Coding is like digital carpentry: You nail pieces together for a while and ta-daa, you’ve made yourself a web
+        service or maybe a soapbox car!”
+      </BlockQuote>
     </Chapter>
-    <BlockQuote>
-      “Coding is like digital carpentry: You nail pieces together for a while and ta-daa, you’ve made yourself a web
-      service or maybe a soapbox car!”
-    </BlockQuote>
     <Chapter>
       <p>
         Hi! My name is Ville, I’m a 38-year-old coder originally from the capital of Tango but have since moved to the

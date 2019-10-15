@@ -7,7 +7,6 @@ import photo1 from './wrongwriting2.gif'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Dude' />
     <Chapter>
       <p>
         We all encounter a range of everyday problems in our lives, both large and small. At Wunderdog we’re no

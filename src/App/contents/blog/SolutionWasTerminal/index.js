@@ -3,12 +3,15 @@ import image from './i-had-a-problem.jpeg'
 
 export default {
   title: 'I had a problem, and the solution was terminal',
-  author: 'Piispa',
+  author: {
+    name: 'Piispa',
+    title: 'Software developer'
+  },
   publishDate: 'August 7, 2019',
   readTimeMinutes: 3,
   keywords: 'javascript, hsl',
-  category: 'problem/solution',
-  image: image, 
+  category: 'technology',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

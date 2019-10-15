@@ -3,11 +3,14 @@ import image from './its-cold-outside.jpeg'
 
 export default {
   title: 'I had a problem: Baby, it\'s cold outside!',
-  author: 'Luffis',
+  author: {
+    name: 'Luffis',
+    title: 'Software developer'
+  },
   publishDate: 'Mar 4, 2019',
   readTimeMinutes: 3,
   keywords: 'Rasberry Pi, JavaScript, Linux, problem-solving',
-  category: 'problem/solution',
+  category: 'technology',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

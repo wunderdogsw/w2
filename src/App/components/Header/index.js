@@ -65,7 +65,7 @@ export default withRouter(withState(
           </nav>
           <Logo className={cs(
             !logoShowing && 'Visibility--hidden'
-          )} useHorizontal to="/" />
+          )} useHorizontal to="/" animate />
           <a
             href="#"
             className="Header__toggleNav"

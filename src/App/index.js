@@ -65,16 +65,19 @@ export default () => (
         <Route path="*" component={ Home } />
 
       </Switch>
+
       <Footer>
         <Switch>
           <Route path="/pahkina" />
           <Route path="/pingpong" />
-          <Route path="/works/*" component={ NextProject }/>
+          <Route path="/works/*"/>
+          <Route path="/blog/*"/>
           <Route path="/contact" component={ LetsTalk }/>
           <Route path="*" component={ Contact }/>
         </Switch>
         <FooterBottom />
       </Footer>
+
       <Switch>
         <Route path="/pahkina" />
         <Route path="/pingpong" />

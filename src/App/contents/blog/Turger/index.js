@@ -3,11 +3,14 @@ import image from './turger.jpeg'
 
 export default {
   title: 'We Do Wunders— Turger, Coder',
-  author: 'Turger',
+  author: {
+    name: 'Turger',
+    title: 'Software developer'
+  },
   publishDate: 'Jan 14, 2019',
   readTimeMinutes: 4,
   keywords: 'culture, development',
-  category: 'biography',
+  category: 'culture',
   image: image,
 
   BlogComponent: importedComponent(() => import('./post')),

@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+  pointer-events: none;
 }
 
 .Header--animate {
@@ -28,8 +29,16 @@
 
 .Header > .Logo {
   width: 55px;
+  transition-property: none;
   transition-duration: 200ms;
   transition-timing-function: var(--animation-ease);
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.Header--navShowing > .Logo {
+  fill: var(--color-white);
+  opacity: 1;
 }
 
 .Header .Logo__grid {
@@ -56,6 +65,7 @@
   line-height: 1.6;
   opacity: 0;
   pointer-events: none;
+  color: var(--color-background);
 
   transition-property: opacity;
   transition-duration: var(--animation-duration-fast);
@@ -75,16 +85,8 @@
   opacity: 1;
   pointer-events: all;
   background-color: var(--color-blue);
-  color: var(--color-background);
 }
 
-.Header svg {
-  fill: #ffffff;
-}
-
-.Header .Logo {
-  mix-blend-mode: difference;
-}
 
 
 
@@ -99,6 +101,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  pointer-events: auto;
+  mix-blend-mode: difference;
 }
 
 .Header--navShowing .Header__toggleNav {
@@ -107,4 +111,8 @@
   height: 30px;
   background-color: transparent;
   background-image: url('./header-close.svg');
+}
+
+.Header__toggleNav svg {
+  fill: rgb(255,255,255);
 }

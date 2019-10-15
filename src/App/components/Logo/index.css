@@ -11,7 +11,8 @@
 .Logo--animate {
   & > svg > * {
     animation-name: letterFadeIn;
-    animation-duration: var(--animation-duration);
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
     animation-fill-mode: backwards;
     animation-timing-function: var(--animation-ease);
   }
@@ -31,18 +32,14 @@
   display: none;
 }
 
-
-
-
-
-
-
-
-@keyframes letterFadeIn {
-  0% {
-    opacity: 0;
+  @keyframes letterFadeIn {
+    60% {
+      opacity: 1;
+    }
+    63% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 1;
+    }
   }
-  100% {
-    opacity: 1;
-  }
-}

@@ -6,7 +6,6 @@ import hero from './WDW-nukka.jpg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Oodi' />
     <Chapter>
       <p>
         <i>

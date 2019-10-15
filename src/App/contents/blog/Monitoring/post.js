@@ -5,7 +5,6 @@ import hero from './monitoring.jpeg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Monitoring' />
     <Chapter>
       <h2>“You can’t control what you can’t measure” — Tom Demarco</h2>
       <p>

@@ -17,3 +17,7 @@
 .Chapter > h5 {
   margin-bottom: calc(var(--spacing-small) / 4);
 }
+
+.Chapter > h2 {
+  margin-top: var(--spacing);
+}

@@ -2,11 +2,9 @@ import React, { Fragment } from 'react'
 import Button from 'App/components/Button'
 import TransitionLink from 'App/components/TransitionLink'
 
-export default () => (
+export default ({ action, title, to }) => (
   <Fragment>
-    <p>
-      Go to next project
-    </p>
-    <h1>Online Healthcare Comparison Tool</h1>
+    <p>{action}</p>
+    <h1>{title}</h1>
   </Fragment>
 )

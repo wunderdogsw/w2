@@ -5,25 +5,26 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
+  margin-top: calc(var(--spacing-small) * 2);
   width: 100%;
-}
 
-.FooterBottom p {
-  font-size: 14px;
-  opacity: 0.4;
-}
-
-
-
-
-.FooterBottom > .Logo {
-  width: 120px;
-
-  & > svg * {
-    fill: var(--color-text-on-footer);
+  @media (width <= 800px) {
+    flex-direction: column;
   }
 }
 
+.FooterBottom p {
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.4;
+
+  @media (width <= 800px) {
+    order: 2;
+    text-align: center;
+    margin-top: var(--spacing-small);
+    margin-bottom: var(--spacing-small);
+  }
+}
 
 
 
@@ -32,11 +33,22 @@
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;
+  min-width: 300px;
+
+  @media (width <= 800px) {
+    order: 1;
+    justify-content: center;
+  }
 
   & > * {
     margin-left: var(--spacing-small);
     text-decoration: none;
     opacity: 0.4;
+
+    @media (width <= 800px) {
+      margin-left: calc(var(--spacing-small) / 2);
+      margin-right: calc(var(--spacing-small) / 2);
+    }
 
     &:hover {
       opacity: 1;

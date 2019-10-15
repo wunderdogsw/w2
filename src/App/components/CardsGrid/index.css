@@ -1,0 +1,6 @@
+.CardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: calc(var(--spacing) / 2);
+  align-items: flex-start;
+}

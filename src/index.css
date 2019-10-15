@@ -2,6 +2,7 @@
   --color-white: #fff;
   --color-black: #000;
   --color-blue: #193CC8;
+  --color-grey: #a0a0a0;
   --color-light-gray: #f8f8f8;
 
   --color-background: #fff;
@@ -33,7 +34,7 @@
   --font-size-normal: 30px;
 
   --spacing-small: 40px;
-  --spacing: 150px;
+  --spacing: 120px;
 
   @media (width <= 1199px) {
     --font-size-large: 80px;
@@ -53,6 +54,18 @@
 
 @font-face {
   font-family: 'apercu-pro';
+  src: url('./fonts/apercu-mono-regular-pro.eot');
+  src: url('./fonts/apercu-mono-regular-pro.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/apercu-mono-regular-pro.woff2') format('woff2'),
+    url('./fonts/apercu-mono-regular-pro.woff') format('woff'),
+    url('./fonts/apercu-mono-regular-pro.ttf') format('truetype');
+  font-weight: italic;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'apercu-pro';
   src: url('./fonts/apercu-regular-pro.eot');
   src: url('./fonts/apercu-regular-pro.eot?#iefix') format('embedded-opentype'),
     url('./fonts/apercu-regular-pro.woff2') format('woff2'),
@@ -63,14 +76,14 @@
 }
 
 @font-face {
-    font-family: 'apercu-pro';
-    src: url('./fonts/apercu-bold-pro.eot');
-    src: url('./fonts/apercu-bold-pro.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/apercu-bold-pro.woff2') format('woff2'),
-         url('./fonts/apercu-bold-pro.woff') format('woff'),
-         url('./fonts/apercu-bold-pro.ttf') format('truetype');
-    font-weight: bold;
-    font-style: bold;
+  font-family: 'apercu-pro';
+  src: url('./fonts/apercu-bold-pro.eot');
+  src: url('./fonts/apercu-bold-pro.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/apercu-bold-pro.woff2') format('woff2'),
+    url('./fonts/apercu-bold-pro.woff') format('woff'),
+    url('./fonts/apercu-bold-pro.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
 }
 
 
@@ -91,7 +104,7 @@ html, body {
   font-family: 'apercu-pro', sans-serif;
   font-size: var(--font-size-normal);
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -149,10 +162,6 @@ h3 {
   font-weight: 500;
   line-height: 1.6;
   margin: 0;
-
-  @media (width >= 1024px) {
-    font-size: 30px;
-  }
 }
 
 
@@ -163,10 +172,6 @@ h4 {
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
-
-  @media (width >= 1024px) {
-    font-size: 30px;
-  }
 }
 
 
@@ -258,6 +263,9 @@ a {
 
 
 
+.grey {
+  color: var(--color-grey);
+}
 
 .centered {
   text-align: center;

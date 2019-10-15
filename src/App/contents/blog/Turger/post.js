@@ -3,11 +3,9 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import hero from './turger.jpeg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='Hunttis' />
     <Chapter>
       <p>
         <i>
@@ -15,11 +13,11 @@ export default () => (
           words who they are and what they do!
         </i>
       </p>
+      <BlockQuote>
+        “Building up one of my very first web pages at the age of 12 I found the browser DevTools that revolutionized my
+        life!”
+      </BlockQuote>
     </Chapter>
-    <BlockQuote>
-      “Building up one of my very first web pages at the age of 12 I found the browser DevTools that revolutionized my
-      life!”
-    </BlockQuote>
     <Chapter>
       <p>
         Hi! I’m Turger, 27-year-old cheerful developer, living in Helsinki. I like all sorts of tinkering and

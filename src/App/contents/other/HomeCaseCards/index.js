@@ -9,16 +9,16 @@ import {
 
 export default () => (
   <Fragment>
-    <Card to="/Oodi">
+    <Card to="/work/oodi">
       <Oodi/>
     </Card>
-    <Card to="/Smartly">
+    <Card to="/work/smartly">
       <Smartly/>
     </Card>
-    <Card to="/Redbull">
+    <Card to="/work/redbull">
       <RedBull/>
     </Card>
-    <Card to="/BluePrintGenetics">
+    <Card to="/work/blueprint-genetics">
       <BluePrintGenetics/>
     </Card>
   </Fragment>

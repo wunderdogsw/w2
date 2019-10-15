@@ -1,9 +1,14 @@
 .BlockQuote {
+  font-family: var(--font-mono);
   font-size: var(--font-size-medium);
   font-style: italic;
   color: var(--color-blue);
-  margin-left: -100px;
+  margin-left: -50px;
   margin-top: var(--spacing);
   margin-bottom: var(--spacing);
-  max-width: 700px;
+  max-width: 850px;
+
+  @media (width <= 1199px) {
+    margin-left: 40px;
+  }
 }

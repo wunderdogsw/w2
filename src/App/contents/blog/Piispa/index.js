@@ -3,12 +3,15 @@ import image from './piispa.png'
 
 export default {
   title: 'We Do Wunders — Piispa, Developer',
-  author: 'Piispa',
+  author: {
+    name: 'Piispa',
+    title: 'Software developer'
+  },
   publishDate: 'Jul 30, 2018',
   readTimeMinutes: 2,
   keywords: 'culture, Wunderdogs',
-  category: 'biography',
-  image: image, 
+  category: 'culture',
+  image: image,
 
   BlogComponent: importedComponent(() => import('./post')),
 }

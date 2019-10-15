@@ -5,7 +5,6 @@ import hero from './open-source.jpg'
 
 export default () => (
   <Fragment>
-    <Image src={hero} alt='OpenSource' />
     <Chapter>
       <p>
         We all experience a multitude of oddly annoying problems in our everyday lives. Tiresome, isn’t it? At
