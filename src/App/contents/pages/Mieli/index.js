@@ -9,6 +9,7 @@ import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
+import TransitionLink from 'App/components/TransitionLink'
 
 import heroThumb from './mieli-hero-thumb.jpg'
 import hero from './mieli-hero.jpg'
@@ -31,7 +32,7 @@ export default () => (
         '--color-text-on-accent': '#000',
       }}
     </CssVars>
-    <MainTitle>Mieli - Mental Health Finland</MainTitle>
+    <MainTitle>MIELI - Mental Health Finland</MainTitle>
     <SubTitle useAsMetaTitle>Keeping data in mind</SubTitle>
     <DatLine />
     <Keywords>Service Design, UI Design, Full-stack development</Keywords>
@@ -131,7 +132,8 @@ export default () => (
     <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Anni" />
     <Chapter>
       <p>
-        <i>*Drawing made by our talented workplace programmee Anni.</i>
+        <i>*Drawing made by our talented <TransitionLink to="https://medium.com/wunderdog-culture/my-work-practice-program-at-wunderdog-anni-3de88d8e345d">
+        work practice programmee Anni.</TransitionLink> </i>
       </p>
     </Chapter>
     <Summary>
@@ -145,10 +147,8 @@ export default () => (
       <h4>The result</h4>
       <p>
         We were able to simplify and unify MIELI’s processes and add all the
-        requested new features to a system that caters directly for the
-        organization’s specific needs. We also improved the usability
-        significantly, using modern, flexible technology that can be easily
-        modified, maintained, and further developed whenever needed.
+        requested new features to a new system that caters directly for the
+        organization’s specific needs.
       </p>
     </Summary>
 
