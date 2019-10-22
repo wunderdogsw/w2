@@ -37,7 +37,7 @@ export default () => (
         '--color-text-on-accent': '#fff',
       }}
     </CssVars>
-    <MainTitle narrow>We believe happy people create the best workplace. Welcome to join our pack!</MainTitle>
+    <MainTitle narrow>We believe happy people create the best workplace</MainTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
     <ImageTextRow>
       <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />

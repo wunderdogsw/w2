@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Indent from 'App/components/Indent'
@@ -26,10 +25,7 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle>About us</MainTitle>
-    <SubTitle narrow>
-      We're your partner in turning good ideas into digital reality.
-    </SubTitle>
+    <MainTitle>We build on top of opportunities</MainTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent/>
 
     <Indent>

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
@@ -32,12 +31,7 @@ import malmo from './office_helsinki.jpg'
 
 export default () => (
   <Fragment>
-    <MainTitle>Contact Us</MainTitle>
-    <SubTitle narrow>
-      Feel free to throw us a question or two!
-      Let's get together and make some wunders happen!
-    </SubTitle>
-
+    <MainTitle>Let's make some wunders happen</MainTitle>
     <Indent>
       <h2>Helsinki</h2>
       <ContactRow>
@@ -56,7 +50,6 @@ export default () => (
         <Berlin />
         <JoannaRindell />
         <JasperVanGhemen />
-        <TimoSand />
         <LauriPaalama />
       </ContactRow>
     </Indent>
