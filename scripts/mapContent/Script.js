@@ -10,6 +10,7 @@ fs.readdirSync(contentDir).forEach(dir => {
   if (!fs.lstatSync(`${path}`).isDirectory()) return
 
   const isBlog = path.endsWith('blog')
+  const isWork = path.endsWith('work')
 
   const rows = []
   rows.push('// Do not modify by hand')
@@ -25,7 +26,7 @@ fs.readdirSync(contentDir).forEach(dir => {
     .forEach(subDir => {
       if (!fs.lstatSync(`${path}/${subDir}`).isDirectory()) return
       if (subDir.includes(' ')) throw new Error(`Dir names cannot contain spaces => '${subDir}'`)
-      if (isBlog) {
+      if (isBlog || isWork) {
         const postName = subDir.toLowerCase()
         rows.push(`import ${postName} from './${subDir}'\nexport const ${subDir} = ${postName}`)
       } else {

@@ -11,6 +11,7 @@
 
 .Video video {
   width: 100%;
+  background: var(--color-blue);
 }
 
 .Video .Icon {

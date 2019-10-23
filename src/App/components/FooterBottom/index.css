@@ -1,4 +1,5 @@
 .FooterBottom {
+  position: relative;
   font-size: 14px;
   display: flex;
   flex-direction: row;
@@ -7,6 +8,7 @@
   min-height: 100px;
   margin-top: calc(var(--spacing-small) * 2);
   width: 100%;
+  z-index: 3;
 
   @media (width <= 800px) {
     flex-direction: column;

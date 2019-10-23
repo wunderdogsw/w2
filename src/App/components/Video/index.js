@@ -1,6 +1,6 @@
 import './index.css'
 import React, { Component } from 'react'
-import image from './volume-x.svg'
+import volume from './volume-x.svg'
 
 export default class extends Component {
   state = {
@@ -25,7 +25,7 @@ export default class extends Component {
           {muted &&
             <div className="Icon">
               <img
-                src={ image }
+                src={ volume }
                 className="Image__main"
               />
             </div>

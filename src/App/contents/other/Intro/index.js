@@ -8,7 +8,7 @@ import home from './home-image.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={ homeThumb } src={ home } alt="Wunderdog" indent/>
+    <Image thumbSrc={ homeThumb } src={ home } alt="Wunderdog" indent hero/>
     <Indent>
       <Chapter>
         <h2>We believe things can be done better</h2>

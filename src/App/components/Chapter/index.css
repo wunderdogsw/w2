@@ -1,9 +1,8 @@
 .Chapter {
   display: block;
   box-sizing: border-box;
-  width: 40vw;
-  min-width: 300px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px;
 }
 
 .Chapter > * {

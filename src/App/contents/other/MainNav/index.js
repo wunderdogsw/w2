@@ -3,7 +3,7 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
-    <TransitionLink to="/works" children="Work" />
+    <TransitionLink to="/work" children="Work" />
     <TransitionLink to="/about-us" children="About" />
     <TransitionLink to="/career" children="Careers" />
     <TransitionLink to="/blog" children="Blog" />

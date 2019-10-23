@@ -3,6 +3,7 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default ({minimal}) => (
   <Fragment>
+    <h2>Berlin</h2>
     <address>
       Kottbusser Damm 103A<br />
       10967 Berlin, Germany<br />

@@ -3,9 +3,15 @@
 
 import importedComponent from 'react-imported-component'
 
-export const BlueprintGenetics = importedComponent(() => import('./BlueprintGenetics'))
-export const Oodi = importedComponent(() => import('./Oodi'))
-export const PerusTerveys = importedComponent(() => import('./PerusTerveys'))
-export const Pexraytech = importedComponent(() => import('./Pexraytech'))
-export const RedBull = importedComponent(() => import('./RedBull'))
-export const Smartly = importedComponent(() => import('./Smartly'))
+import blueprintgenetics from './BlueprintGenetics'
+export const BlueprintGenetics = blueprintgenetics
+import oodi from './Oodi'
+export const Oodi = oodi
+import perusterveys from './PerusTerveys'
+export const PerusTerveys = perusterveys
+import pexraytech from './Pexraytech'
+export const Pexraytech = pexraytech
+import redbull from './RedBull'
+export const RedBull = redbull
+import smartly from './Smartly'
+export const Smartly = smartly

@@ -26,11 +26,8 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle>About us</MainTitle>
-    <SubTitle narrow>
-      We're your partner in turning good ideas into digital reality.
-    </SubTitle>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent/>
+    <MainTitle narrow>We build on top of opportunities</MainTitle>
+    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
 
     <Indent>
       <Chapter>

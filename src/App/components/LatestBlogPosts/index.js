@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import cs from 'classnames'
 import Card from 'App/components/Card'
 import Image from 'App/components/Image'
-import { posts } from 'App/routes/General'
+import { posts } from 'App/routes/Blog'
 
 export default class extends Component {
 
@@ -14,9 +14,9 @@ export default class extends Component {
       <section className="LatestBlogPosts">
         <div className="LatestBlogPosts__posts">
           { posts
-            .slice(0, 2)
+            .slice(0, 3)
             .map(({ id, title, author, image }) => (
-            <Card key={ id } to={ `blog/${id}` }>
+            <Card type="post" key={ id } to={ `blog/${id}` }>
               <Image asBackground src={ image } alt={ title } />
               <h4>{title}</h4>
               <p>By {author.name}</p>

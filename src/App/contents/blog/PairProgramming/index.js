@@ -12,5 +12,5 @@ export default {
   category: 'technology',
   image: image,
 
-  BlogComponent: importedComponent(() => import('./post')),
+  content: importedComponent(() => import('./post')),
 }

@@ -7,11 +7,11 @@ export default {
   author: {
     name: 'Piispa & Vissy'
   },
-  publishDate: 'Sep 18, 2019',
+  publishDate: 'Sep 18, 2018',
   readTimeMinutes: 3,
   keywords: 'software development, self-management',
   category: 'technology',
   image: image,
 
-  BlogComponent: importedComponent(() => import('./post')),
+  content: importedComponent(() => import('./post')),
 }

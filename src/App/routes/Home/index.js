@@ -7,6 +7,7 @@ import Nudge from 'App/components/Nudge'
 import CaseCards from 'App/components/CaseCards'
 import Clients from 'App/components/Clients'
 import CallToAction from 'App/components/CallToAction'
+import LatestWork from 'App/components/LatestWork'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { OpenPositions } from 'App/contents/callToActions'
 import { HomeCaseCards, HomeBlogPostsContent } from 'App/contents/other'
@@ -23,9 +24,7 @@ export default class extends Component {
         <Hero />
         <Nudge>
           <Intro />
-          <CaseCards>
-            <HomeCaseCards />
-          </CaseCards>
+          <LatestWork />
         </Nudge>
         <CallToAction grid>
           <OpenPositions/>

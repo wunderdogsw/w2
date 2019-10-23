@@ -1,8 +1,17 @@
 .Indent {
-  margin-left: calc(var(--spacing) * 4);
-  padding-left: 0;
+  margin-left: 15vw;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+
+  @media (width <= 800px) {
+    margin-left: 0;
+  }
 }
 
 .Indent--twice {
-  margin-left: calc(var(--spacing) * 6);
+  margin-left: 30vw;
+
+  @media (width <= 800px) {
+    margin-left: 20px;
+  }
 }

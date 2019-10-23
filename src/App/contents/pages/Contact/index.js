@@ -9,7 +9,7 @@ import CallToAction from 'App/components/CallToAction'
 import ContactRow from 'App/components/ContactRow'
 
 import { ElectronicInvoicing } from 'App/contents/callToActions'
-import { Helsinki, Berlin, Lund, Empty } from 'App/contents/contactOffices'
+import { Helsinki, Berlin, Malmo, Empty } from 'App/contents/contactOffices'
 import {
   MikaViskari,
   AnteroTorhonen,
@@ -23,23 +23,15 @@ import {
   LauriPaalama,
 } from 'App/contents/contactFaces'
 
-import helsinkiThumb from './office_helsinki.jpg'
 import helsinki from './office_helsinki.jpg'
-import berlinThumb from './office_helsinki.jpg'
-import berlin from './office_helsinki.jpg'
-import malmoThumb from './office_helsinki.jpg'
-import malmo from './office_helsinki.jpg'
+import berlin from './office_berlin.jpg'
+import malmo from './office_malmo.jpg'
 
 export default () => (
   <Fragment>
-    <MainTitle>Contact Us</MainTitle>
-    <SubTitle narrow>
-      Feel free to throw us a question or two!
-      Let's get together and make some wunders happen!
-    </SubTitle>
-
+    <MainTitle narrow>Let's make some wunders happen</MainTitle>
+    <Image src={ helsinki } alt="Helsinki" indent hero />
     <Indent>
-      <h2>Helsinki</h2>
       <ContactRow>
         <Helsinki />
         <MikaViskari />
@@ -48,10 +40,9 @@ export default () => (
         <MeriTuuliOlkkonen />
       </ContactRow>
     </Indent>
-    <Image thumbSrc={ helsinkiThumb } src={ helsinki } alt="Helsinki" indent />
 
+    <Image src={ berlin } alt="Berlin" indent hero />
     <Indent>
-      <h2>Berlin</h2>
       <ContactRow>
         <Berlin />
         <JoannaRindell />
@@ -60,17 +51,15 @@ export default () => (
         <LauriPaalama />
       </ContactRow>
     </Indent>
-    <Image thumbSrc={ berlinThumb } src={ berlin } alt="Berlin" indent />
 
+    <Image src={ malmo } alt="Malmo" indent hero />
     <Indent>
-      <h2>Mälmö</h2>
       <ContactRow>
-        <Lund />
+        <Malmo />
         <RedhaCherif />
         <MartinLyckestjarn />
       </ContactRow>
     </Indent>
-    <Image thumbSrc={ malmoThumb } src={ malmo } alt="Helsinki" indent />
 
     <CallToAction grid>
       <ElectronicInvoicing />

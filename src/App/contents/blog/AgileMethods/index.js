@@ -7,11 +7,11 @@ export default {
     name: 'Remo',
     title: 'Software developer'
   },
-  publishDate: 'Aug 23, 2019',
+  publishDate: 'Aug 23, 2018',
   readTimeMinutes: 4,
   keywords: 'software development, agile methods',
   category: 'technology',
   image: image,
 
-  BlogComponent: importedComponent(() => import('./post')),
+  content: importedComponent(() => import('./post')),
 }

@@ -7,11 +7,11 @@ export default {
     name: 'Valde',
     title: 'Senior consultant & founder'
   },
-  publishDate: 'Sep 18, 2019',
+  publishDate: 'Sep 18, 2018',
   readTimeMinutes: 5,
   keywords: 'software development, self-management',
   category: 'technology',
   image: image,
 
-  BlogComponent: importedComponent(() => import('./post')),
+  content: importedComponent(() => import('./post')),
 }

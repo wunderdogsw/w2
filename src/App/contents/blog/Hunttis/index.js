@@ -13,5 +13,5 @@ export default {
   category: 'culture',
   image: image,
 
-  BlogComponent: importedComponent(() => import('./post')),
+  content: importedComponent(() => import('./post')),
 }

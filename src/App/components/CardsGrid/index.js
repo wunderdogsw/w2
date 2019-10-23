@@ -1,8 +1,12 @@
 import './index.css'
 import React, { Component } from 'react'
+import cs from 'classnames'
 
-export default ({ children }) => (
-  <section className="CardsGrid">
+export default ({ children, disharmony }) => (
+  <section className={ cs(
+    'CardsGrid',
+    disharmony && 'CardsGrid--disharmony'
+  )}>
     { children }
   </section>
 )

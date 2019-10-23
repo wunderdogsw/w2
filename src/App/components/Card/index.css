@@ -47,9 +47,9 @@
 }
 
 .Card .Image {
+  background: var(--color-blue);
 
   &:before {
-    content: 'View project';
     position: absolute;
     display: flex;
     align-items: center;
@@ -62,5 +62,17 @@
     opacity: 0;
     transition-duration: 200ms;
     transition-timing-function: var(--animation-ease);
+  }
+}
+
+.Card--work .Image {
+  &:before {
+    content: 'View project';
+  }
+}
+
+.Card--post .Image {
+  &:before {
+    content: 'View post';
   }
 }

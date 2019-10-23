@@ -3,6 +3,7 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default ({minimal}) => (
   <Fragment>
+    <h2>Helsinki</h2>
     <address>
       Mikonkatu 13 A, 4th floor<br />
       00100 Helsinki, Finland<br />

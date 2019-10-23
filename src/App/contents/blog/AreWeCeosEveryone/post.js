@@ -67,8 +67,10 @@ export default () => (
         mental Golgi tendon organ of your colleagues or subordinates, they might be able to perform better than you
         would expect. Besides, make some room for failures — it may paradoxically reduce them!
       </p>
+    </Chapter>
+    <Chapter>
       <p>
-        <i>
+        <small>
           [1] Burke, D. (1983). The afferent volleys responsible for spinal proprioceptive reflexes in man. The Journel
           of Physiology, 339(June), 535–52.
           <br />
@@ -76,7 +78,7 @@ export default () => (
           be open to debate. <br />
           [3] Talbot, R. , Cooper, C. and Barrow, S. (1992), Creativity and Stress. Creativity and Innovation
           Management, 1: 183–193. doi:10.1111/j.1467–8691.1992.tb00052.x
-        </i>
+        </small>
       </p>
     </Chapter>
   </Fragment>
