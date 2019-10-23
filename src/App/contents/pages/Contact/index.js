@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
@@ -47,7 +46,6 @@ export default () => (
         <Berlin />
         <JoannaRindell />
         <JasperVanGhemen />
-        <TimoSand />
         <LauriPaalama />
       </ContactRow>
     </Indent>

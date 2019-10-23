@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Indent from 'App/components/Indent'
