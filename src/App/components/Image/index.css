@@ -30,6 +30,17 @@
   }
 }
 
+.Image.Image--indent.Image--left,
+.Page__inner > .Image.Image--indent.Image--left {
+  position: relative;
+  margin-left: 0;
+  margin-right: calc(15vw + var(--spacing));
+
+  @media (width <= 800px) {
+    margin-right: 0;
+  }
+}
+
 
 
 

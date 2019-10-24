@@ -4,6 +4,7 @@ import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
+import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
 import ImageTextRow from 'App/components/ImageTextRow'
 import CallToAction from 'App/components/CallToAction'
@@ -39,52 +40,54 @@ export default () => (
     </CssVars>
     <MainTitle narrow>We believe happy people create the best workplace</MainTitle>
     <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
-    <ImageTextRow>
-      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />
-      <h4>The most important thing is that we all enjoy being at work</h4>
-      <p>
-        We respect every employee regardless of gender, age, religion, sexual
-        orientation or ethnic background.
-      </p>
-    </ImageTextRow>
-    <ImageTextRow reversed>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Wunderdogs" />
-      <h4>We actively avoid setting obstacles in our way</h4>
-      <p>
-        We recruit only intelligent and competent people who can make
-        decisions independently. We are given freedom and responsibility
-        accordingly.
-      </p>
-    </ImageTextRow>
-    <Stats useAccent>
-      <FunStats />
-    </Stats>
-    <ImageTextRow>
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Wunderdogs" />
-      <h4>We value our colleagues' success as much as our own</h4>
-      <p>
-        We support each other with our collective know-how, since, even
-        though we are competent, none of us is master of everything.
-      </p>
-    </ImageTextRow>
-    <ImageTextRow reversed>
-      <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Wunderdogs" />
-      <h4>We share information openly and fairly amongst colleagues</h4>
-      <p>
-        By default, all company information is public to all our employees.
-        We limit access to knowledge only for a good reason.
-      </p>
-    </ImageTextRow>
-    <ImageTextRow>
-      <Image thumbSrc={ photo5Thumb } src={ photo5 } alt="Wunderdogs" />
-      <h4>We encourage bold and open-minded experimentation</h4>
-      <p>
-        We all fail sometimes. We believe that making a mistake and learning
-        from it is far more important than not trying something for fear of
-        failure. An important part of learning is to ask feedback - which
-        we are always happy to give.
-      </p>
-    </ImageTextRow>
+    <Indent twice>
+      <Chapter>
+        <p>
+          We actively avoid setting obstacles in our way.
+          We recruit only intelligent and competent people who can make decisions
+          independently. We are given freedom and responsibility accordingly.
+        </p>
+      </Chapter>
+    </Indent>
+    <Indent>
+      <Chapter large>
+        <p>
+          The most important thing is that we all enjoy being at work. We
+          respect every employee regardless of gender, age, religion, sexual
+          orientation or ethnic background.
+        </p>
+      </Chapter>
+    </Indent>
+    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent="left" hero/>
+    <Indent>
+      <Chapter large>
+        <p>
+          We value our colleagues’ success as much as our own
+          We support each other with our collective know-how, since, even though
+          we are competent, none of us is master of everything.
+        </p>
+      </Chapter>
+    </Indent>
+    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
+    <Indent>
+      <Chapter large>
+        <p>
+          We share information openly and fairly amongst colleagues
+          By default, all company information is public to all our employees.
+          We limit access to knowledge only for a good reason.
+        </p>
+      </Chapter>
+    </Indent>
+    <Indent twice>
+      <Chapter>
+        <p>
+          We all fail sometimes. We believe that making a mistake and learning
+          from it is far more important than not trying something for fear of
+          failure. An important part of learning is to ask feedback - which we
+          are always happy to give.
+        </p>
+      </Chapter>
+    </Indent>
     <CallToAction grid>
       <OpenPositions />
     </CallToAction>

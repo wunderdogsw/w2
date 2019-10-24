@@ -5,6 +5,10 @@
   max-width: 800px;
 }
 
+.Chapter--large p {
+  font-size: var(--font-size-medium);
+}
+
 .Chapter > * {
   margin-bottom: var(--spacing-small);
 

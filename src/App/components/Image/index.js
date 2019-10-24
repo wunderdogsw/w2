@@ -40,7 +40,8 @@ export default class extends Component {
         thumbHidden && 'Image--thumbHidden',
         asBackground && 'Image--asBackground',
         hero && 'Image--isHero',
-        indent && 'Image--indent'
+        indent && 'Image--indent',
+        indent == 'left' && 'Image--left'
       )}>
         { thumbSrc && (
           asBackground ? (
