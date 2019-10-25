@@ -1,6 +1,6 @@
-import './index.css'
-import React, { Component } from 'react'
 import cs from 'classnames'
+import React, { Component } from 'react'
+import './index.css'
 
 
 
@@ -30,7 +30,9 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, thumbSrc, src, asBackground, style, hero, indent, ...rest } = this.props
+    const { className, src, asBackground, style, hero, indent, ...rest } = this.props
+
+    const thumbSrc = src.substring(0, src.lastIndexOf('.')) + '.thumb' + src.substring(src.lastIndexOf('.'), src.length)
 
     return (
       <span className={ cs(
