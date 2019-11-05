@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './invisible.jpeg'
 
 export default {
-  title: 'Make Your Software as Invisible as Possible',
+  title: 'Make your software as invisible as possible',
   author: {
     name: 'Valde',
     title: 'Senior consultant & founder'

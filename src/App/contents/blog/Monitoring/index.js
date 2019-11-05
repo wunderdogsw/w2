@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './monitoring.jpeg'
 
 export default {
-  title: 'Why Should Every Developer Care About Monitoring',
+  title: 'Why should every developer care about monitoring',
   author: {
     name: 'Tsuikkis',
     title: 'COO & founder'

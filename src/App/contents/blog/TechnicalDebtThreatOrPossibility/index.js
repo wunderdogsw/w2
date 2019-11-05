@@ -3,7 +3,7 @@ import image from './technical-dept.jpg'
 
 
 export default {
-  title: 'Technical Debt — Threat or Possibility',
+  title: 'Technical debt — threat or possibility',
   author: {
     name: 'Piispa & Vissy'
   },

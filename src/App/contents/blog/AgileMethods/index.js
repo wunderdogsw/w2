@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './quick-dirty.jpeg'
 
 export default {
-  title: 'Agile Methods Are Everything But “Quick and Dirty”',
+  title: 'Agile methods are everything but “quick and dirty”',
   author: {
     name: 'Remo',
     title: 'Software developer'

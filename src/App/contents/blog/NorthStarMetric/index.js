@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './north-star.jpg'
 
 export default {
-  title: 'The First Mistake In Your Software Project',
+  title: 'The first mistake in your software project',
   author: {
     name: 'Bole',
     title: 'Business Lead'

@@ -1,15 +1,15 @@
 import importedComponent from 'react-imported-component'
-import image from './kiti.jpg'
+import image from './kanki.jpeg'
 
 export default {
   title: 'We do wunders',
   author: {
-    name: 'Kiti',
-    title: 'Software engineer'
+    name: 'Kanki',
+    title: 'Service Designer'
   },
   publishDate: 'Jun 6, 2019',
   readTimeMinutes: 4,
-  keywords: 'culture, development',
+  keywords: 'culture, design, service design',
   category: 'culture',
   image: image,
 

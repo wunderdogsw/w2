@@ -3,6 +3,8 @@
 
 import agilemethods from './AgileMethods'
 export const AgileMethods = agilemethods
+import anni from './Anni'
+export const Anni = anni
 import areweceoseveryone from './AreWeCeosEveryone'
 export const AreWeCeosEveryone = areweceoseveryone
 import babyitscoldoutside from './BabyItsColdOutside'
@@ -11,6 +13,8 @@ import controlfreak from './ControlFreak'
 export const ControlFreak = controlfreak
 import hunttis from './Hunttis'
 export const Hunttis = hunttis
+import iiro from './Iiro'
+export const Iiro = iiro
 import importanceofcommunicationsinproductdevelopment from './ImportanceOfCommunicationsInProductDevelopment'
 export const ImportanceOfCommunicationsInProductDevelopment = importanceofcommunicationsinproductdevelopment
 import improvingyourproduct from './ImprovingYourProduct'
@@ -19,6 +23,8 @@ import invisiblesoftware from './InvisibleSoftware'
 export const InvisibleSoftware = invisiblesoftware
 import itsthewritingthatswrong from './ItsTheWritingThatsWrong'
 export const ItsTheWritingThatsWrong = itsthewritingthatswrong
+import kanki from './Kanki'
+export const Kanki = kanki
 import kiti from './Kiti'
 export const Kiti = kiti
 import losingcontrol from './LosingControl'
