@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './product-development.jpg'
 
 export default {
-  title: 'Improving Your Product Starts With a Feature Review',
+  title: 'Improving your product starts with a feature review',
   author: {
     name: 'Bole',
     title: 'Business Lead'

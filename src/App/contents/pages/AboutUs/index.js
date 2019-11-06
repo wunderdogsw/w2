@@ -30,7 +30,8 @@ export default () => (
 
     <Indent>
       <Chapter>
-        <h2>High-end consultancy in creating digital products and services</h2>
+        <h2>High-end consultancy services in creating digital
+        products and services</h2>
       </Chapter>
     </Indent>
     <Indent twice>
@@ -41,7 +42,7 @@ export default () => (
         </p>
         <p>
           By combining smart ways of working, human-centered design and
-          high-quality code, we build future-proof services together with
+          high-quality code, we build products and services together with
           our customers.
         </p>
       </Chapter>
@@ -54,22 +55,32 @@ export default () => (
     <Block useDark>
       <ChapterRow>
         <Chapter>
-          <h2>Business Design</h2>
-          <p>Developing, testing and concepting of new businesses</p>
-        </Chapter>
+          <h2>Software development</h2>
+          <p>Delivering high-quality digital products & services</p>
+          </Chapter>
         <Chapter>
-          <h2>Design (UI/UX)</h2>
+          <h2>Product Analytics</h2>
+          <p>Understanding and developing how users engage with what we build</p>
+        </Chapter>
+      </ChapterRow>
+      <ChapterRow>
+      <Chapter>
+        <h2>Business Design</h2>
+        <p>Developing, testing and concepting of new businesses</p>
+      </Chapter>
+        <Chapter>
+          <h2>UI and UX design</h2>
           <p>Easy-to-use interfaces to generate great user experiences</p>
         </Chapter>
       </ChapterRow>
       <ChapterRow>
         <Chapter>
-          <h2>Development</h2>
-          <p>Delivering high-quality digital products & services</p>
-        </Chapter>
-        <Chapter>
           <h2>Coaching & Team leading</h2>
           <p>Agile methods to support smart ways of working</p>
+        </Chapter>
+        <Chapter>
+          <h2>Scoped projects & co-sourcing</h2>
+          <p>Reliable delivery to accelerate the development process</p>
         </Chapter>
       </ChapterRow>
     </Block>
@@ -77,7 +88,7 @@ export default () => (
     <Indent>
       <Chapter>
         <h2>
-          High-end consultancy in creating digital products and services.
+          We're your partner in turning good ideas into digital reality
         </h2>
       </Chapter>
     </Indent>

@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './pairprog1.png'
 
 export default {
-  title: 'Pair Programming — Uncharted Territories — Part I',
+  title: 'Uncharted Territories — Part I',
   author: {
     name: 'Piispa & Vissy'
   },

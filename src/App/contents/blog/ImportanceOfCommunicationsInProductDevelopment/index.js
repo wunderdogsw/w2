@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './communication.png'
 
 export default {
-  title: 'The Importance of Communications in Product Development',
+  title: 'The importance of communications in product development',
   author: {
     name: 'Tsuikkis',
     title: 'COO & founder'

@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './piispavissy.jpg'
 
 export default {
-  title: 'Pair Programming — Uncharted Territories — Part II',
+  title: 'Uncharted Territories — Part II',
   author: {
     name: 'Piispa & Vissy'
   },

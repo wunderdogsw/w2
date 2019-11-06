@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './WDW-nukka.jpg'
 
 export default {
-  title: 'We Do Wunders — Nukka, Designer',
+  title: 'We do wunders',
   author: {
     name: 'Nukka',
     title: 'Designer'
