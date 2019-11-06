@@ -10,7 +10,7 @@
 }
 
 .Chapter > * {
-  margin-bottom: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
 
   &:last-child {
     /* margin-bottom: 0; */
@@ -18,7 +18,7 @@
 }
 
 .Chapter > h5 {
-  margin-bottom: calc(var(--spacing-small) / 4);
+  margin-bottom: var(--spacing-smallest);
 }
 
 .Chapter > h2 {

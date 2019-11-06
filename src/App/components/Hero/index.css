@@ -1,9 +1,8 @@
 .Hero {
   display: flex;
   align-items: center;
-  height: 100vh;
-  min-height: 700px;
-  max-height: 1440px;
+  height: 90vh;
+  min-height: 600px;
   padding: 0 var(--spacing);
   box-sizing: border-box;
 
@@ -13,10 +12,6 @@
   transition-delay: 1s, 0s;
   transition-duration: var(--animation-duration-slow), var(--animation-duration);
   transition-timing-function: var(--animation-ease);
-
-  @media (width >= 768px) {
-    min-height: 700px;
-  }
 }
 
 .Hero--showContent {

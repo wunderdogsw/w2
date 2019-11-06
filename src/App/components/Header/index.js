@@ -41,12 +41,12 @@ export default withRouter(withState(
     }
 
     toggleLogo = () => {
-      this.setState({ logoShowing: window.scrollY == 0 })
+      this.setState({ logoShowing: window.scrollY <= 20 })
     }
 
-    hideNav = throttle(() => {
+    hideNav = () => {
       this.setState({ navShowing: false })
-    }, 500)
+    }
 
 
     render() {

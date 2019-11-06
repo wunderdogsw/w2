@@ -1,5 +1,6 @@
 .MainTitle {
   box-sizing: border-box;
+  padding-right: var(--spacing);
 }
 
 .MainTitle--centered {
@@ -14,7 +15,7 @@
     width: 80vw;
   }
 
-  @media (width <= 800px) {
+  @media (width <= 740px) {
     width: 85vw;
   }
 }

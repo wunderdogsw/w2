@@ -12,7 +12,6 @@ import logoAlma from './logo-alma.png'
 
 export default () => (
   <Fragment>
-    <h3>Selected clients</h3>
     <LogoGrid>
       {[
         ['Alma', logoAlma],

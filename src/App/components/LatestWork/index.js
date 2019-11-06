@@ -16,10 +16,10 @@ export default class extends Component {
       <CardsGrid disharmony>
         { works
           .slice(0, 4)
-          .map(({ id, title, client, image }) => (
-            <CardContainer>
+          .map(({ id, title, client, image }, i) => (
+            <CardContainer key={i}>
               <Card type="work" key={ id } to={`work/${ id }`}>
-                <Image thumbSrc={ image } src={ image } alt={ title } />
+                <Image src={ image } alt={ title } />
                 <h4>{ title }</h4>
                 <p>{ client }</p>
               </Card>

@@ -1,5 +1,5 @@
 .Navigation {
-  margin-top: calc(var(--spacing) / 2);
+  margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing);
 }
 
@@ -12,6 +12,7 @@
 }
 
 .Navigation li:hover {
+  color: var(--color-black);
   cursor: pointer;
 }
 

@@ -7,11 +7,13 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
-    <MainTitle className="centered">Privacy Policy</MainTitle>
-    <SubTitle alt narrow>
-      Here we've gathered information on how we collect, store and use your
-      personal information. Because we care about your privacy.
-    </SubTitle>
+    <MainTitle narrow>Privacy Policy</MainTitle>
+    <Chapter>
+      <p>
+        Here we've gathered information on how we collect, store and use your
+        personal information. Because we care about your privacy.
+      </p>
+    </Chapter>
 
     <Chapter>
       <h4>1. Registry Holder</h4>

@@ -10,11 +10,7 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import Video from 'App/components/Video'
 
-import heroThumb from './oodi-hero-thumb.jpg'
-import hero from './oodi-hero.png'
-import photo1Thumb from './oodi-photo1-thumb.jpg'
 import photo1 from './oodi-photo1.png'
-import photo2Thumb from './oodi-photo2-thumb.jpg'
 import photo2 from './oodi-photo2.png'
 import summary from './smartly-summary.svg'
 
@@ -97,8 +93,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly crew 2" />
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 3" />
+      <Image src={ photo1 } alt="Smartly crew 2" />
+      <Image src={ photo2 } alt="Smartly crew 3" />
     </ImageRow>
     <Chapter>
       <h2>So how did it go?</h2>
@@ -132,10 +128,6 @@ export default () => (
       <p>
         Three new interactive experiences that celebrate Helsinki and are actively
         used by visitors to Oodi.
-      </p>
-      <h2>Technologies used</h2>
-      <p>
-        React, Unity
       </p>
     </Summary>
 

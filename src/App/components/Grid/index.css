@@ -3,7 +3,10 @@
   width: 100%;
   box-sizing: border-box;
   flex-direction: row;
-  align-items: center;
+}
+
+.Grid--column {
+  flex-direction: column;
 }
 
 .Grid--space-between {

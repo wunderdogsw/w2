@@ -16,18 +16,9 @@ import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import heroThumb from './career-hero-new-thumb.jpg'
 import hero from './career-hero-new.jpg'
-import photo1Thumb from './career-photo1-thumb.jpg'
-import photo1 from './career-photo1.png'
-import photo2Thumb from './career-photo2-thumb.jpg'
-import photo2 from './career-photo2.png'
-import photo3Thumb from './career-photo3-thumb.jpg'
-import photo3 from './career-photo3.png'
-import photo4Thumb from './career-photo4-thumb.jpg'
-import photo4 from './career-photo4.jpg'
-import photo5Thumb from './career-photo5-thumb.jpg'
-import photo5 from './career-photo5.jpg'
+import photo1 from './career-1.jpg'
+import photo2 from './career-2.jpg'
 
 
 
@@ -40,7 +31,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>We believe happy people create the best workplace</MainTitle>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter>
         <h2>Born years later than the leaders in the field, we inevitably
@@ -57,7 +48,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ hero } alt="Wunderdog people" indent="left" hero/>
     <Indent>
       <Chapter>
         <h2>Culture Manifesto</h2>
@@ -93,7 +84,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter large>
         <p>
@@ -112,7 +103,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <CallToAction grid>
+    <CallToAction color="blue" large grid>
       <OpenPositions />
     </CallToAction>
   </Fragment>

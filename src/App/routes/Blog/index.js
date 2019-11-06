@@ -82,7 +82,7 @@ export default class extends Component {
           <article className='Page__inner'>
             <MainTitle narrow>{ Page.title }</MainTitle>
             <SubTitle>
-              By { Page.author.name } <span className="grey">{ Page.author.title }</span> • { Page.publishDate } • Read time { Page.readTimeMinutes } min
+              By { Page.author.name }, <span className="grey">{ Page.author.title }</span> • { Page.publishDate } • Read time { Page.readTimeMinutes } min
             </SubTitle>
             {Page.image && (
               <Image src={ Page.image } hero />

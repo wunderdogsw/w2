@@ -1,11 +1,12 @@
 .Header {
   position: fixed;
   top: 0;
-  right: 0;
+  width: 100vw;
   left: 0;
   box-sizing: border-box;
-  height: calc(var(--spacing-small) * 4);
+  height: 160px;
   padding: 0 var(--spacing);
+  margin: 0;
 
   display: flex;
   flex-direction: row;
@@ -13,11 +14,15 @@
   align-items: center;
   z-index: 10;
   pointer-events: none;
+
+  @media (width <= 800px) {
+    height: 120px;
+  }
 }
 
 .Header--animate {
   opacity: 0;
-  transition-property: opacity transform;
+  transition-property: opacity;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--animation-ease);
 }
@@ -29,7 +34,7 @@
 
 .Header > .Logo {
   width: 55px;
-  transition-property: none;
+  transition-property: opacity;
   transition-duration: 200ms;
   transition-timing-function: var(--animation-ease);
   pointer-events: auto;
@@ -80,7 +85,8 @@
   }
 
   @media (width <= 800px) {
-    font-size: 50px;
+    font-size: 48px;
+    padding: 120px var(--spacing);
   }
 }
 
@@ -95,7 +101,7 @@
 
 .Header__toggleNav {
   position: absolute;
-  top: calc(var(--spacing-small) * 2) - 9px;
+  top: var(--spacing-large) - 9px;
   right: var(--spacing);
   display: block;
   width: 30px;
@@ -105,7 +111,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: auto;
-  mix-blend-mode: difference;
 }
 
 .Header--navShowing .Header__toggleNav {
@@ -117,5 +122,5 @@
 }
 
 .Header__toggleNav svg {
-  fill: rgb(255,255,255);
+  fill: var(--color-white);
 }

@@ -5,15 +5,12 @@ import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Indent from 'App/components/Indent'
 import Grid from 'App/components/Grid'
-import Block from 'App/components/Block'
 import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import { SeriousStats } from 'App/contents/stats'
-import ChapterRow from 'App/components/ChapterRow'
 import Clients from 'App/components/Clients'
 import CssVars from 'App/components/CssVars'
 
-import heroThumb from './about-us-hero-new-thumb.jpg'
 import hero from './about-us-hero-new.jpg'
 
 
@@ -26,7 +23,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>We build on top of opportunities</MainTitle>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" indent hero/>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
 
     <Indent>
       <Chapter>
@@ -52,38 +49,38 @@ export default () => (
       </Stats>
     </Indent>
 
-    <Block useDark>
-      <ChapterRow>
-        <Chapter>
-          <h2>Software development</h2>
-          <p>Delivering high-quality digital products & services</p>
-          </Chapter>
-        <Chapter>
-          <h2>Product Analytics</h2>
-          <p>Understanding and developing how users engage with what we build</p>
-        </Chapter>
-      </ChapterRow>
-      <ChapterRow>
+    <Indent>
       <Chapter>
-        <h2>Business Design</h2>
-        <p>Developing, testing and concepting of new businesses</p>
+        <h2>
+          Our services
+        </h2>
       </Chapter>
-        <Chapter>
-          <h2>UI and UX design</h2>
-          <p>Easy-to-use interfaces to generate great user experiences</p>
-        </Chapter>
-      </ChapterRow>
-      <ChapterRow>
-        <Chapter>
-          <h2>Coaching & Team leading</h2>
-          <p>Agile methods to support smart ways of working</p>
-        </Chapter>
-        <Chapter>
-          <h2>Scoped projects & co-sourcing</h2>
-          <p>Reliable delivery to accelerate the development process</p>
-        </Chapter>
-      </ChapterRow>
-    </Block>
+    </Indent>
+
+    <Indent twice>
+      <Chapter>
+        <p><b>Software development</b><br />Delivering high-quality digital products & services</p>
+        <p><b>Product Analytics</b><br />Understanding and developing how users engage with what we build</p>
+        <p><b>Business Design</b><br />Developing, testing and concepting of new businesses</p>
+        <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
+        <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
+        <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
+      </Chapter>
+    </Indent>
+
+    <Indent>
+      <Chapter>
+        <h2>
+          Our ecosystem
+        </h2>
+      </Chapter>
+    </Indent>
+
+    <Indent twice>
+      <Clients />
+    </Indent>
+
+    <Image src={ hero } alt="Wunderdog people" indent="left" hero/>
 
     <Indent>
       <Chapter>
@@ -97,6 +94,7 @@ export default () => (
       <Clients />
     </Indent>
 
+    <Image src={ hero } alt="Wunderdog people" large hero/>
 
   </Fragment>
 )

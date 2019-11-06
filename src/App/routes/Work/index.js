@@ -44,7 +44,6 @@ works.forEach((work, idx) => {
   }
 })
 
-console.log(pages)
 
 export default class extends Component {
   componentDidMount() {

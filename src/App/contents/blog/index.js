@@ -11,6 +11,10 @@ import babyitscoldoutside from './BabyItsColdOutside'
 export const BabyItsColdOutside = babyitscoldoutside
 import controlfreak from './ControlFreak'
 export const ControlFreak = controlfreak
+import dontplayitagain from './DontPlayItAgain'
+export const DontPlayItAgain = dontplayitagain
+import hank from './Hank'
+export const Hank = hank
 import hunttis from './Hunttis'
 export const Hunttis = hunttis
 import iiro from './Iiro'

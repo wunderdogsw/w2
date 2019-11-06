@@ -25,7 +25,7 @@
 
   @media (width >= 1024px) {
     margin-bottom: 0;
-    margin-right: calc(var(--spacing-small) * 2);
+    margin-right: var(--spacing-large);
   }
 
   &:last-child {
@@ -37,7 +37,7 @@
 .ImageTextRow--reversed > * {
   @media (width >= 1024px) {
     margin-right: 0;
-    margin-left: calc(var(--spacing-small) * 2);
+    margin-left: var(--spacing-large);
   }
 
   &:last-child {

@@ -8,6 +8,7 @@ class ImageAsset extends Asset {
     super(...args)
 
     this.encoding = null
+    this.images = []
   }
 
   async transform() {
@@ -15,20 +16,29 @@ class ImageAsset extends Asset {
     // if (this.options.minify) {
 
     // Uncomment this if config is needed
-    // let config = await this.getConfig(['image-srcset.config.js'], {
-    //   packageKey: 'image-srcset',
-    // })
+    let config = await this.getConfig(['image-srcset.config.js'], {
+      packageKey: 'image-srcset',
+    })
 
     const location = path.resolve(this.name)
 
     this.thumbnail = await sharp(location)
       .resize(100, 100, {
         fit: 'inside',
+        withoutEnlargement: true
       })
+      .jpeg(config.jpeg)
+      .png(config.png)
+      .blur()
       .toBuffer()
     this.original = await sharp(location)
+      .resize(1600, 1600, {
+        fit: 'inside',
+        withoutEnlargement: true
+      })
+      .jpeg(config.jpeg)
+      .png(config.png)
       .toBuffer()
-    // }
   }
 
   generate() {

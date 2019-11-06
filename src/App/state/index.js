@@ -15,7 +15,7 @@ export class State extends Component {
   }
 
   methods = {
-    hideSplash: () => this.setState({ splashShowing: false }),
+    hideSplash: () => this.setState({ splashShowing: true }),
     userNavigated: () => this.setState({ userHasNavigated: true }),
   }
 

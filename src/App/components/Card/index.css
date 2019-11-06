@@ -6,7 +6,7 @@
   align-items: center;
   color: inherit;
   text-decoration: none;
-  padding-bottom: calc(var(--spacing-small) * 0.75);
+  padding-bottom: var(--spacing-small);
   box-sizing: border-box;
 
   transition-property: transform box-shadow;
@@ -20,7 +20,7 @@
 
 .Card > * {
   width: 100%;
-  margin-top: calc(var(--spacing-small) / 2);
+  margin-top: var(--spacing-smallest);
   box-sizing: border-box;
 
   &:first-child {
@@ -31,12 +31,12 @@
 
 .Card > p {
   margin-top: 0;
-  opacity: 0.5;
+  color: var(--color-grey);
 }
 
 .Card > h4 > span {
-  width: calc(100%);
-  background-image: linear-gradient(transparent calc(100% - 2px), black 2px);
+  width: 100%;
+  background-image: linear-gradient(transparent 100%, black 2px);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: background-size 400ms;
@@ -67,7 +67,7 @@
 
 .Card--work .Image {
   &:before {
-    content: 'View project';
+    content: 'View case';
   }
 }
 

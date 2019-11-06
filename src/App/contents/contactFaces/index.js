@@ -12,4 +12,3 @@ export const MartinLyckestjarn = importedComponent(() => import('./MartinLyckest
 export const MeriTuuliOlkkonen = importedComponent(() => import('./MeriTuuliOlkkonen'))
 export const MikaViskari = importedComponent(() => import('./MikaViskari'))
 export const RedhaCherif = importedComponent(() => import('./RedhaCherif'))
-export const TimoSand = importedComponent(() => import('./TimoSand'))

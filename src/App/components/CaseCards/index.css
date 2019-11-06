@@ -5,7 +5,7 @@
   @media (width >= 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: calc(var(--spacing) / 2);
+    grid-column-gap: var(--spacing-medium);
     align-items: flex-start;
   }
 }
@@ -17,10 +17,6 @@
     &:nth-child(even) {
       position: relative;
       top: var(--spacing);
-    }
-
-    &:nth-child(3) {
-      margin-top: calc(var(--spacing) * -3);
     }
   }
 }

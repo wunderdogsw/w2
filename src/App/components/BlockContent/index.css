@@ -1,0 +1,8 @@
+.BlockContent {
+  padding: var(--spacing-small);
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a0a0a0;
+  justify-content: space-between;
+}

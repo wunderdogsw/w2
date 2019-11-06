@@ -3,7 +3,7 @@
   padding-left: var(--spacing);
   padding-right: var(--spacing);
 
-  @media (width <= 800px) {
+  @media (width <= 740px) {
     margin-left: 0;
   }
 }
@@ -11,7 +11,7 @@
 .Indent--twice {
   margin-left: 30vw;
 
-  @media (width <= 800px) {
+  @media (width <= 740px) {
     margin-left: 20px;
   }
 }

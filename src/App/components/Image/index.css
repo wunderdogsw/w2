@@ -17,6 +17,10 @@
     object-fit: cover;
     object-position: 50% 50%;
   }
+
+  @media (width <= 800px) {
+    height: 60vw;
+  }
 }
 
 .Image.Image--indent,
@@ -24,9 +28,14 @@
   position: relative;
   margin-left: calc(15vw + var(--spacing));
   margin-right: 0;
+}
+
+.Image.Image--indent:not(.Image--left),
+.Page__inner > .Image.Image--indent:not(.Image--left) {
 
   @media (width <= 800px) {
-    margin-left: 0;
+    margin-right: 0;
+    margin-left: var(--spacing);
   }
 }
 
@@ -41,6 +50,12 @@
   }
 }
 
+.Image.Image--center,
+.Page__inner > .Image.Image--center {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 
@@ -71,8 +86,9 @@
 
 
 .Image__thumb {
-
+  position: absolute;
 }
+
 .Image--thumbHidden .Image__thumb {
   display: none;
 }

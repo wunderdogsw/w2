@@ -26,12 +26,12 @@ export default class extends Component {
           <Intro />
           <LatestWork />
         </Nudge>
-        <CallToAction grid>
-          <OpenPositions/>
-        </CallToAction>
         <LatestBlogPosts>
           <HomeBlogPostsContent />
         </LatestBlogPosts>
+        <CallToAction color="blue" large grid>
+          <OpenPositions />
+        </CallToAction>
       </div>
     )
   }

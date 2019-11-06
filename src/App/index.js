@@ -9,7 +9,7 @@ import Home from 'App/routes/Home'
 import Blog from 'App/routes/Blog'
 import Work from 'App/routes/Work'
 import General from 'App/routes/General'
-import { Contact, LetsTalk, NextProject } from 'App/contents/callToActions'
+import { MainFooter, LetsTalk, NextProject } from 'App/contents/callToActions'
 import {
   FooterBottom,
   CookieDisclamer,
@@ -33,6 +33,12 @@ export default () => (
         }
         return null
       }}/>
+
+      <Switch>
+        <Route path="/pahkina" />
+        <Route path="/pingpong" />
+        <Route path="*" component={ Header }/>
+      </Switch>
 
       <Switch>
 
@@ -62,9 +68,9 @@ export default () => (
 
         {/* Routes */}
 
-        <Route exact path="/blog/:page" component={ Blog } />
-        <Route exact path="/work/:page" component={ Work } />
-        <Route exact path="/:page" component={ General } />
+        <Route exact path="/blog/:page" component={ Blog } exact />
+        <Route exact path="/work/:page" component={ Work } exact />
+        <Route exact path="/:page" component={ General } exact />
         <Route exact path="*" component={ Home } />
 
       </Switch>
@@ -72,25 +78,12 @@ export default () => (
       <Switch>
         <Route path="/work/*" />
         <Route path="/blog/*" />
-        <Route path="/contact" component={() =>
-          <Footer main>
-            <LetsTalk />
-            <FooterBottom />
-          </Footer>
-        }/>
         <Route path="*" component={() =>
           <Footer main>
-            <Contact />
+            <MainFooter />
             <FooterBottom />
           </Footer>
         }/>
-      </Switch>
-
-
-      <Switch>
-        <Route path="/pahkina" />
-        <Route path="/pingpong" />
-        <Route path="*" component={ Header }/>
       </Switch>
     </State>
   </BrowserRouter>

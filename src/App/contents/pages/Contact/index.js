@@ -17,7 +17,6 @@ import {
   RedhaCherif,
   AnnaMariaLaFiura,
   MeriTuuliOlkkonen,
-  TimoSand,
   MartinLyckestjarn,
   LauriPaalama,
 } from 'App/contents/contactFaces'
@@ -59,7 +58,7 @@ export default () => (
       </ContactRow>
     </Indent>
 
-    <CallToAction grid>
+    <CallToAction color="grey" large grid>
       <ElectronicInvoicing />
     </CallToAction>
   </Fragment>

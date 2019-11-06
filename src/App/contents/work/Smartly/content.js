@@ -10,13 +10,9 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
-import heroThumb from './smartly-hero-thumb.jpg'
 import hero from './smartly-hero.png'
-import photo1Thumb from './smartly-photo1-thumb.jpg'
 import photo1 from './smartly-photo1.jpg'
-import photo2Thumb from './smartly-photo2-thumb.jpg'
 import photo2 from './smartly-photo2.jpg'
-import photo3Thumb from './smartly-photo3-thumb.jpg'
 import photo3 from './smartly-photo3.jpg'
 import summary from './smartly-summary.svg'
 
@@ -39,7 +35,7 @@ export default () => (
         media marketing.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Smartly.io crew" />
+    <Image src={ photo1 } alt="Smartly.io crew" />
     <Chapter>
       <h2>The bright idea</h2>
       <p>
@@ -64,8 +60,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Smartly crew 2" />
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Smartly crew 3" />
+      <Image src={ photo2 } alt="Smartly crew 2" />
+      <Image src={ photo3 } alt="Smartly crew 3" />
     </ImageRow>
     <Chapter>
       <h2>Our hands-on solution</h2>

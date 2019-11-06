@@ -9,9 +9,6 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
-import heroThumb from './perusterveys-hero-thumb.jpg'
-import hero from './perusterveys-hero.png'
-import photoThumb from './perusterveys-photo-thumb.jpg'
 import photo from './perusterveys-photo.png'
 import summary from './perusterveys-summary.svg'
 
@@ -58,7 +55,7 @@ export default () => (
         development.
       </p>
     </Chapter>
-    <Image thumbSrc={ photoThumb } src={ photo } alt="Crew photo" />
+    <Image src={ photo } alt="Crew photo" />
     <Chapter>
       <h2>Our simple yet smart solution</h2>
       <p>
@@ -106,8 +103,6 @@ export default () => (
         The new system increased booked appointments online by 51.5% and
         triggered 78.8% more positive feedback on the user experience.
       </p>
-      <h2>Technologies used</h2>
-      <p>React, Redux, and Node.</p>
     </Summary>
   </Fragment>
 )

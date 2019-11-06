@@ -5,8 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 100px;
-  margin-top: calc(var(--spacing-small) * 2);
+  padding: var(--spacing-small) 0;
   width: 100%;
   z-index: 3;
 
@@ -22,9 +21,7 @@
 
   @media (width <= 800px) {
     order: 2;
-    text-align: center;
-    margin-top: var(--spacing-small);
-    margin-bottom: var(--spacing-small);
+    margin-top: 10px;
   }
 }
 
@@ -36,10 +33,12 @@
   flex-direction: row;
   justify-content: flex-end;
   min-width: 300px;
+  text-align: left;
 
   @media (width <= 800px) {
+    width: 100%;
     order: 1;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   & > * {
@@ -48,13 +47,12 @@
     opacity: 0.4;
 
     @media (width <= 800px) {
-      margin-left: calc(var(--spacing-small) / 2);
-      margin-right: calc(var(--spacing-small) / 2);
+      margin-left: 0;
+      margin-right: var(--spacing-small);
     }
 
     &:hover {
       opacity: 1;
-      text-decoration: underline;
     }
   }
 }

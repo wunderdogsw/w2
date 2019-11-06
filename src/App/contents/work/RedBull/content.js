@@ -9,13 +9,8 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
-import heroThumb from './redbull-hero-thumb.jpg'
-import hero from './redbull-hero.png'
-import mockupThumb from './redbull-mockup-thumb.jpg'
 import mockup from './redbull-mockup.png'
-import photo1Thumb from './redbull-photo1-thumb.jpg'
 import photo1 from './redbull-photo1.png'
-import photo2Thumb from './redbull-photo2-thumb.jpg'
 import photo2 from './redbull-photo2.png'
 import summary from './redbull-summary.svg'
 
@@ -39,7 +34,7 @@ export default () => (
         drops, and hair-raising gaps, all at speeds of up to 80 km/h.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Red Bull race pic" />
+    <Image src={ photo1 } alt="Red Bull race pic" />
     <Chapter>
       <h2>The bright idea</h2>
       <p>
@@ -65,7 +60,7 @@ export default () => (
         cool Crashed Ice.
       </p>
     </Chapter>
-    <Image thumbSrc={ mockupThumb } src={ mockup } alt="Red Bull mockup photo" />
+    <Image src={ mockup } alt="Red Bull mockup photo" />
     <Chapter>
       <h2>Our quick-thinking solution</h2>
       <p>
@@ -114,9 +109,8 @@ export default () => (
         a success that just keeps on repeating.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Red Bull prize pic" />
+    <Image src={ photo2 } alt="Red Bull prize pic" />
     <Summary>
-      <Image src={ summary } alt="" />
       <h2>The challenge</h2>
       <p>
         Develop an engaging companion game for the Red Bull Crashed Ice extreme

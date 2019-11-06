@@ -30,36 +30,37 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, src, asBackground, style, hero, indent, ...rest } = this.props
+    const { className, src, asBackground, style, hero, indent, large, ...rest } = this.props
 
-    const thumbSrc = src.substring(0, src.lastIndexOf('.')) + '.thumb' + src.substring(src.lastIndexOf('.'), src.length)
+    const thumbsrc = src.substring(0, src.lastIndexOf('.')) + '.thumb' + src.substring(src.lastIndexOf('.'), src.length)
 
     return (
       <span className={ cs(
         'Image',
-        thumbSrc && 'Image--hasThumb',
+        thumbsrc && 'Image--hasThumb',
         loaded && 'Image--loaded',
         thumbHidden && 'Image--thumbHidden',
         asBackground && 'Image--asBackground',
         hero && 'Image--isHero',
+        large && 'Image--center',
         indent && 'Image--indent',
         indent == 'left' && 'Image--left'
       )}>
-        { thumbSrc && (
+        { thumbsrc && (
           asBackground ? (
             <span
               className="Image__thumb"
-              style={{ backgroundImage: `url(${ thumbSrc })`, ...style }}
+              style={{ backgroundImage: `url(${ thumbsrc })`, ...style }}
             />
           ) : (
             <img { ...rest }
               style={ style }
-              src={ thumbSrc }
+              src={ thumbsrc }
               className="Image__thumb"
             />
           )
         )}
-        { (loaded || !thumbSrc) && (
+        { (loaded || !thumbsrc) && (
           asBackground ? (
             <span
               className="Image__main"

@@ -14,7 +14,7 @@ export default () => {
 
   return (
     <Fragment>
-      <MainTitle narrow>Our stories</MainTitle>
+      <MainTitle narrow>Continuous experimentation and learning</MainTitle>
       <Navigation>
         {categories.map(category => (
           <li
@@ -31,10 +31,10 @@ export default () => {
 
         {posts
           .filter(p => currentCategory === allCategory || p.category === currentCategory)
-          .map(({ id, title, author, image, nextBlog }) => (
-            <CardContainer>
+          .map(({ id, title, author, image, nextBlog }, i) => (
+            <CardContainer key={i}>
               <Card type="post" key={id} to={`blog/${id}`}>
-                <Image thumbSrc={image} src={image} alt={title} />
+                <Image src={image} alt={title} />
                 <h4>{title}</h4>
                 <p>By {author.name}</p>
               </Card>

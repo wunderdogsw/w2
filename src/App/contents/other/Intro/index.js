@@ -3,12 +3,11 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import Indent from 'App/components/Indent'
 
-import homeThumb from './home-image.jpg'
 import home from './home-image.jpg'
 
 export default () => (
   <Fragment>
-    <Image thumbSrc={ homeThumb } src={ home } alt="Wunderdog" indent hero/>
+    <Image src={ home } alt="Wunderdog" indent hero/>
     <Indent>
       <Chapter>
         <h2>We believe things can be done better</h2>

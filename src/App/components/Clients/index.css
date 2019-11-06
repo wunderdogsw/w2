@@ -25,6 +25,6 @@
   margin-top: var(--spacing-small);
 
   @media (width >= 1024px) {
-    margin-top: calc(var(--spacing-small) * 2);
+    margin-top: var(--spacing-large);
   }
 }

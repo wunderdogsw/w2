@@ -9,17 +9,11 @@ import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 
-import photo1Thumb from './blueprint-photo1-thumb.jpg'
 import photo1 from './blueprint-photo1.jpg'
-import photo2Thumb from './blueprint-photo2-thumb.jpg'
 import photo2 from './blueprint-photo2.jpg'
-import photo3Thumb from './blueprint-photo3-thumb.jpg'
 import photo3 from './blueprint-photo3.jpg'
-import photo4Thumb from './blueprint-photo4-thumb.jpg'
 import photo4 from './blueprint-photo4.jpg'
-import photo5Thumb from './blueprint-photo5-thumb.jpg'
 import photo5 from './blueprint-photo5.jpg'
-import photo6Thumb from './blueprint-photo6-thumb.jpg'
 import photo6 from './blueprint-photo6.jpg'
 import summary from './blueprint-summary.svg'
 
@@ -42,8 +36,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Blueprint lab" />
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Blueprint lab" />
+      <Image src={ photo1 } alt="Blueprint lab" />
+      <Image src={ photo2 } alt="Blueprint lab" />
     </ImageRow>
     <Chapter>
       <h2>The bright idea</h2>
@@ -68,7 +62,7 @@ export default () => (
         products.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Blueprint lab crew" />
+    <Image src={ photo3 } alt="Blueprint lab crew" />
     <Chapter>
       <h2>Our solution</h2>
       <p>
@@ -97,8 +91,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo5Thumb } src={ photo5 } alt="Blueprint lab" />
-      <Image thumbSrc={ photo6Thumb } src={ photo6 } alt="Blueprint lab" />
+      <Image src={ photo5 } alt="Blueprint lab" />
+      <Image src={ photo6 } alt="Blueprint lab" />
     </ImageRow>
     <Chapter>
       <h2>So how did it go?</h2>
@@ -120,7 +114,7 @@ export default () => (
         ability to take improvements forward.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Blueprint pic" />
+    <Image src={ photo4 } alt="Blueprint pic" />
     <Chapter>
       <h2>Success that speaks for itself</h2>
       <p>

@@ -9,9 +9,6 @@ import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
-import heroThumb from './pexraytech-hero-thumb.jpg'
-import hero from './pexraytech-hero.png'
-import mockupThumb from './pexraytech-mockup-thumb.jpg'
 import mockup from './pexraytech-mockup.png'
 import summary from './pexraytech-summary-bag.svg'
 
@@ -51,7 +48,7 @@ export default () => (
         could be further developed easily.
       </p>
     </Chapter>
-    <Image thumbSrc={ mockupThumb } src={ mockup } alt="x-ray mockup photo" />
+    <Image src={ mockup } alt="x-ray mockup photo" />
     <Chapter>
       <h2>Our smooth, step-by-step solution</h2>
       <p>

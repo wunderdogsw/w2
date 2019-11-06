@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   box-sizing: border-box;
-  padding: calc(var(--spacing-small) / 2);
+  padding: var(--spacing-smallest);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 
   @media ( width <= 768px ) {
@@ -49,6 +49,6 @@
     font-size: 12px;
     min-height: 30px;
     min-width: 120px;
-    margin-left: calc(var(--spacing-small) / 2);
+    margin-left: var(--spacing-smallest);
   }
 }
