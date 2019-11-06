@@ -11,8 +11,16 @@ import babyitscoldoutside from './BabyItsColdOutside'
 export const BabyItsColdOutside = babyitscoldoutside
 import controlfreak from './ControlFreak'
 export const ControlFreak = controlfreak
+import designsprint from './DesignSprint'
+export const DesignSprint = designsprint
+import designsprintthree from './DesignSprintThree'
+export const DesignSprintThree = designsprintthree
+import designsprinttwo from './DesignSprintTwo'
+export const DesignSprintTwo = designsprinttwo
 import dontplayitagain from './DontPlayItAgain'
 export const DontPlayItAgain = dontplayitagain
+import galtalkstech from './GalTalksTech'
+export const GalTalksTech = galtalkstech
 import hank from './Hank'
 export const Hank = hank
 import hunttis from './Hunttis'
@@ -33,6 +41,8 @@ import kiti from './Kiti'
 export const Kiti = kiti
 import losingcontrol from './LosingControl'
 export const LosingControl = losingcontrol
+import lunchwithbenefits from './LunchWithBenefits'
+export const LunchWithBenefits = lunchwithbenefits
 import monitoring from './Monitoring'
 export const Monitoring = monitoring
 import northstarmetric from './NorthStarMetric'

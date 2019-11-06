@@ -7,7 +7,7 @@ export default {
     name: 'Kanki',
     title: 'Service Designer'
   },
-  publishDate: 'Jun 6, 2019',
+  publishDate: 'Oct 14, 2019',
   readTimeMinutes: 4,
   keywords: 'culture, design, service design',
   category: 'culture',
