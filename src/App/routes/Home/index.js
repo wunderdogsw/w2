@@ -10,9 +10,7 @@ import CallToAction from 'App/components/CallToAction'
 import LatestWork from 'App/components/LatestWork'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { OpenPositions } from 'App/contents/callToActions'
-import { HomeCaseCards, HomeBlogPostsContent } from 'App/contents/other'
-
-import breakImage from './home-2.jpg'
+import { HomeCaseCards, HomeBlogPostsContent, HomeSecondaryImage } from 'App/contents/other'
 
 export default class extends Component {
   componentDidMount() {
@@ -28,7 +26,7 @@ export default class extends Component {
           <Intro />
           <LatestWork />
         </Nudge>
-        <Image src={ breakImage } alt="Wunderdog" indent="left" hero/>
+        <HomeSecondaryImage />
         <LatestBlogPosts>
           <HomeBlogPostsContent />
         </LatestBlogPosts>
