@@ -16,10 +16,9 @@ import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import hero from './career-hero-new.jpg'
+import hero from './career-3.jpg'
 import photo1 from './career-1.jpg'
 import photo2 from './career-2.jpg'
-
 
 
 export default () => (
@@ -48,10 +47,10 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image src={ hero } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
     <Indent>
       <Chapter>
-        <h2>Culture Manifesto</h2>
+        <h2>Our culture is born out of what we all do each day</h2>
       </Chapter>
     </Indent>
     <Indent twice>
@@ -84,7 +83,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image src={ hero } alt="Wunderdog people" indent hero/>
+    <Image src={ photo1 } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter large>
         <p>

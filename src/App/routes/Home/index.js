@@ -3,14 +3,16 @@ import React, { Component } from 'react'
 import { pageview } from 'App/utils/analytics'
 import Hero from 'App/components/Hero'
 import Intro from 'App/components/Intro'
+import Image from 'App/components/Image'
 import Nudge from 'App/components/Nudge'
 import CaseCards from 'App/components/CaseCards'
-import Clients from 'App/components/Clients'
 import CallToAction from 'App/components/CallToAction'
 import LatestWork from 'App/components/LatestWork'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { OpenPositions } from 'App/contents/callToActions'
 import { HomeCaseCards, HomeBlogPostsContent } from 'App/contents/other'
+
+import breakImage from './home-2.jpg'
 
 export default class extends Component {
   componentDidMount() {
@@ -26,6 +28,7 @@ export default class extends Component {
           <Intro />
           <LatestWork />
         </Nudge>
+        <Image src={ breakImage } alt="Wunderdog" indent="left" hero/>
         <LatestBlogPosts>
           <HomeBlogPostsContent />
         </LatestBlogPosts>

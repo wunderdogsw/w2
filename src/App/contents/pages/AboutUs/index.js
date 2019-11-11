@@ -8,11 +8,13 @@ import Grid from 'App/components/Grid'
 import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import { SeriousStats } from 'App/contents/stats'
-import Clients from 'App/components/Clients'
+import Logos from 'App/components/Logos'
+import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 
-import hero from './about-us-hero-new.jpg'
-
+import hero from './about-us-1.jpg'
+import photo1 from './about-us-4.jpg'
+import photo2 from './about-us-2.jpg'
 
 export default () => (
   <Fragment>
@@ -77,10 +79,19 @@ export default () => (
     </Indent>
 
     <Indent twice>
-      <Clients />
+      <Chapter>
+        <p>
+          We focus on the things we are really good at. We believe it’s the only way to offer the best service
+          to our customers. But we’re not alone. Together we create a strong ecosystem that offers end-to-end
+          services to our clients for all digital problems.
+        </p>
+      </Chapter>
+      <Logos>
+        <Ecosystem />
+      </Logos>
     </Indent>
 
-    <Image src={ hero } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
 
     <Indent>
       <Chapter>
@@ -91,10 +102,12 @@ export default () => (
     </Indent>
 
     <Indent twice>
-      <Clients />
+      <Logos>
+        <Clients />
+      </Logos>
     </Indent>
 
-    <Image src={ hero } alt="Wunderdog people" large hero/>
+    <Image src={ photo2 } alt="Wunderdog people" large hero/>
 
   </Fragment>
 )

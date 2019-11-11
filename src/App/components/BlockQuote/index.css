@@ -9,6 +9,7 @@
   max-width: 850px;
 
   @media (width <= 1199px) {
-    margin-left: 40px;
+    font-size: var(--font-size-medium);
+    margin-left: 20px;
   }
 }

@@ -1,6 +1,15 @@
 .Navigation {
   margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing);
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 50px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Navigation::-webkit-scrollbar {
+  display: none;
 }
 
 .Navigation li {

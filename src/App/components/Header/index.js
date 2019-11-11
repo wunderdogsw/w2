@@ -70,7 +70,13 @@ export default withRouter(withState(
             href="#"
             className="Header__toggleNav"
             onClick={ this.toggleNav }
-          />
+          >
+            <div class="icon">
+              <span/>
+              <span/>
+              <span/>
+            </div>
+          </a>
         </header>
       )
     }

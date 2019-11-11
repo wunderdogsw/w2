@@ -30,7 +30,7 @@
   margin-top: calc(5vh + var(--spacing));
 
   @media (width <= 1400px) {
-    margin-top: calc(10vh + var(--spacing));
+    margin-top: calc(3vh + var(--spacing));
   }
 }
 

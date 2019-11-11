@@ -46,7 +46,7 @@
   margin-right: calc(15vw + var(--spacing));
 
   @media (width <= 800px) {
-    margin-right: 0;
+    margin-right: var(--spacing);
   }
 }
 

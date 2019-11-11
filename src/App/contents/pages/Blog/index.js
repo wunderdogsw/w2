@@ -14,7 +14,7 @@ export default () => {
 
   return (
     <Fragment>
-      <MainTitle narrow>Continuous experimentation and learning</MainTitle>
+      <MainTitle narrow>We're always trying to learn</MainTitle>
       <Navigation>
         {categories.map(category => (
           <li
