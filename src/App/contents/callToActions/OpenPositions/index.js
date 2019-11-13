@@ -6,7 +6,7 @@ import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
-    <h2>Apply for a position below, or send us a heartfelt letter</h2>
+    <h2>Join the pack.</h2>
     <TransitionLink className="TransitionLink--list" to="https://wunderdog.breezy.hr/p/9aa01a0d81cd-fullstack-developer-helsinki-finland">
       <span>Full-stack developer</span>
       <span class="grey">Helsinki, Finland</span>

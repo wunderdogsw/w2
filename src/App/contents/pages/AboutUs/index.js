@@ -24,24 +24,21 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>We build on top of opportunities</MainTitle>
+    <MainTitle narrow>We believe things can be done better</MainTitle>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter>
-        <h2>High-end consultancy services in creating digital
-        products and services</h2>
+        <h2>Born years later than the leaders in the field, we inevitably
+        started off as an underdog.</h2>
       </Chapter>
     </Indent>
     <Indent twice>
       <Chapter>
         <p>
-          We guide our customers through the maze of crafting digital products
-          and services from ideation to execution.
-        </p>
-        <p>
-          By combining smart ways of working, human-centered design and
-          high-quality code, we build products and services together with
-          our customers.
+          Our dedication and goals made it clear that being an underdog was only
+          temporary. We added a W to the name to give the wow-effect that would
+          foreshadow the upcoming. Together the people of this company would do
+          wonders.
         </p>
       </Chapter>
 

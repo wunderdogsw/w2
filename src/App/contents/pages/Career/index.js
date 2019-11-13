@@ -33,17 +33,17 @@ export default () => (
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter>
-        <h2>Born years later than the leaders in the field, we inevitably
-        started off as an underdog. </h2>
+        <h2>We offer a communal workplace and endless platform for personal growth
+        and shared learning.</h2>
       </Chapter>
     </Indent>
     <Indent twice>
       <Chapter>
         <p>
-          Our dedication and goals made it clear that being an underdog was only
-          temporary. We added a W to the name to give the wow-effect that would
-          foreshadow the upcoming. Together the people of this company would do
-          wonders - or wunders as we put it.
+          We believe things can be done better, so we challenge both ourselves
+          and current thinking to  make the world work better and smarter. One
+          project at a time, we’re improving how companies, communities, and
+          societies work.
         </p>
       </Chapter>
     </Indent>
@@ -56,26 +56,27 @@ export default () => (
     <Indent twice>
       <Chapter>
         <p>
-          We actively avoid setting obstacles in our way.
-          We recruit only intelligent and competent people who can make decisions
+          <b>We actively avoid setting obstacles in our way</b> <br/>
+          We recruit intelligent and competent people who can make decisions
           independently. We are given freedom and responsibility accordingly.
         </p>
         <p>
-          The most important thing is that we all enjoy being at work. We
-          respect every employee regardless of gender, age, religion, sexual
+          <b>The most important thing is that we all enjoy being at work</b> <br/>
+          We respect every employee regardless of gender, age, religion, sexual
           orientation or ethnic background.
         </p>
         <p>
-          We value our colleagues’ success as much as our own
+          <b>We value our colleagues’ success as much as our own</b> <br/>
           We support each other with our collective know-how, since, even though
           we are competent, none of us is master of everything.
         </p>
         <p>
-          We share information openly and fairly amongst colleagues
+          <b>We share information openly and fairly amongst colleagues</b> <br/>
           By default, all company information is public to all our employees.
           We limit access to knowledge only for a good reason.
         </p>
         <p>
+          <b>We encourage bold and open-minded experimentation</b> <br/>
           We all fail sometimes. We believe that making a mistake and learning
           from it is far more important than not trying something for fear of
           failure. An important part of learning is to ask feedback - which we
@@ -87,18 +88,18 @@ export default () => (
     <Indent>
       <Chapter large>
         <p>
-          We offer a communal workplace and endless platform for personal growth
-          and shared learning.
+          We help our people in finding and reaching their fullest potential
         </p>
       </Chapter>
     </Indent>
     <Indent twice>
       <Chapter>
         <p>
-          We believe things can be done better,  so we challenge both ourselves
-          and current thinking to  make the world work better and smarter. One
-          project at a time, we’re improving how companies, communities, and
-          societies work.
+          Active communications and knowledge sharing are at our core. We don’t
+          compete against each other, we believe in succeeding together.
+          Behind each individual doggo there’s always the support of the entire
+          Wunderdog team. 
+
         </p>
       </Chapter>
     </Indent>

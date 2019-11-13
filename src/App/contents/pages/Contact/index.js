@@ -30,7 +30,7 @@ export default () => (
   <Fragment>
     <MainTitle narrow>Let's make some wunders happen</MainTitle>
     <SubTitle>
-      Let’s talk! <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      Feel free to throw us a question or two <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
     </SubTitle>
     <Image src={ helsinki } alt="Helsinki" indent hero />
     <Indent>

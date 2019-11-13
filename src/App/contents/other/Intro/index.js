@@ -10,8 +10,14 @@ export default () => (
     <Image src={ home } alt="Wunderdog" indent hero/>
     <Indent>
       <Chapter>
-        <h2>We believe things can be done better</h2>
-        <p>By challenging ourselves and the current thinking, we aim to make the world work better and easier applying the latest technologies and smarter ways of working.</p>
+        <h2>High-end consultancy in creating digital
+        products and services</h2>
+        <p>
+          We guide our customers through the maze of crafting digital products
+          and services from ideation to execution. By combining smart ways of
+          working, human-centered design and high-quality code, we build future
+          products and services together with our customers.
+        </p>
       </Chapter>
     </Indent>
   </Fragment>
