@@ -10,7 +10,7 @@ import CallToAction from 'App/components/CallToAction'
 import LatestWork from 'App/components/LatestWork'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import { OpenPositions } from 'App/contents/callToActions'
-import { HomeCaseCards, HomeBlogPostsContent, HomeSecondaryImage } from 'App/contents/other'
+import { HomeBlogPostsContent, HomeCaseContent, HomeSecondaryImage } from 'App/contents/other'
 
 export default class extends Component {
   componentDidMount() {
@@ -24,8 +24,10 @@ export default class extends Component {
         <Hero />
         <Nudge>
           <Intro />
-          <LatestWork />
         </Nudge>
+        <LatestWork>
+          <HomeCaseContent />
+        </LatestWork>
         <HomeSecondaryImage />
         <LatestBlogPosts>
           <HomeBlogPostsContent />

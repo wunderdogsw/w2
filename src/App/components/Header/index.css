@@ -55,17 +55,22 @@
 
 
 
-.Header > nav {
+.Header > .Main-navigation {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  height: 100%;
+  min-height: 600px;
+  overflow: scroll;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
   font-size: 70px;
-  padding: 160px var(--spacing);
+  padding: 140px var(--spacing) 60px;
   line-height: 1.6;
   opacity: 0;
   pointer-events: none;
@@ -74,28 +79,52 @@
   transition-property: opacity;
   transition-duration: var(--animation-duration-fast);
 
+  @media (width <= 800px) {
+    padding: 120px var(--spacing) 40px;
+  }
+
+  @media (max-height: 1000px) {
+    padding: 120px var(--spacing) 40px;
+  }
+}
+
+.Header > .Main-navigation > nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
   & > a {
     text-decoration: none;
     opacity: 1;
 
     &.active,
     &:hover {
-      opacity: 0.7;
+      opacity: 0.6;
     }
+  }
+
+  &:nth-child(2) {
+    font-size: var(--font-size-normal);
   }
 
   @media (width <= 800px) {
     font-size: 48px;
-    padding: 120px var(--spacing);
   }
 
-  @media (max-height: 800px) {
+  @media (max-height: 1000px) {
+    font-size: 58px;
+  }
+
+  @media (max-height: 768px) {
     font-size: 48px;
-    padding: 120px var(--spacing);
+  }
+
+  @media (max-height: 660px) {
+    font-size: 38px;
   }
 }
 
-.Header--navShowing > nav {
+.Header--navShowing > .Main-navigation {
   opacity: 1;
   pointer-events: all;
   background-color: var(--color-blue);

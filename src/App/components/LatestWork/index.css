@@ -1,4 +1,11 @@
 .LatestWork {
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
+  padding-bottom: var(--spacing);
+}
+
+.LatestWork__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--spacing-small);
 }

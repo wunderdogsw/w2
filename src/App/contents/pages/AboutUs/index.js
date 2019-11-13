@@ -26,7 +26,6 @@ export default () => (
     </CssVars>
     <MainTitle narrow>We build on top of opportunities</MainTitle>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
-
     <Indent>
       <Chapter>
         <h2>High-end consultancy services in creating digital

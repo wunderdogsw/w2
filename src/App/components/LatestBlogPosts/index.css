@@ -31,6 +31,10 @@
 }
 
 
+.LatestBlogPosts .CardsGrid {
+  margin-top: var(--spacing);
+}
+
 
 
 .LatestBlogPosts__posts > .Card {

@@ -88,7 +88,7 @@ export default class extends Component {
         </div>
         {Page.nextWork && (
           <Footer>
-            <FooterNext to={ Page.nextWork.id } action="Go to next project" title={ Page.nextWork.title } image={ Page.nextWork.image } />
+            <FooterNext to={ Page.nextWork.id } action="Go to next case" title={ Page.nextWork.title } image={ Page.nextWork.image } />
             <FooterBottom />
           </Footer>
         )}

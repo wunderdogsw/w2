@@ -4,6 +4,7 @@ import MainTitle from 'App/components/MainTitle'
 import Image from 'App/components/Image'
 import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
+import SubTitle from 'App/components/SubTitle'
 import CallToAction from 'App/components/CallToAction'
 import ContactRow from 'App/components/ContactRow'
 
@@ -28,6 +29,9 @@ import malmo from './office_malmo.jpg'
 export default () => (
   <Fragment>
     <MainTitle narrow>Let's make some wunders happen</MainTitle>
+    <SubTitle>
+      Let’s talk! <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+    </SubTitle>
     <Image src={ helsinki } alt="Helsinki" indent hero />
     <Indent>
       <ContactRow>

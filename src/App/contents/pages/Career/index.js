@@ -17,8 +17,8 @@ import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
 import hero from './career-3.jpg'
-import photo1 from './career-1.jpg'
-import photo2 from './career-2.jpg'
+import photo1 from './career-2.jpg'
+import photo2 from './career-4.jpg'
 
 
 export default () => (
@@ -47,7 +47,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
     <Indent>
       <Chapter>
         <h2>Our culture is born out of what we all do each day</h2>
@@ -83,7 +83,7 @@ export default () => (
         </p>
       </Chapter>
     </Indent>
-    <Image src={ photo1 } alt="Wunderdog people" indent hero/>
+    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
     <Indent>
       <Chapter large>
         <p>
