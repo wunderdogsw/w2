@@ -128,18 +128,13 @@
 .Page__inner > .ChapterRow,
 .Page__inner > .ImageTextRow {
   width: 100%;
-  max-width: var(--text-content-max-width);
-  margin-left: auto;
-  margin-right: auto;
 }
-
 
 
 
 .Page__inner > .Summary,
 .Page__inner > .CallToAction {
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
 
@@ -174,6 +169,44 @@
 
 .Page__inner > .ContactRow + .ContactRow {
   margin-top: var(--spacing);
+}
+
+.Chapter {
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.Chapter > h2 {
+  position: relative;
+  margin-left: 15vw;
+  max-width: 800px;
+
+  @media (width <= 740px) {
+    margin-left: 0;
+  }
+}
+
+
+.Chapter > p {
+  position: relative;
+  margin-left: 30vw;
+  box-sizing: border-box;
+  max-width: 800px;
+
+  @media (width <= 740px) {
+    margin-left: 20px;
+  }
+}
+
+.Page__inner > .Chapter > .BlockQuote {
+  position: relative;
+  margin-left: 15vw;
+  box-sizing: border-box;
+  max-width: 800px;
+
+  @media (width <= 740px) {
+    margin-left: 0;
+  }
 }
 
 

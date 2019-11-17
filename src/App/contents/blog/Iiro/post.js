@@ -53,12 +53,12 @@ export default () => (
     </Chapter>
     <Chapter>
       <p>
-        <i>
+        <small>
         *Work practice program is a two-week period in which high school
         students in Finland get in touch with working life. The purpose of the
         program is to support education and vocational selection. For most of
         the students this is their first work experience.
-        </i>
+        </small>
       </p>
 
     </Chapter>

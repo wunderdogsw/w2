@@ -14,17 +14,10 @@ import hero from './smartly-hero.png'
 import photo1 from './smartly-photo1.jpg'
 import photo2 from './smartly-photo2.jpg'
 import photo3 from './smartly-photo3.jpg'
-import summary from './smartly-summary.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#FFBBC5',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -96,7 +89,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
       <h2>The challenge</h2>
       <p>
         Assist the Smartly.io DevOps team with their work, migrating to a new

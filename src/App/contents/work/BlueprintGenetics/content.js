@@ -15,17 +15,10 @@ import photo3 from './blueprint-photo3.jpg'
 import photo4 from './blueprint-photo4.jpg'
 import photo5 from './blueprint-photo5.jpg'
 import photo6 from './blueprint-photo6.jpg'
-import summary from './blueprint-summary.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#eef0f8',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -127,7 +120,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="Blueprint summary" />
       <h2>The challenge</h2>
       <p>
         Growing business meant a growing need for software development talent, and

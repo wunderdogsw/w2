@@ -31,7 +31,8 @@
 
   --font-size-large: 100px;
   --font-size-medium: 60px;
-  --font-size-normal: 28px;
+  --font-size-quote: 45px;
+  --font-size-normal: 27px;
 
   --spacing-smallest: 20px;
   --spacing-small: 40px;
@@ -42,6 +43,7 @@
   @media (width <= 1199px) {
     --font-size-large: 80px;
     --font-size-medium: 40px;
+    --font-size-quote: 35px;
     --font-size-normal: 22px;
 
     --spacing-small: 50px;
@@ -51,6 +53,7 @@
   @media (width <= 740px) {
     --font-size-large: 60px;
     --font-size-medium: 30px;
+    --font-size-quote: 28px;
     --font-size-normal: 22px;
 
     --spacing-small: 30px;
@@ -201,8 +204,8 @@ b {
 
 small {
   font-style: italic;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 0.7em;
+  color: var(--color-grey);
 }
 
 

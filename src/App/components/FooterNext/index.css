@@ -7,13 +7,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 20vw;
+  min-height: 400px;
   width: 100%;
+
+  @media (width <= 800px) {
+    min-height: 200px;
+  }
 }
 
 .FooterNext p,
 .FooterNext h1 {
   position: relative;
+  margin: 0;
   z-index: 2;
 }
 
@@ -31,4 +36,8 @@
   background-size: cover;
   opacity: 0;
   transition: 250ms;
+
+  @media (width <= 800px) {
+    opacity: 1;
+  }
 }

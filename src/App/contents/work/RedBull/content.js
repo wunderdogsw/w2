@@ -12,17 +12,10 @@ import DatLine from 'App/components/DatLine'
 import mockup from './redbull-mockup.png'
 import photo1 from './redbull-photo1.png'
 import photo2 from './redbull-photo2.png'
-import summary from './redbull-summary.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#f8f8f8',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>

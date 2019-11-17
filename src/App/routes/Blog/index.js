@@ -85,7 +85,7 @@ export default class extends Component {
               By { Page.author.name }, <span className="grey">{ Page.author.title }</span> • { Page.publishDate } • Read time { Page.readTimeMinutes } min
             </SubTitle>
             {Page.image && (
-              <Image src={ Page.image } hero />
+              <Image src={ Page.image } indent hero />
             )}
             <Keywords>{ Page.keywords }</Keywords>
             <Page.content />

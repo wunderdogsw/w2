@@ -3,12 +3,13 @@
 
 ![Build status](https://api.travis-ci.com/wunderdogsw/w2.svg?branch=master)
 
-React site with hardcoded content, no ssr, no cms. Easily hackable by anybody because everything is hardcoded. 
+React site with hardcoded content, no ssr, no cms. Easily hackable by anybody because everything is hardcoded.
 No need to make complicated UIs for CMS integrations etc.
 
 
 ### Usage
 
+* You need to install our fonts to the src/fonts folder, these can be found in our marketing materials
 * `yarn`
 * `yarn dev` or `yarn dev --open` to magically open in browser
 * Go to [localhost:1234](http://localhost:1234)
@@ -84,6 +85,3 @@ Contains utility functions
 ### Css
 
 Main tag styles are found in root css file: `src/index.css`. Rest of the styles are written so that each component have their own styles. Positioning of the components are overriden in components found in routes dir. Each component try to fill as much space as they are allowed by their container component.
-
-
-

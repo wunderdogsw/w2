@@ -5,22 +5,16 @@ import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
+import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
 import mockup from './pexraytech-mockup.png'
-import summary from './pexraytech-summary-bag.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#afe5ce',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -85,7 +79,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
       <h2>The challenge</h2>
       <p>
         Develop a user interface for an innovative portable X-ray system

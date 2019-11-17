@@ -16,12 +16,10 @@ export default class extends Component {
 
     return (
       <section className="LatestBlogPosts">
-        <Indent>
-          <Chapter>
-            <h2>We're always trying to learn</h2>
-            <p>Behind every individual is the support and shared knowledge of the entire Wunderdog team, with a bold and open-minded attitude towards possibilities that enables us to stay ahead of our game. We want to share our learnings for you too.</p>
-          </Chapter>
-        </Indent>
+        <Chapter>
+          <h2>Endless analysing and learning</h2>
+          <p>Behind every individual is the support and shared knowledge of the entire Wunderdog team, with a bold and open-minded attitude towards possibilities that enables us to stay ahead of our game. We want to share our learnings for you too.</p>
+        </Chapter>
         <CardsGrid disharmony>
           { posts
             .slice(0, 2)

@@ -1,5 +1,6 @@
 .LatestWork {
   padding-bottom: var(--spacing);
+  margin-bottom: var(--spacing);
 }
 
 .LatestWork__content {
@@ -7,5 +8,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: var(--spacing-small);
+  padding-top: var(--spacing);
 }

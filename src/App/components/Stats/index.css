@@ -5,9 +5,10 @@
   min-width: 300px;
 
   & > div {
-    width: 50%;
+    width: calc(50% - var(--spacing-medium));
     margin-top: var(--spacing);
     margin-bottom: var(--spacing-medium);
+    margin-right: var(--spacing-medium);
 
     & > span:first-child {
       display: block;

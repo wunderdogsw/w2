@@ -5,7 +5,7 @@
   min-width: 300px;
   overflow: hidden;
 
-  @media (width <= 768px) {
+  @media (width <= 868px) {
     width: 100%;
   }
 }
@@ -21,7 +21,7 @@
   padding: 0;
   margin-bottom: 0;
 
-  @media (width <= 768px) {
+  @media (width <= 868px) {
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
   }

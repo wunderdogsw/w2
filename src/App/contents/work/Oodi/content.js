@@ -12,17 +12,10 @@ import Video from 'App/components/Video'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
-import summary from './smartly-summary.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#f7f7f7',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -118,7 +111,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
       <h2>The challenge</h2>
       <p>
         Create an exciting and engaging way for people to get to know Helsinki

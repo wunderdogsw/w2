@@ -77,10 +77,10 @@ export default class extends Component {
             <SubTitle useAsMetaTitle>{ Page.client }</SubTitle>
 
             {Page.image && !Page.video && (
-              <Image src={ Page.image } hero />
+              <Image src={ Page.image } indent hero />
             )}
             {Page.video && (
-              <Video src={ Page.video } useUnmute={ Page.videoMuteToggle } />
+              <Video src={ Page.video } indent useUnmute={ Page.videoMuteToggle } />
             )}
             <Keywords>{ Page.keywords }</Keywords>
             <Page.content />

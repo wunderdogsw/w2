@@ -4,7 +4,7 @@ import image from './oodi-hero.jpg'
 export default {
   title: 'An ode to the city',
   client: 'Oodi, Central Library',
-  publishDate: 'October 18, 2021',
+  publishDate: 'October 18, 2019',
   keywords: 'React, Unity, UI Design, UX Design',
   image: image,
   videoMuteToggle: true,

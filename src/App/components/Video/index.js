@@ -1,5 +1,6 @@
 import './index.css'
 import React, { Component } from 'react'
+import cs from 'classnames'
 import volume from './volume-x.svg'
 
 export default class extends Component {
@@ -14,15 +15,19 @@ export default class extends Component {
 
   render() {
     const { muted } = this.state
-    const { src, useUnmute } = this.props
+    const { src, useUnmute, indent } = this.props
 
     return (
-      <span className="Video" onClick={ this.handleVideoClick }>
+      <span className={ cs(
+        'Video',
+        indent && 'Video--indent'
+      )}
+      onClick={ this.handleVideoClick }>
         <div className="Video__inner">
           <video autoPlay muted={ muted } loop playsInline preload="metadata">
             <source src={ src } type="video/mp4" />
           </video>
-          {muted &&
+          {useUnmute && muted &&
             <div className="Icon">
               <img
                 src={ volume }

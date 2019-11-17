@@ -10,16 +10,9 @@ import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 
 import photo from './perusterveys-photo.png'
-import summary from './perusterveys-summary.svg'
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#f6db4a',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -95,7 +88,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
       <h2>The challenge</h2>
       <p>Build the best online booking system in the world.</p>
       <h2>The result</h2>

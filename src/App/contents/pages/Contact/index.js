@@ -28,7 +28,7 @@ import malmo from './office_malmo.jpg'
 
 export default () => (
   <Fragment>
-    <MainTitle narrow>Let's make some wunders happen</MainTitle>
+    <MainTitle narrow>Get in touch, we'd love to hear from you</MainTitle>
     <SubTitle>
       Feel free to throw us a question or two <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
     </SubTitle>

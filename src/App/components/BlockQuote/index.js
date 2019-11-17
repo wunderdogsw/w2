@@ -1,8 +1,13 @@
 import './index.css'
 import React from 'react'
 
-export default ({ children }) => (
+export default ({ children, by }) => (
   <blockquote className="BlockQuote">
-    { children }
+    <p>{ children }</p>
+    { by &&
+      <footer>
+        { by }
+      </footer>
+    }
   </blockquote>
 )
