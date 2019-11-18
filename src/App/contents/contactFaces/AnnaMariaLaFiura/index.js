@@ -8,8 +8,8 @@ export default () => (
       <br />
       +358 41 5442886
       <br />
-      <a className="noHyphen" href="mailto:anna-maria.lafiura@wunder.dog">
-        anna-maria.lafiura<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:anna-maria.lafiura@wunderdog.fi">
+        anna-maria.lafiura<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

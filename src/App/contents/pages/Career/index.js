@@ -16,8 +16,8 @@ import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import hero from './career-3.jpg'
-import photo1 from './career-2.jpg'
+import hero from './career-1.jpg'
+import photo1 from './career-5.jpg'
 import photo2 from './career-4.jpg'
 
 

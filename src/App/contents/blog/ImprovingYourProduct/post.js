@@ -24,8 +24,8 @@ export default () => (
         there in the open and that you are set to improve it by updating features and building new ones.
       </p>
       <BlockQuote>
-        "We as product people have high hopes of what will happen to a product once we get to launch those new features.
-        Obviously, the use of your product will shoot through the roof."
+        We as product people have high hopes of what will happen to a product once we get to launch those new features.
+        Obviously, the use of your product will shoot through the roof.
       </BlockQuote>
       <p>
         You have a backlog full of feature ideas that will take the world by a storm. We as product people have high

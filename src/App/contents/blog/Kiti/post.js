@@ -28,7 +28,7 @@ export default () => (
         course, I began to think that programming is quite cool and that, maybe someday, I could do that for a living.
         Now here I am, a few years later!
       </p>
-      <BlockQuote>“I was supposed to be a math teacher but programming got me hooked by half-accident.”</BlockQuote>
+      <BlockQuote>I was supposed to be a math teacher but programming got me hooked by half-accident.</BlockQuote>
       <p>
         As a developer, most of my time is spent in front of the computer. If I’m not coding, I’m reading or reviewing
         code, reading the documentation or searching for information. Sometimes the feature I’m implementing can be
@@ -58,7 +58,7 @@ export default () => (
         how things work in different contexts and with different people. Similar problems are solved in so many ways in
         different places. It’s useful to get to know many perspectives.
       </p>
-      <BlockQuote>“This definitely isn’t lonely work and that’s part of the charm for me!”</BlockQuote>
+      <BlockQuote>This definitely isn’t lonely work and that’s part of the charm for me!</BlockQuote>
       <p>
         I feel that the most important quality of a consultant is the ability to listen. And being a good listener means
         that you hear more than they say. Asking a lot of questions gets you there. I think it’s a cliche but the good
@@ -72,8 +72,8 @@ export default () => (
         their weaknesses and vulnerabilities. Good team spirit implies that you are accepted and belong to the group.
       </p>
       <BlockQuote>
-        “I feel that the most important quality of a consultant is to be able to listen. And being a good listener means
-        that you hear beyond the words.”
+        I feel that the most important quality of a consultant is to be able to listen. And being a good listener means
+        that you hear beyond the words.
       </BlockQuote>
       <p>
         For me it’s important to do meaningful things, see the outcome of my work and feel that I’m helping someone or

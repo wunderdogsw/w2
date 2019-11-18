@@ -37,6 +37,10 @@
 
 .Page__inner > *:first-child {
   padding-top: calc(var(--spacing-small) * 4);
+
+  @media (width <= 800px) {
+    padding-top: calc(var(--spacing-medium) * 4);
+  }
 }
 
 .Page__inner > *:last-child {
@@ -187,7 +191,8 @@
 }
 
 
-.Chapter > p {
+.Chapter > p,
+.Chapter > ul {
   position: relative;
   margin-left: 30vw;
   box-sizing: border-box;

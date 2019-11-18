@@ -13,7 +13,7 @@ export default () => (
         the stage, let’s take Osmo A. Wiio’s law which claims that “communication usually fails, except by accident”. We
         are bound to fail unless we accidentally get things right.
       </p>
-      <BlockQuote>Osmo A. Wiio’s law claims that “communication usually fails, except by accident”.</BlockQuote>
+      <BlockQuote>Osmo A. Wiio’s law claims that “communication usually fails, except by accident.</BlockQuote>
       <p>
         At the same time, I can safely say that communication is the secret ingredient in any team effort. Whether it is
         sports, family or building digital services. It was until I was around 14 years old when I had my a-ha moment

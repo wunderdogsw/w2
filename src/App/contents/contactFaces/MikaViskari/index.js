@@ -8,8 +8,8 @@ export default () => (
       <br />
       +358 50 3139423
       <br />
-      <a className="noHyphen" href="mailto:mika.viskari@wunder.dog">
-        mika.viskari<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:mika.viskari@wunderdog.fi">
+        mika.viskari<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

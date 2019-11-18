@@ -13,8 +13,8 @@ export default () => (
         </i>
       </p>
       <BlockQuote>
-        ”The most important things in my job are the ”traditional” ones: getting along with people, communication,
-        taking notes etc. Without these skills even the best code wizard wouldn’t get along”
+        The most important things in my job are the ”traditional” ones: getting along with people, communication,
+        taking notes etc. Without these skills even the best code wizard wouldn’t get along
       </BlockQuote>
       <p>
         Hi there! I’m Hank, a graduate engineer from Otaniemi. I’ve worked in software development for 10 years now.
@@ -55,8 +55,8 @@ export default () => (
         However the most important thing is supporting the team members and facilitating their efficient working.
       </p>
       <BlockQuote>
-        " With this gang working is actually fun. Also, the fact that bureaucracy and organization charts are
-        conspicuously absent is a huge plus”
+        With this gang working is actually fun. Also, the fact that bureaucracy and organization charts are
+        conspicuously absent is a huge plus
       </BlockQuote>
       <p>
         For me the most motivating situations to work are those, where the team members all get to utilise their

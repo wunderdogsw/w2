@@ -8,7 +8,7 @@ import { MainNav } from 'App/contents/other'
 
 export default () => (
   <Fragment>
-    <Logo useHorizontal />
+    <Logo useHorizontal to="/" />
     <h1>We are more than code and design</h1>
     <nav>
       <MainNav />

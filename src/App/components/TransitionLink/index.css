@@ -22,6 +22,10 @@
   justify-content: space-between;
   border-bottom: 1px solid rgba(255,255,255,.2);
 
+  @media (width <= 800px) {
+    flex-direction: column;
+  }
+
   &:hover {
     background: rgba(255,255,255,.1);
   }

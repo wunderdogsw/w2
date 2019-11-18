@@ -23,8 +23,8 @@ export default () => (
         Middle Finland, from the tiny town of Saarijärvi.
       </p>
       <BlockQuote>
-        "As a teenager, I decided that as soon as I can I’ll leave the town behind, go see the World and start studying
-        media!”
+        As a teenager, I decided that as soon as I can I’ll leave the town behind, go see the World and start studying
+        media!
       </BlockQuote>
       <p>
         It might sound like a cliché, but I’ve always known that I want to do something creative for a living. As a
@@ -40,8 +40,8 @@ export default () => (
       </p>
       <p>So I applied. The recruitment process was very quick and no-nonsense. Before I knew it, I was hired.</p>
       <BlockQuote>
-        "Even though I’m a consultant, the core of my work is still “basic crafts” which means that aside from meetings,
-        I sit on my desk and draw and prototype.""
+        Even though I’m a consultant, the core of my work is still “basic crafts” which means that aside from meetings,
+        I sit on my desk and draw and prototype.
       </BlockQuote>
       <p>
         Nowadays I start my Mondays off with the most important tasks of the work week. This way, the urgent things are
@@ -67,8 +67,8 @@ export default () => (
         makes the design a challenge. I mainly use Sketch, all Adobe programs, Invision, and Pen & paper when working.
       </p>
       <BlockQuote>
-        "Some designers who are not working in the technology industry may have prejudices about it. A typical one that
-        I hear is that you need to know how to code and be very tech-savvy"
+        Some designers who are not working in the technology industry may have prejudices about it. A typical one that
+        I hear is that you need to know how to code and be very tech-savvy
       </BlockQuote>
       <p>
         Some designers (at least in my circle) who are not working in the technology industry may have prejudices about

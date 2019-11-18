@@ -13,8 +13,8 @@ export default () => (
         </i>
       </p>
       <BlockQuote>
-        “Coding is like digital carpentry: You nail pieces together for a while and ta-daa, you’ve made yourself a web
-        service or maybe a soapbox car!”
+        Coding is like digital carpentry: You nail pieces together for a while and ta-daa, you’ve made yourself a web
+        service or maybe a soapbox car!
       </BlockQuote>
     </Chapter>
     <Chapter>

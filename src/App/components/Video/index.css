@@ -29,6 +29,7 @@
 
   @media (width <= 800px) {
     margin-right: 0;
+    height: 70vw;
     margin-left: var(--spacing);
   }
 }

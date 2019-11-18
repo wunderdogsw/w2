@@ -24,8 +24,8 @@ export default () => (
         of e.g. adrenaline; mental abilities, in turn, deteriorate.
       </p>
       <BlockQuote>
-        "It is well-known that some cognitive abilities, such as creativity, suffer when you are stressed or under
-        pressure.³"
+        It is well-known that some cognitive abilities, such as creativity, suffer when you are stressed or under
+        pressure.³
       </BlockQuote>
       <p>
         The mental Golgi tendon organ — analogous to the amygdala? — keeps the threshold of shutting down creativity
@@ -45,7 +45,7 @@ export default () => (
         to hold your hand. However, this is also your trump card: real responsibility pushes you to search for real
         solutions.
       </p>
-      <BlockQuote>"In fact, I have heard a software developer say: write code as if you were a CEO."</BlockQuote>
+      <BlockQuote>In fact, I have heard a software developer say: write code as if you were a CEO.</BlockQuote>
       <p>
         In my opinion, this piece of advice is quite insightful — it helps you think clearly about what is best for your
         business and you are able to more clearly evaluate what kind of decisions you should make and when. You also

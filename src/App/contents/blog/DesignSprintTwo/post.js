@@ -49,8 +49,8 @@ export default () => (
       <p>
         We think the one-week Design Sprint especially good if…
       </p>
-      <b>1. The idea or concept has not yet taken form</b> <br/>
       <p>
+        <b>1. The idea or concept has not yet taken form</b> <br/>
         This starting point is the most profitable for you, as clear plans,
         previous drafts and prototypes tend to limit the thinking. At best, a
         Design Sprint carried out with an open mindset will direct the Sprint

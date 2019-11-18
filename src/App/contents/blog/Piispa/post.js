@@ -13,7 +13,7 @@ export default () => (
         </i>
       </p>
       <BlockQuote>
-        ”Fresh git, shiny stack, getting things done & mega cool pöhinä. Those are the things I like.”
+        Fresh git, shiny stack, getting things done & mega cool pöhinä. Those are the things I like.
       </BlockQuote>
       <p>
         Hi! I’m Piispa, 30 years old. I love Music, great beer and JavaScript (Jäsä as we call it in Finnish). I

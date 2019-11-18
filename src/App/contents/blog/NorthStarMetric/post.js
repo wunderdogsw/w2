@@ -22,7 +22,7 @@ export default () => (
         The launch of the updated product was a success, right? The product became better! All the features were built
         based on requirements from stakeholders.
       </p>
-      <BlockQuote>"Although the product became better, it didn’t help the business become better."</BlockQuote>
+      <BlockQuote>Although the product became better, it didn’t help the business become better.</BlockQuote>
       <h2>Endgame</h2>
       <p>
         In the end, the update didn’t help the company to do more of what they wanted to accomplish. It didn’t help to

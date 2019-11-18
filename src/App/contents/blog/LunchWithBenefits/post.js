@@ -42,9 +42,9 @@ export default () => (
         lunch together.
       </p>
     <BlockQuote>
-        “And particularly, you learn to appreciate the variety of different
+        And particularly, you learn to appreciate the variety of different
         personalities who you spend most of your daytime weekly working towards
-        common goals, developing a deeper sense of belongingness.”
+        common goals, developing a deeper sense of belongingness.
     </BlockQuote>
       <p>
         Such small an effort as having lunch with a colleague you might not
@@ -76,8 +76,8 @@ export default () => (
         success.
       </p>
     <BlockQuote>
-        “It builds trust and creates a safe environment to express
-        ideas and give feedback.”
+        It builds trust and creates a safe environment to express
+        ideas and give feedback.
     </BlockQuote>
       <p>
         Communal culture comes from the feeling of belongingness. Knowing the

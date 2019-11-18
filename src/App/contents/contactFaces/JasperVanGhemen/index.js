@@ -8,8 +8,8 @@ export default () => (
       <br />
       +49 175 2948023
       <br />
-      <a className="noHyphen" href="mailto:jasper.vanghemen@wunder.dog">
-        jasper.vanghemen<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">
+        jasper.vanghemen<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

@@ -3,7 +3,7 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import Indent from 'App/components/Indent'
 
-import home from './home-2.jpg'
+import home from './home-1.jpg'
 
 export default () => (
   <Fragment>

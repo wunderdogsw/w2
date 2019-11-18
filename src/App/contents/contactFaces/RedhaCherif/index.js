@@ -6,8 +6,8 @@ export default () => (
     <p>
       Country Lead
       <br />
-      <a className="noHyphen" href="mailto:redha.cherif@wunder.dog">
-        redha.cherif<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:redha.cherif@wunderdog.fi">
+        redha.cherif<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

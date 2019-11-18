@@ -27,8 +27,8 @@ export default () => (
         they’re both fundamentally breaking their own roles within the team.
       </p>
       <BlockQuote>
-        "We, as developers of software that people are hopefully going to use to better their lives — or in some cases
-        even depend on to continue living, carry an enormous responsibility."
+        We, as developers of software that people are hopefully going to use to better their lives — or in some cases
+        even depend on to continue living, carry an enormous responsibility.
       </BlockQuote>
       <p>
         I touched the word ethics in the previous paragraph. In my first year of studies, everyone was made to read the
@@ -54,7 +54,7 @@ export default () => (
         their own expert knowledge in their fields to the table.
       </p>
       <BlockQuote>
-        "Big part of our job satisfaction as developers is our freedom to resolve problems the way we see fit."
+        Big part of our job satisfaction as developers is our freedom to resolve problems the way we see fit.
       </BlockQuote>
       <p>
         Speaking of product owners and managers just being interested in shipping, the most common counter is for the

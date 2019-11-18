@@ -20,8 +20,8 @@ export default () => (
         valuable to business than others.
       </p>
       <BlockQuote>
-        "The valuable functionalities should, of course, be reviewed with care but is it useful to use the same amount
-        of money on the less important functionalities?"
+        The valuable functionalities should, of course, be reviewed with care but is it useful to use the same amount
+        of money on the less important functionalities?
       </BlockQuote>
       <p>
         Resources are always limited so prioritising is the key: sometimes with the not-so-critical parts <i>decent</i>{' '}
@@ -34,8 +34,8 @@ export default () => (
         begin to uncover only after the start of the project.
       </p>
       <BlockQuote>
-        "Since a software project usually begins to make profit properly only after the first release, well-thought-out
-        technical debt may be a good decision."
+        Since a software project usually begins to make profit properly only after the first release, well-thought-out
+        technical debt may be a good decision.
       </BlockQuote>
       <p>
         Basically, the question is, is the software life cycle long enough to generate more profit than what the accrued
@@ -57,8 +57,8 @@ export default () => (
         and expertise they have at the time as to how the money for the product should be invested.
       </p>
       <BlockQuote>
-        "The thing to remember is that in the long run, not taking out technical debt can be just as bad of a decision
-        as taking it out could be."
+        The thing to remember is that in the long run, not taking out technical debt can be just as bad of a decision
+        as taking it out could be.
       </BlockQuote>
       <p>
         So, is technical debt a threat or a possibility? The beauty of this question lies in that there is no right

@@ -46,6 +46,7 @@
 .Page__inner > .CallToAction.CallToAction--grey .CallToAction__inner {
   color: var(--color-black);
   background: var(--color-light-grey);
+  padding: var(--spacing-large) calc(15vw + var(--spacing));
 }
 
 .CallToAction__inner {

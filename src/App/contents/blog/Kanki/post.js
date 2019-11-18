@@ -31,9 +31,9 @@ export default () => (
         have what counts to me: friskiness and curiosity.
       </p>
     <BlockQuote>
-        “Coming from designing for Finland’s oldest organisation, Church in
+        Coming from designing for Finland’s oldest organisation, Church in
         Finland, I feel I’ve now seen the Finnish organisational
-        extremes.”
+        extremes.
     </BlockQuote>
       <p>
         Personally, the past four years have been a professional leap for me.
@@ -66,8 +66,8 @@ export default () => (
         work varies depending on the case.
       </p>
     <BlockQuote>
-        “I believe being in the consultant’s role, even for a short period
-        improves one’s professionalism.”
+        I believe being in the consultant’s role, even for a short period
+        improves one’s professionalism.
     </BlockQuote>
       <p>
         For design, I usually resort to Sketch, as I can do most things with it.
@@ -89,8 +89,8 @@ export default () => (
         colleagues who make the days meaningful.
       </p>
     <BlockQuote>
-        “At Wunderdog, it’s also the incredible colleagues who make the days
-        meaningful.”
+        At Wunderdog, it’s also the incredible colleagues who make the days
+        meaningful.
     </BlockQuote>
       <p>
         When I look back and try to remember why I got into design, two memories

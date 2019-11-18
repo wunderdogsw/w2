@@ -14,8 +14,8 @@ export default () => (
         </i>
       </p>
       <BlockQuote>
-        “Building up one of my very first web pages at the age of 12 I found the browser DevTools that revolutionized my
-        life!”
+        Building up one of my very first web pages at the age of 12 I found the browser DevTools that revolutionized my
+        life!
       </BlockQuote>
     </Chapter>
     <Chapter>
@@ -49,9 +49,9 @@ export default () => (
         with a breakfast and a weekly session where we go through what’s going on at Wunderdog.
       </p>
       <BlockQuote>
-        “Even though we as consultans work at the customer’s facilities the Wunderdog culture is taken there with the
+        Even though we as consultans work at the customer’s facilities the Wunderdog culture is taken there with the
         team. Something I brought with me when joining the current team is a daily break when we plank or do pull-ups
-        together.”
+        together.
       </BlockQuote>
       <p>
         In the current project, our team is developing an internal tool for managing employment relations. The

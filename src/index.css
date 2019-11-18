@@ -67,9 +67,9 @@
     --font-size-medium: 30px;
     --font-size-normal: 18px;
 
-    --spacing-small: 25px;
-    --spacing-medium: 30px;
-    --spacing-large: 35px;
+    --spacing-small: 20px;
+    --spacing-medium: 28px;
+    --spacing-large: 40px;
     --spacing: 40px;
   }
 }

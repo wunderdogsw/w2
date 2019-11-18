@@ -83,9 +83,9 @@ export default () => (
         your place and set boundaries.
       </p>
     <BlockQuote>
-        “Deep learning and big data have also had an enormous effect on society;
+        Deep learning and big data have also had an enormous effect on society;
         issues such as data rights and privacy are the new big struggles of our
-        time.”
+        time.
     </BlockQuote>
       <p>
         Having said that, for me, the biggest transformation has been the
@@ -122,8 +122,8 @@ export default () => (
         and as a person.
       </p>
     <BlockQuote>
-        “Keeping yourself updated and staying curious will probably end up
-        being your biggest asset.”
+        Keeping yourself updated and staying curious will probably end up
+        being your biggest asset.
     </BlockQuote>
     </Chapter>
     <Chapter>
@@ -155,8 +155,8 @@ export default () => (
         women get together, share their knowledge and teach each other.
       </p>
     <BlockQuote>
-        "Tech knowledge enables a broader understanding of the world and it’s
-        currently one of the best tools to make societal changes."
+        Tech knowledge enables a broader understanding of the world and it’s
+        currently one of the best tools to make societal changes.
     </BlockQuote>
     </Chapter>
     <Chapter>

@@ -14,8 +14,8 @@ export default () => (
         screw up, the opposing team will most likely take advantage of that and your mistake becomes hard to miss.
       </p>
       <BlockQuote>
-        "Most of one’s work is invisible to the world, happening behind the scenes–until somethings break. If you’re
-        good, you’re almost invisible."
+        Most of one’s work is invisible to the world, happening behind the scenes–until somethings break. If you’re
+        good, you’re almost invisible.
       </BlockQuote>
       <p>
         I’ve come to believe that developing applications or services is a lot like that as well. This is especially
@@ -32,8 +32,8 @@ export default () => (
         instead of the tool they’re using to achieve it.
       </p>
       <BlockQuote>
-        "I think a great application or service becomes kind of invisible to its user on all layers or levels, perhaps
-        after some initial wow effect."
+        I think a great application or service becomes kind of invisible to its user on all layers or levels, perhaps
+        after some initial wow effect.
       </BlockQuote>
       <p>
         After all, all services should exist to solve some actual problems. If they take the user’s attention away from
@@ -69,7 +69,7 @@ export default () => (
         wrong–information can also make the solving of a problem annoyingly hard if not impossible.
       </p>
       <BlockQuote>
-        "The less the user has to think about the application or service when using it, the better."
+        The less the user has to think about the application or service when using it, the better.
       </BlockQuote>
       <p>
         When the user experience of an application or a service is logical and fluid–and thus kind of invisible–the
