@@ -1,0 +1,30 @@
+.Clients {
+}
+
+.Clients > h1,
+.Clients > p {
+  max-width: var(--narrow-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+  box-sizing: border-box;
+  hyphens: none;
+}
+
+.Clients > * {
+  margin-top: var(--spacing-small);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.Clients > .LogoGrid {
+  margin-top: var(--spacing-small);
+
+  @media (width >= 1024px) {
+    margin-top: var(--spacing-large);
+  }
+}

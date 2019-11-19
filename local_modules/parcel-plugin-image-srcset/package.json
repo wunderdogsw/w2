@@ -1,0 +1,17 @@
+{
+  "name": "parcel-plugin-image-srcset",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "sharp": "^0.23.1",
+    "core-js": "3"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.0.0"
+  }
+}

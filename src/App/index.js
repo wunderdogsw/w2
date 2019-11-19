@@ -6,9 +6,10 @@ import Header from 'App/components/Header'
 import Footer from 'App/components/Footer'
 import CookieMonster from 'App/components/CookieMonster'
 import Home from 'App/routes/Home'
-import Page from 'App/routes/Page'
-import { LetsTalk } from 'App/contents/callToActions'
-import { LetsPlay } from 'App/contents/callToActions'
+import Blog from 'App/routes/Blog'
+import Work from 'App/routes/Work'
+import General from 'App/routes/General'
+import { MainFooter, LetsTalk, NextProject } from 'App/contents/callToActions'
 import {
   FooterBottom,
   CookieDisclamer,
@@ -32,6 +33,12 @@ export default () => (
         }
         return null
       }}/>
+
+      <Switch>
+        <Route path="/pahkina" />
+        <Route path="/pingpong" />
+        <Route path="*" component={ Header }/>
+      </Switch>
 
       <Switch>
 
@@ -60,39 +67,24 @@ export default () => (
         <Redirect from="/kulttuurimme-2" to="/career" />
 
         {/* Routes */}
-        <Route path="/:page" component={ Page } />
-        <Route path="*" component={ Home } />
+
+        <Route exact path="/blog/:page" component={ Blog } exact />
+        <Route exact path="/work/:page" component={ Work } exact />
+        <Route exact path="/:page" component={ General } exact />
+        <Route exact path="*" component={ Home } />
 
       </Switch>
-      <Footer>
-        <Switch>
-          <Route path="/pahkina" />
-          <Route path="/pingpong" />
-          <Route path="/contact" />
-          <Route path="/pumpum" component={ LetsPlay }/>
-          <Route path="*" component={ LetsTalk }/>
-        </Switch>
-        <FooterBottom />
-      </Footer>
-      <Switch>
-        <Route path="/pahkina" />
-        <Route path="/pingpong" />
-        <Route path="*" component={ Header }/>
-      </Switch>
-      <Switch>
-        <Route path="/pahkina" />
-        <Route path="/pingpong" />
-        <Route path="*" component={ Splash }/>
-      </Switch>
 
-      {/* Enable Cookiemonster to show cookie disclamer */}
-      <CookieMonster>
-        <Switch>
-          <Route path="/pahkina" />
-          <Route path="/pingpong" />
-          <Route path="*" component={ CookieDisclamer }/>
-        </Switch>
-      </CookieMonster>
+      <Switch>
+        <Route path="/work/*" />
+        <Route path="/blog/*" />
+        <Route path="*" component={() =>
+          <Footer main>
+            <MainFooter />
+            <FooterBottom />
+          </Footer>
+        }/>
+      </Switch>
     </State>
   </BrowserRouter>
 )

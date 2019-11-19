@@ -1,0 +1,22 @@
+.Block {
+  display: grid;
+  grid-gap: var(--spacing-small);
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: var(--spacing);
+}
+
+.Block--dark {
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
+.Block .ChapterRow {
+  display: flex;
+  justify-content: space-around;
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
+}
+
+.Block .Chapter {
+  max-width: 35vw;
+}

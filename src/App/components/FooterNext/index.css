@@ -1,0 +1,43 @@
+.Footer:hover .FooterNext .Image {
+  opacity: .6;
+}
+
+.FooterNext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+
+  @media (width <= 800px) {
+    min-height: 200px;
+  }
+}
+
+.FooterNext p,
+.FooterNext h1 {
+  position: relative;
+  margin: 0;
+  z-index: 2;
+}
+
+.FooterNext p {
+  margin-bottom: calc(var(--spacing) / 4);
+}
+
+.FooterNext .Image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  transition: 250ms;
+
+  @media (width <= 800px) {
+    opacity: 1;
+  }
+}

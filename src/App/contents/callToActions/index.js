@@ -7,5 +7,6 @@ export const ElectronicInvoicing = importedComponent(() => import('./ElectronicI
 export const JoinThePack = importedComponent(() => import('./JoinThePack'))
 export const LetsPlay = importedComponent(() => import('./LetsPlay'))
 export const LetsTalk = importedComponent(() => import('./LetsTalk'))
+export const MainFooter = importedComponent(() => import('./MainFooter'))
+export const NextProject = importedComponent(() => import('./NextProject'))
 export const OpenPositions = importedComponent(() => import('./OpenPositions'))
-export const OpenPositions2 = importedComponent(() => import('./OpenPositions2'))

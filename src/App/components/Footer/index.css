@@ -1,4 +1,57 @@
 .Footer {
+  position: relative;
+  padding: 0 var(--spacing);
+  background-color: var(--color-footer);
+  color: var(--color-text-on-footer);
+}
+
+.Footer > * {
+  margin-top: var(--spacing);
+
+  &:first-child {
+    padding-top: var(--spacing-large);
+  }
+}
+
+
+
+.Footer > nav {
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing);
+}
+
+.Footer > nav a {
+  position: relative;
+  color: var(--color-grey);
+  margin-left: var(--spacing-small);
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+    color: var(--color-white);
+  }
+
+  @media (width <= 800px) {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.Footer > nav a.active {
+  color: var(--color-white);
+
+  @media (width <= 800px) {
+    width: 0;
+  }
+}
+
+
+
+
+.Footer--secondary {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,42 +61,67 @@
   color: var(--color-text-on-footer);
 }
 
-.Footer > * {
+.Footer--secondary > * {
   text-align: center;
   margin-top: var(--spacing-small);
 
   &:first-child {
-    margin-top: auto;
     padding-top: calc(var(--spacing-small) * 3);
+  }
+}
+
+.Footer .Grid {
+
+  @media (width <= 1199px) {
+    justify-content: center;
+  }
+
+  @media (width <= 740px) {
+    display: none;
   }
 }
 
 
 
+.Footer .Logo {
+  display: block;
+  justify-content: flex-start;
+  margin-top: 0;
+}
 
-.Footer > .FooterBottom {
-  position: relative;
-  margin-top: calc(var(--spacing-small) * 3);
-  padding-top: 0;
+.Footer h1 {
   width: 100%;
+  max-width: 1200px;
 
-  &::before {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: block;
-    height: 1px;
-    background-color: var(--color-text-on-footer);
-    opacity: 0.25;
+  @media (width <= 1400px) {
+    margin-top: var(--spacing);
+    width: 80vw;
   }
 
-  &:first-child {
-    margin-top: 0;
+  @media (width <= 740px) {
+    margin-top: var(--spacing);
+    width: 85vw;
+  }
+}
 
-    &::before {
-      content: none;
-    }
+
+.Footer .Logo svg {
+  height: auto;
+  width: 55px;
+  fill: #fff;
+  padding: 0;
+
+  @media (width <= 740px) {
+    width: 40px;
+  }
+}
+
+.Footer address {
+  font-size: 20px;
+  width: 300px;
+  text-align: right;
+
+  @media (width <= 1199px) {
+    text-align: center;
   }
 }

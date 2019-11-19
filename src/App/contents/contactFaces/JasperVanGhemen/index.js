@@ -6,12 +6,10 @@ export default () => (
     <p>
       Sales
       <br />
-      <a className="breakAll noHyphen" href="tel:+491752948023">
-        +49 175 2948023
-      </a>
+      +49 175 2948023
       <br />
-      <a className="noHyphen" href="mailto:jasper.vanghemen@wunder.dog">
-        jasper.vanghemen<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">
+        jasper.vanghemen<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

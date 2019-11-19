@@ -1,23 +1,29 @@
 .FooterBottom {
+  position: relative;
+  font-size: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 100px;
+  padding: var(--spacing-small) 0;
   width: 100%;
-}
+  z-index: 3;
 
-
-
-
-.FooterBottom > .Logo {
-  width: 120px;
-
-  & > svg * {
-    fill: var(--color-text-on-footer);
+  @media (width <= 800px) {
+    flex-direction: column;
   }
 }
 
+.FooterBottom p {
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.4;
+
+  @media (width <= 800px) {
+    order: 2;
+    margin-top: 10px;
+  }
+}
 
 
 
@@ -26,16 +32,27 @@
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;
+  min-width: 300px;
+  text-align: left;
+
+  @media (width <= 800px) {
+    width: 100%;
+    order: 1;
+    justify-content: flex-start;
+  }
 
   & > * {
     margin-left: var(--spacing-small);
     text-decoration: none;
-    text-transform: uppercase;
-    opacity: 0.5;
+    opacity: 0.4;
+
+    @media (width <= 800px) {
+      margin-left: 0;
+      margin-right: var(--spacing-small);
+    }
 
     &:hover {
       opacity: 1;
-      text-decoration: underline;
     }
   }
 }

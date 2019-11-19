@@ -1,10 +1,14 @@
 import React, { Fragment } from 'react'
 import Button from 'App/components/Button'
+import TransitionLink from 'App/components/TransitionLink'
 
 export default () => (
   <Fragment>
     <h1>Let's talk!</h1>
-    <p>Find various ways to contact us from our contact page</p>
-    <Button to="/contact">Contact</Button>
+    <p>
+      <TransitionLink to= "mailto:hello@wunderdog.fi">
+        hello@wunderdog.fi
+      </TransitionLink>
+    </p>
   </Fragment>
 )

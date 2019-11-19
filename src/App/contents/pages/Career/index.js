@@ -4,29 +4,21 @@ import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
 import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
+import Indent from 'App/components/Indent'
 import Chapter from 'App/components/Chapter'
 import ImageTextRow from 'App/components/ImageTextRow'
 import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
+import BlockQuote from 'App/components/BlockQuote'
 
 import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import heroThumb from './career-hero-new-thumb.jpg'
-import hero from './career-hero-new.jpg'
-import photo1Thumb from './career-photo1-thumb.jpg'
-import photo1 from './career-photo1.png'
-import photo2Thumb from './career-photo2-thumb.jpg'
-import photo2 from './career-photo2.png'
-import photo3Thumb from './career-photo3-thumb.jpg'
-import photo3 from './career-photo3.png'
-import photo4Thumb from './career-photo4-thumb.jpg'
-import photo4 from './career-photo4.jpg'
-import photo5Thumb from './career-photo5-thumb.jpg'
-import photo5 from './career-photo5.jpg'
-
+import hero from './career-1.jpg'
+import photo1 from './career-5.jpg'
+import photo2 from './career-4.jpg'
 
 
 export default () => (
@@ -37,63 +29,68 @@ export default () => (
         '--color-text-on-accent': '#fff',
       }}
     </CssVars>
-    <MainTitle>Join the Pack</MainTitle>
-    <SubTitle>
-      We believe happy people create the best workplace. Welcome to
-      join our pack!
-    </SubTitle>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog crew" />
-    <CallToAction>
-      <OpenPositions />
-    </CallToAction>
-    <ImageTextRow>
-      <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Wunderdogs" />
-      <h4>The most important thing is that we all enjoy being at work</h4>
+    <MainTitle narrow>Happy people create the best workplace</MainTitle>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
+    <Chapter>
+      <h2>We offer an endless platform for personal growth and shared learning</h2>
+    </Chapter>
+    <Chapter>
       <p>
+        We believe things can be done better, so we challenge both ourselves
+        and current thinking to  make the world work better and smarter. One
+        project at a time, we’re improving how companies, communities, and
+        societies work.
+      </p>
+    </Chapter>
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
+    <Chapter>
+      <h2>Our culture is born out of what we all do each day</h2>
+    </Chapter>
+    <Chapter>
+      <p>
+        <b>We actively avoid setting obstacles in our way</b> <br/>
+        We recruit intelligent and competent people who can make decisions
+        independently. We are given freedom and responsibility accordingly.
+      </p>
+      <p>
+        <b>The most important thing is that we all enjoy being at work</b> <br/>
         We respect every employee regardless of gender, age, religion, sexual
         orientation or ethnic background.
       </p>
-    </ImageTextRow>
-    <ImageTextRow reversed>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Wunderdogs" />
-      <h4>We actively avoid setting obstacles in our way</h4>
       <p>
-        We recruit only intelligent and competent people who can make
-        decisions independently. We are given freedom and responsibility
-        accordingly.
+        <b>We value our colleagues’ success as much as our own</b> <br/>
+        We support each other with our collective know-how, since, even though
+        we are competent, none of us is master of everything.
       </p>
-    </ImageTextRow>
-    <Stats useAccent>
-      <FunStats />
-    </Stats>
-    <ImageTextRow>
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Wunderdogs" />
-      <h4>We value our colleagues' success as much as our own</h4>
       <p>
-        We support each other with our collective know-how, since, even
-        though we are competent, none of us is master of everything.
-      </p>
-    </ImageTextRow>
-    <ImageTextRow reversed>
-      <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Wunderdogs" />
-      <h4>We share information openly and fairly amongst colleagues</h4>
-      <p>
+        <b>We share information openly and fairly amongst colleagues</b> <br/>
         By default, all company information is public to all our employees.
         We limit access to knowledge only for a good reason.
       </p>
-    </ImageTextRow>
-    <ImageTextRow>
-      <Image thumbSrc={ photo5Thumb } src={ photo5 } alt="Wunderdogs" />
-      <h4>We encourage bold and open-minded experimentation</h4>
       <p>
+        <b>We encourage bold and open-minded experimentation</b> <br/>
         We all fail sometimes. We believe that making a mistake and learning
         from it is far more important than not trying something for fear of
-        failure. An important part of learning is to ask feedback - which
-        we are always happy to give.
+        failure. An important part of learning is to ask feedback - which we
+        are always happy to give.
       </p>
-    </ImageTextRow>
-    <LatestBlogPosts culture>
-      <CareerBlogPostsContent />
-    </LatestBlogPosts>
+    </Chapter>
+    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+    <Chapter>
+      <h2>
+        We help our people in finding and reaching their fullest potential
+      </h2>
+    </Chapter>
+    <Chapter>
+      <p>
+        Active communications and knowledge sharing are at our core. We don’t
+        compete against each other, we believe in succeeding together.
+        Behind each individual doggo there’s always the support of the entire
+        Wunderdog team.
+      </p>
+    </Chapter>
+    <CallToAction color="blue" large grid>
+      <OpenPositions />
+    </CallToAction>
   </Fragment>
 )

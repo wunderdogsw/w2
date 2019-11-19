@@ -1,31 +1,24 @@
 .Chapter {
   display: block;
   box-sizing: border-box;
+}
 
-  @media (width >= 1024px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: var(--spacing-small);
-  }
+.Chapter--large p {
+  font-size: var(--font-size-medium);
 }
 
 .Chapter > * {
-  margin-bottom: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
 
   &:last-child {
     /* margin-bottom: 0; */
   }
 }
 
-.Chapter > :first-child {
-  grid-row-start: span 20;
-
-  /* adjust baseline of next element */
-  & + * {
-    margin-top: 5px;
-  }
+.Chapter > h5 {
+  margin-bottom: var(--spacing-smallest);
 }
 
-.Chapter > h5 {
-  margin-bottom: calc(var(--spacing-small) / 4);
+.Chapter > h2 {
+  margin-top: var(--spacing);
 }

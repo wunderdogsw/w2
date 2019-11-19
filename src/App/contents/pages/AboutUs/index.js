@@ -1,19 +1,20 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
+import Indent from 'App/components/Indent'
+import Grid from 'App/components/Grid'
 import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import { SeriousStats } from 'App/contents/stats'
-import ChapterRow from 'App/components/ChapterRow'
-import CaseCards from 'App/components/CaseCards'
+import Logos from 'App/components/Logos'
+import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 
-import heroThumb from './about-us-hero-new-thumb.jpg'
-import hero from './about-us-hero-new.jpg'
-
+import hero from './about-us-1.jpg'
+import photo1 from './about-us-4.jpg'
+import photo2 from './about-us-2.jpg'
 
 export default () => (
   <Fragment>
@@ -23,56 +24,71 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle>About us</MainTitle>
-    <SubTitle>
-      We're your partner in turning good ideas into digital reality.
-    </SubTitle>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="Wunderdog people" />
-
+    <MainTitle narrow>We believe things can be done better</MainTitle>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
-      <h4>High-end consultancy in creating digital products and services</h4>
+      <h2>Born years later than the leaders in the field, we inevitably
+      started off as an underdog.</h2>
+    </Chapter>
+    <Chapter>
       <p>
-        We guide our customers through the maze of crafting digital products
-        and services from ideation to execution.
-      </p>
-      <p>
-        By combining smart ways of working, human-centered design and
-        high-quality code, we build future-proof services together with
-        our customers.
+        Our dedication and goals made it clear that being an underdog was only
+        temporary. We added a W to the name to give the wow-effect that would
+        foreshadow the upcoming. Together the people of this company would do
+        wonders.
       </p>
     </Chapter>
 
-    <ChapterRow>
-      <Chapter>
-        <h5>Business Design</h5>
-        <p>Developing, testing and concepting of new businesses</p>
-      </Chapter>
-      <Chapter>
-        <h5>Design (UI/UX)</h5>
-        <p>Easy-to-use interfaces to generate great user experiences</p>
-      </Chapter>
-      <Chapter>
-        <h5>Development</h5>
-        <p>Delivering high-quality digital products & services</p>
-      </Chapter>
-      <Chapter>
-        <h5>Coaching & Team leading</h5>
-        <p>Agile methods to support smart ways of working</p>
-      </Chapter>
-    </ChapterRow>
-
-    <Stats useAccent>
-      <SeriousStats />
-    </Stats>
+    <Indent twice>
+      <Stats useAccent>
+        <SeriousStats />
+      </Stats>
+    </Indent>
 
     <Chapter>
-      <h4>We believe things can be done better</h4>
-      <p>
-        By challenging ourselves and the current thinking, we aim to make the
-        world work better and easier applying the latest technologies and
-        smarter ways of working.</p>
+      <h2>
+        Our services
+      </h2>
+      <p><b>Software development</b><br />Delivering high-quality digital products & services</p>
+      <p><b>Product Analytics</b><br />Understanding and developing how users engage with what we build</p>
+      <p><b>Business Design</b><br />Developing, testing and concepting of new businesses</p>
+      <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
+      <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
+      <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
     </Chapter>
 
+    <Chapter>
+      <h2>
+        Our ecosystem
+      </h2>
+      <p>
+        We focus on the things we are really good at. We believe it’s the only way to offer the best service
+        to our customers. But we’re not alone. Together we create a strong ecosystem that offers end-to-end
+        services to our clients for all digital problems.
+      </p>
+    </Chapter>
+
+    <Indent twice>
+      <Logos>
+        <Ecosystem />
+      </Logos>
+    </Indent>
+
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
+
+    <Chapter>
+      <h2>
+        We're your partner in turning good ideas into digital reality
+      </h2>
+    </Chapter>
+
+    <Indent twice>
+      <Logos>
+        <Clients />
+      </Logos>
+    </Indent>
+
+    <Image src={ photo2 } alt="Wunderdog people" large hero/>
 
   </Fragment>
 )

@@ -1,6 +1,6 @@
-import './index.css'
-import React, { Component } from 'react'
 import cs from 'classnames'
+import React, { Component } from 'react'
+import './index.css'
 
 
 
@@ -30,32 +30,37 @@ export default class extends Component {
 
   render() {
     const { loaded, thumbHidden } = this.state
-    const { className, thumbSrc, src, asBackground, style, ...rest } = this.props
+    const { className, src, asBackground, style, hero, indent, large, ...rest } = this.props
+
+    const thumbsrc = src.substring(0, src.lastIndexOf('.')) + '.thumb' + src.substring(src.lastIndexOf('.'), src.length)
 
     return (
       <span className={ cs(
         'Image',
-        thumbSrc && 'Image--hasThumb',
+        thumbsrc && 'Image--hasThumb',
         loaded && 'Image--loaded',
         thumbHidden && 'Image--thumbHidden',
         asBackground && 'Image--asBackground',
-        className
+        hero && 'Image--isHero',
+        large && 'Image--center',
+        indent && 'Image--indent',
+        indent == 'left' && 'Image--left'
       )}>
-        { thumbSrc && (
+        { thumbsrc && (
           asBackground ? (
             <span
               className="Image__thumb"
-              style={{ backgroundImage: `url(${ thumbSrc })`, ...style }}
+              style={{ backgroundImage: `url(${ thumbsrc })`, ...style }}
             />
           ) : (
             <img { ...rest }
               style={ style }
-              src={ thumbSrc }
+              src={ thumbsrc }
               className="Image__thumb"
             />
           )
         )}
-        { (loaded || !thumbSrc) && (
+        { (loaded || !thumbsrc) && (
           asBackground ? (
             <span
               className="Image__main"

@@ -1,0 +1,12 @@
+.LatestWork {
+  padding-bottom: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.LatestWork__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--spacing);
+}

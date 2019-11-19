@@ -1,0 +1,35 @@
+.Video {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+.Video__inner {
+  position: relative;
+  color: #fff;
+}
+
+.Video video {
+  width: 100%;
+  background: var(--color-blue);
+}
+
+.Video .Icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.Video.Video--indent,
+.Page__inner > .Video.Video--indent {
+  position: relative;
+  margin-left: calc(15vw + var(--spacing));
+  margin-right: 0;
+  padding: 0;
+
+  @media (width <= 800px) {
+    margin-right: 0;
+    height: 70vw;
+    margin-left: var(--spacing);
+  }
+}

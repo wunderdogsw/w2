@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import cs from 'classnames'
 
-export default ({ children, className, centered, ...props }) => (
+export default ({ children, className, narrow, centered, ...props }) => (
   <Fragment>
     <Helmet>
       <title>{ children } | Wunderdog</title>
@@ -40,6 +40,7 @@ export default ({ children, className, centered, ...props }) => (
       className={cs(
         'MainTitle',
         centered && 'MainTitle--centered',
+        narrow && 'MainTitle--narrow',
         className
       )}
       children={ children }

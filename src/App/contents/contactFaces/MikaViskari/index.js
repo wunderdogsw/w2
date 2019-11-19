@@ -6,12 +6,10 @@ export default () => (
     <p>
       CEO
       <br />
-      <a className="breakAll noHyphen" href="tel:+358503139423">
-        +358 50 3139423
-      </a>
+      +358 50 3139423
       <br />
-      <a className="noHyphen" href="mailto:mika.viskari@wunder.dog">
-        mika.viskari<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:mika.viskari@wunderdog.fi">
+        mika.viskari<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

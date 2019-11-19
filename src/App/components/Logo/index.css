@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
 }
@@ -10,29 +11,12 @@
 .Logo--animate {
   & > svg > * {
     animation-name: letterFadeIn;
-    animation-duration: var(--animation-duration);
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
     animation-fill-mode: backwards;
     animation-timing-function: var(--animation-ease);
   }
 }
-
-
-
-
-.Logo__horizontal {
-  display: block;
-  width: 1000px;
-  max-width: 100%;
-
-  @media ( width < 768px ) {
-    display: none;
-  }
-}
-
-.Logo--useHorizontal .Logo__horizontal {
-  display: block;
-}
-
 
 
 
@@ -42,28 +26,20 @@
   max-width: 100%;
   box-sizing: border-box;
   padding: var(--spacing-small);
-
-  @media ( width >= 768px ) {
-    display: none;
-  }
 }
 
 .Logo--useHorizontal .Logo__grid {
   display: none;
 }
 
-
-
-
-
-
-
-
-@keyframes letterFadeIn {
-  0% {
-    opacity: 0;
+  @keyframes letterFadeIn {
+    60% {
+      opacity: 1;
+    }
+    63% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 1;
+    }
   }
-  100% {
-    opacity: 1;
-  }
-}

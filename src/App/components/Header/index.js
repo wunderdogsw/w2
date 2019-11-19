@@ -6,7 +6,7 @@ import throttle from 'lodash.throttle'
 import { withState } from 'App/state'
 import Logo from 'App/components/Logo'
 import TransitionLink from 'App/components/TransitionLink'
-import { MainNav } from 'App/contents/other'
+import { MainNav, SocialNav } from 'App/contents/other'
 
 
 
@@ -14,13 +14,16 @@ export default withRouter(withState(
   class extends Component {
     state = {
       navShowing: false,
+      logoShowing: true
     }
 
     componentDidMount() {
+      window.addEventListener('scroll', this.toggleLogo)
       window.addEventListener('resize', this.hideNav)
     }
 
     componentWillUnmount() {
+      window.removeEventListener('scroll', this.toggleLogo)
       window.removeEventListener('resize', this.hideNav)
     }
 
@@ -37,14 +40,18 @@ export default withRouter(withState(
       this.setState({ navShowing: true })
     }
 
-    hideNav = throttle(() => {
+    toggleLogo = () => {
+      this.setState({ logoShowing: window.scrollY <= 20 })
+    }
+
+    hideNav = () => {
       this.setState({ navShowing: false })
-    }, 500)
+    }
 
 
     render() {
       const { splashShowing, match } = this.props
-      const { navShowing } = this.state
+      const { navShowing, logoShowing } = this.state
       return (
         <header className={cs(
           'Header',
@@ -53,15 +60,31 @@ export default withRouter(withState(
           // only animate when exact path, default is '/'
           match.isExact && 'Header--animate'
         )}>
-          <nav onClick={ this.handleNavClick }>
-            <MainNav />
-          </nav>
-          <Logo useHorizontal to="/" />
+          <div
+            className="Main-navigation"
+            onClick={ this.handleNavClick }
+          >
+            <nav>
+              <MainNav />
+            </nav>
+            <nav>
+              <SocialNav />
+            </nav>
+          </div>
+          <Logo className={cs(
+            !logoShowing && 'Visibility--hidden'
+          )} useHorizontal to="/" />
           <a
             href="#"
             className="Header__toggleNav"
             onClick={ this.toggleNav }
-          />
+          >
+            <div class="icon">
+              <span/>
+              <span/>
+              <span/>
+            </div>
+          </a>
         </header>
       )
     }

@@ -6,12 +6,10 @@ export default () => (
     <p>
       Global Head of Recruitment
       <br />
-      <a className="breakAll noHyphen" href="tel:+4915759628677">
-        +49 157 5962 8677
-      </a>
+      +49 157 5962 8677
       <br />
-      <a className="noHyphen" href="mailto:lauri.paalama@wunder.dog">
-        lauri.paalama<span>@</span>wunder.dog
+      <a className="noHyphen" href="mailto:lauri.paalama@wunderdog.fi">
+        lauri.paalama<span>@</span>wunderdog.fi
       </a>
     </p>
   </Fragment>

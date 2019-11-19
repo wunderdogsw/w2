@@ -1,10 +1,23 @@
 .ContactRow {
   display: flex;
   flex-direction: column;
+  margin-bottom: var(--spacing-small);
 
   @media (width >= 1024px) {
     flex-direction: row;
   }
+
+  & > .ContactRow__info {
+    margin-right: var(--spacing-large);
+  }
+}
+
+.ContactRow h2 {
+  margin-bottom: var(--spacing-smallest);
+}
+
+.ContactRow p {
+  font-size: 0.8em;
 }
 
 
@@ -17,21 +30,11 @@
 
 
 
-.ContactRow__info {
-  margin-bottom: var(--spacing-small);
-}
-
-.ContactRow__info > h4 + address,
-.ContactRow__info > h4 + p {
-  margin-top: calc(var(--spacing-small) / 2);
-}
-
-
 
 
 .ContactRow__faces {
   padding: 0;
-  margin: 0;
+  flex: 2;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -41,8 +44,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  @media (width < 768px) {
+    padding-right: var(--spacing);
+    margin-top: var(--spacing);
+    margin-left: 20px;
+  }
 }
 
+.ContactRow h5 {
+  font-size: 0.8em;
+}
 
 
 .ContactRow__faces > li {
@@ -56,13 +68,5 @@
 
   &:last-child {
     margin-right: 0;
-  }
-
-  & > * {
-    margin-top: calc(var(--spacing-small) / 2);
-
-    &:first-child {
-      margin-top: 0;
-    }
   }
 }

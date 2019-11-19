@@ -2,21 +2,21 @@ import React, { Fragment } from 'react'
 
 export default () => (
   <Fragment>
-    <li>
-      <span>80+</span>
-      <span>Consultants</span>
-    </li>
-    <li>
+    <div>
       <span>150+</span>
+      <span>Consultants</span>
+    </div>
+    <div>
+      <span>300+</span>
       <span>Successful projects</span>
-    </li>
-    <li>
-      <span>140+</span>
+    </div>
+    <div>
+      <span>190+</span>
       <span>Internal tech sessions</span>
-    </li>
-    <li>
+    </div>
+    <div>
       <span>3</span>
       <span>Countries with offices</span>
-    </li>
+    </div>
   </Fragment>
 )

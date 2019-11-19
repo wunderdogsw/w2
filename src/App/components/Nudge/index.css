@@ -1,18 +1,18 @@
 .Nudge {
   display: block;
-  transition-property: transform;
+  transition-property: transform opacity;
   transition-duration: var(--animation-duration-slow);
   transition-timing-function: var(--animation-ease);
+  opacity: 0;
 }
 
 .Nudge--nudgeInstant,
 .Nudge--nudged {
-  transform: translate3d(0, calc(var(--spacing-small) * -2), 0);
-  margin-bottom: calc(var(--spacing-small) * -2);
+  transform: translate3d(0, -10vh, 0);
+  opacity: 1;
 
   @media (width >= 768px) {
-    transform: translate3d(0, calc(var(--spacing-small) * -4), 0);
-    margin-bottom: calc(var(--spacing-small) * -4);
+    transform: translate3d(0, -10vh, 0);
   }
 }
 

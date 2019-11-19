@@ -1,11 +1,12 @@
 .Card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: inherit;
   text-decoration: none;
-  padding-bottom: calc(var(--spacing-small) * 0.75);
+  padding-bottom: var(--spacing-small);
   box-sizing: border-box;
 
   transition-property: transform box-shadow;
@@ -13,11 +14,13 @@
   transition-timing-function: var(--animation-ease);
 }
 
+.Card:hover .Image:before {
+  opacity: 1;
+}
+
 .Card > * {
   width: 100%;
-  margin-top: calc(var(--spacing-small) / 2);
-  padding: 0 calc(var(--spacing-small) / 2);
-  text-align: center;
+  margin-top: var(--spacing-smallest);
   box-sizing: border-box;
 
   &:first-child {
@@ -27,15 +30,13 @@
 }
 
 .Card > p {
-  margin-top: calc(var(--spacing-small) / 2);
-  opacity: 0.5;
-  text-transform: uppercase;
-  font-size: 14px;
+  margin-top: 0;
+  color: var(--color-grey);
 }
 
 .Card > h4 > span {
-  width: calc(100%);
-  background-image: linear-gradient(transparent calc(100% - 2px), black 2px);
+  width: 100%;
+  background-image: linear-gradient(transparent 100%, black 2px);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: background-size 400ms;
@@ -43,4 +44,35 @@
 
 .Card:hover > h4 > span {
   background-size: 100% 100%;
+}
+
+.Card .Image {
+  background: var(--color-blue);
+
+  &:before {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: var(--color-blue);
+    color: var(--color-white);
+    z-index: 9;
+    opacity: 0;
+    transition-duration: 200ms;
+    transition-timing-function: var(--animation-ease);
+  }
+}
+
+.Card--work .Image {
+  &:before {
+    content: 'View case';
+  }
+}
+
+.Card--post .Image {
+  &:before {
+    content: 'View post';
+  }
 }

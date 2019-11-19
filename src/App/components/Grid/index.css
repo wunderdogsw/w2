@@ -1,0 +1,26 @@
+.Grid {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.Grid--column {
+  flex-direction: column;
+}
+
+.Grid--space-between {
+  justify-content: space-between;
+}
+
+.Grid--flex-end {
+  justify-content: flex-end;
+}
+
+.Grid--flex-start {
+  justify-content: flex-start;
+}
+
+.Grid--center {
+  justify-content: center;
+}

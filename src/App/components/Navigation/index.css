@@ -1,0 +1,39 @@
+.Navigation {
+  margin-top: var(--spacing-medium);
+  margin-bottom: var(--spacing);
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 50px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Navigation::-webkit-scrollbar {
+  display: none;
+}
+
+.Navigation li {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 40px;
+  color: var(--color-grey);
+}
+
+.Navigation li:hover {
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.Navigation .Selected:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  bottom: -5px;
+  background: currentColor;
+}
+
+.Navigation .Selected {
+  color: var(--color-black);
+}
