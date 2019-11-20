@@ -38,6 +38,6 @@
   transition: 250ms;
 
   @media (width <= 800px) {
-    opacity: 1;
+    opacity: .6;
   }
 }

@@ -47,6 +47,10 @@
   color: var(--color-black);
   background: var(--color-light-grey);
   padding: var(--spacing-large) calc(15vw + var(--spacing));
+
+  @media (width <= 800px) {
+    padding: var(--spacing-large) var(--spacing);
+  }
 }
 
 .CallToAction__inner {
