@@ -1,16 +1,5 @@
 .CardsGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: var(--spacing-medium);
   padding: 0 var(--spacing);
-
-  @media (width <= 1199px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (width < 740px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 
