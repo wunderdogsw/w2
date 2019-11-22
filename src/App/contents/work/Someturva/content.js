@@ -79,18 +79,6 @@ export default () => (
         online. So far, the access code for the service has been given to
         18,000 youngsters and the first reports have been received.
       </p>
-    </Chapter>
-    <Chapter>
-      <h2>Success that speaks for itself</h2>
-      <p>
-        With the new continuous integration system we provided results are
-        delivered faster and more reliably. Development environments are
-        already easier and significantly faster to set up, saving time and
-        energy. And the DevOps team’s processes have also moved forward with
-        agile improvements such as Kanban, daily meetings, and retrospectives.
-        This collaboration continues to prove that working together is working
-        smartly.
-      </p>
       <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
         When it comes to partners it is not just the people but the organization
         as a whole that needs to understand the core dynamics of a startup.
@@ -101,15 +89,13 @@ export default () => (
     <Summary>
       <h2>The challenge</h2>
       <p>
-        Assist the Smartly.io DevOps team with their work, migrating to a new
-        continuous integration system and improving the development
-        environments.
+        Test the idea, and create an innovative product from scratch with
+        engaging UX design.
       </p>
       <h2>The result</h2>
       <p>
-        A successful partnership leading to significant improvements in the
-        development environments, with faster test runs and better
-        modularization.
+        The product was launched in September 2019 - on time and on budget, and
+        Someturva is now expanding abroad.
       </p>
     </Summary>
   </Fragment>
