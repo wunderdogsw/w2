@@ -81,7 +81,6 @@ export default () => (
         We're your partner in turning good ideas into digital reality
       </h2>
     </Chapter>
-
     <Indent twice>
       <Logos>
         <Clients />

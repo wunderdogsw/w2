@@ -11,32 +11,15 @@ import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 import TransitionLink from 'App/components/TransitionLink'
 
-import heroThumb from './mieli-hero-thumb.jpg'
-import hero from './mieli-hero.jpg'
-import photo1Thumb from './mieli-photo1-thumb.jpg'
 import photo1 from './mieli-photo1.jpg'
-import photo2Thumb from './mieli-photo2-thumb.jpg'
 import photo2 from './mieli-photo2.jpg'
-import photo3Thumb from './mieli-photo3-thumb.jpg'
 import photo3 from './mieli-photo3.jpg'
-import photo4Thumb from './mieli-photo4-thumb.jpg'
 import photo4 from './mieli-photo4.jpg'
 import summary from './smartly-summary.svg'
 
 
 export default () => (
   <Fragment>
-    <CssVars>
-      {{
-        '--color-accent': '#f7f7f7',
-        '--color-text-on-accent': '#000',
-      }}
-    </CssVars>
-    <MainTitle>MIELI - Mental Health Finland</MainTitle>
-    <SubTitle useAsMetaTitle>Keeping data in mind</SubTitle>
-    <DatLine />
-    <Keywords>Service Design, UI Design, Full-stack development</Keywords>
-    <Image thumbSrc={ heroThumb } src={ hero } alt="MieliPeople" />
     <Chapter>
       <h4>Setting the scene</h4>
       <p>
@@ -105,8 +88,8 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image thumbSrc={ photo2Thumb } src={ photo2 } alt="Research" />
-      <Image thumbSrc={ photo3Thumb } src={ photo3 } alt="Mieli crew" />
+      <Image src={ photo2 } alt="Research" />
+      <Image src={ photo3 } alt="Mieli crew" />
     </ImageRow>
     <Chapter>
       <h4>So how did it go?</h4>
@@ -129,7 +112,7 @@ export default () => (
         help MIELI in such a practical way.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo4Thumb } src={ photo4 } alt="Anni" />
+    <Image src={ photo4 } alt="Anni" />
     <Chapter>
       <p>
         <i>*Drawing made by our talented <TransitionLink to="https://medium.com/wunderdog-culture/my-work-practice-program-at-wunderdog-anni-3de88d8e345d">
@@ -137,7 +120,6 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <Image src={ summary } alt="" />
       <h4>The challenge</h4>
       <p>
         MIELI’s current system had come to the end of its life. It was a service

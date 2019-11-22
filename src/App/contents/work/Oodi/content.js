@@ -12,6 +12,7 @@ import Video from 'App/components/Video'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
+import photo3 from './oodi-photo3.jpg'
 
 
 export default () => (
@@ -50,6 +51,10 @@ export default () => (
         Sherpa and Wunderdog.
       </p>
     </Chapter>
+    <ImageRow>
+      <Image src={ photo1 } alt="Oodi crew 2" />
+      <Image src={ photo2 } alt="Oodi crew 3" />
+    </ImageRow>
     <Chapter>
       <h2>Our capital solution</h2>
       <p>
@@ -86,8 +91,7 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image src={ photo1 } alt="Smartly crew 2" />
-      <Image src={ photo2 } alt="Smartly crew 3" />
+      <Image src={ photo3 } alt="Oodi" />
     </ImageRow>
     <Chapter>
       <h2>So how did it go?</h2>
