@@ -65,6 +65,12 @@ export default () => (
         <Redirect from="/ota-yhteytta" to="/contact" />
         <Redirect from="/contact-us" to="/contact" />
         <Redirect from="/kulttuurimme-2" to="/career" />
+        <Redirect from="/oodi" to="/work/oodi" />
+        <Redirect from="/redbull" to="/work/red-bull" />
+        <Redirect from="/pexraytech" to="/work/pexraytech" />
+        <Redirect from="/perusterveys" to="/work/perus-terveys" />
+        <Redirect from="/blueprintgenetics" to="/work/blueprint-genetics" />
+
 
         {/* Routes */}
 

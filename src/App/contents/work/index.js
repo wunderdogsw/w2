@@ -5,6 +5,8 @@ import importedComponent from 'react-imported-component'
 
 import blueprintgenetics from './BlueprintGenetics'
 export const BlueprintGenetics = blueprintgenetics
+import mieli from './Mieli'
+export const Mieli = mieli
 import oodi from './Oodi'
 export const Oodi = oodi
 import perusterveys from './PerusTerveys'
@@ -15,3 +17,5 @@ import redbull from './RedBull'
 export const RedBull = redbull
 import smartly from './Smartly'
 export const Smartly = smartly
+import someturva from './Someturva'
+export const Someturva = someturva

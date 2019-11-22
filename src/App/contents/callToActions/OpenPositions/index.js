@@ -15,9 +15,5 @@ export default () => (
       <span>Full-stack developer</span>
       <span class="grey">Berlin, Germany</span>
     </TransitionLink>
-    <TransitionLink className="TransitionLink--list" to= "https://wunderdog.breezy.hr/p/9fdd4744af8f-fullstack-developer-malm--sweden">
-      <span>Full-stack developer</span>
-      <span class="grey">Malmö, Sweden</span>
-    </TransitionLink>
   </Fragment>
 )

@@ -17,8 +17,11 @@ export default class extends Component {
     return (
       <section className="LatestBlogPosts">
         <Chapter>
-          <h2>Endless analysing and learning</h2>
-          <p>Behind every individual is the support and shared knowledge of the entire Wunderdog team, with a bold and open-minded attitude towards possibilities that enables us to stay ahead of our game. We want to share our learnings for you too.</p>
+          <h2>Our latest blog posts</h2>
+          <p>Behind every individual is the support and shared knowledge of the
+          entire Wunderdog team, with a bold and open-minded attitude towards
+          possibilities that enables us to stay ahead of our game. We want to
+          share our learnings with you too.</p>
         </Chapter>
         <CardsGrid disharmony>
           { posts

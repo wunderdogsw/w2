@@ -4,7 +4,6 @@
 import importedComponent from 'react-imported-component'
 
 export const ElectronicInvoicing = importedComponent(() => import('./ElectronicInvoicing'))
-export const JoinThePack = importedComponent(() => import('./JoinThePack'))
 export const LetsPlay = importedComponent(() => import('./LetsPlay'))
 export const LetsTalk = importedComponent(() => import('./LetsTalk'))
 export const MainFooter = importedComponent(() => import('./MainFooter'))
