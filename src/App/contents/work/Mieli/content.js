@@ -15,13 +15,12 @@ import photo1 from './mieli-photo1.jpg'
 import photo2 from './mieli-photo2.jpg'
 import photo3 from './mieli-photo3.jpg'
 import photo4 from './mieli-photo4.jpg'
-import summary from './smartly-summary.svg'
 
 
 export default () => (
   <Fragment>
     <Chapter>
-      <h4>Setting the scene</h4>
+      <h2>Setting the scene</h2>
       <p>
         The mission of the non-governmental organization Mental Health Finland
         (MIELI) is to support and promote good mental health for every member of
@@ -35,7 +34,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <h4>The bright idea</h4>
+      <h2>The bright idea</h2>
       <p>
         Every action performed by MIELI – such as answering a phone call to
         crisis support or dealing with a reception visit – is documented in
@@ -46,9 +45,9 @@ export default () => (
         calls to crisis support after an incident.
       </p>
     </Chapter>
-    <Image thumbSrc={ photo1Thumb } src={ photo1 } alt="Working at Mieli" />
+    <Image src={ photo1 } alt="Working at Mieli" />
     <Chapter>
-      <h4>The inevitable challenge</h4>
+      <h2>The inevitable challenge</h2>
       <p>
         MIELI’s current system had come to the end of its life. It was a service
         by an outside provider that had been customized to meet their needs, but
@@ -58,7 +57,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <h4>Our peace-of-mind solution</h4>
+      <h2>Our peace-of-mind solution</h2>
       <p>
         We created a new system for MIELI from scratch by rebuilding their old
         one using more modern and flexible technology. To make sure the system
@@ -92,7 +91,7 @@ export default () => (
       <Image src={ photo3 } alt="Mieli crew" />
     </ImageRow>
     <Chapter>
-      <h4>So how did it go?</h4>
+      <h2>So how did it go?</h2>
       <p>
         We were able to simplify and unify MIELI’s processes and add all the
         requested new features to a system that caters directly for the
@@ -102,7 +101,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <h4>Success that speaks for itself</h4>
+      <h2>Success that speaks for itself</h2>
       <p>
         MIELI offers many services, meaning the system needed to handle large
         amounts of data – and it does, with easy-to-find information and
@@ -120,13 +119,13 @@ export default () => (
       </p>
     </Chapter>
     <Summary>
-      <h4>The challenge</h4>
+      <h2>The challenge</h2>
       <p>
         MIELI’s current system had come to the end of its life. It was a service
         by an outside provider that had been customized to meet their needs, but
         both the usability and customization opportunities were limited.
       </p>
-      <h4>The result</h4>
+      <h2>The result</h2>
       <p>
         We were able to simplify and unify MIELI’s processes and add all the
         requested new features to a new system that caters directly for the
