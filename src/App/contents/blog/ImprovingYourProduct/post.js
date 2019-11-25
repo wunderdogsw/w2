@@ -93,7 +93,7 @@ export default () => (
         So your feature review reveals some features that are the essence of the product, and most likely some features
         that do not add much to it. Your responsibility as a product leader is to focus on the features that drive you
         towards{' '}
-        <TransitionLink to='https://medium.com/@WunderdogSW/the-first-mistake-in-your-software-project-6fdbc2f2bad0'>
+        <TransitionLink to='https://wunder.dog/blog/north-star-metric'>
           the common shared goal,
         </TransitionLink>
         your North Star Metric (NSM). That might mean developing new features, but also modifying and removing existing

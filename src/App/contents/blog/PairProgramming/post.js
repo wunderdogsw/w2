@@ -114,8 +114,9 @@ export default () => (
     </Chapter>
     <Chapter>
       <p>
-        Now let’s continue to Pair Programming — Uncharted Territories Part II in which we explore the different levels
-        of pair programming. LINKKI!
+        Now let’s continue to <TransitionLink to='https://wunder.dog/blog/pair-programming-part-two'>
+          Pair Programming — Uncharted Territories Part II
+        </TransitionLink> in which we explore the different levels of pair programming.
       </p>
     </Chapter>
   </Fragment>

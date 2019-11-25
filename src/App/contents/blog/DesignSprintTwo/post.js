@@ -18,7 +18,7 @@ export default () => (
 
     <Chapter>
       <h2>Part 2: What is a design sprint suitable for?</h2>
-    <Image src={photo1} alt='DesignSprint' />
+
       <p>
         What kind of challenges can the Design Sprint be used to solve? What
         kind of problems are too extensive or too small for the Sprint? What is
