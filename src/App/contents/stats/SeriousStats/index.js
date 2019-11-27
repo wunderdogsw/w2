@@ -15,8 +15,8 @@ export default () => (
       <span>Internal tech sessions</span>
     </div>
     <div>
-      <span>3</span>
-      <span>Countries with offices</span>
+      <span>2014</span>
+      <span>Founded</span>
     </div>
   </Fragment>
 )
