@@ -9,22 +9,19 @@ import CallToAction from 'App/components/CallToAction'
 import ContactRow from 'App/components/ContactRow'
 
 import { ElectronicInvoicing } from 'App/contents/callToActions'
-import { Helsinki, Berlin, Malmo, Empty } from 'App/contents/contactOffices'
+import { Helsinki, Berlin, Empty } from 'App/contents/contactOffices'
 import {
   MikaViskari,
   AnteroTorhonen,
   JoannaRindell,
   JasperVanGhemen,
-  RedhaCherif,
   AnnaMariaLaFiura,
   MeriTuuliOlkkonen,
-  MartinLyckestjarn,
   LauriPaalama,
 } from 'App/contents/contactFaces'
 
 import helsinki from './office_helsinki.jpg'
 import berlin from './office_berlin.jpg'
-import malmo from './office_malmo.jpg'
 
 export default () => (
   <Fragment>
@@ -50,15 +47,6 @@ export default () => (
         <JoannaRindell />
         <JasperVanGhemen />
         <LauriPaalama />
-      </ContactRow>
-    </Indent>
-
-    <Image src={ malmo } alt="Malmo" indent hero />
-    <Indent>
-      <ContactRow>
-        <Malmo />
-        <RedhaCherif />
-        <MartinLyckestjarn />
       </ContactRow>
     </Indent>
 
