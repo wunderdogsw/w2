@@ -14,7 +14,7 @@ import Video from 'App/components/Video'
 
 import photo1 from './someturva-1.jpg'
 import photo2 from './someturva-2.jpg'
-
+import photo3 from './someturva-3.jpg'
 
 export default () => (
   <Fragment>
@@ -59,6 +59,11 @@ export default () => (
         in spring 2018, when the founding team had everything they needed to
         continue building Someturva.
       </p>
+      <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
+        When it comes to partners it is not just the people but the organization
+        as a whole that needs to understand the core dynamics of a startup.
+        Wunderdog has been the right partner for us.
+      </BlockQuote>
       <p>
         Our paths crossed again a year later, in spring 2019. Someturva operations
         had moved forward a lot and it was time to create the actual Someturva
@@ -71,6 +76,9 @@ export default () => (
         is micro-serviced with Node.js backends and NextJS frontends.
       </p>
     </Chapter>
+    <ImageRow>
+      <Image src={ photo3 } alt="Someturva app" />
+    </ImageRow>
     <Chapter>
       <h2>Success that speaks for itself</h2>
       <p>
@@ -79,11 +87,6 @@ export default () => (
         online. So far, the access code for the service has been given to
         18,000 youngsters and the first reports have been received.
       </p>
-      <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
-        When it comes to partners it is not just the people but the organization
-        as a whole that needs to understand the core dynamics of a startup.
-        Wunderdog has been the right partner for us.
-      </BlockQuote>
     </Chapter>
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" />
     <Summary>
