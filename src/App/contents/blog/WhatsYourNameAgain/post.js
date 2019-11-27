@@ -34,8 +34,7 @@ export default () => (
       <h2>Problem solved</h2>
       <p>
         The gallery now serves as a useful tool for new and old doggos alike. A bit of code{' '}
-        <TransitionLink to='https://github.com/paasar/slack-user-gallery'>(check it out here)</TransitionLink>
-        and now there are far fewer of those awkward moments where you have to ask someone’s name for the hundredth time
+        <TransitionLink to='https://github.com/paasar/slack-user-gallery'>(check it out here)</TransitionLink> and now there are far fewer of those awkward moments where you have to ask someone’s name for the hundredth time
         — or when you just resign yourself to never using their name again! You can thank me later, introverts.
       </p>
     </Chapter>

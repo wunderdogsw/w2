@@ -59,8 +59,8 @@ export default () => (
         that you might need to take responsibility, not from the object of responsibility itself.
       </p>
       <BlockQuote>
-        "If you choose to take responsibility, fear tends to disappear and the ability to be creative and think clearly
-        comes back."
+        If you choose to take responsibility, fear tends to disappear and the ability to be creative and think clearly
+        comes back
       </BlockQuote>
       <p>
         This is why we should encourage each other to take responsibility. If ou are able to raise the threshold of the

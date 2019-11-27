@@ -57,12 +57,13 @@ export default () => (
       </p>
       <p>
         And if you can relate to my problem,{' '}
-        <TransitionLink to='http://blog.polarcoder.net/2015/10/diy-home-automation-v1.html'>here’s</TransitionLink>how
+        <TransitionLink to='http://blog.polarcoder.net/2015/10/diy-home-automation-v1.html'>here’s</TransitionLink> how
         to make your own solution.
       </p>
       <p>
-        Not enough for you? If your inner engineer is like mine and always thinking of improvements, LINKKI CONTROL
-        FREAKIIN!!!! take a look at how I further developed the system to include temperature and humidity monitoring.
+        Not enough for you? If your inner engineer is like mine and always
+        thinking of improvements, <TransitionLink to='https://wunder.dog/blog/losing-control'>take a look at how I further developed the
+        system</TransitionLink> to include temperature and humidity monitoring.
       </p>
     </Chapter>
   </Fragment>

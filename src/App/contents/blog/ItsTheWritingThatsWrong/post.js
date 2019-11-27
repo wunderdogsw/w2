@@ -2,8 +2,7 @@ import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
-import hero from './wrongwriting.png'
-import photo1 from './wrongwriting2.gif'
+
 
 export default () => (
   <Fragment>
@@ -56,7 +55,6 @@ export default () => (
         I ended up naming the app Juhani, because that happens to be the name of my kind-of brother-in-law who is very
         helpful. Thanks Juhani, again.
       </p>
-      <Image src={photo1} alt='juhani.mobi' />
       <h2>Problem solved</h2>
       <p>
         Now that I’ve solved my initial problem, I’ve begun to think of development ideas. I’d love to make shopping

@@ -1,6 +1,7 @@
 import Chapter from 'App/components/Chapter'
 import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
+import  TransitionLink from 'App/components/TransitionLink'
 import photo2 from './live-share.gif'
 import photo3 from './pairprog3.png'
 import photo1 from './piispavissy.jpg'
@@ -107,7 +108,9 @@ export default () => (
         some guy that does not feel like your type, by pair programming you might find new aspects about each other and
         end up being good friends. Like us.
       </p>
-      <p>Read Pair Programming — Uncharted Territories Part I</p>
+      <p> <TransitionLink to='https://github.com/anttikon/routahe'> Read Pair
+      Programming — Uncharted Territories Part I.</TransitionLink>
+      </p>
     </Chapter>
   </Fragment>
 )
