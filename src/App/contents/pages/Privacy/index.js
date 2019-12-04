@@ -16,7 +16,7 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>1. Registry Holder</h4>
+      <h2>1. Registry Holder</h2>
       <p>
         Wunderdog Oy<br />
         2617416-4<br />
@@ -26,7 +26,7 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>2. Introduction</h4>
+      <h2>2. Introduction</h2>
       <p>
         This Privacy Policy describes the type of Personal Data collected by
         Wunderdog as well the purpose for which Wunderdog collects data.
@@ -39,7 +39,7 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>3. Definitions</h4>
+      <h2>3. Definitions</h2>
       <p>
         “Wunderdog” refers to Wunderdog Oy, a Finnish limited liability company
         [2617416-4], as well as its subsidiaries Wunderdog Ab [559106-6435]
@@ -55,8 +55,8 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>4. What information does Wunderdog collect and for what purpose?</h4>
-      <h5>4.1 Recruitment</h5>
+      <h2>4. What information does Wunderdog collect and for what purpose?</h2>
+      <h3>4.1 Recruitment</h3>
       <p>
         For recruitment purposes Wunderdog may collaborate with third party service
         provider. Information gathered for recruitment purposes from the candidate
@@ -68,7 +68,7 @@ export default () => (
         relevant for recruitment purposes unless the applicant gives consent to
         store the data for future references.
       </p>
-      <h5>4.2 Sales and Marketing</h5>
+      <h3>4.2 Sales and Marketing</h3>
       <p>
         For sales and marketing purposes Wunderdog collects contact information
         such as name, e-mail address and phone numbers to clients and prospective
@@ -79,7 +79,7 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>5. Information security</h4>
+      <h2>5. Information security</h2>
       <p>
         Wunderdog only collects necessary Personal Data, and does not store it
         longer than necessary. Wunderdog only transfers and stores collected data
@@ -96,7 +96,7 @@ export default () => (
     </Chapter>
 
     <Chapter>
-      <h4>6. Rights of the Data Subject</h4>
+      <h2>6. Rights of the Data Subject</h2>
       <p>
         The Data Subject has the right to be informed about the Personal Data
         Wunderdog has collected from the Data Subject. For marketing purposes the
@@ -109,14 +109,14 @@ export default () => (
         following rights:
       </p>
 
-      <h5>6.1 Right to withdraw consent</h5>
+      <h3>6.1 Right to withdraw consent</h3>
       <p>
         The Data Subject has the right to withdraw consent at any time. For
         example, if you have given consent to direct marketing, you can revise
         it at any time.
       </p>
 
-      <h5>6.2 Right to access to information</h5>
+      <h3>6.2 Right to access to information</h3>
       <p>
         The Data Subject has the right upon request to obtain information
         regarding the processing of one’s Personal Data and access to it. The
@@ -124,13 +124,13 @@ export default () => (
         of the collected Personal Data.
       </p>
 
-      <h5>6.3 Right to rectification</h5>
+      <h3>6.3 Right to rectification</h3>
       <p>
         If the Data Subject discovers inaccuracy in the collected data, the Data
         Subject has the right to ask for rectification of the information.
       </p>
 
-      <h5>6.4 Right to deny direct marketing</h5>
+      <h3>6.4 Right to deny direct marketing</h3>
       <p>
         In certain situations, the Data Subject has the right to be forgotten.
         Upon request, we may remove all the Personal Data we have collected
@@ -143,12 +143,12 @@ export default () => (
         Personal Data.
       </p>
 
-      <h5>6-5 Right to deny direct marketing</h5>
+      <h3>6.5 Right to deny direct marketing</h3>
       <p>
         The Data Subject has the right at any time to deny direct marketing.
       </p>
 
-      <h5>6.6 Right to data portability</h5>
+      <h3>6.6 Right to data portability</h3>
       <p>
         The Data Subject has the right to ask for its Personal Data to be moved.
         In this situation, Wunderdog will deliver to the Data Subject its
@@ -162,7 +162,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <h4>Contact</h4>
+      <h2>Contact</h2>
       <p>
         If you have any questions about our Privacy Policy,
         please contact us by email at
