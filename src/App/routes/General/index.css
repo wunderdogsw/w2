@@ -180,7 +180,8 @@
   padding-right: var(--spacing);
 }
 
-.Chapter > h2 {
+.Chapter > h2,
+.Chapter > h3 {
   position: relative;
   margin-left: 15vw;
   max-width: 800px;
@@ -190,6 +191,17 @@
   }
 }
 
+.Chapter > h3 {
+  position: relative;
+  font-weight: bold;
+  margin-left: 30vw;
+  box-sizing: border-box;
+  max-width: 800px;
+
+  @media (width <= 740px) {
+    margin-left: 20px;
+  }
+}
 
 .Chapter > p,
 .Chapter > ul {
