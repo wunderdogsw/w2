@@ -37,23 +37,23 @@ export default () => (
     <Chapter>
       <p>
         <b>Tech sessions every Friday</b> <br/>
-        At Wunderdog every Friday is special day and we work at our own office.
-        We work together, have breakfast, and we have tech sessions where we
-        learn from each other.
+        At Wunderdog every Friday is a special day since we work at our own
+        office. We work together, have breakfast, and tech sessions where
+        we learn from each other.
       </p>
       <p>
         <b>We support your participation for events and conferences</b> <br/>
         We want to support your learning every step of the way whether it's about
-        conferences participation, books, new tools or trip to our other offices.
+        specialised literature or new tools, participating into a conference or
+        a trip to our Berlin office.
       </p>
       <p>
-        <b>100 experts from different fields - developers, designers,
-        marketers, layers, People Operations - for you to learn from</b> <br/>
-        We support each other with our collective know-how, since, even though
-        we are competent, none of us is master of everything.
+        <b>100 experts from different fields</b> <br/>
+        We're a pack of developers, designers, marketers, lawyers, People
+        Operations - for you to learn from.
       </p>
       <p>
-        <b>We also have our besties Polars Squad, OrangIT and Co-Ventures.</b> <br/>
+        <b>Wunderdog family packed up with Polar Squad, OrangIT and Co-Ventures</b> <br/>
         Together we create a strong ecosystem that offers end-to-end services
         for all digital problems and great opportunities for our people.
       </p>
@@ -64,7 +64,7 @@ export default () => (
     </Chapter>
     <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
-      <h2>It’s your time to shine</h2>
+      <h2>Have an impact on your own work</h2>
     </Chapter>
     <Chapter>
     <p>
@@ -74,20 +74,20 @@ export default () => (
     </p>
     <p>
       <b>You get to take ownership in meaningful projects, for companies from
-      startups to corporations from a two week project to long-term partnerships</b> <br/>
-      We respect every employee regardless of gender, age, religion, sexual
-      orientation or ethnic background.
+        startups to corporations from a two week project to long-term partnerships</b> <br/>
+        We respect every employee regardless of gender, age, religion, sexual
+        orientation or ethnic background.
     </p>
     <p>
       <b>We all fail sometimes. We believe that making a mistake and learning
-      from it is far more important than not trying something for fear of failure</b> <br/>
-      We support each other with our collective know-how, since, even though
-      we are competent, none of us is master of everything.
+        from it is far more important than not trying something for fear of failure</b> <br/>
+        We support each other with our collective know-how, since, even though
+        we are competent, none of us is master of everything.
     </p>
     <p>
       <b>We develop Wunderdog together, as a team</b> <br/>
-      By default, all company information is public to all our employees.
-      We limit access to knowledge only for a good reason.
+        By default, all company information is public to all our employees.
+        We limit access to knowledge only for a good reason.
     </p>
     <BlockQuote by="Maija, Senior Developer of Wunderdog since 2016">
       I believe being in the consultant’s role, even for a short period improves
