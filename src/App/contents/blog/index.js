@@ -65,5 +65,7 @@ import technicaldebtthreatorpossibility from './TechnicalDebtThreatOrPossibility
 export const TechnicalDebtThreatOrPossibility = technicaldebtthreatorpossibility
 import turger from './Turger'
 export const Turger = turger
+import typescriptpresentation from './TypescriptPresentation'
+export const TypescriptPresentation = typescriptpresentation
 import whatsyournameagain from './WhatsYourNameAgain'
 export const WhatsYourNameAgain = whatsyournameagain
