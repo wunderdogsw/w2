@@ -32,216 +32,166 @@ export default () => (
     <MainTitle narrow>Willkommen in unserem Berliner Büro</MainTitle>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
-      <h2>Why Wunderdog?</h2>
-    </Chapter>
-    <Chapter>
+      <h2>We’re hiring!</h2>
       <p>
-        Having been born some years later than the leaders in the field, we
-        inevitably started off as an underdog. Our dedication and goals made it
-        clear that being an underdog would only be a temporary thing. Thus we
-        added a ‘W’ to the name to give it a wow-effect to foreshadow the
-        upcoming.
+        We’re Wunderdog, a software development company. We find solutions and
+        craft digital experiences together with our customers. Here are some
+        facts about who we are and the way we work. Don’t hesitate to contact us
+        if you want to learn more. Or just apply.
       </p>
     </Chapter>
     <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
-      <h2>What makes working at Wunderdog special?</h2>
-    </Chapter>
-    <Chapter>
-    <p>
-      In Wunderdog, you’re not alone - learn about what makes our company and
-      its people special.
-    </p>
-    <h2>Location: Berlin, Berlin</h2>
-    <p>
-      Working in a vibrant city like Berlin, at a central location, home to
-      popular music, electronic music and a very dynamic cultural scene.
-    </p>
-    <p>
-      (Within Berlin): Our office is close to the popular Turkish market and
-      restaurants close to the area.
-    </p>
-    </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
-    <Chapter>
-      <h2>Travel: Berlin, Berlin</h2>
-    </Chapter>
-    <Chapter>
+      <h2>A platform for your personal growth</h2>
       <p>
-        Ability to switch offices in case you want to try and work in our
-        Helsinki office (you choose for how long).
+        <b>Multiple customized learning sessions every month.</b> <br/>
+        Our learning sessions are tailored to improve your skills, such as new
+        programming languages, tools and technologies. We also provide non-tech
+        sessions, providing insight on topics like communication, culture or
+        diversity. Would you also like to share your expertise? You can host a
+        session yourself: they are shaped for and by people like you.
       </p>
       <p>
-        We travel to Helsinki all together once a year to mingle with the
-        Helsinki office.
+        <b>We compensate your open source hours. </b> <br/>
+        You’ll be compensated for working on open source projects in your spare
+        time. We want everyone to participate in open source and we don’t limit
+        this program to pull requests to major popular packages or frameworks.
+        Rather, we encourage all types of contributions, including your own
+        projects and ideas.
       </p>
       <p>
-        Wundertrip: we travel together once a year somewhere to spend a weekend
-        together.
+        <b> We support your participation in events and conferences all year round.</b> <br/>
+        We allocate an individual budget for you to keep learning, be it attending
+        conferences and events, specialized literature, learning tools or
+        technologies or travelling.
       </p>
       <p>
-        Exchange program in Helsinki: twice a year
-      </p>
-    </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
-    <Chapter>
-      <h2>Team: it’s all about good vibes</h2>
-      <p>
-        International team of people of different ages, nationalities and
-        backgrounds
+        <b>Find support from your peers: developers, designers, marketers, lawyers and people operations.</b> <br/>
+        We support each other with our knowledge and experience. Even though we
+        are competent, none of us is a master of everything.
       </p>
       <p>
-        In WD you’re not alone: our colleagues have your back professionally
-        when you need it.
+        <b>Be part of a strong ecosystem that offers end-to-end services for all digital problems: DevOps, software maintenance or venture design.</b> <br/>
+        Wunderdog is part of a strong ecosystem that offers end-to-end services for
+        all digital problems. Those are also great opportunities for our people to
+        get in touch with our sister companies Polar Squad, OrangIT and Coventures.
+      </p>
+  </Chapter>
+  <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+  <Chapter>
+        <h2>We facilitate your work</h2>
+      <p>
+        <b>However, we’re self-determining.</b> <br/>
+        Help is always available, but not imposed. The decisions regarding your work
+        are mainly yours to make.
       </p>
       <p>
-        Team-building activities, lunch lottery once a month and celebrate
-        festivities together.
+        <b>We provide a stable workload and projects for you to work on.</b> <br/>
+        Get involved in our community of people, sectors, services and companies.
+        Together we make sure you can focus on the work without external hassles.
       </p>
       <p>
-        We want to develop and shape Wunderdog together, as a team.
+        <b>Improve your consultation skills with a team of high-skilled senior
+        developers that will have your back if needed.</b> <br/>
+        Our customers vary from start-ups to global corporations, which allows you
+        to see and learn from many different kinds of environments, cultures and
+        ways of working while relying on your peers when needed.
       </p>
       <p>
-        Friendly atmosphere in a coworking space with other tech companies.
+        <b>We try to find projects matching the technologies or industries you’re
+        interested in.</b> <br/>
+        We’re always open to your suggestions, especially when we have specific
+        projects you want to be involved in. We’ll do our best to accommodate your
+        professional wishes and needs.
       </p>
       <p>
-        We ensure a safe space for everyone, where you will be respected, valued
-        and encouraged to bond with the team.
-      </p>
-      <p>
-        Our company is shaped by more than 100 experts from different fields -
-        developers, culture, designers, marketers, people operations - for you
-        to learn from.
-      </p>
-      <p>
-        Participative culture: important decision-making is a collective task
+        <b>Our timelines are flexible.</b> <br/>
+        If you feel it’s time to move on from a project, we create a timeline to
+        find a replacement for you and a colleague to take over your project.
       </p>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
-      <h2>Projects: Your choices matter</h2>
+      <h2>Challenging projects tailored for you</h2>
       <p>
-        Ability to switch projects (from short -3 months- to long -multiple
-        years projects). Each employee has different preferences in terms of
-        project commitments and workloads, and we try to adjust to your needs.
+      <b>We take your workload preferences into account.</b> <br/>
+        We all have different preferences in terms of project commitments and
+        workloads. From quarterly projects to long-term partnerships, we try to
+        balance your needs and Wunderdog’s company goals.
       </p>
       <p>
-        If you feel it’s time to move on from a project, we create a timeline
-        (usually less than 3 months) to transition another person onto the
-        project (and you onto another project you feel more attracted to).
+        <b>You won’t get stuck into one stack.</b> <br/>
+        Be part of challenging projects using different technologies and
+        strengthen your technical experience at the same time.
       </p>
       <p>
-        You won’t be forced to work in technologies or industries you are not
-        interested in.
+        <b>Take ownership working for different-sized companies and environments.</b> <br/>
+        Gather experience working with various clients, sectors and projects
+        using different technologies in Berlin.
       </p>
       <p>
-        No project leaders - we’re self-imposed/self-determining. Help is given
-        when needed, but it is not forced.
-      </p>
-      <p>
-        We won’t tell you how to do things. However, if you need advice, you can
-        always rely on us. We give opportunities to show and improve your skills.
-      </p>
-      <p>
-        We would like to make the world a better place, so we also want to find
-        projects for you that will be meaningful to work at.
+        <b>We provide a platform between projects for you to learn what you want to learn.</b> <br/>
+        We make sure you keep learning and improving your skills in between
+        projects. Your personal and professional development is important for us.
       </p>
     </Chapter>
     <Image src={ photo2 } alt="Wunderdog people" indent hero/>
     <Chapter>
-      <h2>Personal growth: Our investment is giving you freedom</h2>
+      <h2>You make the difference</h2>
       <p>
-        Tech sessions on Fridays
+        <b>We trust your professional skills.</b> <br/>
+        That means we won’t tell you how things should be done. Instead, we
+        encourage you to shape your work as you consider the best of you.
       </p>
       <p>
-        We trust your professional skills.
+        <b>We all fail sometimes. Making a mistake and learning from it is far
+        more important than not trying something for fear of failure.</b> <br/>
+        Mistakes and failures teach us important things. We let them be the seed
+        for future great ideas, so we’ll always encourage you to try.
       </p>
       <p>
-        We will support your participation for events and conferences.
+        <b>Decision-making is also a collective task.</b> <br/>
+        We want our work to make sense to everybody. That’s why we set a
+        participative culture in which your voice matters.
       </p>
       <p>
-        A platform for your personal growth: we care about your professional and
-        personal development. Here you can learn from programming languages, to
-        other tech skills or learn more about shaping company culture c
-        ollectively.
-      </p>
-      <p>
-        A place where you can also develop your consultant skills and learn from
-        other consultants.
-      </p>
-      <p>
-        Tech sessions: we give opportunities to do presentations on topics that
-        interest you, and you can get to attend the Tech presentations of your
-        coworkers.
+        <b>We develop Wunderdog together, as a team.</b> <br/>
+        How? Read the blog post about how we reported ourselves to equality consultants.
       </p>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
-      <h2>Open source made us who we are</h2>
+      <h2>Because people matter</h2>
       <p>
-        Open source is at the core of what we do, and we want it to continue to
-        thrive. Thus you’ll be compensated for working on open-source projects on
-        your spare time.
+        <b>We help you find the best tools to work with.</b> <br/>
+        You can choose the equipment and tools to use in your work. If you need
+        advice, we help you find the most suitable ones for you.
       </p>
       <p>
-        We want everyone to participate in open source. We don’t limit this
-        program to pull requests to major popular packages or frameworks, but
-        rather we encourage and compensate all kinds of contributions.
+        <b>We support you in all stages of life.</b> <br/>
+        Whether it's about combining work and family life or starting your
+        studies, we want to be there to support you.
       </p>
       <p>
-        Generally, if you’re contributing to the community, or improving your
-        own skills we want to support you however we can! Growing our community
-        and our employees is our business model.
+        <b>Fridays are our special day.</b> <br/>
+        Some of our projects are located at the customer’s premises. However,
+        Fridays are Wunderdog’s special day: we all have breakfast and work
+        together at the office.
       </p>
       <p>
-        Here are some other examples of employee contributions that were
-        compensated in this program:
+        <b>We value our time together.</b> <br/>
+        We enjoy spending time together and getting to know each other. That’s
+        why we take care of our company culture through team-building activities,
+        coffee breaks, joint meals and hangouts.
       </p>
       <p>
-        Writing a tutorial blog post and post that on Medium
-        Preparing slides for a meetup talk on company culture
-        Working with a colleague on a small side project in order to learn a new
-        technology and pushing that to a public repository
-        Organizing an event related to Wunderdog
-        Volunteering as a mentor at a Meetup
+        <b>Discover Berlin with an international team.</b> <br/>
+        We’re located between Kreuzberg and Neukölln, a central location in one
+        of the most thriving cities in Europe. Take a break by the river, try
+        the Turkish market’s flavours or savour the gastronomic variety of the
+        restaurants nearby. Join our Berlin office!
       </p>
-    </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
-    <Chapter>
-      <h2>Culture: We care about you</h2>
-      <p>
-        Breakfast on Friday and get-togethers
-        Office with kitchen, supplies, fruits and snacks.
-        Your opinion matters, we care about your feedback and you have a space
-        to voice it.
-        We promote a healthy work-life balance.
-        Possibility to work remote
-        We learn from our mistakes and we won’t blame you for them.
-        We listen and communicate -  we learn from each other.
-        You don’t need to dress in a suit and tie to work with us! We like
-        relaxed environments where you can just be yourself, just as you are.
-      </p>
-    </Chapter>
-    <Chapter>
-    <p>
-      Ability to switch offices in case you want to try and work in our Helsinki
-      office (you choose for how long).
-    </p>
-    <p>
-      We travel to Helsinki all together once a year to mingle with the Helsinki
-      office.
-    </p>
-    <p>
-      Wundertrip: we travel together once a year somewhere to spend a weekend
-      together.
-    </p>
-    <p>
-      Exchange program in Helsinki: twice a year.
-    </p>
-    <BlockQuote by="Jarl-Erik aka Hoosee, Senior Developer of Wunderdog since 2018">
-      At Wunderdog we don’t judge or boost our egos at the expense of others.
-      People are genuine and nice. I’d be happy to have lunch with anybody here.
-    </BlockQuote>
+      <h2>Join us.</h2>
     </Chapter>
     <CallToAction color="blue" large grid>
       <OpenPositions />
