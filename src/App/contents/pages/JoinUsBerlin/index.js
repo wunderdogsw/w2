@@ -96,7 +96,7 @@ export default () => (
       <p>
         <b>Improve your consultation skills with a team of high-skilled senior
         developers that will have your back if needed.</b> <br/>
-        Our customers vary from start-ups to global corporations, which allows you
+        Our customers vary from start-ups to global enterprises, which allows you
         to see and learn from many different kinds of environments, cultures and
         ways of working while relying on your peers when needed.
       </p>
