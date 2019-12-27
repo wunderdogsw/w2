@@ -16,9 +16,12 @@ import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
 import { CareerBlogPostsContent } from 'App/contents/other'
 
-import hero from './career-1.jpg'
-import photo1 from './career-5.jpg'
-import photo2 from './career-4.jpg'
+import hero from './joinus-berlin1.jpg'
+import photo1 from './joinus-berlin2.jpg'
+import photo2 from './joinus-berlin3.jpg'
+import photo3 from './joinus-berlin4.jpg'
+import photo4 from './joinus-berlin5.jpg'
+import photo5 from './joinus-berlin6.jpg'
 
 
 export default () => (
@@ -110,7 +113,7 @@ export default () => (
         find a replacement for you and a colleague to take over your project.
       </p>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ photo3 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
       <h2>Challenging projects tailored for you</h2>
       <p>
@@ -135,7 +138,7 @@ export default () => (
         projects. Your personal and professional development is important for us.
       </p>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+    <Image src={ photo4 } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>You make the difference</h2>
       <p>
@@ -159,7 +162,7 @@ export default () => (
         How? Read the blog post about how we reported ourselves to equality consultants.
       </p>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
+    <Image src={ photo5 } alt="Wunderdog people" indent="left" hero/>
     <Chapter>
       <h2>Because people matter</h2>
       <p>
