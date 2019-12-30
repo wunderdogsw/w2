@@ -61,7 +61,7 @@ export default () => (
         a trip to our Berlin office or your open source projects on your spare time.
       </p>
       <p>
-        <b>100 experts from different fields</b> <br/>
+        <b>More than 100 experts with varying interests</b> <br/>
         Learn from our experts including functional programmers, Java lovers,
         JS hackers, Gophers, Pythonistas, etc.
       </p>
@@ -89,9 +89,9 @@ export default () => (
     </p>
     <p>
       <b>You get to take ownership in meaningful projects, for companies from
-        startups to corporations from a two week project to long-term partnerships</b> <br/>
+        startups to enterprises from a two week project to long-term partnerships</b> <br/>
         Our customers vary from not-yet established start-ups to big global
-        corporations which allows you to see and to learn from many different
+        enterprises which allows you to see and to learn from many different
         kinds of companies, cultures and ways of working.
     </p>
     <p>
@@ -103,7 +103,7 @@ export default () => (
       <b>We develop Wunderdog together, as a team</b> <br/>
         All company information is open by default to our employees and all
         employees are expected to take part in decision making. For example, the
-        decision to start our Berlin office was made by our employees, not by
+        initiative to start our Berlin office was made by our employee, not by
         our CEO. Read the blog post about how we reported ourselves to equality
         consultants.
     </p>
@@ -130,8 +130,8 @@ export default () => (
     </p>
     <p>
       <b>We support you in all stages of life</b> <br/>
-      Whether it's about combining work and family life or starting your studies,
-      we want to be there to support you.
+      Whether it’s about combining work and family life, starting your studies
+      or when life throws you a curve ball, we want to be there to support you.
     </p>
     <p>
       <b>We value our time together</b> <br/>
