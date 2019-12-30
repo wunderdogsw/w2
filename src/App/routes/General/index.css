@@ -226,6 +226,18 @@
   }
 }
 
+.Page__inner > .Chapter > .Video,
+.Page__inner > .Chapter > .Image {
+  position: relative;
+  margin-left: 30vw;
+  box-sizing: border-box;
+  max-width: 800px;
+
+  @media (width <= 740px) {
+    margin-left: 20px;
+  }
+}
+
 
 
 

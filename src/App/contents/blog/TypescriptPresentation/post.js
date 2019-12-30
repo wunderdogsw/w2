@@ -38,7 +38,7 @@ export default () => (
         split the editor in two, showing the slides on top and the code at the
         bottom:
       </p>
-    <Image src={photo1} alt='TypeScript' />
+      <Image src={photo1} alt='TypeScript' />
       <p>
         After a bit of research, the plugin approach didn't seem viable
         considering the time constraints. The VS Code plugin API did seem
@@ -56,10 +56,10 @@ export default () => (
         available that you can mash together with relative ease to create
         something new.
       </p>
-    <BlockQuote>
+      <BlockQuote>
         I believe being in the consultant’s role, even for a short period
         improves one’s professionalism.
-    </BlockQuote>
+      </BlockQuote>
       <h2>Toward the solution</h2>
       <p>
         The editor of VS Code is a separate component called Monaco. Monaco can
@@ -97,11 +97,11 @@ export default () => (
         nice red squiggly line under the error location, but required the user
         to hover over it to show the error message:
       </p>
-    <Video src= "https://player.vimeo.com/external/380717734.sd.mp4?s=e2b6ff161997042dcb57a80fe87393b43959e21c&profile_id=164" />
-    <BlockQuote>
+      <Video src= "https://player.vimeo.com/external/380717734.sd.mp4?s=e2b6ff161997042dcb57a80fe87393b43959e21c&profile_id=164" />
+      <BlockQuote>
         At Wunderdog, it’s also the incredible colleagues who make the days
         meaningful.
-    </BlockQuote>
+      </BlockQuote>
       <p>
         This seemed like the kind of thing to cause some minor issues during the
         presentation: "Hey, could you show the error on line 2 really quick? And
@@ -113,7 +113,7 @@ export default () => (
         specific lines. With decorations and the TypeScript compiler, it was
         possible to show compilation errors after the line the error comes from:
       </p>
-    <Video src= "https://player.vimeo.com/external/380717778.sd.mp4?s=f8c58d6714f49262e777231f234f934bbb99f0c8&profile_id=165" />
+      <Video src= "https://player.vimeo.com/external/380717778.sd.mp4?s=f8c58d6714f49262e777231f234f934bbb99f0c8&profile_id=165" />
       <p>
         Now the audience could see the compilation errors without me or tunkki
         having to point at things!
@@ -134,21 +134,21 @@ export default () => (
         into JavaScript. The  presentation editor now had a tab that showed the
         compiled JavaScript:
       </p>
-    <Video src= "https://player.vimeo.com/external/380717817.sd.mp4?s=fa006b82e824ae828d89c9447298a2116c3bd7b0&profile_id=165" />
+      <Video src= "https://player.vimeo.com/external/380717817.sd.mp4?s=fa006b82e824ae828d89c9447298a2116c3bd7b0&profile_id=165" />
       <p>
         Another aspect of the compile/runtime separation is the (type) unsafety
         of some TypeScript constructs. For example, the any type allows you to
         turn off the type checker and do any horrible thing you could do with
         JavaScript:
       </p>
-    <Video src= "https://player.vimeo.com/external/380717845.sd.mp4?s=6a972f03f74944e78344b5cd22029168c7aa1013&profile_id=165" />
+      <Video src= "https://player.vimeo.com/external/380717845.sd.mp4?s=6a972f03f74944e78344b5cd22029168c7aa1013&profile_id=165" />
       <p>
         Having the values of variables and other expressions visible would be
         valuable when trying to demonstrate how execution differs from
         compilation. Eventually, I figured out a hacky way to execute specific
         parts of the code, and show the results inline, as with errors:
       </p>
-    <Video src= "https://player.vimeo.com/external/380717872.sd.mp4?s=0741675f3cf4e34448db9da0202c43d1203d8dce&profile_id=165" /> 
+      <Video src= "https://player.vimeo.com/external/380717872.sd.mp4?s=0741675f3cf4e34448db9da0202c43d1203d8dce&profile_id=165" />
       <p>
         With all of these features implemented, it felt easy to edit the slides
         and to use it during a presentation. We could confidently display the
