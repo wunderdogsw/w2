@@ -13,11 +13,11 @@ No need to make complicated UIs for CMS integrations etc.
 * `yarn`
 * `yarn dev` or `yarn dev --open` to magically open in browser
 * Go to [localhost:1234](http://localhost:1234)
-
+* Share your local dev environment for someone else using `yarn share-local` and copy the Forwarding url http://XXXXXXXX.eu.ngrok.io for sharing
 
 ### Contributing
 
-Make a pull request. Add @thatsprettyfaroutman or @niutski as a reviewer. In case you made visual changes, show them to Addu.
+Make a pull request. Add @tsuikkis as a reviewer. In case you made visual changes, show them to Addu.
 Additional info @ [wunderwiki](https://wunderdog.atlassian.net/wiki/spaces/WD/pages/265781254/www.wunder.dog+-+our+new+interwebs)
 
 
@@ -32,7 +32,6 @@ Changes to master will be deployed automatically via [Travis CI](https://travis-
 * Staging
 * CI tuning so master isn't automatically deployed. Maybe use git tag or slack integration 😱
 * Guide: How to create content ( for non-developers )
-* 301 redirects from old site
 * Lynx support
 * Clear old files from s3 when releaseing new build
 
