@@ -54,10 +54,9 @@ export default () => (
         of salary audit before.
       </p>
       <p>
-        The goal of the salary audit was to ensure that the equality plan had
-        been made as the law requires and that there were no unacceptable salary
-        differences between colleagues. In August 2019, WoM presented the salary
-        audit for Wunderdog.
+        The goal of the salary audit was to ensure that the equality plan was
+        made according to legislation and that there were no unacceptable salary
+        differences between colleagues.
       </p>
     <BlockQuote>
         The goal of the salary audit was to ensure that the equality plan is
@@ -71,25 +70,22 @@ export default () => (
         <ul>
           <li>The content of the equality plan was assessed to be precise and
           valid.</li>
-          <li>The reasons for salaries are acceptable when considering the
-          nature of the business of Wunderdog.</li>
-          <li>In the salary audit, acceptable reasons for salary differences
-          based on the equality law were found.</li>
+          <li>The grounds for salaries are acceptable when considering the
+          nature of Wunderdog’s business.</li>
+          <li>Differences between salaries were in line with the equality law
+          and Wunderdog’s salary grounds.</li>
           </ul>
       </p>
       <h2>Recommendations</h2>
       <p>
         <ul>
-          <li>An employee’s salary is based mainly on competence. Wunderdog
-          could different skill and competence levels more thoroughly. </li>
+          <li>Wunderdog could create a more extensive model for determining an
+          individual’s skill and competence levels.</li>
           <li>Skill areas: the width and depth of skills, as well as how they
           reflect on colleagues and Wunderdog as a company could be described
           with statements.</li>
-          <li>Wunderdog could develop a systematic collection of feedback to
-          ensure enough data is available to fairly assess the performance of
-          employees and the profitability of work.</li>
-          <li>Wunderdog encourages transparency of salaries and discussion of
-          salaries.</li>
+          <li>Wunderdog could develop a system for collecting feedback to ensure
+          enough data is available to fairly assess the performance of employees. </li>
           <li>Wunderodg continues to follow the equality plan and update it
           continuously as well as discuss the salary audit results with
           personnel.</li>
