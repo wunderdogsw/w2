@@ -59,11 +59,15 @@ import piispa from './Piispa'
 export const Piispa = piispa
 import pomo from './Pomo'
 export const Pomo = pomo
+import salaryaudit from './SalaryAudit'
+export const SalaryAudit = salaryaudit
 import solutionwasterminal from './SolutionWasTerminal'
 export const SolutionWasTerminal = solutionwasterminal
 import technicaldebtthreatorpossibility from './TechnicalDebtThreatOrPossibility'
 export const TechnicalDebtThreatOrPossibility = technicaldebtthreatorpossibility
 import turger from './Turger'
 export const Turger = turger
+import typescriptpresentation from './TypescriptPresentation'
+export const TypescriptPresentation = typescriptpresentation
 import whatsyournameagain from './WhatsYourNameAgain'
 export const WhatsYourNameAgain = whatsyournameagain
