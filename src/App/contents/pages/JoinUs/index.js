@@ -11,6 +11,8 @@ import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 import BlockQuote from 'App/components/BlockQuote'
+import Video from 'App/components/Video'
+import TransitionLink from 'App/components/TransitionLink'
 
 import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
@@ -30,17 +32,23 @@ export default () => (
         '--color-text-on-accent': '#fff',
       }}
     </CssVars>
-    <MainTitle narrow>Join the Wunderdog pack. We tell you why.</MainTitle>
-    <Image src={ hero } alt="Wunderdog people" indent hero/>
+    <MainTitle narrow>Join the Wunderdog pack. We'll tell you why.</MainTitle>
+    <Video src="https://player.vimeo.com/external/382380565.sd.mp4?s=14c4fd9dee46e5507c8c203da0bab6623f1deeb1&profile_id=165" indent useUnmute />
+
     <Chapter>
-      <h2>We're looking for tech-savvy people to join us.</h2>
+      <h2>Heartfelt home for tech-savvy people.</h2>
     </Chapter>
     <Chapter>
       <p>
-        We’re Wunderdog, a design and technology consultancy, solving problems
-        and crafting digital experiences together with our customers. Here are
-        some facts about who we are and the way we work. Don’t hesitate to
-        contact us if you want to learn more. Or just apply.
+        We’re a design and technology consultancy, solving the problems our
+        customers face and together crafting digital solutions to them. Today,
+        we are 100+ consultants passionate for tech, creating a smoother working
+        world. We're now looking for tech-savvy people to join us in our Helsinki
+        and Berlin offices.
+      </p>
+      <p>
+        Keep reading to find out more about who we are and how we work. Don’t
+        hesitate to contact us if questions arise! Or just apply.
       </p>
     </Chapter>
     <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
@@ -66,17 +74,18 @@ export default () => (
         JS hackers, Gophers, Pythonistas, etc.
       </p>
       <p>
-        <b>Wunderdog family packed up with Polar Squad, OrangIT and Co-Ventures.</b> <br/>
+        <b>Wunderdog family packed up with Polar Squad, OrangIT and Co-Ventures</b> <br/>
         Because of our ecosystem we can help our clients not only with new feature
         development but also with DevOps, maintenance, and opportunity discovery.
-        All done by people who believe in quality work.
+        This structure allows learning across the ecosystem, when knowledge is
+        shared between people who all focus on what they’re best at.
       </p>
       <BlockQuote by="Antti aka Piispa, Senior Developer of Wunderdog since 2016">
         Fresh git, shiny stack, getting things done & mega cool pöhinä. Those
         are the things I like.
       </BlockQuote>
     </Chapter>
-    <Image src={ photo2 } alt="Wunderdog people" indent hero/>
+    <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>We facilitate your work</h2>
     </Chapter>
@@ -104,12 +113,14 @@ export default () => (
         All company information is open by default to our employees and all
         employees are expected to take part in decision making. For example, the
         initiative to start our Berlin office was made by our employee, not by
-        our CEO. Read the blog post about how we reported ourselves to equality
-        consultants.
+        our CEO. Read the <TransitionLink to='https://wunder.dog/blog/salary-audit'>blog post about how we reported ourselves to equality
+        consultants.</TransitionLink>
     </p>
-    <BlockQuote by="Lasse aka Kanki, Service Designer of Wunderdog since 2016">
-      I believe being in the consultant’s role, even for a short period improves
-      one’s professionalism.
+    <BlockQuote by="Taru aka Turger, Software Developer of Wunderdog since 2015">
+    For me, it’s important that I get to do meaningful projects and grow
+    professionally working with colleagues who I have fun with. At Wunderdog
+    I’ve done varying projects each time for a different customer, with a
+    different team and a different tech stack.
     </BlockQuote>
     </Chapter>
     <Image src={ photo3 } alt="Wunderdog people" indent="left" hero/>
@@ -131,7 +142,7 @@ export default () => (
     <p>
       <b>We support you in all stages of life</b> <br/>
       Whether it’s about combining work and family life, starting your studies
-      or when life throws you a curve ball, we want to be there to support you.
+      or when life throws you a curveball, we want to be there to support you.
     </p>
     <p>
       <b>We value our time together</b> <br/>
@@ -139,9 +150,9 @@ export default () => (
       we take care of our company culture through team-building activities,
       coffee breaks, joint meals and hangouts.
     </p>
-    <BlockQuote by="Jarl-Erik aka Hoosee, Senior Developer of Wunderdog since 2018">
-      At Wunderdog we don’t judge or boost our egos at the expense of others.
-      People are genuine and nice. I’d be happy to have lunch with anybody here.
+    <BlockQuote by="Lasse aka Kanki, Service Designer of Wunderdog since 2016">
+      I believe being in the consultant’s role, even for a short period improves
+      one’s professionalism.
     </BlockQuote>
     </Chapter>
     <CallToAction color="blue" large grid>
