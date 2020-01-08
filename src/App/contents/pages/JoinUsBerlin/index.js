@@ -11,6 +11,7 @@ import CallToAction from 'App/components/CallToAction'
 import LatestBlogPosts from 'App/components/LatestBlogPosts'
 import Stats from 'App/components/Stats'
 import BlockQuote from 'App/components/BlockQuote'
+import TransitionLink from 'App/components/TransitionLink'
 
 import { OpenPositions } from 'App/contents/callToActions'
 import { FunStats } from 'App/contents/stats'
@@ -56,8 +57,8 @@ export default () => (
       </p>
       <p>
         <b>We compensate your open source hours. </b> <br/>
-        You’ll be compensated for working on open source projects in your spare
-        time. We want everyone to participate in open source and we don’t limit
+        You’ll be compensated for working on <TransitionLink to='https://osactivitiesclient.lab.wunder.dog/'>open source projects in your spare
+        time.</TransitionLink> We want everyone to participate in open source and we don’t limit
         this program to pull requests to major popular packages or frameworks.
         Rather, we encourage all types of contributions, including your own
         projects and ideas.
@@ -194,7 +195,6 @@ export default () => (
         the Turkish market’s flavours or savour the gastronomic variety of the
         restaurants nearby. Join our Berlin office!
       </p>
-      <h2>Join us.</h2>
     </Chapter>
     <CallToAction color="blue" large grid>
       <OpenPositions />
