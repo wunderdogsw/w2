@@ -19,3 +19,5 @@ import smartly from './Smartly'
 export const Smartly = smartly
 import someturva from './Someturva'
 export const Someturva = someturva
+import someturvagrandone from './SometurvaGrandone'
+export const SometurvaGrandone = someturvagrandone
