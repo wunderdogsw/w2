@@ -5,6 +5,8 @@ import importedComponent from 'react-imported-component'
 
 import blueprintgenetics from './BlueprintGenetics'
 export const BlueprintGenetics = blueprintgenetics
+import grib from './Grib'
+export const Grib = grib
 import mieli from './Mieli'
 export const Mieli = mieli
 import oodi from './Oodi'
