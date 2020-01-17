@@ -15,7 +15,7 @@ import {
   AnteroTorhonen,
   JoannaRindell,
   JasperVanGhemen,
-  AnnaMariaLaFiura,
+  MariaStenberg,
   MeriTuuliOlkkonen,
   LauriPaalama,
 } from 'App/contents/contactFaces'
@@ -35,7 +35,7 @@ export default () => (
         <Helsinki />
         <MikaViskari />
         <AnteroTorhonen />
-        <AnnaMariaLaFiura />
+        <MariaStenberg />
         <MeriTuuliOlkkonen />
       </ContactRow>
     </Indent>
