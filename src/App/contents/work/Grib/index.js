@@ -4,7 +4,7 @@ import image from './grib-hero.jpg'
 export default {
   title: 'Kickstarting creativity in three dimensions',
   client: 'Grib3D',
-  publishDate: 'January 17, 2020',
+  publishDate: 'July 17, 2019',
   keywords: 'Full-stack development, Technology Lead',
   image: image,
 

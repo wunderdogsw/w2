@@ -9,7 +9,6 @@ import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
 import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
-import TransitionLink from 'App/components/TransitionLink'
 import BlockQuote from 'App/components/BlockQuote'
 
 import photo1 from './grib-photo1.jpg'
