@@ -6,3 +6,4 @@ import importedComponent from 'react-imported-component'
 export const FunStats = importedComponent(() => import('./FunStats'))
 export const PumpumStats = importedComponent(() => import('./PumpumStats'))
 export const SeriousStats = importedComponent(() => import('./SeriousStats'))
+export const SometurvaStats = importedComponent(() => import('./SometurvaStats'))
