@@ -76,18 +76,18 @@ export default () => (
         the victim has suffered from and how to proceed.
       </p>
       <p>
-        <b>If the case does not fill the charasteristics of a crime, the
-        victim is offered a chance to discuss the case in
-        SomeBuddy-chat.</b> <br/> In every case, SomeBuddy is there to
-        support the youngster. Psychological help is available through the
-        service.
+        <b>If the case does not fill the characteristics of a crime,
+        they are still provided emotional support, suggestions how to
+        proceed with the case and tips for social media security settings.</b> <br/>
+        In every case, SomeBuddy is there to support the youngster.
+        Psychological help is available through the service.
       </p>
     </Chapter>
     <ImageRow>
       <Image src={ photo3 } alt="Someturva app" />
     </ImageRow>
     <Chapter>
-    <h2>So far, 18 000 youngsters have accessed the service</h2>
+    <h2>So far 18000 youngsters have access to the service</h2>
     <p>
         Somebuddy has helped over 1000 people in solving the crimes they
         have reported.
