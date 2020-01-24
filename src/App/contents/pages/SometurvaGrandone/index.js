@@ -60,7 +60,7 @@ export default () => (
         <b>Most social media crimes are minor offences, that
         can be dealt with by settling.</b> <br/> By request SomeBuddy can send
         a request to settle to the person who committed the crime to
-        facilitate a settlement.
+        facilitate a settlement.  
 
       </p>
       <p>
