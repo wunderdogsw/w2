@@ -30,12 +30,12 @@ export default () => (
     <Chapter>
       <p>
         SomeBuddy is a mobile application that offers legal services to stop
-        bullying on social media. With this application especially youngsters
-        seek for help for inappropriate behaciour they face online.
-        SomeBuddy is a service offering low-threshold legal assistance for
-        problems such as bullying, harassment, or the dissemination of private
-        data. SomeBuddy has a heart of AI but the kindness and empathy skills of
-        a human.
+        bullying on social media. Using this application, youngsters in
+        particular will be able to seek help for inappropriate behaviour
+        they may face online. The application is a service offering
+        low-threshold legal assistance for problems such as bullying,
+        harassment, or the dissemination of private data. SomeBuddy has
+        the heart of an AI but the kindness and empathy of a human.
       </p>
     <BlockQuote by="High school student Riikka, Some Deep Story, Yle">
       Sometimes when I opened Facebook the first 7 posts on my front page
@@ -57,28 +57,29 @@ export default () => (
     <Chapter>
       <h2>How SomeBuddy works</h2>
       <p>
-        <b>Most of the social media crimes are complainant offences, that
-        can be dealt with settling.</b> <br/> From a request SomeBuddy can send
-        a settling request for the person who commited the crime to allow the
-        settling.
+        <b>Most social media crimes are minor offences, that
+        can be dealt with by settling.</b> <br/> By request SomeBuddy can send
+        a request to settle to the person who committed the crime to
+        facilitate a settlement.
+
       </p>
       <p>
         <b>Occasionally, crimes committed on social media can’t be settled,
-        like sex offends.</b> <br/> In these cases SomeBuddy contacts
+        like sex offences.</b> <br/> In these cases SomeBuddy contacts
         the victim and advises them in detail on how to proceed with the
         matter.
       </p>
       <p>
-        <b>SomeBuddy helps with reporting the crime to parents.</b> <br/>
-        Victims might often feel ashamed or guilty, which stops them from
-        asking help from their parents. SomeBuddy helps by creating a
-        personalized letter to parents. The letter tells what
-        the victim has suffered from and how to proceed.
+        <b>SomeBuddy helps with reporting the crime to the victim's parents.</b> <br/>
+        Victims often might feel ashamed or guilty, which stops them from
+        asking for help from their parents. SomeBuddy helps by creating a
+        personalized letter to parents: the letter describes what the victim
+        has suffered and how best to proceed.
       </p>
       <p>
-        <b>If the case does not fill the characteristics of a crime,
-        they are still provided emotional support, suggestions how to
-        proceed with the case and tips for social media security settings.</b> <br/>
+        <b>Even if the case does not meet the criteria to be considered a crime,
+        victims are still provided emotional support, suggestions on how to
+        proceed with the case and tips for social media security settings. </b> <br/>
         In every case, SomeBuddy is there to support the youngster.
         Psychological help is available through the service.
       </p>
@@ -87,18 +88,20 @@ export default () => (
       <Image src={ photo3 } alt="Someturva app" />
     </ImageRow>
     <Chapter>
-    <h2>So far 18000 youngsters have access to the service</h2>
+    <h2>So far 18000 youngsters have accessed to the service</h2>
     <p>
-        Somebuddy has helped over 1000 people in solving the crimes they
+        Somebuddy has helped over 1000 people in resolving the crimes they
         have reported.
+
     </p>
     </Chapter>
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" />
     <Chapter>
       <h2>
-        In November 2019, the King of Sweden invited Suvi Uski, one of the
-        bright minds behind SomeBuddy, to discuss how to improve the safety
-        of children on social media
+      In November 2019, the King of Sweden invited Suvi Uski, one of the
+      bright minds behind SomeBuddy, to discuss how to improve safety for
+      children on social media
+
       </h2>
       <p>
         <b>UX Design:</b> Wunderdog<br/>
