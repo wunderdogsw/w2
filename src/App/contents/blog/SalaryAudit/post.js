@@ -86,7 +86,7 @@ export default () => (
           with statements.</li>
           <li>Wunderdog could develop a system for collecting feedback to ensure
           enough data is available to fairly assess the performance of employees. </li>
-          <li>Wunderodg continues to follow the equality plan and update it
+          <li>Wunderdog continues to follow the equality plan and update it
           continuously as well as discuss the salary audit results with
           personnel.</li>
         </ul>
