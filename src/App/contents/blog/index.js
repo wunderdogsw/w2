@@ -51,6 +51,8 @@ import nukka from './Nukka'
 export const Nukka = nukka
 import opentogoodideas from './OpenToGoodIdeas'
 export const OpenToGoodIdeas = opentogoodideas
+import pcepreventionbydesign from './PCEPreventionByDesign'
+export const PCEPreventionByDesign = pcepreventionbydesign
 import pairprogramming from './PairProgramming'
 export const PairProgramming = pairprogramming
 import pairprogrammingparttwo from './PairProgrammingPartTwo'
