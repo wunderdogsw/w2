@@ -10,7 +10,7 @@ export default {
   publishDate: 'Feb 3, 2020',
   readTimeMinutes: 4,
   keywords: 'culture, design, service design',
-  category: 'culture',
+  category: 'design',
   image: image,
 
   content: importedComponent(() => import('./post')),
