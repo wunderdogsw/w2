@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './designblog-3.jpg'
 
 export default {
-  title: 'PCE Prevention by Design',
+  title: 'Production Chain Erosion Prevention by Design',
   author: {
     name: 'Kanki, Lasse Kaikkonen',
     title: 'Service Designer'

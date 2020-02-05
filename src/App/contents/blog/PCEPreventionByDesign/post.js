@@ -11,7 +11,6 @@ import photo3 from './designblog-4.jpg'
 
 export default () => (
   <Fragment>
-    <MainTitle narrow>PCE Prevention by Design</MainTitle>
     <Chapter>
       <p>
         <i>
@@ -107,7 +106,7 @@ export default () => (
               are needed while executing that exact part of your production
               chain.
         </BlockQuote>
-        <h2>Prevention 1. First aid: Map your Features</h2>
+        <h2>1. Prevention First aid: Map your Features</h2>
       <p>
           When an organisation needs new software, it has three ways to go:
           </p>
