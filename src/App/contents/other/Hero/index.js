@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
-import MainTitle from 'App/components/MainTitle'
+
+import MainTitle from '../../../components/MainTitle'
 
 export default () => (
   <Fragment>

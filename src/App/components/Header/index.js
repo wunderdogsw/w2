@@ -1,13 +1,11 @@
-import './index.css'
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import cs from 'classnames'
-import throttle from 'lodash.throttle'
-import { withState } from 'App/state'
-import Logo from 'App/components/Logo'
-import TransitionLink from 'App/components/TransitionLink'
-import { MainNav, SocialNav } from 'App/contents/other'
 
+import './index.css'
+import { withState } from '../../state'
+import Logo from '../Logo'
+import { MainNav, SocialNav } from '../../contents/other'
 
 
 export default withRouter(withState(

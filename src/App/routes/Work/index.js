@@ -1,16 +1,15 @@
-import Keywords from 'App/components/Keywords'
-import MainTitle from 'App/components/MainTitle'
-import Image from 'App/components/Image'
-import Video from 'App/components/Video'
-import NotFound from 'App/components/NotFound'
-import SubTitle from 'App/components/SubTitle'
-import * as workPages from 'App/contents/work'
-import { pageview } from 'App/utils/analytics'
 import React, { Component, Fragment } from 'react'
-import Button from 'App/components/Button'
-import Footer from 'App/components/Footer'
-import { FooterBottom } from 'App/contents/other'
-import FooterNext from 'App/components/FooterNext'
+
+import Keywords from '../../components/Keywords'
+import MainTitle from '../../components/MainTitle'
+import Image from '../../components/Image'
+import Video from '../../components/Video'
+import SubTitle from '../../components/SubTitle'
+import * as workPages from '../../contents/work'
+import { pageview } from '../../utils/analytics'
+import Footer from '../../components/Footer'
+import { FooterBottom } from '../../contents/other'
+import FooterNext from '../../components/FooterNext'
 
 const pages = Object.entries(workPages).reduce((res, [key, value]) => {
   res[

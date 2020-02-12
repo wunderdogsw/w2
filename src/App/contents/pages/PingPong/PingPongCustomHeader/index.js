@@ -1,6 +1,7 @@
+import React from 'react'
+
 import './index.css'
-import React, { Component } from 'react'
-import Logo from 'App/components/Logo'
+import Logo from '../../../../components/Logo'
 
 export default () => {
   return (

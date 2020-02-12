@@ -1,7 +1,8 @@
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import  TransitionLink from 'App/components/TransitionLink'
+
+import Chapter from '../../../components/Chapter'
+import Image from '../../../components/Image'
+import TransitionLink from '../../../components/TransitionLink'
 import photo2 from './live-share.gif'
 import photo3 from './pairprog3.png'
 import photo1 from './piispavissy.jpg'

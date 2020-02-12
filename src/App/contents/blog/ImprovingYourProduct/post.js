@@ -1,13 +1,13 @@
-import BlockQuote from 'App/components/BlockQuote'
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
-import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
+
+import BlockQuote from '../../../components/BlockQuote'
+import Chapter from '../../../components/Chapter'
+import Image from '../../../components/Image'
+import TransitionLink from '../../../components/TransitionLink'
 import photo1 from './productanalytic1.png'
 import photo2 from './productanalytic2.png'
 import photo3 from './productanalytic3.png'
 import photo4 from './productanalytic4.png'
-import hero from './product-development.jpg'
 
 export default () => (
   <Fragment>

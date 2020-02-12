@@ -1,11 +1,11 @@
-import './index.css'
 import React, { Component } from 'react'
-import cs from 'classnames'
-import Card from 'App/components/Card'
-import CardContainer from 'App/components/CardContainer'
-import CardsGrid from 'App/components/CardsGrid'
-import Image from 'App/components/Image'
-import { works } from 'App/routes/Work'
+
+import './index.css'
+import Card from '../Card'
+import CardContainer from '../CardContainer'
+import CardsGrid from '../CardsGrid'
+import Image from '../Image'
+import { works } from '../../routes/Work'
 
 export default class extends Component {
 

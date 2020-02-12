@@ -1,15 +1,14 @@
-import './index.css'
 import React, { Fragment } from 'react'
-import Highlight from 'react-highlight'
 import HubspotForm from 'react-hubspot-form'
-import CssVars from 'App/components/CssVars'
-import ImageRow from 'App/components/ImageRow'
-import Chapter from 'App/components/Chapter'
-import SubTitle from 'App/components/SubTitle'
+import Highlight from 'react-highlight'
+import Countdown from 'react-countdown-now'
+
+import './index.css'
+import CssVars from '../../../components/CssVars'
+import Chapter from '../../../components/Chapter'
+import SubTitle from '../../../components/SubTitle'
 import PahkinaCustomHeader from './PahkinaCustomHeader'
 import PahkinaCustomHero from './PahkinaCustomHero'
-
-import Countdown from 'react-countdown-now'
 
 export default () => (
   <Fragment>

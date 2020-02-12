@@ -1,7 +1,8 @@
-import './index.css'
 import React from 'react'
 import cs from 'classnames'
-import TransitionLink from 'App/components/TransitionLink'
+
+import './index.css'
+import TransitionLink from '../TransitionLink'
 
 export default ({ useAccent, reversed, outlined, preventDefault, ...props}) => (
   <TransitionLink { ...props }

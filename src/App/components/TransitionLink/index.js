@@ -1,12 +1,12 @@
-import './index.css'
 import React, { Component, Fragment, createRef } from 'react'
-import { outboundLink, event } from 'App/utils/analytics'
-import cs from 'classnames'
 import { withRouter } from 'react-router-dom'
-import { withState } from 'App/state'
+import cs from 'classnames'
 import prefixStyles from 'inline-style-prefixer/static'
-import { getComputedCss } from 'App/utils'
 
+import './index.css'
+import { outboundLink, event } from '../../utils/analytics'
+import { withState } from '../../state'
+import { getComputedCss } from '../../utils'
 
 export default withState(withRouter(
   class extends Component {

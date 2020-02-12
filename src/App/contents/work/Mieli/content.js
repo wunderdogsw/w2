@@ -1,21 +1,15 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Keywords from 'App/components/Keywords'
-import Image from 'App/components/Image'
-import ImageRow from 'App/components/ImageRow'
-import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
-import DatLine from 'App/components/DatLine'
-import TransitionLink from 'App/components/TransitionLink'
+
+import Image from '../../../components/Image'
+import ImageRow from '../../../components/ImageRow'
+import Chapter from '../../../components/Chapter'
+import Summary from '../../../components/Summary'
+import TransitionLink from '../../../components/TransitionLink'
 
 import photo1 from './mieli-photo1.jpg'
 import photo2 from './mieli-photo2.jpg'
 import photo3 from './mieli-photo3.jpg'
 import photo4 from './mieli-photo4.jpg'
-
 
 export default () => (
   <Fragment>

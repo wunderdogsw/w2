@@ -1,7 +1,7 @@
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
-import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
+
+import Chapter from '../../../components/Chapter'
+import TransitionLink from '../../../components/TransitionLink'
 
 export default () => (
   <Fragment>

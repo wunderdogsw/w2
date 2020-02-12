@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import MainTitle from 'App/components/MainTitle'
-import Image from 'App/components/Image'
-import Indent from 'App/components/Indent'
-import Chapter from 'App/components/Chapter'
-import SubTitle from 'App/components/SubTitle'
-import CallToAction from 'App/components/CallToAction'
-import ContactRow from 'App/components/ContactRow'
 
-import { ElectronicInvoicing } from 'App/contents/callToActions'
-import { Helsinki, Berlin, Empty } from 'App/contents/contactOffices'
+import MainTitle from '../../../components/MainTitle'
+import Image from '../../../components/Image'
+import Indent from '../../../components/Indent'
+import SubTitle from '../../../components/SubTitle'
+import CallToAction from '../../../components/CallToAction'
+import ContactRow from '../../../components/ContactRow'
+import { ElectronicInvoicing } from '../../callToActions'
+import { Helsinki, Berlin } from '../../contactOffices'
 import {
   MikaViskari,
   AnteroTorhonen,
@@ -17,9 +15,8 @@ import {
   JasperVanGhemen,
   MariaStenberg,
   MeriTuuliOlkkonen,
-  LauriPaalama,
-} from 'App/contents/contactFaces'
-
+  LauriPaalama
+} from '../../contactFaces'
 import helsinki from './office_helsinki.jpg'
 import berlin from './office_berlin.jpg'
 

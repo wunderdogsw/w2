@@ -1,7 +1,8 @@
-import './index.css'
 import React from 'react'
-import TransitionLink from 'App/components/TransitionLink'
 import cs from 'classnames'
+
+import './index.css'
+import TransitionLink from '../TransitionLink'
 
 export default ({ children, to, type }) => (
   <TransitionLink to={ to } className={ cs(

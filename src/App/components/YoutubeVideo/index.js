@@ -1,11 +1,9 @@
-import './index.css'
 import React, { Component, createRef } from 'react'
 import cs from 'classnames'
 import throttle from 'lodash.throttle'
-import { getComputedCss } from  'App/utils'
 
-
-
+import './index.css'
+import { getComputedCss } from  '../../utils'
 
 export default class extends Component {
 

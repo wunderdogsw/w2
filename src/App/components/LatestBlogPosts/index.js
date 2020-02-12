@@ -1,13 +1,12 @@
+import React, { Component,  } from 'react'
+
 import './index.css'
-import React, { Component, Fragment } from 'react'
-import cs from 'classnames'
-import Chapter from 'App/components/Chapter'
-import Card from 'App/components/Card'
-import Image from 'App/components/Image'
-import Indent from 'App/components/Indent'
-import CardContainer from 'App/components/CardContainer'
-import CardsGrid from 'App/components/CardsGrid'
-import { posts } from 'App/routes/Blog'
+import Chapter from '../Chapter'
+import Card from '../Card'
+import Image from '../Image'
+import CardContainer from '../CardContainer'
+import CardsGrid from '../CardsGrid'
+import { posts } from '../../routes/Blog'
 
 export default class extends Component {
 

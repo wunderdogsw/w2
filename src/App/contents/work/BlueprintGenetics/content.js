@@ -1,21 +1,15 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Keywords from 'App/components/Keywords'
-import Image from 'App/components/Image'
-import ImageRow from 'App/components/ImageRow'
-import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 
+import Image from '../../../components/Image'
+import ImageRow from '../../../components/ImageRow'
+import Chapter from '../../../components/Chapter'
+import Summary from '../../../components/Summary'
 import photo1 from './blueprint-photo1.jpg'
 import photo2 from './blueprint-photo2.jpg'
 import photo3 from './blueprint-photo3.jpg'
 import photo4 from './blueprint-photo4.jpg'
 import photo5 from './blueprint-photo5.jpg'
 import photo6 from './blueprint-photo6.jpg'
-
 
 export default () => (
   <Fragment>

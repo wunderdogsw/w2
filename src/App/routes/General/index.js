@@ -1,7 +1,8 @@
-import NotFound from 'App/components/NotFound'
-import * as generalPages from 'App/contents/pages'
-import { pageview } from 'App/utils/analytics'
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
+
+import NotFound from '../../components/NotFound'
+import * as generalPages from '../../contents/pages'
+import { pageview } from '../../utils/analytics'
 import './index.css'
 
 let pages = Object.entries(generalPages).reduce((res, [key, value]) => {

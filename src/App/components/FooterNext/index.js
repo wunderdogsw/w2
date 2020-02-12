@@ -1,6 +1,7 @@
-import './index.css'
 import React from 'react'
-import TransitionLink from 'App/components/TransitionLink'
+
+import './index.css'
+import TransitionLink from '../TransitionLink'
 
 export default ({ action, title, to, image }) => (
   <TransitionLink to={ to } className="FooterNext">

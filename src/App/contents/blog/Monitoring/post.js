@@ -1,7 +1,6 @@
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import hero from './monitoring.jpeg'
+
+import Chapter from '../../../components/Chapter'
 
 export default () => (
   <Fragment>

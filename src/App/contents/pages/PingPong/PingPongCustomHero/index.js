@@ -1,6 +1,7 @@
+import React from 'react'
+
 import './index.css'
-import React, { Component } from 'react'
-import MainTitle from 'App/components/MainTitle'
+import MainTitle from '../../../../components/MainTitle'
 
 export default () => (
   <div className="PingPongCustomHero">

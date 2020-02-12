@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import LogoGrid from 'App/components/LogoGrid'
 
+import LogoGrid from '../../../components/LogoGrid'
 import logoCoventures from './coventures_logo.svg'
 import logoOrangit from './orangit_logo.svg'
 import logoPolarsquad from './polarsquad_logo.svg'
