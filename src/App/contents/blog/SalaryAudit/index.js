@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './salary-audit.jpg'
 
 export default {
-  title: 'Reporting ourselves to equality consultants',
+  title: 'We reported ourselves to equality consultants',
   author: {
     name: 'Meri-Tuuli',
     title: 'People Operations Lead'
