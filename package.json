@@ -5,6 +5,7 @@
   "author": "Viljami Anttonen",
   "license": "UNLICENSED",
   "scripts": {
+    "lint": "eslint --ext .js src/",
     "predev": "echoascii dev && run-s update-content-maps",
     "dev": "parcel ./src/index.html --no-cache -d __dev__",
     "prebuild": "echoascii build && run-s update-content-maps",
@@ -23,6 +24,7 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "echoascii": "1.0.3",
+    "eslint-config-react-app": "^5.2.0",
     "npm-run-all": "4.1.2",
     "parcel-bundler": "1.12.3",
     "parcel-plugin-image-srcset": "file:local_modules/parcel-plugin-image-srcset",

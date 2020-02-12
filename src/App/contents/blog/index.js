@@ -2,74 +2,74 @@
 // File generated with `mapContent` script
 
 import agilemethods from './AgileMethods'
-export const AgileMethods = agilemethods
 import anni from './Anni'
-export const Anni = anni
 import areweceoseveryone from './AreWeCeosEveryone'
-export const AreWeCeosEveryone = areweceoseveryone
 import babyitscoldoutside from './BabyItsColdOutside'
-export const BabyItsColdOutside = babyitscoldoutside
 import controlfreak from './ControlFreak'
-export const ControlFreak = controlfreak
 import designsprint from './DesignSprint'
-export const DesignSprint = designsprint
 import designsprintthree from './DesignSprintThree'
-export const DesignSprintThree = designsprintthree
 import designsprinttwo from './DesignSprintTwo'
-export const DesignSprintTwo = designsprinttwo
 import dontplayitagain from './DontPlayItAgain'
-export const DontPlayItAgain = dontplayitagain
 import galtalkstech from './GalTalksTech'
-export const GalTalksTech = galtalkstech
 import hank from './Hank'
-export const Hank = hank
 import hunttis from './Hunttis'
-export const Hunttis = hunttis
 import iiro from './Iiro'
-export const Iiro = iiro
 import importanceofcommunicationsinproductdevelopment from './ImportanceOfCommunicationsInProductDevelopment'
-export const ImportanceOfCommunicationsInProductDevelopment = importanceofcommunicationsinproductdevelopment
 import improvingyourproduct from './ImprovingYourProduct'
-export const ImprovingYourProduct = improvingyourproduct
 import invisiblesoftware from './InvisibleSoftware'
-export const InvisibleSoftware = invisiblesoftware
 import itsthewritingthatswrong from './ItsTheWritingThatsWrong'
-export const ItsTheWritingThatsWrong = itsthewritingthatswrong
 import kanki from './Kanki'
-export const Kanki = kanki
 import kiti from './Kiti'
-export const Kiti = kiti
 import losingcontrol from './LosingControl'
-export const LosingControl = losingcontrol
 import lunchwithbenefits from './LunchWithBenefits'
-export const LunchWithBenefits = lunchwithbenefits
 import monitoring from './Monitoring'
-export const Monitoring = monitoring
 import northstarmetric from './NorthStarMetric'
-export const NorthStarMetric = northstarmetric
 import nukka from './Nukka'
-export const Nukka = nukka
 import opentogoodideas from './OpenToGoodIdeas'
-export const OpenToGoodIdeas = opentogoodideas
 import pcepreventionbydesign from './PCEPreventionByDesign'
-export const PCEPreventionByDesign = pcepreventionbydesign
 import pairprogramming from './PairProgramming'
-export const PairProgramming = pairprogramming
 import pairprogrammingparttwo from './PairProgrammingPartTwo'
-export const PairProgrammingPartTwo = pairprogrammingparttwo
 import piispa from './Piispa'
-export const Piispa = piispa
 import pomo from './Pomo'
-export const Pomo = pomo
 import salaryaudit from './SalaryAudit'
-export const SalaryAudit = salaryaudit
 import solutionwasterminal from './SolutionWasTerminal'
-export const SolutionWasTerminal = solutionwasterminal
 import technicaldebtthreatorpossibility from './TechnicalDebtThreatOrPossibility'
-export const TechnicalDebtThreatOrPossibility = technicaldebtthreatorpossibility
 import turger from './Turger'
-export const Turger = turger
 import typescriptpresentation from './TypescriptPresentation'
-export const TypescriptPresentation = typescriptpresentation
 import whatsyournameagain from './WhatsYourNameAgain'
+export const AgileMethods = agilemethods
+export const Anni = anni
+export const AreWeCeosEveryone = areweceoseveryone
+export const BabyItsColdOutside = babyitscoldoutside
+export const ControlFreak = controlfreak
+export const DesignSprint = designsprint
+export const DesignSprintThree = designsprintthree
+export const DesignSprintTwo = designsprinttwo
+export const DontPlayItAgain = dontplayitagain
+export const GalTalksTech = galtalkstech
+export const Hank = hank
+export const Hunttis = hunttis
+export const Iiro = iiro
+export const ImportanceOfCommunicationsInProductDevelopment = importanceofcommunicationsinproductdevelopment
+export const ImprovingYourProduct = improvingyourproduct
+export const InvisibleSoftware = invisiblesoftware
+export const ItsTheWritingThatsWrong = itsthewritingthatswrong
+export const Kanki = kanki
+export const Kiti = kiti
+export const LosingControl = losingcontrol
+export const LunchWithBenefits = lunchwithbenefits
+export const Monitoring = monitoring
+export const NorthStarMetric = northstarmetric
+export const Nukka = nukka
+export const OpenToGoodIdeas = opentogoodideas
+export const PCEPreventionByDesign = pcepreventionbydesign
+export const PairProgramming = pairprogramming
+export const PairProgrammingPartTwo = pairprogrammingparttwo
+export const Piispa = piispa
+export const Pomo = pomo
+export const SalaryAudit = salaryaudit
+export const SolutionWasTerminal = solutionwasterminal
+export const TechnicalDebtThreatOrPossibility = technicaldebtthreatorpossibility
+export const Turger = turger
+export const TypescriptPresentation = typescriptpresentation
 export const WhatsYourNameAgain = whatsyournameagain
