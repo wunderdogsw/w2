@@ -1,7 +1,7 @@
 import './index.css'
-import React, { Component } from 'react'
-import MainTitle from 'App/components/MainTitle'
-import Image from 'App/components/Image'
+import React from 'react'
+import MainTitle from '../../../../components/MainTitle'
+import Image from '../../../../components/Image'
 import hero from './pahkina.jpg'
 
 export default () => (

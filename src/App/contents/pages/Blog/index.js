@@ -1,13 +1,13 @@
 import React, { Fragment, useState } from 'react'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Card from 'App/components/Card'
-import CardsGrid from 'App/components/CardsGrid'
-import CardContainer from 'App/components/CardContainer'
 import cs from 'classnames'
-import Image from 'App/components/Image'
-import Navigation from 'App/components/Navigation'
-import { allCategory, categories, posts } from 'App/routes/Blog'
+
+import MainTitle from '../../../components/MainTitle'
+import Card from '../../../components/Card'
+import CardsGrid from '../../../components/CardsGrid'
+import CardContainer from '../../../components/CardContainer'
+import Image from '../../../components/Image'
+import Navigation from '../../../components/Navigation'
+import { allCategory, categories, posts } from '../../../routes/Blog'
 
 export default () => {
   const [currentCategory, setCurrentCategory] = useState(allCategory)

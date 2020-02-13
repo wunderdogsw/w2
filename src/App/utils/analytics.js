@@ -1,7 +1,7 @@
 import ga from 'react-ga'
 import noop from 'lodash.noop'
 import Cookies from 'js-cookie'
-import { ALLOW_COOKIES } from 'App/constants'
+import { ALLOW_COOKIES } from '../constants'
 
 export const okToTrack = (() => {
   let inited = false

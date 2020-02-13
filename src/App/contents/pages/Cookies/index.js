@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Indent from 'App/components/Indent'
-import Chapter from 'App/components/Chapter'
-import TransitionLink from 'App/components/TransitionLink'
 
+import MainTitle from '../../../components/MainTitle'
+import Chapter from '../../../components/Chapter'
+import TransitionLink from '../../../components/TransitionLink'
 
 export default () => (
   <Fragment>

@@ -1,10 +1,8 @@
-import './index.css'
 import React, { Component } from 'react'
 import Cookies from 'js-cookie'
-import Button from 'App/components/Button'
-import { ALLOW_COOKIES } from 'App/constants'
-import { initAnalytics } from 'App/utils/analytics'
 
+import './index.css'
+import { ALLOW_COOKIES } from '../../constants'
 
 // Disallowing cookies will disable analytics tracking.
 // See App/utils/analytics.js

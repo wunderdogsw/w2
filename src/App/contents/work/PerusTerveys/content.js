@@ -1,14 +1,8 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Keywords from 'App/components/Keywords'
-import Image from 'App/components/Image'
-import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
-import DatLine from 'App/components/DatLine'
 
+import Image from '../../../components/Image'
+import Chapter from '../../../components/Chapter'
+import Summary from '../../../components/Summary'
 import photo from './perusterveys-photo.png'
 
 export default () => (

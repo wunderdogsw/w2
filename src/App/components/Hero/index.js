@@ -1,10 +1,8 @@
 import './index.css'
 import React, { Component } from 'react'
 import cs from 'classnames'
-import throttle from 'lodash.throttle'
-import { withState } from 'App/state'
-import { Hero as Content } from 'App/contents/other'
-
+import { withState } from '../../state'
+import { Hero as Content } from '../../contents/other'
 
 export default withState(
   class extends Component {

@@ -1,28 +1,17 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Image from 'App/components/Image'
-import Indent from 'App/components/Indent'
-import Chapter from 'App/components/Chapter'
-import ImageTextRow from 'App/components/ImageTextRow'
-import CallToAction from 'App/components/CallToAction'
-import LatestBlogPosts from 'App/components/LatestBlogPosts'
-import Stats from 'App/components/Stats'
-import BlockQuote from 'App/components/BlockQuote'
-import Video from 'App/components/Video'
-import TransitionLink from 'App/components/TransitionLink'
 
-import { OpenPositions } from 'App/contents/callToActions'
-import { FunStats } from 'App/contents/stats'
-import { CareerBlogPostsContent } from 'App/contents/other'
-
+import CssVars from '../../../components/CssVars'
+import MainTitle from '../../../components/MainTitle'
+import Image from '../../../components/Image'
+import Chapter from '../../../components/Chapter'
+import CallToAction from '../../../components/CallToAction'
+import BlockQuote from '../../../components/BlockQuote'
+import Video from '../../../components/Video'
+import TransitionLink from '../../../components/TransitionLink'
+import { OpenPositions } from '../../callToActions'
 import hero from './joinus1.jpg'
 import photo1 from './joinus2.jpg'
-import photo2 from './joinus3.jpg'
 import photo3 from './joinus4.jpg'
-
 
 export default () => (
   <Fragment>

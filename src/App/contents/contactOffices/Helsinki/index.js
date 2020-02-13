@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
-import TransitionLink from 'App/components/TransitionLink'
+
+import TransitionLink from '../../../components/TransitionLink'
 
 export default ({minimal}) => (
   <Fragment>

@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
-import Button from 'App/components/Button'
-import Grid from 'App/components/Grid'
-import DoubleLine from 'App/components/DoubleLine'
-import TransitionLink from 'App/components/TransitionLink'
+
+import TransitionLink from '../../../components/TransitionLink'
 
 export default () => (
   <Fragment>

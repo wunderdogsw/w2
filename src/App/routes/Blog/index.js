@@ -1,15 +1,14 @@
-import Keywords from 'App/components/Keywords'
-import MainTitle from 'App/components/MainTitle'
-import Image from 'App/components/Image'
-import NotFound from 'App/components/NotFound'
-import SubTitle from 'App/components/SubTitle'
-import * as blogPages from 'App/contents/blog'
-import { pageview } from 'App/utils/analytics'
 import React, { Component, Fragment } from 'react'
-import Button from 'App/components/Button'
-import Footer from 'App/components/Footer'
-import FooterNext from 'App/components/FooterNext'
-import { FooterBottom } from 'App/contents/other'
+
+import Keywords from '../../components/Keywords'
+import MainTitle from '../../components/MainTitle'
+import Image from '../../components/Image'
+import SubTitle from '../../components/SubTitle'
+import * as blogPages from '../../contents/blog'
+import { pageview } from '../../utils/analytics'
+import Footer from '../../components/Footer'
+import FooterNext from '../../components/FooterNext'
+import { FooterBottom } from '../../contents/other'
 
 let pages = Object.entries(blogPages).reduce((res, [key, value]) => {
   res[

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
-import Indent from 'App/components/Indent'
+
+import Chapter from '../../../components/Chapter'
+import Image from '../../../components/Image'
 
 import home from './home-image.jpg'
 

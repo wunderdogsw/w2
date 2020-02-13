@@ -1,12 +1,12 @@
-import './index.css'
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import SubTitle from 'App/components/SubTitle'
-import Chapter from 'App/components/Chapter'
+import HubspotForm from 'react-hubspot-form'
+
+import './index.css'
+import CssVars from '../../../components/CssVars'
+import SubTitle from '../../../components/SubTitle'
+import Chapter from '../../../components/Chapter'
 import PingPongCustomHeader from './PingPongCustomHeader'
 import PingPongCustomHero from './PingPongCustomHero'
-import HubspotForm from 'react-hubspot-form'
 
 export default () => (
   <Fragment>

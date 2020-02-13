@@ -1,19 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import { State } from 'App/state'
-import Splash from 'App/components/Splash'
-import Header from 'App/components/Header'
-import Footer from 'App/components/Footer'
-import CookieMonster from 'App/components/CookieMonster'
-import Home from 'App/routes/Home'
-import Blog from 'App/routes/Blog'
-import Work from 'App/routes/Work'
-import General from 'App/routes/General'
-import { MainFooter, LetsTalk, NextProject } from 'App/contents/callToActions'
-import {
-  FooterBottom,
-  CookieDisclamer,
-} from 'App/contents/other'
+
+import { State } from './state'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './routes/Home'
+import Blog from './routes/Blog'
+import Work from './routes/Work'
+import General from './routes/General'
+import { MainFooter } from './contents/callToActions'
+import { FooterBottom } from './contents/other'
 
 export default () => (
   <BrowserRouter>

@@ -1,8 +1,7 @@
-import BlockQuote from 'App/components/BlockQuote'
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
-import TransitionLink from 'App/components/TransitionLink'
 import React, { Fragment } from 'react'
+
+import BlockQuote from '../../../components/BlockQuote'
+import Chapter from '../../../components/Chapter'
 
 export default () => (
   <Fragment>

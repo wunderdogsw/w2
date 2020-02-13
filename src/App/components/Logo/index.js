@@ -1,12 +1,10 @@
-import cx from './index.css'
-
 import React, { Component, Fragment } from 'react'
 import shuffle from 'lodash.shuffle'
 import cs from 'classnames'
 import prefixStyles from 'inline-style-prefixer/static'
-import TransitionLink from 'App/components/TransitionLink'
 
-
+import cx from './index.css'
+import TransitionLink from '../TransitionLink'
 
 // Changing this wont change the logo text. Its only used to count letters
 const LETTERS = 'wunderdog'.split('')

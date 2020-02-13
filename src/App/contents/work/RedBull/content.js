@@ -1,18 +1,12 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import CssVars from 'App/components/CssVars'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Keywords from 'App/components/Keywords'
-import Image from 'App/components/Image'
-import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
-import DatLine from 'App/components/DatLine'
+
+import Image from '../../../components/Image'
+import Chapter from '../../../components/Chapter'
+import Summary from '../../../components/Summary'
 
 import mockup from './redbull-mockup.png'
 import photo1 from './redbull-photo1.png'
 import photo2 from './redbull-photo2.png'
-
 
 export default () => (
   <Fragment>

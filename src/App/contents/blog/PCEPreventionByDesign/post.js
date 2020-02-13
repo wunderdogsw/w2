@@ -1,10 +1,8 @@
-import BlockQuote from 'App/components/BlockQuote'
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import MainTitle from 'App/components/MainTitle'
 
-import hero from './designblog-3.jpg'
+import BlockQuote from '../../../components/BlockQuote'
+import Chapter from '../../../components/Chapter'
+import Image from '../../../components/Image'
 import photo1 from './designblog-1.jpg'
 import photo2 from './designblog-2.jpg'
 import photo3 from './designblog-4.jpg'

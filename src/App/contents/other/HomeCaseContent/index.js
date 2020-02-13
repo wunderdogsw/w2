@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
-import Button from 'App/components/Button'
+
+import Button from '../../../components/Button'
 
 export default () => (
   <Fragment>

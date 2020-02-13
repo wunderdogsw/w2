@@ -1,8 +1,9 @@
-import BlockQuote from 'App/components/BlockQuote'
-import Chapter from 'App/components/Chapter'
-import Image from 'App/components/Image'
 import React, { Fragment } from 'react'
-import Video from 'App/components/Video'
+
+import BlockQuote from '../../../components/BlockQuote'
+import Chapter from '../../../components/Chapter'
+import Image from '../../../components/Image'
+import Video from '../../../components/Video'
 import photo1 from './typescript-photo1.jpg'
 
 export default () => (

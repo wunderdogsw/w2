@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 
+import MainTitle from '../../../components/MainTitle'
+import SubTitle from '../../../components/SubTitle'
 
 const FRAMES = [
   '¯\\_(ツ)_/¯',

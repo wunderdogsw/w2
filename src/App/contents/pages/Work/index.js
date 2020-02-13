@@ -1,13 +1,11 @@
-import React, { Fragment, useState } from 'react'
-import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
-import Card from 'App/components/Card'
-import CardContainer from 'App/components/CardContainer'
-import CardsGrid from 'App/components/CardsGrid'
-import cs from 'classnames'
-import Image from 'App/components/Image'
-import Navigation from 'App/components/Navigation'
-import { works } from 'App/routes/Work'
+import React, { Fragment } from 'react'
+
+import MainTitle from '../../../components/MainTitle'
+import Card from '../../../components/Card'
+import CardContainer from '../../../components/CardContainer'
+import CardsGrid from '../../../components/CardsGrid'
+import Image from '../../../components/Image'
+import { works } from '../../../routes/Work'
 
 export default () => (
   <Fragment>

@@ -1,9 +1,9 @@
-import './index.css'
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
-import { NotFound as Content } from 'App/contents/other'
-import { event } from 'App/utils/analytics'
 
+import './index.css'
+import { NotFound as Content } from '../../contents/other'
+import { event } from '../../utils/analytics'
 
 export default withRouter(
   class extends Component {

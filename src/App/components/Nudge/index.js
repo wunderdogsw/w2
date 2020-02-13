@@ -1,8 +1,8 @@
-import './index.css'
 import React, { Component } from 'react'
 import cs from 'classnames'
-import { withState } from 'App/state'
 
+import './index.css'
+import { withState } from '../../state'
 
 export default withState(
   class extends Component {

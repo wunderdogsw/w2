@@ -1,6 +1,6 @@
 import './index.css'
 import React from 'react'
-import { Intro as Content } from 'App/contents/other'
+import { Intro as Content } from '../../contents/other'
 
 export default ({ children }) => (
   <div className="Intro"
