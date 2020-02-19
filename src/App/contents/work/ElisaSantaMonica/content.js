@@ -86,21 +86,16 @@ export default () => (
     <Summary>
       <h2>The challenge</h2>
       <p>
-      Information about delivery times and methods was communicated manually,
-      placing a burden on ESM’s sales and customer service teams. Data
-      wasn’t easy to access and customer support information for different
-      devices was stored in several different places.
+        Information about delivery times and methods was communicated manually,
+        placing a burden on ESM’s sales and customer service teams. Data
+        wasn’t easy to access and customer support information for different
+        devices was stored in several different places.
       </p>
       <h2>The result</h2>
       <p>
-      We created a self-service portal that gathers together relevant
-      information for customers.
-      By digitalizing ESM’s services, we improved service quality.
-        </p>
-      <h2>Technologies used</h2>
-        <p>
-      Ansible, CI, Docker, Docker Compose, Express, Javascript, Jenkins,
-      Jest, JS, Kanban, Node, NPM, React, Typescript
+        We created a self-service portal that gathers together relevant
+        information for customers.
+        By digitalizing ESM’s services, we improved service quality.
       </p>
     </Summary>
 

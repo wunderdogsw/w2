@@ -28,8 +28,8 @@ export default () => (
       utilized well.”
       </p>
       <BlockQuote by="Pia Ruusukivi, Director at Alma Talent">
-        “We’re pleased we found a partner that has been able to live up to our
-        expectations.”
+        We’re pleased we found a partner that has been able to live up to our
+        expectations.
       </BlockQuote>
     </Chapter>
     <Chapter>
@@ -87,17 +87,13 @@ export default () => (
     <Summary>
       <h2>The challenge</h2>
       <p>
-      Keep a media corporation ahead of the game with constant
-      digital development.
+        Keep a media corporation ahead of the game with constant
+        digital development.
       </p>
       <h2>The result</h2>
       <p>
-      A successful five-year-and-counting collaboration working closely
-      in their teams.
-        </p>
-      <h2>Technologies used</h2>
-      <p>
-      Java, Go, Typescript, JavaScript, MongoDB, Spring, Angular
+        A successful five-year-and-counting collaboration working closely
+        in their teams.
       </p>
     </Summary>
 
