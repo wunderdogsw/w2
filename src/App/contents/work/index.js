@@ -3,21 +3,25 @@
 
 import importedComponent from 'react-imported-component'
 
+import almamedia from './AlmaMedia'
+export const AlmaMedia = almamedia
 import blueprintgenetics from './BlueprintGenetics'
-import grib from './Grib'
-import mieli from './Mieli'
-import oodi from './Oodi'
-import perusterveys from './PerusTerveys'
-import pexraytech from './Pexraytech'
-import redbull from './RedBull'
-import smartly from './Smartly'
-import someturva from './Someturva'
 export const BlueprintGenetics = blueprintgenetics
+import elisasantamonica from './ElisaSantaMonica'
+export const ElisaSantaMonica = elisasantamonica
+import grib from './Grib'
 export const Grib = grib
+import mieli from './Mieli'
 export const Mieli = mieli
+import oodi from './Oodi'
 export const Oodi = oodi
+import perusterveys from './PerusTerveys'
 export const PerusTerveys = perusterveys
+import pexraytech from './Pexraytech'
 export const Pexraytech = pexraytech
+import redbull from './RedBull'
 export const RedBull = redbull
+import smartly from './Smartly'
 export const Smartly = smartly
+import someturva from './Someturva'
 export const Someturva = someturva
