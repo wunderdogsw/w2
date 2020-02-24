@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './rahamylly-hero1.jpg'
+import image from './rahamylly-hero.jpg'
 
 export default {
   title: 'Investing in a good idea',
