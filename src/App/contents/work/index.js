@@ -19,6 +19,8 @@ import perusterveys from './PerusTerveys'
 export const PerusTerveys = perusterveys
 import pexraytech from './Pexraytech'
 export const Pexraytech = pexraytech
+import rahamylly from './Rahamylly'
+export const Rahamylly = rahamylly
 import redbull from './RedBull'
 export const RedBull = redbull
 import smartly from './Smartly'
