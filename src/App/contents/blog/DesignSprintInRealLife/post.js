@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react'
-
-import BlockQuote from '../../../components/BlockQuote'
 import Chapter from '../../../components/Chapter'
+import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
+import TransitionLink from '../../../components/TransitionLink'
+
 import photo1 from './construction.jpg'
-import photo2 from './construction-waste.jpg'
+import photo2 from './pick-up-truck.jpg'
+import photo3 from './worksite.jpg'
 
 export default () => (
   <Fragment>
@@ -15,25 +17,36 @@ export default () => (
         Design Sprint was used in a customer project. This project was
         anonymous, so we’ll be calling our customer “company X”.
         </i>
+        </p>
+        <p>
+        <i>
+        You can download our Design Sprint e-book as a pdf <TransitionLink to='http://landing.wunder.dog/designsprint'>
+        here.</TransitionLink>
+        </i>
       </p>
-    </Chapter>
-    <Chapter>
+      </Chapter>
+      <Chapter>
     <h2>Introduction</h2>
       <p>
-        Our goal was to use the Design Sprint methodology and include as much
+        Our goal was to use the <TransitionLink to='https://wunder.dog/blog/design-sprint'>
+        Design Sprint</TransitionLink> methodology and include as much
         experimentation, to create evidence that would reveal the viability of
         the innovation. The insight for the “construction marketplace” came from
-        company X’s ‘strategy days’, where a number of initiatives were created
-        through ideation. Initial problem definition from our customer’s brief
+        company X’s strategy days, where a number of initiatives were created
+        through ideation.
+        </p>
+        <p>
+        Initial problem definition from our customer’s brief
         described the construction companies, which are their customers,
-        to have the following problem: Construction companies always order
+        to have the following problem:
+        Construction companies always order
         excessive amounts of resources in order to avoid material delays when
         the construction project is on-going, due to labor costs. This causes
         the unused resources ending up as waste. And this creates unnecessary
         waste management costs to the construction company, lowers their
         environmental performance and is a detriment to the circular economy.
-      <p>
-      </p>
+        </p>
+        <p>
         Company X wanted to explore how to solve this problem with a design
         sprint, which had the following challenge statement:
         “How might we create an after-market for the unused construction
@@ -46,7 +59,7 @@ export default () => (
         estimate was thought to be in the range of 10-20%.
     </BlockQuote>
       <p>
-      <b>Day 1</b>
+      <b>Day 1: Problem definition</b>
       </p>
       <p>
         Four interviews were conducted with X’s construction company customers.
@@ -86,8 +99,12 @@ export default () => (
       <p>
         As we began the ideation based on key activities we had come up with two
         alternative solutions for the after-market:
-        Low-cost after-market (online order & physical pick up)
-        Zero-cost after-market (waste delivery)
+        </p>
+        <p>
+        ° Low-cost after-market (online order & physical pick up)
+        </p>
+        <p>
+        ° Zero-cost after-market (waste delivery)
       </p>
       <p>
         We identified the need to conduct a flash survey for consumers.
@@ -106,7 +123,7 @@ export default () => (
         unprofitable.
       </BlockQuote>
       <p>
-      <b>Day 2</b>
+      <b>Day 2: Designing the experiments</b>
       </p>
       <p>
         The interview’s revealed no interest from the business customers to
@@ -129,8 +146,9 @@ export default () => (
         We proceeded to create the second experiment to validate consumer’s
         interest and research their behavior (jobs, pains, and gains).
       </p>
-      <Image src={photo2} alt='construction-waste' />
+      <Image src={photo2} alt='pick-up-truck' />
       <p>
+        Two MVP scenarios were the basis of designing the experiments.
         Two realistic-looking webshops were quickly drafted in sketch and coded
         into responsive landing pages to split test the two ‘competing’ models,
         or as we named the test during the project: speculative
@@ -146,13 +164,20 @@ export default () => (
         heatmaps to analyze the entire data as behavioral patterns. This
         combination would provide the data as experimental evidence for
         decision making.
+        </p>
+        <p>
+        To validate the value propositions of business model A and B, a
+        small budget was allocated for facebook and adwords campaigns.
+        These campaigns would create the traffic for the split test and this
+        enabled us to compare the engagement of value propositions during
+        the same experiment.
       </p>
       <BlockQuote>
         Much to our
         surprise, the disruptive concept was the clear winner.
       </BlockQuote>
       <p>
-      <b>Day 5</b>
+      <b>Day 5: Evidence from the experiments</b>
       </p>
       <p>
         As the team met up again on Monday, the results were in. Much to our
@@ -167,7 +192,7 @@ export default () => (
         simple and easy ways to get this concept to the market.
       </p>
       <p>
-      <b>Day 6</b>
+      <b>Day 6: Findings</b>
       </p>
       <p>
         We spent some time going through the screen recording from the Hotjar
@@ -183,34 +208,46 @@ export default () => (
         surprise
         was not seen interesting from construction companies in the same
         context.
-        The decision was made by reasoning it from the perspective of ‘core
+        The decision was made by reasoning it from the perspective of core
         business.
       </p>
+      <Image src={photo3} alt='worksite' />
       <p>
-      <b>Day 7</b>
+      <b>Day 7: Conclusions</b>
       </p>
       <p>
-      The last business experiment run provided better results for both models
-      but there was still a clear advantage for the disruptive concept.
-      A summary of the sprint was created and key stakeholders interviewed to
-      understand what worked well and how the process might be improved.
-      Some traditional service design tasks were listed as well as running
-      the concepts through with X’s legal department to proceed with the
-      project into an MVP phase and potentially launch it as a pilot project.
-      This innovation has the potential of shifting business models of the
-      circular economy but as it is still in its infancy. The key to successful
-      innovation is continuous experimentation as it can provide ways to get
-      this product to the market quickly.
+        The last business experiment run provided better results for both models
+        but there was still a clear advantage for the disruptive concept.
+        A summary of the sprint was created and key stakeholders interviewed to
+        understand what worked well and how the process might be improved.
+        Some traditional service design tasks were listed as well as running
+        the concepts through with X’s legal department to proceed with the
+        project into an MVP phase and potentially launch it as a pilot project.
+        This innovation has the potential of shifting business models of the
+        circular economy but as it is still in its infancy. The key to
+        successful
+        innovation is continuous experimentation as it can provide ways to get
+        this product to the market quickly.
       </p>
+      <BlockQuote>
+        We made remarkable progress in one week.
+      </BlockQuote>
       <p>
-      Previous experiences of using design sprints to validate problems by using
-      the method ‘by-the-book’ has created results that do not connect with
-      execution. The research discovered this same disconnect with design
-      thinking projects. By taking the idea of time-boxed rapid validation
-      from the design sprint and employing two essential business design tools,
-      business model canvas and value proposition canvas, we made remarkable
-      progress in one week.
+        Previous experiences of using design sprints to validate problems by
+        using
+        the method ‘by-the-book’ has created results that do not connect with
+        execution. The research discovered this same disconnect with design
+        thinking projects. By taking the idea of time-boxed rapid validation
+        from the design sprint and employing two essential business design
+        tools,
+        business model canvas and value proposition canvas, we made remarkable
+        progress in one week.
+        </p>
+        <p>
+        Company X was especially pleased with the design of the experiment and
+        how it provided them useful data to support decision making and reduced
+        risks in the fuzzy front-end of an innovation project. 
       </p>
     </Chapter>
-  </Fragment>
+    </Fragment>
 )

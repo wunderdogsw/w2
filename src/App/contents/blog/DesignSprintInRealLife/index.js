@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './construction.jpg'
+import image from './construction-site.jpg'
 
 export default {
   title: 'How our customer experimented new business models with Design Sprint',
