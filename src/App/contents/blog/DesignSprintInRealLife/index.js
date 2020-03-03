@@ -1,8 +1,8 @@
 import importedComponent from 'react-imported-component'
-import image from './construction-site.jpg'
+import image from './L&T.jpg'
 
 export default {
-  title: 'How our customer experimented new business models with Design Sprint',
+  title: 'How Lassila & Tikanoja experimented new business models with Design Sprint',
   author: {
     name: 'Juha Larm',
     title: 'Head of Design'

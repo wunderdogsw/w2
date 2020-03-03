@@ -4,8 +4,8 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
 
-import photo1 from './construction.jpg'
-import photo2 from './pick-up-truck.jpg'
+import photo1 from './L&T2.jpg'
+import photo2 from './L&T3.jpg'
 import photo3 from './worksite.jpg'
 
 export default () => (
@@ -14,8 +14,7 @@ export default () => (
       <p>
         <i>
         In this blog post, we’ll present a great real-life example of how
-        Design Sprint was used in a customer project. This project was
-        anonymous, so we’ll be calling our customer “company X”.
+        Design Sprint was used in a customer project.
         </i>
         </p>
         <p>
@@ -32,11 +31,11 @@ export default () => (
         Design Sprint</TransitionLink> methodology and include as much
         experimentation, to create evidence that would reveal the viability of
         the innovation. The insight for the “construction marketplace” came from
-        company X’s strategy days, where a number of initiatives were created
+        L&T's strategy days, where a number of initiatives were created
         through ideation.
         </p>
         <p>
-        Initial problem definition from our customer’s brief
+        Initial problem definition from L&T's brief
         described the construction companies, which are their customers,
         to have the following problem:
         Construction companies always order
@@ -47,7 +46,7 @@ export default () => (
         environmental performance and is a detriment to the circular economy.
         </p>
         <p>
-        Company X wanted to explore how to solve this problem with a design
+        L&T wanted to explore how to solve this problem with a design
         sprint, which had the following challenge statement:
         “How might we create an after-market for the unused construction
         material for consumers so that it could be used in its original intent?"
@@ -62,7 +61,8 @@ export default () => (
       <b>Day 1: Problem definition</b>
       </p>
       <p>
-        Four interviews were conducted with X’s construction company customers.
+        Four interviews were conducted with L&T’s construction company
+        customers.
         These interviews were in line with the initial problem discovery but
         provided additional data to validate the problem. Smaller construction
         companies and construction managers provided their estimations on the
@@ -85,13 +85,13 @@ export default () => (
         proposition as the tools to make sure we are creating hypotheses and
         ideas for the most business-critical aspects of this concept.
       </p>
-      <Image src={photo1} alt='construction' />
+      <Image src={photo1} alt='L&T2' />
       <p>
         We decided to experiment with this approach in the business model
         canvas.
         We found the most important zero point for the cost of construction
         waste
-        to X’s business customers. However, this approach led us to discover
+        to L&T’s business customers. However, this approach led us to discover
         another zero point for the material and this raised an interesting
         proposal for further investigation: “What if the products on the
         after-market were free and we would charge only for the logistics?”
@@ -146,7 +146,7 @@ export default () => (
         We proceeded to create the second experiment to validate consumer’s
         interest and research their behavior (jobs, pains, and gains).
       </p>
-      <Image src={photo2} alt='pick-up-truck' />
+      <Image src={photo2} alt='L&T3' />
       <p>
         Two MVP scenarios were the basis of designing the experiments.
         Two realistic-looking webshops were quickly drafted in sketch and coded
@@ -167,7 +167,7 @@ export default () => (
         </p>
         <p>
         To validate the value propositions of business model A and B, a
-        small budget was allocated for facebook and adwords campaigns.
+        small budget was allocated for Facebook and AdWords campaigns.
         These campaigns would create the traffic for the split test and this
         enabled us to compare the engagement of value propositions during
         the same experiment.
@@ -188,7 +188,7 @@ export default () => (
       </p>
       <p>
         As the experiments were providing evidence we continued to interview
-        company X’s key stakeholders to better understand what could be the
+        L&T’s key stakeholders to better understand what could be the
         simple and easy ways to get this concept to the market.
       </p>
       <p>
@@ -221,7 +221,7 @@ export default () => (
         A summary of the sprint was created and key stakeholders interviewed to
         understand what worked well and how the process might be improved.
         Some traditional service design tasks were listed as well as running
-        the concepts through with X’s legal department to proceed with the
+        the concepts through with L&T’s legal department to proceed with the
         project into an MVP phase and potentially launch it as a pilot project.
         This innovation has the potential of shifting business models of the
         circular economy but as it is still in its infancy. The key to
@@ -244,9 +244,9 @@ export default () => (
         progress in one week.
         </p>
         <p>
-        Company X was especially pleased with the design of the experiment and
+        L&T was especially pleased with the design of the experiment and
         how it provided them useful data to support decision making and reduced
-        risks in the fuzzy front-end of an innovation project. 
+        risks in the fuzzy front-end of an innovation project.
       </p>
     </Chapter>
     </Fragment>
