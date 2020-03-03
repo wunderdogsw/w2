@@ -12,7 +12,7 @@ import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
-import TransitionLink from '../../../components/TransitionLink'
+import TransitionLink from 'App/components/TransitionLink'
 
 import photo1 from './rahamylly-photo1.jpg'
 import photo2 from './rahamylly-photo2.jpg'
