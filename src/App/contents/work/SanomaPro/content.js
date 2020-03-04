@@ -8,7 +8,7 @@ import Summary from '../../../components/Summary'
 import photo2 from './Design-Sprint.jpg'
 import photo3 from './Design-Sprint1.jpg'
 import photo4 from './Design-Sprint4.jpg'
-import photo5 from './Design-Sprint4.jpg'
+
 
 
 
