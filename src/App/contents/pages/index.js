@@ -5,6 +5,7 @@ import importedComponent from 'react-imported-component'
 
 export const AboutUs = importedComponent(() => import('./AboutUs'))
 export const Blog = importedComponent(() => import('./Blog'))
+export const BuildForGrowthWorkshop = importedComponent(() => import('./BuildForGrowthWorkshop'))
 export const Career = importedComponent(() => import('./Career'))
 export const Contact = importedComponent(() => import('./Contact'))
 export const Cookies = importedComponent(() => import('./Cookies'))
