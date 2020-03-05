@@ -4,9 +4,13 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
 
-import photo1 from './L&T2.jpg'
+import photo1 from './calendar.jpg'
 import photo2 from './L&T3.jpg'
-import photo3 from './worksite.jpg'
+import photo3 from './fb-results.jpg'
+import photo4 from './prototypes.jpg'
+import photo5 from './hotjar.jpg'
+import photo6 from './ad-campaign.jpg'
+
 
 export default () => (
   <Fragment>
@@ -145,8 +149,7 @@ export default () => (
       <p>
         We proceeded to create the second experiment to validate consumer’s
         interest and research their behavior (jobs, pains, and gains).
-      </p>
-      <Image src={photo2} alt='L&T3' />
+        </p>
       <p>
         Two MVP scenarios were the basis of designing the experiments.
         Two realistic-looking webshops were quickly drafted in sketch and coded
@@ -154,6 +157,7 @@ export default () => (
         or as we named the test during the project: speculative
         ‘Business Battle Royale’.
       </p>
+      <Image src={photo4} alt='prototypes' />
       <p>
         Both landing pages had Google Analytics and Hotjar screen recording
         analytics. Google Analytics would provide the data of visitors and the
@@ -202,6 +206,7 @@ export default () => (
         closing the dropdowns which would indicate that they really perceived
         this to be an actual product.
       </p>
+      <Image src={photo5} alt='hotjar' />
       <p>
         The second research case discovered the potential business opportunity
         for an after-market of unused construction material which to our
@@ -212,6 +217,7 @@ export default () => (
         business.
       </p>
       <Image src={photo3} alt='worksite' />
+      <Image src={photo6} alt='ad-campaign' />
       <p>
       <b>Day 7: Conclusions</b>
       </p>
