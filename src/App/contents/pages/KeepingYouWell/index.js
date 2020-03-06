@@ -42,7 +42,7 @@ export default () => (
       may face online. The application is a service offering low-threshold
       legal assistance for problems such as bullying, harassment, or the
       dissemination of private data. The app has the heart of an AI but
-      the kindness and empathy of a human.
+      the kindness and empathy of a human. 
       </p>
     </Chapter>
 
