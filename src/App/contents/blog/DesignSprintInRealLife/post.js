@@ -18,7 +18,7 @@ export default () => (
       <p>
         <i>
         In this blog post, we’ll present a great real-life example of how
-        Design Sprint was used in a customer project.
+        Design Sprint was used in a customer project. 
         </i>
         </p>
         <p>
