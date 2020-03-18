@@ -17,6 +17,8 @@ import designsprintthree from './DesignSprintThree'
 export const DesignSprintThree = designsprintthree
 import designsprinttwo from './DesignSprintTwo'
 export const DesignSprintTwo = designsprinttwo
+import domaindrivendesigninpractice from './DomainDrivenDesignInPractice'
+export const DomainDrivenDesignInPractice = domaindrivendesigninpractice
 import dontplayitagain from './DontPlayItAgain'
 export const DontPlayItAgain = dontplayitagain
 import galtalkstech from './GalTalksTech'
