@@ -27,3 +27,5 @@ import smartly from './Smartly'
 export const Smartly = smartly
 import someturva from './Someturva'
 export const Someturva = someturva
+import tridify from './Tridify'
+export const Tridify = tridify
