@@ -1,11 +1,11 @@
 import importedComponent from 'react-imported-component'
-import image from './someturva-hero.jpg'
+import image from './tridify-Wunderdog2.jpg'
 
 export default {
-  title: 'Delivering justice for young people online',
-  client: 'Someturva',
-  publishDate: 'November 14, 2019',
-  keywords: 'React, UX Design',
+  title: 'Constructing a more agile environment',
+  client: 'Tridify',
+  publishDate: 'March 18, 2020',
+  keywords: 'Full-stack development, Technology Lead',
   image: image,
 
   content: importedComponent(() => import('./content')),

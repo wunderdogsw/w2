@@ -8,107 +8,96 @@ import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
-import photo1 from './someturva-1.jpg'
-import photo2 from './someturva-2.jpg'
-import photo3 from './someturva-3.jpg'
+import photo1 from './Tridify-Hippos-arena.jpg'
+import photo2 from './Tridify-view-your-bim1.jpg'
+import photo3 from './Tridify-Wunderdog3.jpg'
 
 
 export default () => (
   <Fragment>
   <Chapter>
-    <h2>Our like-able solution</h2>
+    <h2>Our best-practise solution</h2>
     <p>
-      The first step we took together was a roadmap sprint where we created the
-      future plans for development. After this, it was time to roll up our
-      sleeves and start building the prototype and getting validation from
-      users on both the need and the solution. The validation work was completed
-      in spring 2018, when the founding team had everything they needed to
-      continue building Someturva.
+      In spring 2019, Wunderdog’s consultants joined Tridify’s development team.
+      We helped to improve the product development process and facilitated
+      meetings to create more agile ways of working. We also helped the
+      development team to use more rigorous code review processes, as well as
+      helping build more effective pair-programming practices.
     </p>
+    <h2>The bright idea</h2>
     <p>
-      Our paths crossed again a year later, in spring 2019. Someturva operations
-      had moved forward a lot and it was time to create the actual Someturva
-      service.
-    </p>
-    <p>
-      Our designers formulated a top-notch UX for the service. Our dear
-      friends at Polar Squad, a DevOps company that is part of the Wunderdog
-      ecosystem, equipped the service with the power of Kubernetes. The system
-      is micro-serviced with Node.js backends and NextJS frontends.
-    </p>
-    <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
-      When it comes to partners it is not just the people but the organization
-      as a whole that needs to understand the core dynamics of a startup.
-      Wunderdog has been the right partner for us.
+    Tridify is a software automation company in the AEC (architecture,
+    engineering, and construction) space. The company provides a fully
+    automated web service to quickly and easily convert, view and share
+    your Building Information Models (BIM) through a web link. Tridify was
+    established in Finland in 2012, with headquarters in Helsinki and sales
+    teams based in Singapore, Dubai, London, and Sydney.
+  </p>
+  <p>
+    What if you could quickly and easily convert, view, and share Building
+    Information Models (BIM) through a web link, using a fully automated web
+    service? Tridify’s easy-to-use tools enable customers to improve
+    productivity and have more time to be creative, opening up design and
+    construction processes to a broader base of decision makers, influencers,
+    and end users.
+  </p>
+    <BlockQuote>
+    External ideas, experiences, and points of view are sometimes needed to
+    freshen up and improve both the development process and the ways of working.
     </BlockQuote>
   </Chapter>
   <ImageRow>
-  <Indent twice>
-<Stats>
-  <div>
-    <span>18000</span>
-    <span>youngsters have accessed to the service so far</span>
-  </div>
-  <div>
-    <span>1000</span>
-    <span>people have received help from Someturva in resolving the crimes
-    they have reported</span>
-  </div>
-</Stats>
- </Indent>
     <Image src={ photo1 } alt="Someturva app" />
     <Image src={ photo2 } alt="Someturva app" />
   </ImageRow>
     <Chapter>
-      <h2>Setting the scene</h2>
-      <p>
-        What would you do if you were bullied on social media? It’s upsetting
-        for anyone, but can be particularly traumatizing for young people, who
-        often don’t know how to report crimes faced online – or even if they’re
-        crimes at all.
-      </p>
-    </Chapter>
-    <Chapter>
-      <h2>The bright idea</h2>
-      <p>
-        The idea of a service that could help people, especially younger people,
-        to report crimes faced online was dreamed up two years ago. Someturva
-        needed a tech partner to help their idea come to life – and this is
-        where the collaboration between Someturva and Wunderdog began.
-      </p>
-    </Chapter>
-    <Chapter>
       <h2>The inevitable challenge</h2>
       <p>
-        We needed to get a prototype ready fast in order to start getting
-        feedback on the service from users. This would then let us develop the
-        product iteratively in fast cycles – and give Someturva something
-        concrete to continue their negotiations with investors.
+        When a company’s core team is working with the same product for an
+        extended period, external ideas, experiences, and points of view are
+        sometimes needed to freshen up and improve both the development process
+        and the ways of working. Tridify also needed an extra pair of hands to
+        accelerate software development.
       </p>
     </Chapter>
     <ImageRow>
       <Image src={ photo3 } alt="Someturva app" />
     </ImageRow>
     <Chapter>
-      <h2>Success that speaks for itself</h2>
+      <h2>So how did it go?</h2>
       <p>
-        Someturva’s new web app was launched on time in September 2019 and is
-        now helping young people to report harassment and possible crimes faced
-        online. So far, the access code for the service has been given to
-        18,000 youngsters and the first reports have been received.
+        With the help of Wunderdog, Tridify’s development team is now working
+        much more efficiently. And because the work is better structured and
+        everyone has clear objectives and roles, working is also more fun for
+        everyone involved, with increased employee satisfaction in the
+        development team.
       </p>
     </Chapter>
-    <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" />
+    <Chapter>
+      <h2>
+        Success that speaks for itself
+      </h2>
+      <p>
+        Thanks to our knowledge of software development best practices, the
+        quality and efficiency of work has improved at Tridify:
+      </p>
+      <p><b>The development process is now more efficient.</b><br /></p>
+      <p><b>The code is better, with fewer bugs.</b><br /></p>
+      <p><b>The pace of product development has accelerated.</b><br /></p>
+    </Chapter>
     <Summary>
       <h2>The challenge</h2>
       <p>
-        Test the idea, and create an innovative product from scratch with
-        engaging UX design.
+        Tridify needed external ideas, experiences, and points of view to freshen
+        up and improve both the development process and the ways of working in
+        order to accelerate software development.
       </p>
       <h2>The result</h2>
       <p>
-        The product was launched in September 2019 - on time and on budget, and
-        Someturva is now expanding abroad.
+        We helped to improve the product development process and facilitated
+        meetings to create more agile ways of working. We also helped the
+        development team to use more rigorous code review processes, as well as
+        helping build more effective pair-programming practices.
       </p>
     </Summary>
   </Fragment>
