@@ -9,12 +9,13 @@ import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import { SeriousStats } from 'App/contents/stats'
 import Logos from 'App/components/Logos'
-import { Clients, Ecosystem } from 'App/contents/other'
+import { Clients2, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
+import Video from 'App/components/Video'
 
-import hero from './health-tech-wunderdog.jpg'
+import hero from './health-tech-wunderdog2.jpg'
 import photo1 from './somebuddy-wunderdog.jpg'
 import photo2 from './blueprint-genetics-wunderdog.jpg'
 
@@ -27,8 +28,20 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>Creating game changing health tech</MainTitle>
-    <SubTitle>
-      We believe things can be done better. You do too? Let's connect <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      <p>
+      Digitalization has disrupted the social and healthcare business. At its best,
+      technology makes everyday work easier and cost-efficient when new services
+      and automated solutions are introduced. But at its worst, it burdens the
+      staff and creates digital chaos. We at Wunderdog root for the first option -
+      we believe things can be done better with modern technology and smart ways of
+      working.  We’ve been part of several success stories from startups to
+      bigger players in the field.
+      </p>
+      <SubTitle>
+      <p>
+      Investing in the future happens now.
+      Contact us for consultancy <i><a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a> </i>
+      </p>
     </SubTitle>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
@@ -42,7 +55,7 @@ export default () => (
       may face online. The application is a service offering low-threshold
       legal assistance for problems such as bullying, harassment, or the
       dissemination of private data. The app has the heart of an AI but
-      the kindness and empathy of a human. 
+      the kindness and empathy of a human. <TransitionLink to='https://wunder.dog/work/someturva'>Read the full case study here.</TransitionLink>
       </p>
     </Chapter>
 
@@ -76,9 +89,7 @@ export default () => (
           </i>
         </p>
     </Chapter>
-
-    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
-
+    <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" indent="left"/>
     <Chapter>
       <h2>
         CASE: Blueprint Genetics
@@ -88,7 +99,7 @@ export default () => (
         transformed into a successful, growing business with a large set of
         commercial products and services all supported by modern digital
         solutions that are equipped to handle massive amounts of human genetic
-        data? Well, it did.
+        data? Well, it did. <TransitionLink to='https://wunder.dog/work/blueprint-genetics'>Read the full case study here.</TransitionLink>
         </p>
       </Chapter>
 
@@ -124,7 +135,7 @@ export default () => (
             </p>
         </Chapter>
 
-      <Image src={ photo2 } alt="Wunderdog people" indent="right" hero/>
+      <Image src={ photo2 } alt="Wunderdog people" indent="left" hero/>
 
 
     <Chapter>
@@ -134,7 +145,7 @@ export default () => (
     </Chapter>
     <Indent twice>
       <Logos>
-        <Clients />
+        <Clients2 />
       </Logos>
     </Indent>
     <Chapter>
