@@ -5,9 +5,9 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
-import photo1 from './Tridify-product.jpg'
-import photo2 from './Tridify-view-your-bim.jpg'
-import photo3 from './Tridify-combine-ifc-models-in-one view.jpg'
+import photo1 from './grib-photo1.jpg'
+import photo2 from './grib-photo2.jpg'
+import photo3 from './grib-photo3.jpg'
 
 export default () => (
   <Fragment>
