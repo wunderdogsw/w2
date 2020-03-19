@@ -98,7 +98,7 @@ export default () => (
         </p>
         <p>
         Grib won the Best Creative Industry of the Year category
-        at the Nordic Startup Awards in Devember 2019!
+        at the Nordic Startup Awards in December 2019!
       </p>
     </Summary>
 

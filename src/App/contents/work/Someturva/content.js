@@ -6,12 +6,59 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
+import Indent from '../../../components/Indent'
+import Stats from '../../../components/Stats'
 import photo1 from './someturva-1.jpg'
 import photo2 from './someturva-2.jpg'
 import photo3 from './someturva-3.jpg'
 
+
 export default () => (
   <Fragment>
+  <Chapter>
+    <h2>Our like-able solution</h2>
+    <p>
+      The first step we took together was a roadmap sprint where we created the
+      future plans for development. After this, it was time to roll up our
+      sleeves and start building the prototype and getting validation from
+      users on both the need and the solution. The validation work was completed
+      in spring 2018, when the founding team had everything they needed to
+      continue building Someturva.
+    </p>
+    <p>
+      Our paths crossed again a year later, in spring 2019. Someturva operations
+      had moved forward a lot and it was time to create the actual Someturva
+      service.
+    </p>
+    <p>
+      Our designers formulated a top-notch UX for the service. Our dear
+      friends at Polar Squad, a DevOps company that is part of the Wunderdog
+      ecosystem, equipped the service with the power of Kubernetes. The system
+      is micro-serviced with Node.js backends and NextJS frontends.
+    </p>
+    <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
+      When it comes to partners it is not just the people but the organization
+      as a whole that needs to understand the core dynamics of a startup.
+      Wunderdog has been the right partner for us.
+    </BlockQuote>
+  </Chapter>
+  <ImageRow>
+  <Indent twice>
+<Stats>
+  <div>
+    <span>18000</span>
+    <span>youngsters have accessed to the service so far</span>
+  </div>
+  <div>
+    <span>1000</span>
+    <span>people have received help from Someturva in resolving the crimes
+    they have reported</span>
+  </div>
+</Stats>
+ </Indent>
+    <Image src={ photo1 } alt="Someturva app" />
+    <Image src={ photo2 } alt="Someturva app" />
+  </ImageRow>
     <Chapter>
       <h2>Setting the scene</h2>
       <p>
@@ -37,37 +84,6 @@ export default () => (
         feedback on the service from users. This would then let us develop the
         product iteratively in fast cycles – and give Someturva something
         concrete to continue their negotiations with investors.
-      </p>
-    </Chapter>
-    <ImageRow>
-      <Image src={ photo1 } alt="Someturva app" />
-      <Image src={ photo2 } alt="Someturva app" />
-    </ImageRow>
-    <Chapter>
-      <h2>Our like-able solution</h2>
-      <p>
-        The first step we took together was a roadmap sprint where we created the
-        future plans for development. After this, it was time to roll up our
-        sleeves and start building the prototype and getting validation from
-        users on both the need and the solution. The validation work was completed
-        in spring 2018, when the founding team had everything they needed to
-        continue building Someturva.
-      </p>
-      <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
-        When it comes to partners it is not just the people but the organization
-        as a whole that needs to understand the core dynamics of a startup.
-        Wunderdog has been the right partner for us.
-      </BlockQuote>
-      <p>
-        Our paths crossed again a year later, in spring 2019. Someturva operations
-        had moved forward a lot and it was time to create the actual Someturva
-        service.
-      </p>
-      <p>
-        Our designers formulated a top-notch UX for the service. Our dear
-        friends at Polar Squad, a DevOps company that is part of the Wunderdog
-        ecosystem, equipped the service with the power of Kubernetes. The system
-        is micro-serviced with Node.js backends and NextJS frontends.
       </p>
     </Chapter>
     <ImageRow>
