@@ -7,9 +7,9 @@ export default {
     name: 'Guy Perkal',
     title: 'Software Consultant'
   },
-  publishDate: 'Mar 17, 2020',
-  readTimeMinutes: 7 ,
-  keywords: 'engineering',
+  publishDate: 'Feb 21, 2020',
+  readTimeMinutes: 3 ,
+  keywords: 'software, engineering',
   category: 'engineering',
   image: image,
 

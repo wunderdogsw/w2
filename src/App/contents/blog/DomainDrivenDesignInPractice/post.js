@@ -5,6 +5,7 @@ import ImageRow from '../../../components/ImageRow'
 import Image from '../../../components/Image'
 import BlockQuote from '../../../components/BlockQuote'
 import TransitionLink from '../../../components/TransitionLink'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './ecommerce.jpg'
 import photo2 from './clothing.jpg'
 
@@ -63,7 +64,6 @@ export default () => (
       a lot more to this topic, and you can read all about it in Eric J. Evans'
       book, where it was first introduced.
       </p>
-      </Chapter>
       <BlockQuote>
         Sometimes
         it’s very tempting when I start a new project to dive in and immediately
@@ -71,7 +71,6 @@ export default () => (
         and effort need to be put into defining and maintaining the business’
         underlying domain.
       </BlockQuote>
-      <Chapter>
       <p>
       <b>Step by step</b><br/>
       </p>
@@ -113,6 +112,20 @@ export default () => (
       perspective helps me with that. I previously mentioned the Toolkit
       library we wrote as part of this project. In the next article we’ll go
       more in depth into how that library was built, including code examples.
+      </p>
+      <p>
+      <i>
+      Interested? Let's talk.
+      </i>
+      </p>
+      <p>
+      <i>
+      Jasper van Ghemen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:hello@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +491752948023
+      </i>
       </p>
     </Chapter>
   </Fragment>
