@@ -19,14 +19,12 @@ import perusterveys from './PerusTerveys'
 export const PerusTerveys = perusterveys
 import pexraytech from './Pexraytech'
 export const Pexraytech = pexraytech
-import redbull from './RedBull'
-export const RedBull = redbull
-import sanomapro from './SanomaPro'
-export const SanomaPro = sanomapro
 import rahamylly from './Rahamylly'
 export const Rahamylly = rahamylly
 import redbull from './RedBull'
 export const RedBull = redbull
+import sanomapro from './SanomaPro'
+export const SanomaPro = sanomapro
 import smartly from './Smartly'
 export const Smartly = smartly
 import someturva from './Someturva'
