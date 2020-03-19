@@ -9,6 +9,7 @@ export const BuildForGrowthWorkshop = importedComponent(() => import('./BuildFor
 export const Career = importedComponent(() => import('./Career'))
 export const Contact = importedComponent(() => import('./Contact'))
 export const Cookies = importedComponent(() => import('./Cookies'))
+export const CreatingGameChangingHealthTech = importedComponent(() => import('./CreatingGameChangingHealthTech'))
 export const JoinUs = importedComponent(() => import('./JoinUs'))
 export const JoinUsBerlin = importedComponent(() => import('./JoinUsBerlin'))
 export const Pahkina = importedComponent(() => import('./Pahkina'))
