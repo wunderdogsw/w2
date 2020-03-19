@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './tridify-Wunderdog2.jpg'
+import image from './Tridify-Wunderdog2.jpg'
 
 export default {
   title: 'Constructing a more agile environment',
