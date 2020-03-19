@@ -13,14 +13,14 @@ import controlfreak from './ControlFreak'
 export const ControlFreak = controlfreak
 import designsprint from './DesignSprint'
 export const DesignSprint = designsprint
-import designsprintinreallife from './DesignSprintInRealLife'
-export const DesignSprintInRealLife = designsprintinreallife
 import designsprintthree from './DesignSprintThree'
 export const DesignSprintThree = designsprintthree
 import designsprinttwo from './DesignSprintTwo'
 export const DesignSprintTwo = designsprinttwo
 import dontplayitagain from './DontPlayItAgain'
 export const DontPlayItAgain = dontplayitagain
+import experimentingwithnewbusinessmodelsusingadesignsprint from './ExperimentingWithNewBusinessModelsUsingADesignSprint'
+export const ExperimentingWithNewBusinessModelsUsingADesignSprint = experimentingwithnewbusinessmodelsusingadesignsprint
 import galtalkstech from './GalTalksTech'
 export const GalTalksTech = galtalkstech
 import hank from './Hank'
