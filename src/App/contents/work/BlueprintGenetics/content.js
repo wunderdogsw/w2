@@ -7,6 +7,7 @@ import Summary from 'App/components/Summary'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 import BlockQuote from 'App/components/BlockQuote'
+import SubTitle from 'App/components/SubTitle'
 import photo1 from './blueprint-photo1.jpg'
 import photo2 from './blueprint-photo2.jpg'
 import photo3 from './blueprint-photo3.jpg'
@@ -113,6 +114,20 @@ export default () => (
         Blueprint Genetics to continue their great growth and success. The
         collaboration with two modern and fast-paced company was a success for
         everyone involved.
+      </p>
+      <p>
+      <i>
+      Interested? Let's talk.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
       </p>
     </Chapter>
     <Summary>
