@@ -122,7 +122,7 @@ export default () => (
       <i>
       Jasper van Ghemen, Business Development Lead
       <SubTitle>
-        <a className="noHyphen" href="mailto:hello@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
+        <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
       </SubTitle>
       +491752948023
       </i>
