@@ -8,6 +8,7 @@ import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './someturva-1.jpg'
 import photo2 from './someturva-2.jpg'
 import photo3 from './someturva-3.jpg'
@@ -96,6 +97,20 @@ export default () => (
         now helping young people to report harassment and possible crimes faced
         online. So far, the access code for the service has been given to
         18,000 youngsters and the first reports have been received.
+      </p>
+      <p>
+      <i>
+      Want to hear more? Let's talk
+      </i>
+      </p>
+      <p>
+      <i>
+      Pirkka Suominen, Business Development Manager
+      <SubTitle>
+        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358407551327
+      </i>
       </p>
     </Chapter>
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" />
