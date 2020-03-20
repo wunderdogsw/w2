@@ -253,7 +253,7 @@ export default () => (
       <i>
       Pirkka Suominen, Business Development Manager
       <SubTitle>
-      <a className="noHyphen" href="mailto:hello@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+      <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
       </SubTitle>
       +358407551327
       </i>
