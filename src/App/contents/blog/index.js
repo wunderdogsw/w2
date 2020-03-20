@@ -21,6 +21,8 @@ import domaindrivendesigninpractice from './DomainDrivenDesignInPractice'
 export const DomainDrivenDesignInPractice = domaindrivendesigninpractice
 import dontplayitagain from './DontPlayItAgain'
 export const DontPlayItAgain = dontplayitagain
+import experimentingwithnewbusinessmodelsusingadesignsprint from './ExperimentingWithNewBusinessModelsUsingADesignSprint'
+export const ExperimentingWithNewBusinessModelsUsingADesignSprint = experimentingwithnewbusinessmodelsusingadesignsprint
 import galtalkstech from './GalTalksTech'
 export const GalTalksTech = galtalkstech
 import hank from './Hank'
