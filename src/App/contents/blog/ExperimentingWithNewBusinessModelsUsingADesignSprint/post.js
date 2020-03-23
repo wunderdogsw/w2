@@ -8,7 +8,7 @@ import SubTitle from '../../../components/SubTitle'
 
 import photo1 from './Design-Sprint-calendar.jpg'
 import photo3 from './Design-Sprint-L&T2.jpg'
-import photo4 from './Design-Sprint-sketch.jpg'
+import photo4 from './design-sprint-sketch.jpg'
 
 export default () => (
   <Fragment>
