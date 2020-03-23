@@ -9,7 +9,7 @@ import ImageRow from '../../../components/ImageRow'
 import photo1 from './Seiskavisa-Wunderdog-office1.jpg'
 import photo2 from './Slack-Wunderdog-coffeebreak (1).jpg'
 import photo3 from './remote-work-wunderdog.jpg'
-import photo4 from './remote-work-wunderdog(2).jpg'
+import photo4 from './remote-work-wunderdog(2).JPG'
 
 
 export default () => (
