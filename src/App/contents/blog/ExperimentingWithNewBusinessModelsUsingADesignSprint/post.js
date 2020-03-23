@@ -7,11 +7,8 @@ import SubTitle from '../../../components/SubTitle'
 
 
 import photo1 from './Design-Sprint-calendar.jpg'
-import photo3 from './Design-Sprint-fb-results.jpg'
-import photo4 from './Design-Sprint-prototypes.jpg'
-import photo5 from './Design-Sprint-hotjar.jpg'
-import photo6 from './Design-Sprint-ad-campaign.jpg'
-
+import photo3 from './Design-Sprint-L&T2.jpg'
+import photo4 from './design-sprint-sketch.jpg'
 
 export default () => (
   <Fragment>
@@ -99,13 +96,7 @@ export default () => (
       </p>
       <p>
         We began ideation and came up with two alternative solutions for the
-        after-market, based on key activities:
-        </p>
-        <p>
-        ° Low-cost after-market (online order & physical pick up)
-        </p>
-        <p>
-        ° Zero-cost after-market (waste delivery)
+        after-market, based on key activities.
       </p>
       <p>
         We identified the need to conduct a flash survey of our consumers: we
@@ -153,7 +144,7 @@ export default () => (
       or, as we named the test during the project, a speculative
       ‘Business Battle Royale’.
       </p>
-      <Image src={photo4} alt='Design-Sprint-prototypes' />
+      <Image src={photo4} alt='Design-Sprint-sketch' />
       <p>
       Both landing pages were embedded with Google Analytics and Hotjar screen
       recording analytics. Google Analytics would provide data about website
@@ -201,7 +192,7 @@ export default () => (
       would stop to read the value proposition as well as put items into their
       carts, indicating that they perceived this to be an actual product.
       </p>
-      <Image src={photo5} alt='Design-Sprint-hotjar' />
+      <Image src={photo3} alt='Design-Sprint-L&T2' />
       <p>
       The second research case discovered a potential business opportunity for
       an after-market of unused construction material, which, surprisingly, was
@@ -209,8 +200,6 @@ export default () => (
       The reasoning for this decision was made from the aftermarket’s relevance
       to their core business.
       </p>
-      <Image src={photo3} alt='Design-Sprint-fb-results' />
-      <Image src={photo6} alt='Design-Sprint-ad-campaign' />
       <p>
       <b>Day 7: Conclusions</b>
       </p>
