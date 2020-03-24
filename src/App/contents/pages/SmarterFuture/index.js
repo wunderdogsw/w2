@@ -67,7 +67,7 @@ export default () => (
     </p>
     </Chapter>
     <Chapter>
-    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Sant Monica">
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
       The Wunderdog staff really completed our expertise portfolio, and the
       ability level of the developers was outstanding.
     </BlockQuote>
