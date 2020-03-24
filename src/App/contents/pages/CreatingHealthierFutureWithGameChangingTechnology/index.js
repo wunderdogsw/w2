@@ -26,7 +26,7 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>Creating healthier future with game changing technology</MainTitle>
+    <MainTitle narrow>Creating a healthier future with game-changing technology</MainTitle>
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" indent />
     <Chapter>
       <p>
@@ -103,8 +103,7 @@ export default () => (
         transformed into a successful, growing business with a large set of
         commercial products and services all supported by modern digital
         solutions that are equipped to handle massive amounts of human genetic
-        data? Well, it did.
-        <TransitionLink to='https://wunder.dog/work/blueprint-genetics'>Read the full case study here.</TransitionLink>
+        data? Well, it did. <TransitionLink to='https://wunder.dog/work/blueprint-genetics'>Read the full case study here.</TransitionLink>
         </p>
       </Chapter>
 
@@ -135,7 +134,7 @@ export default () => (
               <SubTitle>
                <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
               </SubTitle>
-              +358407551327
+              +358505281678
               </i>
             </p>
         </Chapter>
@@ -175,7 +174,7 @@ export default () => (
           <SubTitle>
            <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
           </SubTitle>
-          +358505281678
+          +358407551327
           </i>
         </p>
         <p>
