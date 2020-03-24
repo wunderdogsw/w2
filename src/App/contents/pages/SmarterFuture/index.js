@@ -66,11 +66,12 @@ export default () => (
     See our selected reference cases <TransitionLink to='https://wunder.dog/work'>here.</TransitionLink>
     </p>
     </Chapter>
-
+    <Chapter>
     <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Sant Monica">
       The Wunderdog staff really completed our expertise portfolio, and the
       ability level of the developers was outstanding.
     </BlockQuote>
+    </Chapter>
 
     <Indent twice>
       <Stats useAccent>
