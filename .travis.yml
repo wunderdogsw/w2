@@ -16,7 +16,7 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: "wunderdog-site-v2"
   acl: public_read
-  cleanup: true
+  cleanup: false
   local_dir: dist
   on:
     branch: master
