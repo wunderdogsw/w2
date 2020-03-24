@@ -14,10 +14,9 @@ import CssVars from 'App/components/CssVars'
 import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
+import BlockQuote from 'App/components/BlockQuote'
 
-import photo1 from './Wunderdog-remote-work.jpg'
-import photo2 from './biitti.jpg'
-import photo3 from './boogie.jpg'
+import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './abe.jpg'
 
 export default () => (
@@ -30,7 +29,7 @@ export default () => (
     </CssVars>
     <MainTitle narrow>Now is the time to invest in a smarter future.</MainTitle>
 
-    <Image src={ photo1 } alt="Somebuddy app" indent="right" hero/>
+    <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
 
     <Chapter>
     <h2>We are currently serving 100% of our customers remotely. Would you also
@@ -61,6 +60,17 @@ export default () => (
       <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
     </Chapter>
+
+    <Chapter>
+    <p>
+    See our selected reference cases <TransitionLink to='https://wunder.dog/work'>here.</TransitionLink>
+    </p>
+    </Chapter>
+
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Sant Monica">
+      The Wunderdog staff really completed our expertise portfolio, and the
+      ability level of the developers was outstanding.
+    </BlockQuote>
 
     <Indent twice>
       <Stats useAccent>
