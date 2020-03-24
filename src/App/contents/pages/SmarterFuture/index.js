@@ -17,7 +17,7 @@ import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
 
 import photo1 from './Wunderdog-digital.jpg'
-import photo4 from './abe.jpg'
+import photo4 from './Abe.jpg'
 
 export default () => (
   <Fragment>
