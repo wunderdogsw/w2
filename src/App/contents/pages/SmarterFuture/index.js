@@ -15,6 +15,7 @@ import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
+import HubspotForm from 'react-hubspot-form'
 
 import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './Abe.jpg'
@@ -39,14 +40,20 @@ export default () => (
       Do you have great ideas in your backlog you know are valuable for your
       business, but you haven't yet had the time or resources for?
       </p>
+      <p>
+      <b>Investing in the future happens now.</b>
       <SubTitle>
-      <p>
-      Investing in the future happens now.
-      </p>
-      <p>
       Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
-      </p>
     </SubTitle>
+    or fill in the form below and we’ll be in touch.
+    </p>
+    </Chapter>
+
+    <Chapter>
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
+      The Wunderdog staff really completed our expertise portfolio, and the
+      ability level of the developers was outstanding.
+    </BlockQuote>
     </Chapter>
 
     <Chapter>
@@ -59,19 +66,13 @@ export default () => (
       <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
       <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
+
+      <p>
+      <TransitionLink to='https://wunder.dog/work'> See our selected reference cases here.</TransitionLink>
+      </p>
+
     </Chapter>
 
-    <Chapter>
-    <p>
-    See our selected reference cases <TransitionLink to='https://wunder.dog/work'>here.</TransitionLink>
-    </p>
-    </Chapter>
-    <Chapter>
-    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
-      The Wunderdog staff really completed our expertise portfolio, and the
-      ability level of the developers was outstanding.
-    </BlockQuote>
-    </Chapter>
 
     <Indent twice>
       <Stats useAccent>
@@ -93,12 +94,18 @@ export default () => (
         <Image src={ photo4 } alt="Abe" indent="left" hero/>
 
     <Chapter>
+
+    <p>
+    <b>The Design Sprint</b> is a good example of how we could help you solve your
+    problems even with a smaller budget. <TransitionLink to='http://landing.wunder.dog/designsprint'> Download our Design Sprint e-book here.</TransitionLink>
+    </p>
+
         <h2>
         Get in touch
         </h2>
         <p>
         <i>
-        Antero Törhönen
+        Antero Törhönen, Helsinki
           <SubTitle>
            <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
           </SubTitle>
@@ -107,7 +114,7 @@ export default () => (
         </p>
         <p>
         <i>
-        Pirkka Suominen
+        Pirkka Suominen, Helsinki
           <SubTitle>
            <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
           </SubTitle>
@@ -116,14 +123,31 @@ export default () => (
         </p>
         <p>
         <i>
-        Ville Arponen
+        Ville Arponen, Helsinki
           <SubTitle>
            <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
           </SubTitle>
           +358505637955
           </i>
         </p>
+        <p>
+        <i>
+        Jasper van Ghemen, Berlin
+          <SubTitle>
+           <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
+          </SubTitle>
+          +491752948023
+          </i>
+        </p>
+        <p>
+        <i>
+        <HubspotForm
+        portalId='1704241'
+        formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
+        css=''
+      />
+      </i>
+        </p>
     </Chapter>
-
   </Fragment>
 )
