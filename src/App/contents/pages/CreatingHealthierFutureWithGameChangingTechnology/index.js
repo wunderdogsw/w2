@@ -14,9 +14,11 @@ import CssVars from 'App/components/CssVars'
 import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
+import HubspotForm from 'react-hubspot-form'
 
 import photo1 from './somebuddy-wunderdog.jpg'
 import photo2 from './blueprint-genetics-wunderdog.jpg'
+import photo3 from './abe-wunderdog-sales.jpg'
 
 export default () => (
   <Fragment>
@@ -43,7 +45,8 @@ export default () => (
       <SubTitle>
       <p>
       Investing in the future happens now.
-      Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi </a>
+       or fill in the form below and we'll be in touch with you.
       </p>
     </SubTitle>
     </Chapter>
@@ -164,6 +167,15 @@ export default () => (
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
     </Chapter>
 
+<Image src={ photo3 } alt="Wunderdog sales" indent="left" hero/>
+
+      <Chapter>
+      <p>
+      <b>The Design Sprint</b> is a good example of a cost-effective way to solve
+      problems. <TransitionLink to='http://landing.wunder.dog/designsprint'> Download our Design Sprint e-book here.</TransitionLink>
+      </p>
+      </Chapter>
+
     <Chapter>
         <h2>
         Get in touch
@@ -194,8 +206,16 @@ export default () => (
           </SubTitle>
           +358505637955
           </i>
+          </p>
+          <p>
+          <i>
+        <HubspotForm
+        portalId='1704241'
+        formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
+        css=''
+      />
+        </i>
         </p>
     </Chapter>
-
   </Fragment>
 )
