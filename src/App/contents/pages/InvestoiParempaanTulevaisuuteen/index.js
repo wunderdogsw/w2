@@ -57,7 +57,7 @@ export default () => (
       <p><b>Tuoteanalyysi</b><br />Ymmärrystä siitä, kuinka käyttäjät sitoutuvat rakentamiimme palveluihin sekä palveluiden kehittämistä sitoutumisen parantamiseksi </p>
       <p><b>Liiketoiminnan muotoilu</b><br />Uuden liiketoiminnan kehittäminen, konseptointi ja testaus </p>
       <p><b>Tuote- ja palvelumuotoilu</b><br />Rakennamme käyttäjäystävällisiä käyttöliittymiä osaksi erinomaista kuluttajakokemusta</p>
-      <p><b>Valmennus ja tiimin johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
+      <p><b>Valmennus ja tiimien johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
       <p><b>Toimittajayhteistyö</b><br />Luotettavaa tekemistä ohjelmistokehitysprosessien tehostamiseen </p>
     </Chapter>
 
@@ -69,7 +69,7 @@ export default () => (
     <Chapter>
     <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
       Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
-      Kehittäjien osaamistaso oli vaikuttava
+      Kehittäjien osaamistaso oli vaikuttava.
     </BlockQuote>
     </Chapter>
 
