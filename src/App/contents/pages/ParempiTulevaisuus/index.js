@@ -32,19 +32,19 @@ export default () => (
     <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
 
     <Chapter>
-    <h2>Palvelemme tällä hetkellä 100% asiakkaistamme etänä. Voimmeko palvella sinuakin?
+    <h2>Palvelemme tällä hetkellä 100% asiakkaistamme etänä. Voisimmeko palvella sinuakin?
     </h2>
       <p>
       Onko tehtävälistallasi kasa ideoita, joiden tiedät tuottavan arvoa
-      liiketoiminallesi, mutta aemmin niiden toteuttamiseen ei ole löytynyt riittävästi
-      aikaa ja resursseja?
+      liiketoiminallesi, mutta aiemmin niiden toteuttamiseen ei ole löytynyt riittävästi
+      aikaa tai resursseja?
       </p>
       <SubTitle>
       <p>
       Tulevaisuuteen investoidaan nyt.
       </p>
       <p>
-      Ota yhteyttä, niin sovitaan konsultoinnista <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
       </p>
     </SubTitle>
     </Chapter>
@@ -54,16 +54,16 @@ export default () => (
         Palvelumme
       </h2>
       <p><b>Ohjelmistokehitys</b><br />Luomme korkealaatuisia digitaalisia tuotteita ja palveluita</p>
-      <p><b>Tuoteanalyysi</b><br />Ymmärrystä siitä, kuinka käyttäjät sitoutuvat rakentamiimme palveluihin ja palveluiden kehittämistä sitoutumisen parantamiseksi </p>
+      <p><b>Tuoteanalyysi</b><br />Ymmärrystä siitä, kuinka käyttäjät sitoutuvat rakentamiimme palveluihin sekä palveluiden kehittämistä sitoutumisen parantamiseksi </p>
       <p><b>Liiketoiminnan muotoilu</b><br />Uuden liiketoiminnan kehittäminen, konseptointi ja testaus </p>
       <p><b>Tuote- ja palvelumuotoilu</b><br />Rakennamme käyttäjäystävällisiä käyttöliittymiä osaksi erinomaista kuluttajakokemusta</p>
-      <p><b>Valmennus ja tiimin johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä tapoja työskennellä </p>
-      <p><b>Scoped projects & toimittajayhteistyö</b><br />Luotettavaa tekemistä ohjelmistokehitys prosessien tehostamiseen </p>
+      <p><b>Valmennus ja tiimin johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
+      <p><b>Toimittajayhteistyö</b><br />Luotettavaa tekemistä ohjelmistokehitysprosessien tehostamiseen </p>
     </Chapter>
 
     <Chapter>
     <p>
-    Löydät tekemiämme asiakasprojekteja <TransitionLink to='https://wunder.dog/work'>täältä.</TransitionLink>
+    Lisää meistä ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
     </p>
     </Chapter>
     <Chapter>
