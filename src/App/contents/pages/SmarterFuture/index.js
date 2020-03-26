@@ -16,6 +16,7 @@ import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
 import HubspotForm from 'react-hubspot-form'
+import './index.css'
 
 import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './Abe.jpg'
@@ -43,12 +44,16 @@ export default () => (
       <p>
       <b>Investing in the future happens now.</b>
       <SubTitle>
-      Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      Contact us for consultancy <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
     </SubTitle>
-    or fill in the form below and we’ll be in touch.
+    or fill in your e-mail below and we’ll be in touch soon.
     </p>
     </Chapter>
-
+    <HubspotForm
+    portalId='1704241'
+    formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
+    css=''
+  />
     <Chapter>
     <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
       The Wunderdog staff really completed our expertise portfolio, and the
@@ -66,12 +71,23 @@ export default () => (
       <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
       <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
+      </Chapter>
 
+      <Chapter>
+      <h2>
+        Design Sprint
+      </h2>
       <p>
-      <TransitionLink to='https://wunder.dog/work'> See our selected reference cases here.</TransitionLink>
+      <b>Wunderdog’s Design Sprint</b> is like a helicopter ride of product
+      development. Did you know that we can facilitate the Design Sprint remotely
+      for you and your colleagues?
       </p>
-
-    </Chapter>
+      <p>
+      <SubTitle>
+      Ask for more <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+      </SubTitle> or download the Design Sprint e-book<TransitionLink to='http://landing.wunder.dog/designsprint'> here.</TransitionLink>
+      </p>
+      </Chapter>
 
 
     <Indent twice>
@@ -84,6 +100,9 @@ export default () => (
       <h2>
         We're your partner in turning good ideas into digital reality.
       </h2>
+      <p>
+      See our selected <b>reference cases</b> <TransitionLink to='https://wunder.dog/work'> here.</TransitionLink>
+      </p>
     </Chapter>
     <Indent twice>
       <Logos>
@@ -94,12 +113,6 @@ export default () => (
         <Image src={ photo4 } alt="Abe" indent="left" hero/>
 
     <Chapter>
-
-    <p>
-    <b>The Design Sprint</b> is a good example of how we could help you solve your
-    problems even with a smaller budget. <TransitionLink to='http://landing.wunder.dog/designsprint'> Download our Design Sprint e-book here.</TransitionLink>
-    </p>
-
         <h2>
         Get in touch
         </h2>
@@ -139,15 +152,7 @@ export default () => (
           +491752948023
           </i>
         </p>
-        <p>
-        <i>
-        <HubspotForm
-        portalId='1704241'
-        formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
-        css=''
-      />
-      </i>
-        </p>
+
     </Chapter>
   </Fragment>
 )

@@ -15,6 +15,8 @@ import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
+import HubspotForm from 'react-hubspot-form'
+import './index.css'
 
 import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './Abe.jpg'
@@ -27,26 +29,38 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>Nyt on aika investoida parempaan tulevaisuuteen.</MainTitle>
-
-    <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
-
-    <Chapter>
-    <h2>Palvelemme tällä hetkellä 100% asiakkaistamme etänä. Voisimmeko palvella sinuakin?
-    </h2>
+      <MainTitle narrow>Nyt on aika investoida parempaan tulevaisuuteen.</MainTitle>
+      <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
+      <Chapter>
+      <h2>Palvelemme tällä hetkellä 100% asiakkaistamme etänä.
+      Voisimmeko palvella sinuakin?
+      </h2>
       <p>
       Onko tehtävälistallasi kasa ideoita, joiden tiedät tuottavan arvoa
-      liiketoiminallesi, mutta aiemmin niiden toteuttamiseen ei ole löytynyt riittävästi
+      liiketoiminallesi, mutta aiemmin niiden toteuttamiseen ei ole löytynyt
+      riittävästi
       aikaa tai resursseja?
       </p>
+
+      <p>
+      <b>Tulevaisuuteen investoidaan nyt.</b>
       <SubTitle>
-      <p>
-      Tulevaisuuteen investoidaan nyt.
+      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      tai täytä yhteystietosi alle ja olemme sinuun yhteydessä.
       </p>
-      <p>
-      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
-      </p>
-    </SubTitle>
+      </Chapter>
+
+      <HubspotForm
+      portalId='1704241'
+      formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
+      css=''
+    />
+    <Chapter>
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
+        Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
+        Kehittäjien osaamistaso oli vaikuttava.
+    </BlockQuote>
     </Chapter>
 
     <Chapter>
@@ -62,19 +76,23 @@ export default () => (
     </Chapter>
 
     <Chapter>
+    <h2>
+      Design Sprint
+    </h2>
     <p>
-    Lisää meistä ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
+    <b>Wunderdogin Design Sprint</b> on kustannustehokas tuotekehityksen
+    helikopterikyyti. Tiesitkö, että Design Sprint on mahdollista fasilitoida
+    myös etänä sinulle ja kollegoillesi?
     </p>
-    </Chapter>
-    <Chapter>
-    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
-      Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
-      Kehittäjien osaamistaso oli vaikuttava.
-    </BlockQuote>
+    <p>
+    <SubTitle>
+    Kysy lisää <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+    </SubTitle> tai lataa Design Sprint oppaamme<TransitionLink to='http://landing.wunder.dog/designsprint'> tästä.</TransitionLink>
+    </p>
     </Chapter>
 
     <Indent twice>
-  <Stats>
+    <Stats>
     <div>
       <span>150+</span>
       <span>konsulttia</span>
@@ -91,54 +109,54 @@ export default () => (
        <span>2014</span>
        <span>perustettu</span>
      </div>
-   </Stats>
-    </Indent>
-
-    <Chapter>
+     </Stats>
+      </Indent>
+      <Chapter>
       <h2>
-        Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
+      Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
       </h2>
-    </Chapter>
-    <Indent twice>
+      <p>
+      <b>Lisää meistä</b> ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
+        </p>
+      </Chapter>
+      <Indent twice>
       <Logos>
         <Clients />
       </Logos>
-    </Indent>
-
+      </Indent>
         <Image src={ photo4 } alt="Abe" indent="left" hero/>
-
-    <Chapter>
+        <Chapter>
         <h2>
         Ota yhteyttä!
         </h2>
         <p>
         <i>
         Antero Törhönen
-          <SubTitle>
-           <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-          </SubTitle>
-          +358505281678
-          </i>
+        <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+        </SubTitle>
+        +358505281678
+        </i>
         </p>
         <p>
         <i>
         Pirkka Suominen
-          <SubTitle>
-           <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-          </SubTitle>
-          +358407551327
-          </i>
+        <SubTitle>
+        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+        </SubTitle>
+        +358407551327
+        </i>
         </p>
         <p>
         <i>
         Ville Arponen
-          <SubTitle>
-           <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
-          </SubTitle>
-          +358505637955
-          </i>
-        </p>
-    </Chapter>
+        <SubTitle>
+         <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
+        </SubTitle>
+        +358505637955
+        </i>
+      </p>
 
-  </Fragment>
+  </Chapter>
+</Fragment>
 )
