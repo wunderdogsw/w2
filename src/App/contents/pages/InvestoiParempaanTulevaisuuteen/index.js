@@ -45,7 +45,7 @@ export default () => (
       <p>
       <b>Tulevaisuuteen investoidaan nyt.</b>
       <SubTitle>
-      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
+      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
       </SubTitle>
       tai täytä yhteystietosi alle ja olemme sinuun yhteydessä.
       </p>
@@ -56,7 +56,12 @@ export default () => (
       formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
       css=''
     />
-
+    <Chapter>
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
+        Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
+        Kehittäjien osaamistaso oli vaikuttava.
+    </BlockQuote>
+    </Chapter>
 
     <Chapter>
       <h2>
@@ -69,17 +74,23 @@ export default () => (
       <p><b>Valmennus ja tiimin johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
       <p><b>Toimittajayhteistyö</b><br />Luotettavaa tekemistä ohjelmistokehitysprosessien tehostamiseen </p>
     </Chapter>
+
     <Chapter>
+    <h2>
+      Design Sprint
+    </h2>
     <p>
-      Lisää meistä ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
-      </p>
+    <b>Wunderdogin Design Sprint</b> on kustannustehokas tuotekehityksen
+    helikopterikyyti. Tiesitkö, että Design Sprint on mahdollista fasilitoida
+    myös etänä sinulle ja kollegoillesi?
+    </p>
+    <p>
+    <SubTitle>
+    Kysy lisää <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+    </SubTitle> tai lataa Design Sprint oppaamme<TransitionLink to='http://landing.wunder.dog/designsprint'> tästä.</TransitionLink>
+    </p>
     </Chapter>
-    <Chapter>
-    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
-        Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
-        Kehittäjien osaamistaso oli vaikuttava.
-    </BlockQuote>
-    </Chapter>
+
     <Indent twice>
     <Stats>
     <div>
@@ -104,6 +115,9 @@ export default () => (
       <h2>
       Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
       </h2>
+      <p>
+      <b>Lisää meistä</b> ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
+        </p>
       </Chapter>
       <Indent twice>
       <Logos>
