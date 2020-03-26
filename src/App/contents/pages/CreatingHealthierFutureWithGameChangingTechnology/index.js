@@ -46,7 +46,7 @@ export default () => (
       <SubTitle>
       <p>
       Investing in the future happens now.
-      Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi </a>
+      Contact us for consultancy <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi </a>
       or fill in your e-mail below and we’ll be in touch soon.
       </p>
       </SubTitle>
