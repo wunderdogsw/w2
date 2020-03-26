@@ -13,6 +13,7 @@ export const CreatingHealthierFutureWithGameChangingTechnology = importedCompone
 export const InvestoiParempaanTulevaisuuteen = importedComponent(() => import('./InvestoiParempaanTulevaisuuteen'))
 export const JoinUs = importedComponent(() => import('./JoinUs'))
 export const JoinUsBerlin = importedComponent(() => import('./JoinUsBerlin'))
+export const KohtiTerveempaaTulevaisuuttaTeknologianAvulla = importedComponent(() => import('./KohtiTerveempaaTulevaisuuttaTeknologianAvulla'))
 export const Pahkina = importedComponent(() => import('./Pahkina'))
 export const PingPong = importedComponent(() => import('./PingPong'))
 export const Privacy = importedComponent(() => import('./Privacy'))
