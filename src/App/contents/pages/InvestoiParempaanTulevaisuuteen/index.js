@@ -57,7 +57,7 @@ export default () => (
       <p><b>Tuoteanalyysi</b><br />Ymmärrystä siitä, kuinka käyttäjät sitoutuvat rakentamiimme palveluihin sekä palveluiden kehittämistä sitoutumisen parantamiseksi </p>
       <p><b>Liiketoiminnan muotoilu</b><br />Uuden liiketoiminnan kehittäminen, konseptointi ja testaus </p>
       <p><b>Tuote- ja palvelumuotoilu</b><br />Rakennamme käyttäjäystävällisiä käyttöliittymiä osaksi erinomaista kuluttajakokemusta</p>
-      <p><b>Valmennus ja tiimien johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
+      <p><b>Valmennus ja tiimin johtaminen</b><br />Sovellamme ketteriä menetelmiä tukemaan järkevämpiä työskentelytapoja </p>
       <p><b>Toimittajayhteistyö</b><br />Luotettavaa tekemistä ohjelmistokehitysprosessien tehostamiseen </p>
     </Chapter>
 
@@ -74,14 +74,29 @@ export default () => (
     </Chapter>
 
     <Indent twice>
-      <Stats useAccent>
-        <SeriousStats />
-      </Stats>
+  <Stats>
+    <div>
+      <span>150+</span>
+      <span>konsulttia</span>
+    </div>
+    <div>
+      <span>300+</span>
+      <span>onnistunutta asiakasprojektia</span>
+    </div>
+     <div>
+       <span>190+</span>
+       <span>sisäistä koulutusta</span>
+     </div>
+     <div>
+       <span>2014</span>
+       <span>perustettu</span>
+     </div>
+   </Stats>
     </Indent>
 
     <Chapter>
       <h2>
-        Yhdessä luomme hyvistä ideoista digitaalista todellisuutta.
+        Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
       </h2>
     </Chapter>
     <Indent twice>
