@@ -80,7 +80,7 @@ export default () => (
       <p>
       <b>Wunderdog’s Design Sprint</b> is like a helicopter ride of product
       development. Did you know that we can facilitate the Design Sprint remotely
-      for you and your coulleagues?
+      for you and your colleagues?
       </p>
       <p>
       <SubTitle>
