@@ -177,12 +177,21 @@ export default () => (
 
 <Image src={ photo3 } alt="Wunderdog sales" indent="left" hero/>
 
-      <Chapter>
-      <p>
-      <b>The Design Sprint</b> is a good example of how we could help you solve your
-      problems even with a smaller budget. <TransitionLink to='http://landing.wunder.dog/designsprint'> Download our Design Sprint e-book here.</TransitionLink>
-      </p>
-      </Chapter>
+  <Chapter>
+          <h2>
+          Design Sprint
+            </h2>
+          <p>
+          <b>Wunderdog’s Design Sprint</b> is like a helicopter ride of product
+          development. Did you know that we can facilitate the Design Sprint remotely
+          for you and your colleagues?
+          </p>
+          <p>
+          <SubTitle>
+          Ask for more <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+          </SubTitle> or download the Design Sprint e-book<TransitionLink to='http://landing.wunder.dog/designsprint'> here.</TransitionLink>
+          </p>
+          </Chapter>
 
     <Chapter>
         <h2>
