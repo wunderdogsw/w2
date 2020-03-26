@@ -16,6 +16,7 @@ import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
 import HubspotForm from 'react-hubspot-form'
+import './index.css'
 
 import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './Abe.jpg'
@@ -45,10 +46,14 @@ export default () => (
       <SubTitle>
       Contact us for consultancy <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi</a>
     </SubTitle>
-    or fill in the form below and we’ll be in touch.
+    or fill in your e-mail below and we’ll be in touch soon.
     </p>
     </Chapter>
-
+    <HubspotForm
+    portalId='1704241'
+    formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
+    css=''
+  />
     <Chapter>
     <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
       The Wunderdog staff really completed our expertise portfolio, and the
@@ -139,15 +144,7 @@ export default () => (
           +491752948023
           </i>
         </p>
-        <p>
-        <i>
-        <HubspotForm
-        portalId='1704241'
-        formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
-        css=''
-      />
-      </i>
-        </p>
+
     </Chapter>
   </Fragment>
 )
