@@ -15,6 +15,7 @@ import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import HubspotForm from 'react-hubspot-form'
+import './index.css'
 
 import photo1 from './somebuddy-wunderdog.jpg'
 import photo2 from './blueprint-genetics-wunderdog.jpg'
@@ -44,17 +45,17 @@ export default () => (
       <SubTitle>
       <p>
       Nyt on aika investoida parempaan tulevaisuuteen.
-      Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:hello@wunderdog.fi">hello<span>@</span>wunderdog.fi </a>
-      tai täytä yhteystietosi alle ja olemme sinuun yhteydessä.
+      Ota yhteyttä <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi </a>
+      tai täytä yhteystietosi alle. Ratkaistaan ongelmasi yhdessä.
       </p>
     </SubTitle>
-    <p>
+
     <HubspotForm
     portalId='1704241'
     formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
     css=''
   />
-    </p>
+
     </Chapter>
 
     <Chapter>
@@ -63,12 +64,13 @@ export default () => (
     <Chapter>
       <p>
       Loimme mobiilisovelluksen joka tarjoaa lakiapua kiusaamisen pysäyttämiseksi
-      sosiaalisessa mediassa. Tällä sovelluksella erityisesti nuoret voivat hakea
-      apua sopimattomaan käytökseen, jota kohtaavat netissä.
-      Sovellus on palvelu, joka tarjoaa matalan kynnyksen lakiapua ongelmiin kuten
-      kiusaaminen, häirintä tai yksityisen tiedon levittäminen.
-      Sovelluksella on tekoälysydän, mutta ihmisen kiltteys ja empatia.
-      <TransitionLink to='https://wunder.dog/work/someturva'> Lue koko case study.</TransitionLink>
+      sosiaalisessa mediassa. Tällä sovelluksella erityisesti nuoret voivat
+      hakea apua netissä kohtaamaansa sopimattomaan käytökseen jota kohtaavat
+      netissä.
+      Sovellus on palvelu, joka tarjoaa matalan kynnyksen lakiapua ongelmiin,
+      kuten kiusaamiseen, häirintään tai yksityisen tiedon levittämiseen.
+      Sovelluksella on tekoälyn sydän, mutta ihmisen empatia.
+      <TransitionLink to='https://wunder.dog/work/someturva'> Lue koko case esittely.</TransitionLink>
       </p>
     </Chapter>
 
@@ -81,7 +83,6 @@ export default () => (
       <div>
         <span>1000</span>
         <span>ihmistä on saanut apua raportoimiensa rikosten selvittämiseen
-        Someturvan kautta
         </span>
       </div>
       </Stats></Indent>
@@ -94,11 +95,11 @@ export default () => (
         </p>
         <p>
         <i>
-        Antero Törhönen
+        Pirkka Suominen
           <SubTitle>
-           <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+           <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
           </SubTitle>
-          +358505281678
+          +358407551327
           </i>
         </p>
     </Chapter>
@@ -108,11 +109,11 @@ export default () => (
         CASE: Blueprint Genetics
       </h2>
       <p>
-        Mitä jos jokin, joka alkoi tutkimustyöstä voisi muuttua menestyväksi
-        kasvavaksi bisnekseksi, jolla on suuri määrä kaupallisia tuotteita ja
-        palveluita, joita tukee modernit teknologiset ratkaisut, joiden avulla
-        käsitellään suuria määriä ihmisten geneettistä dataa?
-        Tämä kävi toteen. <TransitionLink to='https://wunder.dog/work/blueprint-genetics'> Lue koko case study.</TransitionLink>
+        Entä jos tutkimustyönä alkanut projekti voisi muuttua menestyväksi
+        liiketoimintakokonaisuudeksi, johon kuuluu useita modernin teknologian
+        ratkaisuilla tuettuja kaupallisia tuotteita ja palveluita, joiden avulla
+        käsitellään suuria määriä ihmisten geneettistä dataa? Kaikki tämä kävi
+        toteen. <TransitionLink to='https://wunder.dog/work/blueprint-genetics'> Lue koko case esittely.</TransitionLink>
         </p>
       </Chapter>
 
@@ -139,9 +140,9 @@ export default () => (
             </p>
             <p>
             <i>
-            Pirkka Suominen
+            Antero Törhönen
               <SubTitle>
-               <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+              <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
               </SubTitle>
               +358505281678
               </i>
