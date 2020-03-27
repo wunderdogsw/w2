@@ -46,7 +46,7 @@ export default () => (
       <SubTitle>
       Contact us for consultancy <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
     </SubTitle>
-    or fill in your e-mail below and let's book <b>a free-of-charge 30-minute phone call for ideation!</b>
+    or fill in your e-mail below and let's book <b>a free of charge 30-minute phone call for ideation!</b>
     </p>
     </Chapter>
     <HubspotForm
