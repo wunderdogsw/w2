@@ -36,18 +36,16 @@ export default () => (
       Voisimmeko palvella sinuakin?
       </h2>
       <p>
-      Onko tehtävälistallasi kasa ideoita, joiden tiedät tuottavan arvoa
+      Onko sinulla kehitysideoita, joiden tiedät tuottavan arvoa
       liiketoiminallesi, mutta aiemmin niiden toteuttamiseen ei ole löytynyt
-      riittävästi
-      aikaa tai resursseja?
+      riittävästi aikaa tai resursseja?
       </p>
-
       <p>
       <b>Tulevaisuuteen investoidaan nyt.</b>
       <SubTitle>
       Ota yhteyttä ja ratkaistaan ongelmasi yhdessä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
       </SubTitle>
-      tai täytä yhteystietosi alle ja olemme sinuun yhteydessä.
+      tai täytä yhteystietosi alle ja sovitaan 30 min maksuton sparrailupuhelu!
       </p>
       </Chapter>
 
