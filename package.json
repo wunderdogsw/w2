@@ -26,7 +26,7 @@
     "echoascii": "1.0.3",
     "eslint-config-react-app": "^5.2.0",
     "npm-run-all": "4.1.2",
-    "parcel-bundler": "1.12.3",
+    "parcel-bundler": "1.12.4",
     "parcel-plugin-image-srcset": "file:local_modules/parcel-plugin-image-srcset",
     "postcss-apply": "0.10.0",
     "postcss-browser-reporter": "0.5.0",
