@@ -5,7 +5,7 @@ import MainTitle from '../../../components/MainTitle'
 
 export default () => (
   <Fragment>
-    <MainTitle narrow>We are more than code and design</MainTitle>
+    <MainTitle narrow>Future-proof design & development</MainTitle>
     <Helmet>
       <meta
         name="description"
