@@ -43,11 +43,11 @@ export default () => (
       </p>
       <p>
       <b>Investing in the future happens now.</b>
-      <SubTitle>
-      Contact us for consultancy <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-    </SubTitle>
-    or fill in your e-mail below and we’ll be in touch soon.
-    </p>
+      </p>
+      <p>
+      Contact us for consultancy <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi </a>
+       or fill in your e-mail below and let's book a 30 minute phone call for ideation (free of charge)!
+      </p>
     </Chapter>
     <HubspotForm
     portalId='1704241'
