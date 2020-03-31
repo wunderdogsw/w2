@@ -28,8 +28,7 @@ export default () => (
       software consultant to help them move away from their MVP phase.
       </p>
       <p>
-      Three
-      months later we were leading the project, mentoring the team and
+      Three months later we were leading the project, mentoring the team and
       refactoring their codebase so it could be supported. We made the feature
       development time cycle shorter; we made the
       team switch from Javascript + Flow to TypeScript and simplified
