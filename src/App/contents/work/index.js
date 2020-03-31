@@ -7,6 +7,8 @@ import almamedia from './AlmaMedia'
 export const AlmaMedia = almamedia
 import blueprintgenetics from './BlueprintGenetics'
 export const BlueprintGenetics = blueprintgenetics
+import contentautomation from './ContentAutomation'
+export const ContentAutomation = contentautomation
 import elisasantamonica from './ElisaSantaMonica'
 export const ElisaSantaMonica = elisasantamonica
 import fashionecommerce from './FashionEcommerce'
