@@ -6,7 +6,7 @@ export default {
   client: 'Rahamylly, Alexandria',
   publishDate: 'Feb 20, 2020',
   keywords: 'Full-stack development, Technology Lead',
-  category: '',
+  category: 'consumers',
   image: image,
 
   content: importedComponent(() => import('./content')),

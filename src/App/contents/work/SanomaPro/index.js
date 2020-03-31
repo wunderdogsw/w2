@@ -6,7 +6,7 @@ export default {
   client: 'Sanoma Pro',
   publishDate: 'March 4, 2020',
   keywords: 'Design Sprints',
-  category: '',
+  category: 'media',
   image: image,
 
   content: importedComponent(() => import('./content')),

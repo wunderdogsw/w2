@@ -29,10 +29,15 @@ for (const key in pages) {
   if (pages.hasOwnProperty(key)) {
     let work = pages[key]
     work.id = key
-    works.push(work)
 
     const { category } = work
-    if (!categories.includes(category)) categories.push(category)
+    work.categories = category.split(/, */)
+
+    works.push(work)
+
+    work.categories.forEach(c => {
+      if (!categories.includes(c)) categories.push(c)
+    })
   }
 }
 

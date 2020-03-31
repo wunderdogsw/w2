@@ -29,7 +29,7 @@ export default () => {
             </Navigation>
             <CardsGrid disharmony>
                 {works
-                    .filter(w => currentCategory === allCategory || w.category === currentCategory)
+                    .filter(w => currentCategory === allCategory || w.categories.includes(currentCategory))
                     .map(({id, title, client, image}, i) => (
                         <CardContainer key={i}>
                             <Card type="work" key={id} to={`work/${id}`}>

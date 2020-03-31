@@ -6,7 +6,7 @@ export default {
   client: 'Smartly.io',
   publishDate: 'Oct 18, 2019',
   keywords: 'DevOps',
-  category: '',
+  category: 'media',
   image: image,
 
   content: importedComponent(() => import('./content')),

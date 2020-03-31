@@ -6,7 +6,7 @@ export default {
   client: 'Someturva',
   publishDate: 'November 14, 2019',
   keywords: 'React, UX Design',
-  category: '',
+  category: 'startups, healthcare, consumers',
   image: image,
 
   content: importedComponent(() => import('./content')),
