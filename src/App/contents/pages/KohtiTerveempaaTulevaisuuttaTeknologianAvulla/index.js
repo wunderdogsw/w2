@@ -42,13 +42,14 @@ export default () => (
       Olemme olleet mukana luomassa useita menestystarinoita alan toimijoille
       aina startupeista isoihin yhtiöihin.
       </p>
-      <SubTitle>
       <p>
-      Nyt on aika investoida parempaan tulevaisuuteen.
-      Ota yhteyttä <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi </a>
-      tai täytä yhteystietosi alle. Ratkaistaan ongelmasi yhdessä.
+      <b>Nyt on aika investoida parempaan tulevaisuuteen.</b>
       </p>
-    </SubTitle>
+      <p>
+      Ota yhteyttä <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi </a>
+      tai täytä yhteystietosi alle ja sovitaan maksuton 30 min sparrailupuhelu! Ratkaistaan ongelmasi yhdessä.
+      </p>
+  
 
     <HubspotForm
     portalId='1704241'
