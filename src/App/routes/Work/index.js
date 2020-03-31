@@ -21,6 +21,8 @@ const pages = Object.entries(workPages).reduce((res, [key, value]) => {
   return res
 }, {})
 
+export const allCategory = 'all'
+export const categories = [allCategory]
 export const works = []
 
 for (const key in pages) {
@@ -28,6 +30,9 @@ for (const key in pages) {
     let work = pages[key]
     work.id = key
     works.push(work)
+
+    const { category } = work
+    if (!categories.includes(category)) categories.push(category)
   }
 }
 
@@ -43,6 +48,7 @@ works.forEach((work, idx) => {
   }
 })
 
+categories.sort()
 
 export default class extends Component {
   componentDidMount() {

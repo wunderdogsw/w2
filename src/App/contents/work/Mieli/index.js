@@ -6,6 +6,7 @@ export default {
   client: 'MIELI - Mental Health Finland',
   publishDate: 'October 21, 2019',
   keywords: 'Service Design, UI Design, Full-stack development',
+  category: '',
   image: image,
 
   content: importedComponent(() => import('./content')),

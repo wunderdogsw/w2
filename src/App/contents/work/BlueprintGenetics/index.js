@@ -6,6 +6,7 @@ export default {
   client: 'Blueprint Genetics',
   publishDate: 'Oct 18, 2019',
   keywords: 'scrum, full-stack development',
+  category: 'healthcare',
   image: image,
 
   content: importedComponent(() => import('./content')),
