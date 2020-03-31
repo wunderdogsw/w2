@@ -8,9 +8,9 @@ import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
-import photo1 from './Tridify-Hippos-arena.jpg'
-import photo2 from './Tridify-view-your-bim1.jpg'
-import photo3 from './Tridify-Wunderdog3.jpg'
+import photo3 from './tridify.jpg'
+import photo2 from './tridify-wunderdog-teamwork.jpg'
+import photo1 from './tridify-product2.jpg'
 
 
 export default () => (
@@ -47,8 +47,8 @@ export default () => (
     </BlockQuote>
   </Chapter>
   <ImageRow>
-    <Image src={ photo1 } alt="Someturva app" />
-    <Image src={ photo2 } alt="Someturva app" />
+    <Image src={ photo1 } alt="Tridify-product" />
+    <Image src={ photo2 } alt="Tridify-product2" />
   </ImageRow>
     <Chapter>
       <h2>The inevitable challenge</h2>
@@ -61,7 +61,7 @@ export default () => (
       </p>
     </Chapter>
     <ImageRow>
-      <Image src={ photo3 } alt="Someturva app" />
+      <Image src={ photo3 } alt="Tridify-Wunderdog-teamwork" />
     </ImageRow>
     <Chapter>
       <h2>So how did it go?</h2>
