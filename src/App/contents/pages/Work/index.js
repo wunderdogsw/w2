@@ -14,7 +14,7 @@ export default () => {
 
     return (
         <Fragment>
-            <MainTitle narrow>We help companies and communities succeed - new Work</MainTitle>
+            <MainTitle narrow>We help companies and communities succeed</MainTitle>
             <Navigation>
                 {categories.map(category => (
                     <li
