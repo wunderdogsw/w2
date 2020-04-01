@@ -6,6 +6,7 @@ export default {
   client: 'Oodi, Central Library',
   publishDate: 'October 18, 2019',
   keywords: 'React, Unity, UI Design, UX Design',
+  category: 'consumers',
   image: image,
   videoMuteToggle: true,
   video: 'https://player.vimeo.com/external/367229931.hd.mp4?s=6faefa1e64c251f188570b52723e51207ffebeff&profile_id=175',

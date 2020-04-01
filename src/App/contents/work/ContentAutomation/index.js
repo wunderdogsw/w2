@@ -6,6 +6,7 @@ export default {
   client: 'Content automation',
   publishDate: 'November 1, 2019',
   keywords: 'Full-stack development, Technology Lead',
+  category: 'media',
   image: image,
 
   content: importedComponent(() => import('./content')),

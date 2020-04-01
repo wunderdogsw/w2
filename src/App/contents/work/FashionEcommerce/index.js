@@ -6,6 +6,7 @@ export default {
   client: 'Europe´s leading fashion e-commerce company',
   publishDate: 'Feb 21, 2020',
   keywords: 'Full-stack development, Technology Lead',
+  category: 'retail, consumers',
   image: image,
 
   content: importedComponent(() => import('./content')),

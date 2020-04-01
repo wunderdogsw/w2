@@ -6,6 +6,7 @@ export default {
   client: 'Grib3D',
   publishDate: 'July 17, 2019',
   keywords: 'Full-stack development, Technology Lead',
+  category: 'startups',
   image: image,
 
   content: importedComponent(() => import('./content')),

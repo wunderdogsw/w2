@@ -6,6 +6,7 @@ export default {
   client: 'Pexraytech',
   publishDate: 'Oct 18, 2019',
   keywords: 'UX design, UX development',
+  category: 'healthcare',
   image: image,
 
   content: importedComponent(() => import('./content')),

@@ -6,6 +6,7 @@ export default {
   client: 'Red Bull',
   publishDate: 'Oct 18, 2019',
   keywords: 'UI design, UX design, game design, full-stack development',
+  category: 'consumers',
   image: image,
 
   content: importedComponent(() => import('./content')),
