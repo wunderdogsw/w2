@@ -63,6 +63,20 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
+      <h2>How did we do it? Domain Driven Design (DDD) and TypeScript as resources</h2>
+      <p>
+      Initially, our customer wanted to work with developers with experience
+      with Javascript and React. They used Flow, a Static type checker for
+      JavaScript, by which you can enable users or developers to use types.
+      It’s not as enforced as in TypeScript (much stricter when it comes to types),
+      so we as a team proposed to use TypeScript. Other teams in the company were
+      already using it and it is a good language to work with. Thus we also made a
+      case for switching to TypeScript rather than keep using Javascript + Flow.
+      For the new project after ours ended, everyone in the team started using
+      TypeScript. 
+    </p>
+    </Chapter>
+    <Chapter>
       <h2>The inevitable challenge</h2>
       <p>
       It took some months to evidence the main issue was not the
