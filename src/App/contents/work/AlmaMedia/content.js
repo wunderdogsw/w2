@@ -5,6 +5,7 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './alma-photo1.jpg'
 import photo2 from './alma-photo2.jpg'
 
@@ -77,6 +78,20 @@ export default () => (
       for both parties; we learn from each other and are continuously
       evolving professionally.
       </p>
+      <p>
+      <i>
+      Interested? Let's start our journey together.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
+      </p>
     </Chapter>
     <Image src={ photo2 } alt="Alma media" />
     <Chapter>
@@ -95,6 +110,7 @@ export default () => (
         A successful five-year-and-counting collaboration working closely
         in their teams.
       </p>
+
     </Summary>
 
   </Fragment>
