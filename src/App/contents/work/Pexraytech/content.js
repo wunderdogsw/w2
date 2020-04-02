@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
+import SubTitle from '../../../components/SubTitle'
 import mockup from './pexraytech-mockup.png'
 
 export default () => (
@@ -69,6 +70,20 @@ export default () => (
         through the cracks. It doesn’t take X-ray vision to see it was a
         success for everyone involved.
       </p>
+      <p>
+      <i>
+      Want to hear more? Let's future-proof your business.
+      </i>
+      </p>
+    <p>
+    <i>
+    Ville Arponen, Account Executive
+      <SubTitle>
+       <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505637955
+      </i>
+    </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
