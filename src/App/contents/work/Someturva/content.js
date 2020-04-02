@@ -43,7 +43,6 @@ export default () => (
       Wunderdog has been the right partner for us.
     </BlockQuote>
   </Chapter>
-  <ImageRow>
   <Indent twice>
 <Stats>
   <div>
@@ -57,6 +56,7 @@ export default () => (
   </div>
 </Stats>
  </Indent>
+  <ImageRow>
     <Image src={ photo1 } alt="Someturva app" />
     <Image src={ photo2 } alt="Someturva app" />
   </ImageRow>
