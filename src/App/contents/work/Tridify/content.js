@@ -8,6 +8,7 @@ import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './Tridify-Hippos-arena.jpg'
 import photo2 from './Tridify-view-your-bim1.jpg'
 import photo3 from './Tridify-Wunderdog3.jpg'
@@ -72,6 +73,20 @@ export default () => (
         everyone involved, with increased employee satisfaction in the
         development team.
       </p>
+      <p>
+      <i>
+      Interested? Let's get agile.
+      </i>
+      </p>
+    <p>
+    <i>
+    Ville Arponen, Account Executive
+      <SubTitle>
+       <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505637955
+      </i>
+    </p>
     </Chapter>
     <Chapter>
       <h2>
