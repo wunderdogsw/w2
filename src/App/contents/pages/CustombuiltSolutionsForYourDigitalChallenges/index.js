@@ -54,8 +54,10 @@ export default () => (
 
       <Chapter>
       <p>
-      <b>Want some examples of our work? Check a selection of our cases below. </b>
-       Contact us for consultancy <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi </a>
+      Want some examples of our work? Check a selection of our cases below.
+      </p>
+      <p>
+       <b> Contact us for consultancy</b> <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi </a>
       or fill in your e-mail below and let's book a 30 minute phone call for
       ideation (free of charge)!
       </p>
