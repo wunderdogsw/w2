@@ -6,6 +6,7 @@ import Image from '../../components/Image'
 import Video from '../../components/Video'
 import SubTitle from '../../components/SubTitle'
 import * as workPages from '../../contents/work'
+import Work from '../../contents/pages/Work'
 import { pageview } from '../../utils/analytics'
 import Footer from '../../components/Footer'
 import { FooterBottom } from '../../contents/other'
@@ -77,8 +78,15 @@ export default class extends Component {
     const { match } = this.props
     const contentKey = match.params.page && match.params.page.toLowerCase()
 
+    // since both actual case stories and categories have the same URL structure (which is suboptimal), first check
+    // if the URL matches a particular case, and if not, treat is as a category name
     const Page = pages[contentKey]
+    if (Page) return this.renderWorkCase(Page)
 
+    return this.renderWorkCategory(contentKey)
+  }
+
+  renderWorkCase(Page) {
     return (
       <Fragment>
         <div className='Page'>
@@ -103,6 +111,16 @@ export default class extends Component {
           </Footer>
         )}
       </Fragment>
+    )
+  }
+
+  renderWorkCategory(categoryName) {
+    return (
+      <div className='Page'>
+        <article className='Page__inner'>
+          <Work selectedCategory={categoryName}/>
+        </article>
+      </div>
     )
   }
 }
