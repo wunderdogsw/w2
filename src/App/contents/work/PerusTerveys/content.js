@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
+import SubTitle from '../../../components/SubTitle'
 import photo from './perusterveys-photo.png'
 
 export default () => (
@@ -79,6 +80,20 @@ export default () => (
         The new system increased the number of booked appointments online by
         51.5%, while positive feedback on the user experience increased by
         78.8%. Healthy results by anyone’s standards.
+      </p>
+      <p>
+      <i>
+      Interested? Let's talk.
+      </i>
+      </p>
+      <p>
+      <i>
+      Pirkka Suominen, Business Development Manager
+      <SubTitle>
+        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358407551327
+      </i>
       </p>
     </Chapter>
     <Summary>
