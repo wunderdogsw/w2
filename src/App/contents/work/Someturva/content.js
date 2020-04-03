@@ -46,11 +46,11 @@ export default () => (
   <Indent twice>
 <Stats>
   <div>
-    <span>18000</span>
+    <span>18k</span>
     <span>youngsters have accessed to the service so far</span>
   </div>
   <div>
-    <span>1000</span>
+    <span>1k</span>
     <span>people have received help from Someturva in resolving the crimes
     they have reported</span>
   </div>
