@@ -33,15 +33,14 @@ export default () => (
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" indent />
     <Chapter>
       <p>
-      Digitalization has disrupted the social and healthcare business. At its
-      best,
-      technology makes everyday work easier and cost-efficient when new services
-      and automated solutions are introduced. But at its worst, it burdens the
-      staff and creates digital chaos. We at Wunderdog root for the first option
-       -  we believe things can be done better with modern technology and smart
-       ways of
-      working.  We’ve been part of several success stories from startups to
-      bigger players in the field.
+      Digitalization is disrupting healthcare and social services. At its best,
+      technology offers better and smoother services for individuals, makes
+      everyday work of healthcare professionals easier and providing meaningful
+      care becomes more cost-efficient. At its worst, too many tools and complex
+      solutions drive patients away, burden the staff and create a digital chaos.
+      We at Wunderdog know how to deliver value and avoid chaos. We have worked with a 
+      number of larger and smaller organisations in the field.
+      Would you also like to be served?
       </p>
       <p>
       <b>Investing in the future happens now.</b>

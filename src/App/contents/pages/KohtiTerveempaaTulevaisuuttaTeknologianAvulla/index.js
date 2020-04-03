@@ -33,14 +33,14 @@ export default () => (
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" indent />
     <Chapter>
       <p>
-      Digitalisaatio on muuttanut sosiaali- ja terveysalaa viime vuosina.
-      Parhaimmilaan digitalisaatio helpottaa päivittäistä työtä ja tuo
-      kustannussäästöjä automatisoinnilla ja uusilla työkaluilla.
-      Pahimmillaan se kuormittaa henkilöstöä ja luo digitaalista kaaosta.
-      Me Wunderdogilla kannatamme ensimmäistä vaihtoehtoa - uskomme että asiat
-      voi tehdä paremmin modernin teknologian ja fiksujen työtapojen avulla.
-      Olemme olleet mukana luomassa useita menestystarinoita alan toimijoille
-      aina startupeista isoihin yhtiöihin.
+      Digitalisaatio muuttaa sosiaali- ja terveysalaa radikaalisti.
+      Parhaimmillaan teknologia tarjoaa parempia ja mutkattomampia palveluita
+      asiakkaille, helpottaa ammattilaisten päivittäistä työtä ja tekee
+      merkityksellisen hoidon tarjoamisesta kustannustehokkaampaa. Pahimmillaan
+      se kuormittaa henkilöstöä ja luo digitaalista kaaosta. Me Wunderdogilla
+      tiedämme kuinka välttää kaaosta ja sen sijaan luoda arvoa teknologialla. Olemme
+      työskennelleet lukuisten alan isojen ja pienten yritysten kanssa. Voisimmeko
+      palvella sinuakin?
       </p>
       <p>
       <b>Nyt on aika investoida parempaan tulevaisuuteen.</b>
@@ -49,7 +49,7 @@ export default () => (
       Ota yhteyttä <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi </a>
       tai täytä yhteystietosi alle ja sovitaan maksuton 30 min sparrailupuhelu! Ratkaistaan ongelmasi yhdessä.
       </p>
-  
+
 
     <HubspotForm
     portalId='1704241'
