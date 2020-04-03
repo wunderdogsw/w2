@@ -4,7 +4,7 @@ import image from './blueprint-hero.png'
 export default {
   title: 'Collaboration is in our DNA',
   client: 'Blueprint Genetics',
-  publishDate: 'Oct 18, 2019',
+  publishDate: 'Feb 21, 2020',
   keywords: 'scrum, full-stack development',
   category: 'healthcare',
   image: image,

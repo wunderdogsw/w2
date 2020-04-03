@@ -4,7 +4,7 @@ import image from './design-sprint-kampus.jpg'
 export default {
   title: 'Taking learning digital',
   client: 'Sanoma Pro',
-  publishDate: 'March 4, 2020',
+  publishDate: 'April 3, 2020',
   keywords: 'Design Sprints',
   category: 'media',
   image: image,
