@@ -20,7 +20,7 @@ import './index.css'
 
 import photo1 from './wunderdog-helsinki.jpg'
 import photo2 from './retail-wunderdog.jpg'
-import photo3 from './joanna-wunderdog.jpg'
+import photo3 from './Joanna_Rindell.jpg'
 
 
 export default () => (
