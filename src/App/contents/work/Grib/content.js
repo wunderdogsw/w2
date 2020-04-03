@@ -5,6 +5,7 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './grib-photo1.jpg'
 import photo2 from './grib-photo2.jpg'
 import photo3 from './grib-photo3.jpg'
@@ -80,6 +81,20 @@ export default () => (
       their 3D models, by putting them in context in an AR environment.
       Even first-time users can create designs in a matter of minutes,
       rather than the days it would take without the app.
+      </p>
+      <p>
+      <i>
+      Interested? Let's get creative.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
       </p>
       </Chapter>
     <Summary>

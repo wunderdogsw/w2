@@ -4,6 +4,7 @@ import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
+import SubTitle from '../../../components/SubTitle'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
@@ -106,6 +107,20 @@ export default () => (
         The project itself was a success and everyone involved is pleased with
         the outcome. In fact, the collaboration with Sherpa went so well that
         we’re planning to work together on more projects in future.
+      </p>
+      <p>
+      <i>
+      Interested? Let's make data work.
+      </i>
+      </p>
+      <p>
+      <i>
+      Pirkka Suominen, Business Development Manager
+      <SubTitle>
+        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358407551327
+      </i>
       </p>
     </Chapter>
     <Summary>

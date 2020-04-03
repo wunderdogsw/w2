@@ -4,6 +4,7 @@ import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
+import SubTitle from '../../../components/SubTitle'
 import photo1 from './smartly-photo1.jpg'
 import photo2 from './smartly-photo2.jpg'
 import photo3 from './smartly-photo3.jpg'
@@ -78,6 +79,20 @@ export default () => (
         agile improvements such as Kanban, daily meetings, and retrospectives.
         This collaboration continues to prove that working together is working
         smartly.
+      </p>
+      <p>
+      <i>
+      Interested? Let's make ideas fly.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
       </p>
     </Chapter>
     <Summary>

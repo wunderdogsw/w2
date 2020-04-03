@@ -82,6 +82,20 @@ export default () => (
       <p>
       Our cooperation started back in 2017 and is still ongoing!
       </p>
+        <p>
+        <i>
+        Interested? Let's start creating quality.
+        </i>
+        </p>
+      <p>
+      <i>
+      Ville Arponen, Account Executive
+        <SubTitle>
+         <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
+        </SubTitle>
+        +358505637955
+        </i>
+      </p>
       </Chapter>
     <Summary>
       <h2>The challenge</h2>

@@ -117,7 +117,18 @@ export default () => (
       complex, it can take as little as just a few days.
       </p>
       <p>
-      <TransitionLink to='https://www.rahamylly.fi/'>Rahamylly.fi</TransitionLink>
+      <i>
+      Interested? Let's turn your ideas into digital reality.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
       </p>
       </Chapter>
     <Summary>

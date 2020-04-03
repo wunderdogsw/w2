@@ -5,6 +5,7 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import TransitionLink from '../../../components/TransitionLink'
+import SubTitle from '../../../components/SubTitle'
 
 import photo1 from './mieli-photo1.jpg'
 import photo2 from './mieli-photo2.jpg'
@@ -103,6 +104,20 @@ export default () => (
         users, from volunteers to professionals. Support for better mental
         health is something we all believe in, so it was great to be able to
         help MIELI in such a practical way.
+      </p>
+      <p>
+      <i>
+      Interested? Investing in the future happens now.
+      </i>
+      </p>
+      <p>
+      <i>
+      Antero Törhönen, Business Development Lead
+      <SubTitle>
+        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
+      </SubTitle>
+      +358505281678
+      </i>
       </p>
     </Chapter>
     <Image src={ photo4 } alt="Anni" />
