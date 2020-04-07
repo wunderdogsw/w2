@@ -27,7 +27,7 @@ export default class extends Component {
             .slice(0, 2)
             .map(({ id, title, author, image }, i) => (
             <CardContainer key={i}>
-              <Card type="post" key={ id } to={ `blog/${id}` }>
+              <Card type="post" key={ id } to={ `/blog/${id}` }>
                 <Image asBackground src={ image } alt={ title } />
                 <h4>{title}</h4>
                 <p>By {author.name}</p>

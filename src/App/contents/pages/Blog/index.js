@@ -33,7 +33,7 @@ export default () => {
           .filter(p => currentCategory === allCategory || p.category === currentCategory)
           .map(({ id, title, author, image, nextBlog }, i) => (
             <CardContainer key={i}>
-              <Card type="post" key={id} to={`blog/${id}`}>
+              <Card type="post" key={id} to={`/blog/${id}`}>
                 <Image src={image} alt={title} />
                 <h4>{title}</h4>
                 <p>By {author.name}</p>
