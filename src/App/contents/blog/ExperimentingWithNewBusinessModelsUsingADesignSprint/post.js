@@ -4,7 +4,9 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
 import SubTitle from '../../../components/SubTitle'
-
+import {VilleArponen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 import photo1 from './Design-Sprint-calendar.jpg'
 import photo3 from './Design-Sprint-L&T2.jpg'
@@ -233,20 +235,11 @@ export default () => (
       provided them with useful data to support decision making and reduce risks
       in the sometimes messy front-end of an innovation project.
       </p>
-      <p>
-      <i>
-      Interested? Let's make ideas fly.
-      </i>
-      </p>
-      <p>
-      <i>
-      Pirkka Suominen, Business Development Manager
-      <SubTitle>
-      <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358407551327
-      </i>
-      </p>
-    </Chapter>
+      </Chapter>
+      <CallToAction color="blue" large grid>
+        <CaseContactInfo slogan="Let's validate your innovation.">
+          <VilleArponen />
+        </CaseContactInfo>
+      </CallToAction>
     </Fragment>
 )
