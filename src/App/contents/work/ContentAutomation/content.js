@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
@@ -12,10 +11,11 @@ import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
-import TransitionLink from 'App/components/TransitionLink'
 
 import photo1 from './news-app-wunderdog.jpg'
-
+import {JasperVanGhemen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -88,22 +88,6 @@ export default () => (
       ensured the continuity of the project and set a good base for its success.
       </p>
       </Chapter>
-      <Chapter>
-        <p>
-        <i>
-        Interested? Let's make the future happen.
-        </i>
-        </p>
-      <p>
-      <i>
-      Jasper van Ghemen, Berlin
-        <SubTitle>
-         <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
-        </SubTitle>
-        +491752948023
-        </i>
-      </p>
-      </Chapter>
     <Summary>
       <h2>The challenge</h2>
       <p>
@@ -115,6 +99,10 @@ export default () => (
       tracking news stories more cost-effective.
       </p>
     </Summary>
-
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's make the future happen.">
+        <JasperVanGhemen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

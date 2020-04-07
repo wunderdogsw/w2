@@ -7,13 +7,15 @@ import Summary from 'App/components/Summary'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 import BlockQuote from 'App/components/BlockQuote'
-import SubTitle from 'App/components/SubTitle'
 import photo1 from './blueprint-photo1.jpg'
 import photo2 from './blueprint-photo2.jpg'
 import photo3 from './blueprint-photo3.jpg'
 import photo4 from './blueprint-photo4.jpg'
 import photo5 from './blueprint-photo5.jpg'
 import photo6 from './blueprint-photo6.jpg'
+import {AnteroTorhonen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -115,20 +117,6 @@ export default () => (
         collaboration with two modern and fast-paced company was a success for
         everyone involved.
       </p>
-      <p>
-      <i>
-      Interested? Let's talk.
-      </i>
-      </p>
-      <p>
-      <i>
-      Antero Törhönen, Business Development Lead
-      <SubTitle>
-        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505281678
-      </i>
-      </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -146,5 +134,10 @@ export default () => (
         leadership.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's talk.">
+        <AnteroTorhonen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

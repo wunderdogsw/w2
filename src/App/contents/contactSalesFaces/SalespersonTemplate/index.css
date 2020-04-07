@@ -1,0 +1,41 @@
+.SalespersonTemplate {
+  flex-direction: row;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+
+  & .SalespersonTemplate__contactInfo {
+    white-space: nowrap;
+
+    & > p {
+      margin-top: 0;
+
+      & > a {
+        color: inherit;
+      }
+    }
+  }
+}
+
+.SalespersonTemplate img.SalespersonTemplate__profilePhoto {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+@media (width <= 740px) {
+  .SalespersonTemplate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .SalespersonTemplate img.SalespersonTemplate__profilePhoto {
+    height: 145px;
+    width: 145px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}

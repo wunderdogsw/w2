@@ -1,0 +1,23 @@
+.CaseContactInfo {
+  & > h2.CaseContactInfo__header {
+    max-width: 100%;
+  }
+
+  & > .CaseContactInfo__salespeople {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-large) 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    & > .CaseContactInfo__salespeople__personCard {
+      margin-bottom: 50px;
+      width: 700px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

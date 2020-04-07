@@ -3,6 +3,7 @@
 
 import importedComponent from 'react-imported-component'
 
+export const CaseContactInfo = importedComponent(() => import('./CaseContactInfo'))
 export const ElectronicInvoicing = importedComponent(() => import('./ElectronicInvoicing'))
 export const LetsPlay = importedComponent(() => import('./LetsPlay'))
 export const LetsTalk = importedComponent(() => import('./LetsTalk'))

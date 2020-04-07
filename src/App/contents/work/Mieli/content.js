@@ -5,12 +5,15 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import TransitionLink from '../../../components/TransitionLink'
-import SubTitle from '../../../components/SubTitle'
 
 import photo1 from './mieli-photo1.jpg'
 import photo2 from './mieli-photo2.jpg'
 import photo3 from './mieli-photo3.jpg'
 import photo4 from './mieli-photo4.jpg'
+
+import {AnteroTorhonen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -105,20 +108,6 @@ export default () => (
         health is something we all believe in, so it was great to be able to
         help MIELI in such a practical way.
       </p>
-      <p>
-      <i>
-      Interested? Investing in the future happens now.
-      </i>
-      </p>
-      <p>
-      <i>
-      Antero Törhönen, Business Development Lead
-      <SubTitle>
-        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505281678
-      </i>
-      </p>
     </Chapter>
     <Image src={ photo4 } alt="Anni" />
     <Chapter>
@@ -141,6 +130,10 @@ export default () => (
         organization’s specific needs.
       </p>
     </Summary>
-
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Investing in the future happens now.">
+        <AnteroTorhonen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

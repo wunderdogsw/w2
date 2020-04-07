@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
@@ -12,10 +11,13 @@ import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
-import TransitionLink from 'App/components/TransitionLink'
 
 import photo1 from './rahamylly-photo1.jpg'
 import photo2 from './rahamylly-photo2.jpg'
+
+import {AnteroTorhonen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 
 export default () => (
@@ -116,20 +118,6 @@ export default () => (
       process from application to funds reaching a company account is quite
       complex, it can take as little as just a few days.
       </p>
-      <p>
-      <i>
-      Interested? Let's turn your ideas into digital reality.
-      </i>
-      </p>
-      <p>
-      <i>
-      Antero Törhönen, Business Development Lead
-      <SubTitle>
-        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505281678
-      </i>
-      </p>
       </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -143,6 +131,11 @@ export default () => (
       companies together with thousands of micro investors.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's turn your ideas into digital reality.">
+        <AnteroTorhonen />
+      </CaseContactInfo>
+    </CallToAction>
 
   </Fragment>
 )

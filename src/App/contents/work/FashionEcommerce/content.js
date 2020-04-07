@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
@@ -12,9 +11,11 @@ import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
-import TransitionLink from 'App/components/TransitionLink'
 
 import photo1 from './ecommerce-wunderdog.jpg'
+import {JasperVanGhemen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 
 export default () => (
@@ -103,22 +104,6 @@ export default () => (
       end up speaking for themselves.
       </p>
       </Chapter>
-      <Chapter>
-        <p>
-        <i>
-        Interested? Let’s take the next step together.
-        </i>
-        </p>
-      <p>
-      <i>
-      Jasper van Ghemen, Berlin
-        <SubTitle>
-         <a className="noHyphen" href="mailto:jasper.vanghemen@wunderdog.fi">jasper.vanghemen<span>@</span>wunderdog.fi</a>
-        </SubTitle>
-        +491752948023
-        </i>
-      </p>
-      </Chapter>
     <Summary>
       <h2>The challenge</h2>
       <p>
@@ -136,6 +121,10 @@ export default () => (
         Domain Driven Design (DDD) and TypeScript as resources.
       </p>
     </Summary>
-
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let’s take the next step together.">
+        <JasperVanGhemen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

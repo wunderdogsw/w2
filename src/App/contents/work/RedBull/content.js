@@ -3,11 +3,14 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
-import SubTitle from '../../../components/SubTitle'
 
 import mockup from './redbull-mockup.png'
 import photo1 from './redbull-photo1.png'
 import photo2 from './redbull-photo2.png'
+
+import {VilleArponen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -96,20 +99,6 @@ export default () => (
         their skates on, taking on an extreme challenge, and crushing it, with
         a success that just keeps on repeating.
       </p>
-      <p>
-      <i>
-      Interested? Let's take the steps together that guarantee success.
-      </i>
-      </p>
-    <p>
-    <i>
-    Ville Arponen, Account Executive
-      <SubTitle>
-       <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505637955
-      </i>
-    </p>
     </Chapter>
     <Image src={ photo2 } alt="Red Bull prize pic" />
     <Summary>
@@ -124,5 +113,10 @@ export default () => (
         repeated use in similar Red Bull campaigns.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's take the steps together that guarantee success.">
+        <VilleArponen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

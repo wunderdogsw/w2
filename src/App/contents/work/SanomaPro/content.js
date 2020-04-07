@@ -5,14 +5,12 @@ import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
-import SubTitle from '../../../components/SubTitle'
 import photo2 from './Design-Sprint.jpg'
 import photo3 from './Design-Sprint1.jpg'
 import photo4 from './Design-Sprint4.jpg'
-
-
-
-
+import {PirkkaSuominen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -120,20 +118,6 @@ export default () => (
       methods from this single project have now taken a larger role in the
       company, driving the building of a customer-driven culture.
       </BlockQuote>
-      <p>
-      <i>
-      Want to hear more? Let's talk.
-      </i>
-      </p>
-      <p>
-      <i>
-      Pirkka Suominen, Business Development Manager
-      <SubTitle>
-        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358407551327
-      </i>
-      </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -152,5 +136,10 @@ export default () => (
         A series of design sprints.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's talk.">
+        <PirkkaSuominen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )
