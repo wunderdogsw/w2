@@ -45,8 +45,8 @@ export default () => (
       </p>
       <p>
       <i>
-      The online workshop will be facilitaded by Zoom video streaming servive.
-      Link to stream will be shared to regirtered attendees.
+      The online workshop will be facilitaded by Zoom video streaming service.
+      Link to stream will be shared to registered attendees.
       </i>
       </p>
       <p>
