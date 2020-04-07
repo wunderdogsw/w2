@@ -3,8 +3,10 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
-import SubTitle from '../../../components/SubTitle'
 import photo from './perusterveys-photo.png'
+import {PirkkaSuominen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -81,20 +83,6 @@ export default () => (
         51.5%, while positive feedback on the user experience increased by
         78.8%. Healthy results by anyone’s standards.
       </p>
-      <p>
-      <i>
-      Interested? Let's talk.
-      </i>
-      </p>
-      <p>
-      <i>
-      Pirkka Suominen, Business Development Manager
-      <SubTitle>
-        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358407551327
-      </i>
-      </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -105,5 +93,10 @@ export default () => (
         triggered 78.8% more positive feedback on the user experience.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's talk.">
+        <PirkkaSuominen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import CssVars from 'App/components/CssVars'
 import MainTitle from 'App/components/MainTitle'
-import SubTitle from 'App/components/SubTitle'
 import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
@@ -13,6 +12,9 @@ import BlockQuote from 'App/components/BlockQuote'
 
 import photo1 from './ESM-photo1.jpg'
 import photo2 from './ESM-photo2.jpg'
+import {VilleArponen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 
 export default () => (
@@ -82,20 +84,6 @@ export default () => (
       <p>
       Our cooperation started back in 2017 and is still ongoing!
       </p>
-        <p>
-        <i>
-        Interested? Let's start creating quality.
-        </i>
-        </p>
-      <p>
-      <i>
-      Ville Arponen, Account Executive
-        <SubTitle>
-         <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
-        </SubTitle>
-        +358505637955
-        </i>
-      </p>
       </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -112,6 +100,11 @@ export default () => (
         By digitalizing ESM’s services, we improved service quality.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's start creating quality.">
+        <VilleArponen />
+      </CaseContactInfo>
+    </CallToAction>
 
   </Fragment>
 )

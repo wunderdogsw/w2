@@ -4,11 +4,14 @@ import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
-import SubTitle from '../../../components/SubTitle'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
 import photo3 from './oodi-photo3.jpg'
+
+import {PirkkaSuominen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -108,20 +111,6 @@ export default () => (
         the outcome. In fact, the collaboration with Sherpa went so well that
         we’re planning to work together on more projects in future.
       </p>
-      <p>
-      <i>
-      Interested? Let's make data work.
-      </i>
-      </p>
-      <p>
-      <i>
-      Pirkka Suominen, Business Development Manager
-      <SubTitle>
-        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358407551327
-      </i>
-      </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -135,6 +124,10 @@ export default () => (
         used by visitors to Oodi.
       </p>
     </Summary>
-
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's make data work.">
+        <PirkkaSuominen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

@@ -5,10 +5,12 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
-import SubTitle from '../../../components/SubTitle'
 import photo1 from './grib-photo1.jpg'
 import photo2 from './grib-photo2.jpg'
 import photo3 from './grib-photo3.jpg'
+import {AnteroTorhonen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -82,20 +84,6 @@ export default () => (
       Even first-time users can create designs in a matter of minutes,
       rather than the days it would take without the app.
       </p>
-      <p>
-      <i>
-      Interested? Let's get creative.
-      </i>
-      </p>
-      <p>
-      <i>
-      Antero Törhönen, Business Development Lead
-      <SubTitle>
-        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505281678
-      </i>
-      </p>
       </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -116,6 +104,10 @@ export default () => (
         at the Nordic Startup Awards in December 2019!
       </p>
     </Summary>
-
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's get creative.">
+        <AnteroTorhonen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )

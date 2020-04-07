@@ -4,10 +4,12 @@ import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import Summary from '../../../components/Summary'
-import SubTitle from '../../../components/SubTitle'
 import photo1 from './smartly-photo1.jpg'
 import photo2 from './smartly-photo2.jpg'
 import photo3 from './smartly-photo3.jpg'
+import {AnteroTorhonen} from '../../contactSalesFaces'
+import CallToAction from "../../../components/CallToAction"
+import {CaseContactInfo} from "../../callToActions"
 
 export default () => (
   <Fragment>
@@ -80,20 +82,6 @@ export default () => (
         This collaboration continues to prove that working together is working
         smartly.
       </p>
-      <p>
-      <i>
-      Interested? Let's make ideas fly.
-      </i>
-      </p>
-      <p>
-      <i>
-      Antero Törhönen, Business Development Lead
-      <SubTitle>
-        <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
-      </SubTitle>
-      +358505281678
-      </i>
-      </p>
     </Chapter>
     <Summary>
       <h2>The challenge</h2>
@@ -109,5 +97,10 @@ export default () => (
         modularization.
       </p>
     </Summary>
+    <CallToAction color="blue" large grid>
+      <CaseContactInfo slogan="Let's make ideas fly.">
+        <AnteroTorhonen />
+      </CaseContactInfo>
+    </CallToAction>
   </Fragment>
 )
