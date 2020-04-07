@@ -7,7 +7,7 @@ import Chapter from '../../../components/Chapter'
 import photo2 from './Design-Sprint.jpg'
 import photo3 from './Design-Sprint1.jpg'
 import photo4 from './Design-Sprint4.jpg'
-import {PirkkaSuominen} from '../../contactSalesFaces'
+import {VilleArponen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
 
@@ -120,7 +120,7 @@ export default () => (
     </Chapter>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
-        <PirkkaSuominen />
+        <VilleArponen />
       </CaseContactInfo>
     </CallToAction>
   </Fragment>
