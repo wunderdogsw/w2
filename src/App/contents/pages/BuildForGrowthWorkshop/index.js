@@ -15,7 +15,7 @@ import HubspotForm from 'react-hubspot-form'
 import SubTitle from 'App/components/SubTitle'
 import './index.css'
 
-import YoutubeVideo from 'App/components/YoutubeVideo'
+import Video from '../../../components/Video'
 
 import photo from './northstarmetrics.jpg'
 
@@ -32,16 +32,27 @@ export default () => (
     <MainTitle narrow>Build for Growth With the North Star Framework</MainTitle>
     <Chapter>
       <p>
-      Join us for an interactive workshop to discover how
-      product-led companies drive business outcomes. The event is co-hosted with
+      <i>
+      Join us for <b>an online workshop</b> to discover how
+      product-led companies drive business outcomes. Hosted by Wunderdog and powered by
       Amplitude.
+      </i>
       </p>
       <p>
-      Tuesday 21st April, 8:30-10:30, Kaisaniemenkatu 1 C, 4th floor, 00100
-      Helsinki
+      <i>
+      <b>Wednesday 20th May, 10:00-12:00 Helsinki time (GMT+3).</b>
+      </i>
       </p>
       <p>
+      <i>
+      The online workshop will be facilitaded by Zoom video streaming service.
+      Link to stream will be shared to registered attendees.
+      </i>
+      </p>
+      <p>
+      <i>
       Registration <a href="#register">here</a>.
+      </i>
       </p>
       </Chapter>
     <Image src={ photo } alt="Wunderdog people" indent hero/>
@@ -72,23 +83,23 @@ export default () => (
       product's North Star.
       </p>
     </Chapter>
-    <YoutubeVideo videoId= "YB1_44ZBIwY"/>
+    <Video src="https://player.vimeo.com/external/404915504.hd.mp4?s=31dcbebb14c021ca02a3acd4f9e708ad5ac83d27&profile_id=175" />
     <Chapter>
       <h2>
         Agenda
       </h2>
-      <p><b>8:30am Breakfast & Briefing</b><br />Check in and join us for coffee and breakfast.</p>
-      <p><b>8:45am Setting a North Star Metric</b><br />Learn the principles behind an effective North Star, see how it's different across engagement models, and walk through a case study of a leading product company.</p>
-      <p><b>9:30am Hands-on Practise</b><br />Breakout into small groups for an exercise about determining your own North Star metrics.</p>
-      <p><b>10:00am Demo</b><br />....</p>
-      <p><b>10:30am Wrap-up & Depart</b><br />Thank you for joining us!</p>
+      <p><b>10:00am Welcome & Briefing</b><br />Check in and welcome words by Wunderdog</p>
+      <p><b>10:15am Setting a North Star Metric</b><br />Learn the principles behind an effective North Star, see how it's different across engagement models, and walk through a case study of a leading product company</p>
+      <p><b>11:00am Demo</b><br />A brief demo of a product analytics tool</p>
+      <p><b>11:30am Q&A</b><br />Discussion and Q&A session</p>
+      <p><b>11:50am Wrap-up</b><br />Thank you for joining us!</p>
     </Chapter>
     <Chapter>
     <h2>
       Event Details
     </h2>
-    <p><b>Date & Time</b><br />21st April, 8:30-10:30am</p>
-    <p><b>Location</b><br />Wunderdog office, Kaisaniemenkatu 1 C, 4th floor, 00100 Helsinki</p>
+    <p><b>Date & Time</b><br />20th May, 10:00-12:00am Helsinki time (GMT + 3)</p>
+    <p><b>Location</b><br />Online workshop will be facilitated by Zoom video streaming service. Link to stream will be shared to registered attendees.</p>
     <p><b>Presenter</b><br /><a href="https://www.linkedin.com/in/richardeckles/">Richard Eckles</a>, Amplitude Customer Success Manager</p><p>
     </p>
     </Chapter>
@@ -96,10 +107,10 @@ export default () => (
     <h2>
       Registration
     </h2>
-      <p id="register">Due to limited spacing, we collect a waiting list
-      and confirm the spots to as many persons as we can fit.
+      <p id="register">We are collecting a waiting list
+      and will confirm the attendance to as many persons as possible.
       Confirmations will be sent a few weeks prior to the event. Register to the
-      waiting list by filling in this form:</p>
+      waiting list by filling in your e-mail below:</p>
       <HubspotForm
         portalId='1704241'
         formId='2e04a6dc-afa5-4f5e-8879-b34caa36e88e'
