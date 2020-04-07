@@ -5,8 +5,9 @@ import Card from '../../../components/Card'
 import CardContainer from '../../../components/CardContainer'
 import CardsGrid from '../../../components/CardsGrid'
 import Image from '../../../components/Image'
-import {allCategory, categories, works} from '../../../routes/Work'
 import Navigation from "../../../components/Navigation";
+import WorkCategoryDescription from "../../../components/WorkCategoryDescription";
+import {allCategory, categories, works} from '../../../routes/Work'
 import cs from "classnames";
 
 const workPageBaseUrl = '/work/'
@@ -46,6 +47,7 @@ export default ({selectedCategory}) => {
                     </li>
                 ))}
             </Navigation>
+            <WorkCategoryDescription category={currentCategory} />
             <CardsGrid disharmony>
                 {works
                     .filter(w => currentCategory === allCategory || w.categories.includes(currentCategory))
