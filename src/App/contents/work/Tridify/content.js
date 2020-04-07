@@ -7,9 +7,9 @@ import Chapter from '../../../components/Chapter'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
-import photo1 from './Tridify-Hippos-arena.jpg'
-import photo2 from './Tridify-view-your-bim1.jpg'
-import photo3 from './Tridify-Wunderdog3.jpg'
+import photo1 from './tridify-product.jpg'
+import photo3 from './Tridify-view-your-bim1.jpg'
+import photo2 from './Tridify-Wunderdog3.jpg'
 import {VilleArponen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
