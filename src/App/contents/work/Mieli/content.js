@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import TransitionLink from '../../../components/TransitionLink'
 
 import photo1 from './mieli-photo1.jpg'
@@ -116,20 +115,6 @@ export default () => (
         work practice programmee Anni.</TransitionLink> </i>
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        MIELI’s current system had come to the end of its life. It was a service
-        by an outside provider that had been customized to meet their needs, but
-        both the usability and customization opportunities were limited.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We were able to simplify and unify MIELI’s processes and add all the
-        requested new features to a new system that caters directly for the
-        organization’s specific needs.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Investing in the future happens now.">
         <AnteroTorhonen />

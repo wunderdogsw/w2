@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
@@ -112,18 +111,6 @@ export default () => (
         we’re planning to work together on more projects in future.
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Create an exciting and engaging way for people to get to know Helsinki
-        and contribute to its development.
-      </p>
-      <h2>The result</h2>
-      <p>
-        Three new interactive experiences that celebrate Helsinki and are actively
-        used by visitors to Oodi.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's make data work.">
         <PirkkaSuominen />

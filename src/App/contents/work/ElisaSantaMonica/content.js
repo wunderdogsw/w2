@@ -6,7 +6,6 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 
@@ -85,21 +84,6 @@ export default () => (
       Our cooperation started back in 2017 and is still ongoing!
       </p>
       </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Information about delivery times and methods was communicated manually,
-        placing a burden on ESM’s sales and customer service teams. Data
-        wasn’t easy to access and customer support information for different
-        devices was stored in several different places.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We created a self-service portal that gathers together relevant
-        information for customers.
-        By digitalizing ESM’s services, we improved service quality.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's start creating quality.">
         <VilleArponen />

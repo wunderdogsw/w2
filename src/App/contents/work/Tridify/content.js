@@ -4,7 +4,6 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
@@ -87,21 +86,6 @@ export default () => (
       <p><b>The code is better, with fewer bugs.</b><br /></p>
       <p><b>The pace of product development has accelerated.</b><br /></p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Tridify needed external ideas, experiences, and points of view to freshen
-        up and improve both the development process and the ways of working in
-        order to accelerate software development.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We helped to improve the product development process and facilitated
-        meetings to create more agile ways of working. We also helped the
-        development team to use more rigorous code review processes, as well as
-        helping build more effective pair-programming practices.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's get agile.">
         <VilleArponen />

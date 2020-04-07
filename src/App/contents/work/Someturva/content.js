@@ -4,7 +4,6 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import Video from '../../../components/Video'
 import Indent from '../../../components/Indent'
 import Stats from '../../../components/Stats'
@@ -101,18 +100,6 @@ export default () => (
       </p>
     </Chapter>
     <Video src="https://player.vimeo.com/external/373123756.hd.mp4?s=df9edf8ebcd1410bca9d4743c2f1221c115fd73f&profile_id=174" />
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Test the idea, and create an innovative product from scratch with
-        engaging UX design.
-      </p>
-      <h2>The result</h2>
-      <p>
-        The product was launched in September 2019 - on time and on budget, and
-        Someturva is now expanding abroad.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
         <PirkkaSuominen />

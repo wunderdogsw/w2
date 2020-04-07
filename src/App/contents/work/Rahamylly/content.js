@@ -6,7 +6,6 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
@@ -118,19 +117,7 @@ export default () => (
       process from application to funds reaching a company account is quite
       complex, it can take as little as just a few days.
       </p>
-      </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-      Create a novel crowdfunding platform that allows everyday citizens
-      to invest in Finnish companies.
-      </p>
-      <h2>The result</h2>
-      <p>
-      A successful platform that is already bringing hundreds of
-      companies together with thousands of micro investors.
-      </p>
-    </Summary>
+    </Chapter>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's turn your ideas into digital reality.">
         <AnteroTorhonen />

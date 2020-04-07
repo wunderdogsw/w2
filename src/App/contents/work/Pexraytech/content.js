@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import mockup from './pexraytech-mockup.png'
 import {VilleArponen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
@@ -73,18 +72,6 @@ export default () => (
         success for everyone involved.
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Develop a user interface for an innovative portable X-ray system
-        suitable for multiple platforms.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We successfully delivered on time and on budget, helping Pexraytech
-        ensure their product was launch-ready when they needed it to be.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's future-proof your business.">
         <VilleArponen />

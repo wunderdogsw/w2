@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 import BlockQuote from 'App/components/BlockQuote'
@@ -118,22 +117,6 @@ export default () => (
         everyone involved.
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Growing business meant a growing need for software development talent, and
-        the knowledge of Scrum to help the entire team from business stakeholders
-        and domain experts to product owners and individual developers to learn
-        the best practices and help to improve the products.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We helped in the daily development work while at the same time coaching
-        the Blueprint Genetics team to help them sharpen up their software
-        development practices in terms of technologies, communication, and
-        leadership.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
         <AnteroTorhonen />
