@@ -4,7 +4,6 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import photo2 from './Design-Sprint.jpg'
 import photo3 from './Design-Sprint1.jpg'
 import photo4 from './Design-Sprint4.jpg'
@@ -119,23 +118,6 @@ export default () => (
       company, driving the building of a customer-driven culture.
       </BlockQuote>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Sanoma Pro needed a partner to help with the digital transformation of
-        their learning environment, from books to digital.
-      </p>
-      <h2>The result</h2>
-      <p>
-        By using design sprints, we prototyped and tested our ideas to get insight
-        from users, then used their feedback to build a product. Alongside books,
-        audio and video placed in context in a digital learning environment add
-        value for both teachers and pupils.
-      </p><h2>Methods used</h2>
-      <p>
-        A series of design sprints.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
         <PirkkaSuominen />

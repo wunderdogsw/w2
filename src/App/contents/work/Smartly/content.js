@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import photo1 from './smartly-photo1.jpg'
 import photo2 from './smartly-photo2.jpg'
 import photo3 from './smartly-photo3.jpg'
@@ -83,20 +82,6 @@ export default () => (
         smartly.
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Assist the Smartly.io DevOps team with their work, migrating to a new
-        continuous integration system and improving the development
-        environments.
-      </p>
-      <h2>The result</h2>
-      <p>
-        A successful partnership leading to significant improvements in the
-        development environments, with faster test runs and better
-        modularization.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's make ideas fly.">
         <AnteroTorhonen />

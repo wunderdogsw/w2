@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
 import photo1 from './alma-photo1.jpg'
 import photo2 from './alma-photo2.jpg'
@@ -87,19 +86,6 @@ export default () => (
         <i>*Photos by Alma Media</i>
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Keep a media corporation ahead of the game with constant
-        digital development.
-      </p>
-      <h2>The result</h2>
-      <p>
-        A successful five-year-and-counting collaboration working closely
-        in their teams.
-      </p>
-
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's start our journey together.">
         <AnteroTorhonen />

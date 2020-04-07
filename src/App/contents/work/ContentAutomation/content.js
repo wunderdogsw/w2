@@ -6,7 +6,6 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
@@ -88,17 +87,6 @@ export default () => (
       ensured the continuity of the project and set a good base for its success.
       </p>
       </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-      Re-writing a customer’s legacy tool for managing publication content.
-      </p>
-      <h2>The result</h2>
-      <p>
-      Accurate ticket estimations and the creation of the tool replica to make
-      tracking news stories more cost-effective.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's make the future happen.">
         <JasperVanGhemen />

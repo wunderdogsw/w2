@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import photo from './perusterveys-photo.png'
 import {PirkkaSuominen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
@@ -84,15 +83,6 @@ export default () => (
         78.8%. Healthy results by anyone’s standards.
       </p>
     </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>Build the best online booking system in the world.</p>
-      <h2>The result</h2>
-      <p>
-        The new system increased booked appointments online by 51.5% and
-        triggered 78.8% more positive feedback on the user experience.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
         <PirkkaSuominen />

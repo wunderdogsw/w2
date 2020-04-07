@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 import BlockQuote from '../../../components/BlockQuote'
 import photo1 from './grib-photo1.jpg'
 import photo2 from './grib-photo2.jpg'
@@ -85,25 +84,6 @@ export default () => (
       rather than the days it would take without the app.
       </p>
       </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        While bringing the Grib concept to life, challenges with the
-        architecture made it hard to prioritize software development,
-        so the backlog of development tasks was increasing every day.
-      </p>
-      <h2>The result</h2>
-      <p>
-        We helped Grib to pick up the pace and
-        concentrate on their business while we took responsibility for
-        ensuring delivery to customers, clarifying and increasing the pace of
-        software development, and making recruitment easier.
-        </p>
-        <p>
-        Grib won the Best Creative Industry of the Year category
-        at the Nordic Startup Awards in December 2019!
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's get creative.">
         <AnteroTorhonen />

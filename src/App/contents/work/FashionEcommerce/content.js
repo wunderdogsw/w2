@@ -6,7 +6,6 @@ import Keywords from 'App/components/Keywords'
 import Image from 'App/components/Image'
 import ImageRow from 'App/components/ImageRow'
 import Chapter from 'App/components/Chapter'
-import Summary from 'App/components/Summary'
 import DatLine from 'App/components/DatLine'
 import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
@@ -74,7 +73,7 @@ export default () => (
       already using it and it is a good language to work with. Thus we also made a
       case for switching to TypeScript rather than keep using Javascript + Flow.
       For the new project after ours ended, everyone in the team started using
-      TypeScript. 
+      TypeScript.
     </p>
     </Chapter>
     <Chapter>
@@ -104,23 +103,6 @@ export default () => (
       end up speaking for themselves.
       </p>
       </Chapter>
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-      Scaling the customer loyalty program of a leading ecommerce company from
-      Berlin to Europe-wide and helping them move away from their MVP phase.
-      </p>
-      <h2>The result</h2>
-      <p>
-      Exceeding their expectations by taking leadership of the project, and
-      eventually growing their subscribers from a few hundred to hundred of
-      thousands across multiple countries in Europe.
-      </p>
-      <h2>Methods used</h2>
-      <p>
-        Domain Driven Design (DDD) and TypeScript as resources.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let’s take the next step together.">
         <JasperVanGhemen />

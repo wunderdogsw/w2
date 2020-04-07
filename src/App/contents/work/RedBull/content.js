@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
-import Summary from '../../../components/Summary'
 
 import mockup from './redbull-mockup.png'
 import photo1 from './redbull-photo1.png'
@@ -101,18 +100,6 @@ export default () => (
       </p>
     </Chapter>
     <Image src={ photo2 } alt="Red Bull prize pic" />
-    <Summary>
-      <h2>The challenge</h2>
-      <p>
-        Develop an engaging companion game for the Red Bull Crashed Ice extreme
-        sport event – in just two weeks.
-      </p>
-      <h2>The result</h2>
-      <p>
-        A successful game, launched on time, which has been easily modified for
-        repeated use in similar Red Bull campaigns.
-      </p>
-    </Summary>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's take the steps together that guarantee success.">
         <VilleArponen />
