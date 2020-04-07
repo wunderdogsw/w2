@@ -15,7 +15,7 @@ import HubspotForm from 'react-hubspot-form'
 import SubTitle from 'App/components/SubTitle'
 import './index.css'
 
-import YoutubeVideo from 'App/components/YoutubeVideo'
+import Video from '../../../components/Video'
 
 import photo from './northstarmetrics.jpg'
 
@@ -83,7 +83,7 @@ export default () => (
       product's North Star.
       </p>
     </Chapter>
-    <YoutubeVideo videoId= "YB1_44ZBIwY"/>
+    <Video src="https://player.vimeo.com/external/404915504.hd.mp4?s=31dcbebb14c021ca02a3acd4f9e708ad5ac83d27&profile_id=175" />
     <Chapter>
       <h2>
         Agenda
