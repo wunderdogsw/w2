@@ -14,6 +14,9 @@ export default () => (
   <Fragment>
     <Chapter>
       <p>
+      <h2>To get started</h2>
+      </p>
+      <p>
       Recently my colleague Guy and I worked on a Node.js/React.js/TypeScript
       project for the leading fashion e-commerce company in Berlin. This article
       <TransitionLink to='https://wunderdog.fi/blog/domain-driven-design-in-practice'> follows Guy’s views </TransitionLink>
