@@ -11,6 +11,7 @@ import { SeriousStats } from 'App/contents/stats'
 import Logos from 'App/components/Logos'
 import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
+import TransitionLink from '../../../components/TransitionLink'
 
 import hero from './about-us-1.jpg'
 import photo1 from './about-us-4.jpg'
@@ -25,6 +26,10 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>We believe things can be done better</MainTitle>
+    <p>
+    We are currently serving 100% of our customers remotely. Would you also like to be served?
+    <TransitionLink to='https://wunderdog.fi/smarter-future'> See more.</TransitionLink>
+    </p>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>Born years later than the leaders in the field, we inevitably
