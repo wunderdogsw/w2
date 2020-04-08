@@ -4,7 +4,7 @@ import image from './alma.jpeg'
 export default {
   title: 'Joanna in Gal Talks Tech',
   author: {
-    name: 'Joanna',
+    name: 'Joanna Rindell',
     title: 'Country Lead of Wunderdog GmbH'
   },
   publishDate: 'Sep 18, 2019',

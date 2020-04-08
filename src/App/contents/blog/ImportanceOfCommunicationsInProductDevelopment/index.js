@@ -4,7 +4,7 @@ import image from './communication.png'
 export default {
   title: 'The importance of communications in product development',
   author: {
-    name: 'Tsuikkis',
+    name: 'Ville Komulainen',
     title: 'COO & founder'
   },
   publishDate: 'Sep 18, 2018',

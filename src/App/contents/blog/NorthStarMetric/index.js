@@ -4,7 +4,7 @@ import image from './north-star.jpg'
 export default {
   title: 'The first mistake in your software project',
   author: {
-    name: 'Bole',
+    name: 'Tommi Huovinen',
     title: 'Business Lead'
   },
   publishDate: 'Dec 20, 2018',

@@ -4,7 +4,7 @@ import image from './wrongwriting.png'
 export default {
   title: 'I had a problem: It’s the writing that’s wrong',
   author: {
-    name: 'Tsuikkis',
+    name: 'Ville Komulainen',
     title: 'COO & founder'
   },
   publishDate: 'Dec 4, 2018',

@@ -2,9 +2,9 @@ import importedComponent from 'react-imported-component'
 import image from './WDW-nukka.jpg'
 
 export default {
-  title: 'We do wunders',
+  title: 'I decided that as soon as I can I’ll leave the town behind, and start studying media',
   author: {
-    name: 'Nukka',
+    name: 'Heini Kärkkäinen',
     title: 'Designer'
   },
   publishDate: 'Jan 30, 2019',

@@ -4,7 +4,7 @@ import image from './your-name.jpg'
 export default {
   title: 'I had a problem: What’s your name again?',
   author: {
-    name: 'Paco',
+    name: 'Ari Paasonen',
     title: 'Software developer'
   },
   publishDate: 'Dec 4, 2018',

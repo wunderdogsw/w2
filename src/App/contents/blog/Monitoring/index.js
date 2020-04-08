@@ -4,7 +4,7 @@ import image from './monitoring.jpeg'
 export default {
   title: 'Why should every developer care about monitoring',
   author: {
-    name: 'Tsuikkis',
+    name: 'Ville Komulainen',
     title: 'COO & founder'
   },
   publishDate: 'Sep 18, 2018',

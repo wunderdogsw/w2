@@ -4,7 +4,7 @@ import image from './invisible.jpeg'
 export default {
   title: 'Make your software as invisible as possible',
   author: {
-    name: 'Valde',
+    name: 'Mika Viljanen',
     title: 'Senior consultant & founder'
   },
   publishDate: 'Sep 18, 2018',

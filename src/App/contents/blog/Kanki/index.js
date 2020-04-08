@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './kanki.jpeg'
 
 export default {
-  title: 'We do wunders',
+  title: 'I feel I’ve now seen the Finnish organisational extremes',
   author: {
     name: 'Kanki',
     title: 'Service Designer'
