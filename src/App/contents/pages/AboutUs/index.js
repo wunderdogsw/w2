@@ -51,7 +51,7 @@ export default () => (
       </h2>
       <p><b>Software development</b><br />Delivering high-quality digital products & services</p>
       <p><b>Product Analytics</b><br />Understanding and developing how users engage with what we build</p>
-      <p><b>Business Design</b><br />Developing, testing and concepting of new businesses</p>
+      <p><b>Business Design</b><br />Developing, testing and creating concepts for new businesses</p>
       <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
       <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
