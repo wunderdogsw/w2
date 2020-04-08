@@ -58,6 +58,21 @@ export default () => (
     </Chapter>
 
     <Chapter>
+    <h2>
+    High-end consulting in creating digital products and services
+    </h2>
+    <p>
+    We guide our customers through the maze of crafting digital products and
+    services from ideation to execution. By combining smart ways of working,
+    human-centered design and high-quality code, we build future products and
+    services together with our customers.
+    </p>
+    </Chapter>
+
+
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
+
+    <Chapter>
       <h2>
         Our ecosystem
       </h2>
@@ -74,8 +89,6 @@ export default () => (
       </Logos>
     </Indent>
 
-    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
-
     <Chapter>
       <h2>
         We're your partner in turning good ideas into digital reality
@@ -86,6 +99,8 @@ export default () => (
         <Clients />
       </Logos>
     </Indent>
+
+
 
     <Image src={ photo2 } alt="Wunderdog people" large hero/>
 
