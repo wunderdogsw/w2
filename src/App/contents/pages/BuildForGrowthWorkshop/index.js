@@ -55,8 +55,8 @@ export default () => (
       </i>
       </p>
       </Chapter>
-    <Image src={ photo } alt="Wunderdog people" indent hero/>
-    <Chapter>
+    <Video src="https://player.vimeo.com/external/404915504.hd.mp4?s=31dcbebb14c021ca02a3acd4f9e708ad5ac83d27&profile_id=175" />
+      <Chapter>
     <h2>
       What's your North Star metric?
     </h2>
@@ -83,7 +83,7 @@ export default () => (
       product's North Star.
       </p>
     </Chapter>
-    <Video src="https://player.vimeo.com/external/404915504.hd.mp4?s=31dcbebb14c021ca02a3acd4f9e708ad5ac83d27&profile_id=175" />
+    <Image src={ photo } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>
         Agenda
@@ -107,10 +107,10 @@ export default () => (
     <h2>
       Registration
     </h2>
-      <p id="register">We are collecting a waiting list
-      and will confirm the attendance to as many persons as possible.
-      Confirmations will be sent a few weeks prior to the event. Register to the
-      waiting list by filling in your e-mail below:</p>
+      <p id="register">Register by filling in your e-mail below. This puts you in the waiting list. We aim to fit
+      as many attendees as possible. Final registrations will be confirmed few weeks
+      prior to the event.
+      </p>
       <HubspotForm
         portalId='1704241'
         formId='2e04a6dc-afa5-4f5e-8879-b34caa36e88e'
