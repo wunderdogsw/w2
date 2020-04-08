@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './kiti.jpg'
 
 export default {
-  title: 'We do wunders',
+  title: 'I was supposed to be a math teacher but programming got me hooked by half-accident',
   author: {
     name: 'Kiti',
     title: 'Software engineer'

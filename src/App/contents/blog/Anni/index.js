@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './anni.jpg'
 
 export default {
-  title: 'My work practice program at Wunderdog',
+  title: 'My feelings about the work practice programme at Wunderdog',
   author: {
     name: 'Anni',
     title: '9th grader from junior high school'

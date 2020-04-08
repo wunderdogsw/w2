@@ -4,7 +4,7 @@ import image from './designblog-3.jpg'
 export default {
   title: 'Production Chain Erosion Prevention by Design',
   author: {
-    name: 'Kanki, Lasse Kaikkonen',
+    name: 'Lasse Kaikkonen',
     title: 'Service Designer'
   },
   publishDate: 'Feb 3, 2020',

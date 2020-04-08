@@ -4,7 +4,7 @@ import image from './typescript.jpg'
 export default {
   title: 'A Bespoke TypeScript Presentation',
   author: {
-    name: 'Murtsi',
+    name: 'Joni Katajamäki',
     title: 'Senior Developer'
   },
   publishDate: 'Dec 17, 2019',

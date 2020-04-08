@@ -2,7 +2,7 @@ import importedComponent from 'react-imported-component'
 import image from './hank.png'
 
 export default {
-  title: 'We Do Wunders — Hank, Team Lead aka Lassie',
+  title: 'Without these skills even the best code wizard wouldn’t get along',
   author: {
     name: 'Hank',
     title: 'Team lead'

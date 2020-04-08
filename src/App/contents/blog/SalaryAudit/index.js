@@ -4,7 +4,7 @@ import image from './salary-audit.jpg'
 export default {
   title: 'We reported ourselves to equality consultants',
   author: {
-    name: 'Meri-Tuuli',
+    name: 'Meri-Tuuli Olkkonen',
     title: 'People Operations Lead'
   },
   publishDate: 'Dec 13, 2019',

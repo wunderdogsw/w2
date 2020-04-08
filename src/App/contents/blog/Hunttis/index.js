@@ -2,9 +2,9 @@ import importedComponent from 'react-imported-component'
 import image from './hunttis.jpeg'
 
 export default {
-  title: 'We do wunders',
+  title: 'Coding is like digital carpentry',
   author: {
-    name: 'Hunttis',
+    name: 'Ville Nuutinen',
     title: 'Software developer'
   },
   publishDate: 'Jan 21, 2019',
