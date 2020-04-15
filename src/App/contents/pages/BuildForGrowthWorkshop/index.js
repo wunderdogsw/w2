@@ -45,7 +45,7 @@ export default () => (
       </p>
       <p>
       <i>
-      The online workshop will be facilitaded by Zoom video streaming service.
+      The online workshop will be facilitated by Zoom video streaming service.
       Link to stream will be shared to registered attendees.
       </i>
       </p>
@@ -54,9 +54,9 @@ export default () => (
       Registration <a href="#register">here</a>.
       </i>
       </p>
-      </Chapter>
-    <Video src="https://player.vimeo.com/external/404915504.hd.mp4?s=31dcbebb14c021ca02a3acd4f9e708ad5ac83d27&profile_id=175" />
       <Chapter>
+      <iframe width="1366" height="768" src="https://www.youtube.com/embed/V7IqUhwYW7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </Chapter>
     <h2>
       What's your North Star metric?
     </h2>
@@ -107,7 +107,7 @@ export default () => (
     <h2>
       Registration
     </h2>
-      <p id="register">Register by filling in your e-mail below. This puts you in the waiting list. We aim to fit
+      <p id="register">Register by filling in the form below. This puts you in the waiting list. We aim to fit
       as many attendees as possible. Final registrations will be confirmed few weeks
       prior to the event.
       </p>
