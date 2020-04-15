@@ -56,11 +56,26 @@ export default () => (
       </h2>
       <p><b>Software development</b><br />Delivering high-quality digital products & services</p>
       <p><b>Product Analytics</b><br />Understanding and developing how users engage with what we build</p>
-      <p><b>Business Design</b><br />Developing, testing and concepting of new businesses</p>
+      <p><b>Business Design</b><br />Developing, testing and creating concepts for new businesses</p>
       <p><b>Service and Product Design</b><br />Easy-to-use interfaces to generate great user experiences</p>
       <p><b>Coaching & Team leading</b><br />Agile methods to support smart ways of working</p>
       <p><b>Scoped projects & co-sourcing</b><br />Reliable delivery to accelerate the development process</p>
     </Chapter>
+
+    <Chapter>
+    <h2>
+    High-end consulting in creating digital products and services
+    </h2>
+    <p>
+    We guide our customers through the maze of crafting digital products and
+    services from ideation to execution. By combining smart ways of working,
+    human-centered design and high-quality code, we build future products and
+    services together with our customers.
+    </p>
+    </Chapter>
+
+
+    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
 
     <Chapter>
       <h2>
@@ -79,8 +94,6 @@ export default () => (
       </Logos>
     </Indent>
 
-    <Image src={ photo1 } alt="Wunderdog people" indent="left" hero/>
-
     <Chapter>
       <h2>
         We're your partner in turning good ideas into digital reality
@@ -91,6 +104,8 @@ export default () => (
         <Clients />
       </Logos>
     </Indent>
+
+
 
     <Image src={ photo2 } alt="Wunderdog people" large hero/>
 
