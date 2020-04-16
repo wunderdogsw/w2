@@ -15,7 +15,7 @@ import HubspotForm from 'react-hubspot-form'
 import SubTitle from 'App/components/SubTitle'
 import './index.css'
 
-import Video from '../../../components/Video'
+import YoutubeVideo from 'App/components/YoutubeVideo'
 
 import photo from './northstarmetrics.jpg'
 
@@ -55,7 +55,7 @@ export default () => (
       </i>
       </p>
       <Chapter>
-      <iframe width="1366" height="768" src="https://www.youtube.com/embed/V7IqUhwYW7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <YoutubeVideo videoId="V7IqUhwYW7k"/>
       </Chapter>
     <h2>
       What's your North Star metric?
