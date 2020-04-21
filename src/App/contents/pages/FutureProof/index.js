@@ -20,6 +20,7 @@ import './index.css'
 
 import photo1 from './Wunderdog-digital.jpg'
 import photo4 from './Abe.jpg'
+import YoutubeVideo from 'App/components/YoutubeVideo'
 
 export default () => (
   <Fragment>
@@ -30,8 +31,8 @@ export default () => (
       }}
     </CssVars>
       <MainTitle narrow>Nyt on aika investoida parempaan tulevaisuuteen.</MainTitle>
-      <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
       <Chapter>
+      <YoutubeVideo videoId="HfUjEegWQ1Y"/>
       <h2> Löydä liiketoimintasi ongelmakohdat ja ratko
       ne, tunnista arvoa tuottavat tekijät ja panosta niihin.
       </h2>
@@ -106,6 +107,7 @@ export default () => (
     </BlockQuote>
     </Chapter>
 
+<Image src={ photo1 } alt="iPad-image" indent="right" hero/>
       <Chapter>
       <h2>
       Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
@@ -130,27 +132,19 @@ export default () => (
         <SubTitle>
         <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a>
         </SubTitle>
-        +358505281678
-        </i>
+        +358505281678</i>
         </p>
         <p>
-        <i>
-        Pirkka Suominen
-        <SubTitle>
-        <a className="noHyphen" href="mailto:pirkka.suominen@wunderdog.fi">pirkka.suominen<span>@</span>wunderdog.fi</a>
-        </SubTitle>
-        +358407551327
-        </i>
+        tai jätä yhteystietosi:
         </p>
-        <p>
-        <i>
-        Ville Arponen
-        <SubTitle>
-         <a className="noHyphen" href="mailto:ville.arponen@wunderdog.fi">ville.arponen<span>@</span>wunderdog.fi</a>
-        </SubTitle>
-        +358505637955
-        </i>
-      </p>
+
+
+        <HubspotForm
+        portalId='1704241'
+        formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
+        css=''
+        />
+
 
   </Chapter>
 </Fragment>
