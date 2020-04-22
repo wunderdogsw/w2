@@ -3,6 +3,8 @@ import React, { Fragment } from 'react'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
+import Stats from 'App/components/Stats'
+import Indent from 'App/components/Indent'
 
 import photo1 from './oodi-photo1.png'
 import photo2 from './oodi-photo2.png'
@@ -15,17 +17,50 @@ import {CaseContactInfo} from "../../callToActions"
 export default () => (
   <Fragment>
     <Chapter>
-      <h2>Setting the scene</h2>
-      <p>
-        Oodi, Helsinki’s brand spanking new central library, is a world away
-        from the stereotypical libraries of the past. As well as books as far as
-        the eye can see, this new landmark in central Helsinki boasts a whole
-        host of high-tech equipment that everyone’s welcome to use – like
-        3D laser printers and computerized embroidery machines. For its grand
-        opening at the beginning of December 2018, a building this special
-        needed a celebration of the city to match.
-      </p>
+    <h2>Our capital solution</h2>
+    <p>
+      We took the City of Helsinki style guide and ran with it, creating three
+      different experiences in collaboration with Sherpa:
+    </p>
+    <ul>
+      <li>
+        A fun quiz, Helsinki Test, where people could discover which Helsinki district they are
+      </li>
+      <li>
+        A social media wall to gather content posted with the #unelmienkaupunki hashtag
+      </li>
+      <li>
+        An audio-visual 3D map of Helsinki and its districts
+      </li>
+    </ul>
+    <p>
+    We created a beautiful look and feel for the Helsinki Test using modern CSS
+    animations, and used React for the quiz itself. The great thing about this
+    was that we didn’t need to worry about multiple browsers and resolutions
+    as the quiz was implemented for iPad only.
+    </p>
+    <p>
+    For the social media wall we benchmarked solutions that were already
+    available so we could get things up and running fast. We chose wall.io
+    because it gave us the flexibility to create exactly the look and feel we
+    wanted. Why start from scratch and waste time and money when someone’s
+    already created something that fits the bill perfectly?
+    </p>
+    <p>
+    Developing the 3D map was particularly exciting for us as we got our first
+    chance to use the Unity engine.
+    </p>
     </Chapter>
+    <Indent twice><Stats>
+      <div>
+        <span>3000000</span>
+        <span>Users during the first year</span>
+      </div>
+    </Stats></Indent>
+    <ImageRow>
+      <Image src={ photo1 } alt="Oodi crew 2" />
+      <Image src={ photo2 } alt="Oodi crew 3" />
+    </ImageRow>
     <Chapter>
       <h2>The bright idea</h2>
       <p>
@@ -46,45 +81,6 @@ export default () => (
         needed to find a partner to co-create and execute the digital part
         of the experience. This was the start of an inspiring partnership between
         Sherpa and Wunderdog.
-      </p>
-    </Chapter>
-    <ImageRow>
-      <Image src={ photo1 } alt="Oodi crew 2" />
-      <Image src={ photo2 } alt="Oodi crew 3" />
-    </ImageRow>
-    <Chapter>
-      <h2>Our capital solution</h2>
-      <p>
-        We took the City of Helsinki style guide and ran with it, creating three
-        different experiences in collaboration with Sherpa:
-      </p>
-      <ul>
-        <li>
-          A fun quiz, Helsinki Test, where people could discover which Helsinki district they are
-        </li>
-        <li>
-          A social media wall to gather content posted with the #unelmienkaupunki hashtag
-        </li>
-        <li>
-          An audio-visual 3D map of Helsinki and its districts
-        </li>
-      </ul>
-      <p>
-      We created a beautiful look and feel for the Helsinki Test using modern CSS
-      animations, and used React for the quiz itself. The great thing about this
-      was that we didn’t need to worry about multiple browsers and resolutions
-      as the quiz was implemented for iPad only.
-      </p>
-      <p>
-      For the social media wall we benchmarked solutions that were already
-      available so we could get things up and running fast. We chose wall.io
-      because it gave us the flexibility to create exactly the look and feel we
-      wanted. Why start from scratch and waste time and money when someone’s
-      already created something that fits the bill perfectly?
-      </p>
-      <p>
-      Developing the 3D map was particularly exciting for us as we got our first
-      chance to use the Unity engine.
       </p>
     </Chapter>
     <ImageRow>
