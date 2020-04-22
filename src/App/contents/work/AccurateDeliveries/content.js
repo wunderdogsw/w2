@@ -11,7 +11,7 @@ import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 
-import photo1 from './GlobalRetailer-Wunderdog2.jpg'
+import photo1 from './GlobalSportsRetailer-Wunderdog2.jpg'
 import {JasperVanGhemen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -51,7 +51,7 @@ export default () => (
       business find the best solutions to their challenges.
       </BlockQuote>
     </Chapter>
-    
+
     <Chapter>
       <h2>Why a web application?</h2>
       <p>
