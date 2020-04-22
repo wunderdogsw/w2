@@ -92,11 +92,20 @@ export default () => (
     <Chapter>
     <p>
     <BlockQuote by="Markus Neimo, CEO of Rahamylly">
-    The way Wunderdog team really took the lead on
+    How Wunderdog team took the lead on
     the technology and genuinely kept our success as their
     first priority was impressive.
     </BlockQuote>
     </p>
+    </Chapter>
+
+    <Chapter>
+      <h2>
+        Näitä tarjoamme:
+      </h2>
+      <p><b>Digitaalinen transformaatio</b><br />Arvoketjujen ja prosessien kokonaisvaltainen uudelleen suunnittelu ja implementointi digitaalisten teknologioiden avulla, jotta liiketoiminnalle ja käyttäjille tuotettu arvo maksimoituu</p>
+      <p><b>Kehitysprojektit</b><br />Selkeästi määritellyt projektit. Aloitamme sprintillä, jossa yhdessä asiakkaan kanssa määrittelemme kehitystarpeen, projektin laajuuden ja raamit. </p>
+      <p><b>Design- ja koodausapu</b><br />Tuntilaskutuksella työskentely asiakasprojektissa, jotta projekti saadaan maaliin halutussa aikataulussa. Designereillamme ja koodareillamme on keskimäärin kymmenen vuoden kokemus alaltaan.</p>
     </Chapter>
 
 <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
