@@ -18,11 +18,12 @@ import BlockQuote from 'App/components/BlockQuote'
 import HubspotForm from 'react-hubspot-form'
 import './index.css'
 
-import photo1 from './Wunderdog-digital.jpg'
+import photo1 from './AdduAilu.jpg'
 import photo4 from './Abe.jpg'
 import YoutubeVideo from 'App/components/YoutubeVideo'
 
 export default () => (
+
   <Fragment>
     <CssVars>
       {{
@@ -30,14 +31,14 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-      <MainTitle narrow>Nyt on aika investoida parempaan tulevaisuuteen.</MainTitle>
+      <MainTitle narrow>Let's future-proof your business.</MainTitle>
       <Chapter>
-      <YoutubeVideo videoId="HfUjEegWQ1Y"/>
-      <h2> Aika löytää liiketoiminnan ongelmakohdat ja ratkoa ne
-      sekä tunnistaa arvoa tuottavat tekijät ja panostaa niihin.
+      <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175'/>
+      <h2> Nyt jos koskaan on aika ratkoa liiketoiminnan ongelmakohdat ja panostaa
+      arvoa tuottaviin tekijöihin.
       </h2>
       <p>
-      Siihen tarvitaan kykyä tunnistaa todelliset ongelmakohdat, luovuutta keksiä
+      Tarvitaan taitoa tunnistaa todelliset ongelmat, luovuutta keksiä
       uusia lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja teknologista
       kompetenssia toteuttaa toimivia ratkaisuja.
       </p>
@@ -45,7 +46,7 @@ export default () => (
       <b>Tässä olemme asiantuntijoita.</b> Meillä on kokemusta toimivien digitaalisten
       ratkaisujen ideoinnista toteutukseen eri aloilla. Tuomme vanhat järjestelmät
       tähän päivään ja rakennamme tulevaisuuden palveluita, jotka helpottavat meidän kaikkien
-      elämää. Keskitymme olennaiseen eli arvoa tuottavaan tekemiseen. Me uskomme,
+      elämää. Me uskomme,
       että asiat voi tehdä paremmin.
       </p>
       </Chapter>
@@ -67,7 +68,7 @@ export default () => (
     />
     <Chapter>
     <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
-      Wunderdogin työntekijät todella täydensivät osaamisportfoliotamme.
+      Wunderdog todella täydensi osaamisportfoliotamme.
       Kehittäjien osaamistaso oli vaikuttava.
     </BlockQuote>
     </Chapter>
@@ -83,7 +84,7 @@ export default () => (
 
       <Chapter>
     <BlockQuote by="Jussi Paananen, Chief Technology Officer at Blueprint Genetics">
-    We appreciate Wunderdog's hard work, open communication and ability to take
+    We like Wunderdog's hard work, open communication and ability to take
     improvements forward.
     </BlockQuote>
     </Chapter>
@@ -91,20 +92,11 @@ export default () => (
     <Chapter>
     <p>
     <BlockQuote by="Markus Neimo, CEO of Rahamylly">
-    We were impressed by how the Wunderdog team really took the lead on
-    the technology and genuinely kept the success of Rahamylly as their
-    first priority.
+    The way Wunderdog team really took the lead on
+    the technology and genuinely kept our success as their
+    first priority was impressive.
     </BlockQuote>
     </p>
-    </Chapter>
-
-
-    <Chapter>
-    <BlockQuote by="Jarno Vuorenmaa, CTO Someturva">
-      When it comes to partners it is not just the people but the organization
-      as a whole that needs to understand the core dynamics of a startup.
-      Wunderdog has been the right partner for us.
-    </BlockQuote>
     </Chapter>
 
 <Image src={ photo1 } alt="iPad-image" indent="right" hero/>
@@ -121,7 +113,7 @@ export default () => (
         <Clients />
       </Logos>
       </Indent>
-        <Image src={ photo4 } alt="Abe" indent="left" hero/>
+
         <Chapter>
         <h2>
         Ota yhteyttä!
