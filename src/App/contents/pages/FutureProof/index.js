@@ -33,13 +33,13 @@ export default () => (
       <MainTitle narrow>Nyt on aika investoida parempaan tulevaisuuteen.</MainTitle>
       <Chapter>
       <YoutubeVideo videoId="HfUjEegWQ1Y"/>
-      <h2> Löydä liiketoimintasi ongelmakohdat ja ratko
-      ne, tunnista arvoa tuottavat tekijät ja panosta niihin.
+      <h2> Aika löytää liiketoiminnan ongelmakohdat ja ratkoa ne
+      sekä tunnistaa arvoa tuottavat tekijät ja panostaa niihin.
       </h2>
       <p>
-      Tämä vaatii kykyä tunnistaa todelliset ongelmakohdat, luovuutta keksiä uusia
-      lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja teknologista kompetenssia
-      toteuttaa toimivia ratkaisuja.
+      Siihen tarvitaan kykyä tunnistaa todelliset ongelmakohdat, luovuutta keksiä
+      uusia lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja teknologista
+      kompetenssia toteuttaa toimivia ratkaisuja.
       </p>
       <p>
       <b>Tässä olemme asiantuntijoita.</b> Meillä on kokemusta toimivien digitaalisten
