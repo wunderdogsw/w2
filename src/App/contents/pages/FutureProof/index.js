@@ -18,7 +18,7 @@ import BlockQuote from 'App/components/BlockQuote'
 import HubspotForm from 'react-hubspot-form'
 import './index.css'
 
-import photo1 from './AdduAilu.jpg'
+import photo1 from './Jopo.jpg'
 import photo4 from './Abe.jpg'
 import YoutubeVideo from 'App/components/YoutubeVideo'
 
@@ -31,12 +31,18 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-      <MainTitle narrow>Let's future-proof your business.</MainTitle>
+      <MainTitle narrow>Luodaan yhdessä kestävämpi tulevaisuus.</MainTitle>
       <Chapter>
       <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175'/>
-      <h2> Nyt jos koskaan on aika ratkoa liiketoiminnan ongelmakohdat ja panostaa
-      arvoa tuottaviin tekijöihin.
+      <h2>
+      Me autamme.
       </h2>
+      <p>
+      Viime aikoina yhä useammat meistä ovat joutuneet miettimään yrityksensä
+      toimintamallit uudelleen, ja keksimään uusia tuotteita ja palveluita toimintansa
+      ylläpitämiseen. Digitaalisaatio on ajankohtaisempaa yhä useamman kohdalla,
+      mutta uudistuminen saattaa olla vaikeaa. Meidän työmme on auttaa sinua tässä.
+      </p>
       <p>
       Tarvitaan taitoa tunnistaa todelliset ongelmat, luovuutta keksiä
       uusia lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja teknologista
@@ -54,11 +60,12 @@ export default () => (
 
     <Chapter>
       <h2>
-        Tulevaisuuteen investoidaan nyt.
+      Nyt jos koskaan on aika ratkoa liiketoiminnan ongelmakohdat ja panostaa
+      arvoa tuottaviin tekijöihin.
       </h2>
-      <p><b>1.</b><br />Ota yhteyttä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a> tai täytä listan alla oleva lomake</p>
-      <p><b>2.</b><br />Sovitaan 30 min maksuton sparrailupuhelu ja kartoitetaan tilanteesi yhdessä</p>
-      <p><b>3.</b><br />Päätetään joko lähteä ratkomaan ongelmia yhdessä ja käynnistetään projekti tai todetaan, että tilanteessasi on järkevämpää edetä toisella tavalla </p>
+      <p><b>1.</b> Ota yhteyttä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a> tai täytä listan alla oleva lomake</p>
+      <p><b>2.</b> Sovitaan 30 min maksuton sparrailupuhelu ja kartoitetaan tilanteesi yhdessä</p>
+      <p><b>3.</b> Päätetään joko lähteä ratkomaan ongelmia yhdessä ja käynnistetään projekti tai todetaan, että tilanteessasi on järkevämpää edetä toisella tavalla </p>
     </Chapter>
 
     <HubspotForm
@@ -67,7 +74,7 @@ export default () => (
     css=''
     />
     <Chapter>
-    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery at Elisa Santa Monica">
+    <BlockQuote by=" Teemu Tiainen, Director of Service Delivery, Elisa Santa Monica">
       Wunderdog todella täydensi osaamisportfoliotamme.
       Kehittäjien osaamistaso oli vaikuttava.
     </BlockQuote>
@@ -75,35 +82,18 @@ export default () => (
 
       <Chapter>
       <p>
-    <BlockQuote by="Pia Ruusukivi, Director at Alma Talent">
-      We’re pleased we found a partner that has been able to live up to our
-      expectations.
+    <BlockQuote by="Pia Ruusukivi, Director, Alma Talent">
+      Olemme löytäneet kumppanin, joka todella täyttää odotuksemme.
     </BlockQuote>
       </p>
       </Chapter>
 
-      <Chapter>
-    <BlockQuote by="Jussi Paananen, Chief Technology Officer at Blueprint Genetics">
-    We like Wunderdog's hard work, open communication and ability to take
-    improvements forward.
-    </BlockQuote>
-    </Chapter>
-
-    <Chapter>
-    <p>
-    <BlockQuote by="Markus Neimo, CEO of Rahamylly">
-    How Wunderdog team took the lead on
-    the technology and genuinely kept our success as their
-    first priority was impressive.
-    </BlockQuote>
-    </p>
-    </Chapter>
 
     <Chapter>
       <h2>
         Näitä tarjoamme:
       </h2>
-      <p><b>Digitaalinen transformaatio</b><br />Arvoketjujen ja prosessien kokonaisvaltainen uudelleen suunnittelu ja implementointi digitaalisten teknologioiden avulla, jotta liiketoiminnalle ja käyttäjille tuotettu arvo maksimoituu</p>
+      <p><b>Digitaalinen transformaatio</b><br />Arvoketjujen ja prosessien kokonaisvaltainen uudelleen suunnittelu ja implementointi digitaalisten teknologioiden avulla, jotta liiketoiminnalle ja käyttäjille tuotettu arvo maksimoituu.</p>
       <p><b>Kehitysprojektit</b><br />Selkeästi määritellyt projektit. Aloitamme sprintillä, jossa yhdessä asiakkaan kanssa määrittelemme kehitystarpeen, projektin laajuuden ja raamit. </p>
       <p><b>Design- ja koodausapu</b><br />Tuntilaskutuksella työskentely asiakasprojektissa, jotta projekti saadaan maaliin halutussa aikataulussa. Designereillamme ja koodareillamme on keskimäärin kymmenen vuoden kokemus alaltaan.</p>
     </Chapter>
@@ -122,6 +112,20 @@ export default () => (
         <Clients />
       </Logos>
       </Indent>
+
+      <Chapter>
+    <BlockQuote by="Jussi Paananen, Chief Technology Officer, Blueprint Genetics">
+    Arvostamme Wunderdogin ahkeruutta, avointa kommunikaatiota ja kykyä viedä parannusehotukset maaliin saakka.
+    </BlockQuote>
+    </Chapter>
+
+    <Chapter>
+    <p>
+    <BlockQuote by="Markus Neimo, CEO, Rahamylly">
+    Olimme vaikuttuneita siitä, kuinka Wunderdog otti teknologisen johtajuuden ja aidosti piti meidän menestymistämme tärkeimpänä prioriteettinään.
+    </BlockQuote>
+    </p>
+    </Chapter>
 
         <Chapter>
         <h2>
