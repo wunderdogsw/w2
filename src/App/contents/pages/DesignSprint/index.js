@@ -35,23 +35,18 @@ export default () => (
     <MainTitle narrow>How About a Remote Design Sprint?</MainTitle>
 
     <Image src={ photo1 } alt="Juha Larm" indent="right" hero/>
-
+    <Chapter>
+      <p>
+        <i>*Juha Larm, Head of Design at Wunderdog </i>
+      </p>
+    </Chapter>
     <Chapter>
     <h2>Wunderdog’s Design Sprint is like a helicopter ride of product development.
     </h2>
       <p>
       Did you know that we can facilitate the Design Sprint remotely for you and
       your colleagues? We can have a closer look at your problems with a one week
-      Design Sprint, which:
-      </p>
-      <p>
-      <b>°</b> Minimises the risk of failure
-      </p>
-      <p>
-      <b>°</b> Saves time
-      </p>
-      <p>
-      <b>°</b> Helps you to validate your concept before bigger investments
+      Design Sprint.
       </p>
       <p>
       Design Sprint is for getting to know the actual users before getting too
@@ -90,16 +85,13 @@ export default () => (
           <Image src={ photo2 } alt="L&T" indent="right" hero/>
 
       <Chapter>
-        <h2>DESIGN SPRINT: L&T</h2>
+        <h2>DESIGN SPRINT 1: Lassila & Tikanoja</h2>
         <p>
         The initial problem definition
-        from L&T's brief described construction companies, their customers, as
-        having the following problem: to limit excessive labor costs and avoid
-        material delays, construction companies ordinarily order surplus amounts
-        of resources when a construction project is ongoing. This results in;
-        unused resources ending up as waste. And this creates unnecessary waste
-        management costs to the construction company, lowers their environmental
-        performance and is a detriment to the circular economy.
+        from L&T's brief described construction companies ordinarily order
+        surplus amounts of resources when a construction project is ongoing.
+        This results in;
+        unused resources ending up as waste. 
         </p>
         <p>
         L&T wanted to explore how to solve this problem using a design sprint,
@@ -113,7 +105,7 @@ export default () => (
             <Image src={ photo3 } alt="SanomaPro" indent="left" hero/>
 
         <Chapter>
-          <h2>DESIGN SPRINT: SanomaPro</h2>
+          <h2>DESIGN SPRINT 2: SanomaPro</h2>
           <p>
           What if we could deconstruct the existing learning material to create
           a truly personalized learning path for pupils? This would enable
