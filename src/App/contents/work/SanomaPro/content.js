@@ -48,16 +48,15 @@ export default () => (
         include audio and video alongside books and content from pupils and
         teachers and keep it all in context – as well as making it easier to
         carry information and homework to and from school.
-      </p>
+        </p>
+        <p>
+        Download our Design Sprint e-book as a pdf <TransitionLink to='https://wunderdog.fi/design-sprint'>here.</TransitionLink>
+        </p>
       <BlockQuote by="Lasse Kaikkonen, Senior Service Designer at Wunderdog">
         The design sprints clarified user needs and helped us to identify and
         design the key features and define the role of the product in its existing
         environment.
       </BlockQuote>
-      </p>
-      <p>
-      Download our Design Sprint e-book as a pdf <TransitionLink to='https://wunderdog.fi/design-sprint'>here.</TransitionLink>
-      </p>
       </Chapter>
     <ImageRow>
       <Image src={ photo2 } alt="Design-Sprint.jpg" />
