@@ -60,7 +60,7 @@ export default () => (
       <p>
       <b>Download the Design Sprint e-book in english by leaving your email below. </b>
       Looking for the finnish version?
-      <TransitionLink to='http://landing.wunder.dog/design-sprint'> Get it here.</TransitionLink>
+      <TransitionLink to='https://wunderdog.fi/design-sprint-ekirja'> Get it here.</TransitionLink>
       </p>
     </Chapter>
 
