@@ -13,6 +13,8 @@ import babyitscoldoutside from './BabyItsColdOutside'
 export const BabyItsColdOutside = babyitscoldoutside
 import controlfreak from './ControlFreak'
 export const ControlFreak = controlfreak
+import cuttingcompanycostswithcleancode from './CuttingCompanyCostsWithCleanCode'
+export const CuttingCompanyCostsWithCleanCode = cuttingcompanycostswithcleancode
 import designsprint from './DesignSprint'
 export const DesignSprint = designsprint
 import designsprintthree from './DesignSprintThree'
