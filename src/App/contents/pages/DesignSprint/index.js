@@ -45,16 +45,17 @@ export default () => (
     </h2>
       <p>
       Did you know that we can facilitate the Design Sprint remotely for you and
-      your colleagues? We can have a closer look at your problems with a one week
-      Design Sprint.
+      your colleagues? Running a one week Design Sprint before months of development
+      work helps you to:
       </p>
+      <p><b>1)</b> Focus only on relevant challenges</p>
+      <p><b>2)</b> Get tangible results in only one week</p>
+      <p><b>3)</b> Efficiently plan the next steps in your project</p>
       <p>
-      Design Sprint is for getting to know the actual users before getting too
-      far ahead with the design and development process. You might call it a
-      sneak peek into the future: Does the concept have that certain something?
-      How are the end users reacting to the concept? Even superficial user
-      research will help you decide whether you should actually commit to the
-      costly development process.
+      Design Sprint is for getting to know the actual users before getting too far
+      ahead with the design and development process. Even a superficial user research
+      will help you decide whether you should actually commit to the costly development
+      process.
       </p>
       <p>
       <b>Download the Design Sprint e-book in english by leaving your email below. </b>
@@ -91,7 +92,7 @@ export default () => (
         from L&T's brief described construction companies ordinarily order
         surplus amounts of resources when a construction project is ongoing.
         This results in;
-        unused resources ending up as waste. 
+        unused resources ending up as waste.
         </p>
         <p>
         L&T wanted to explore how to solve this problem using a design sprint,
