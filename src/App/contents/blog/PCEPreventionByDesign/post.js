@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import BlockQuote from '../../../components/BlockQuote'
 import Chapter from '../../../components/Chapter'
 import Image from '../../../components/Image'
+import TransitionLink from '../../../components/TransitionLink'
 import photo1 from './designblog-1.jpg'
 import photo2 from './designblog-2.jpg'
 import photo3 from './designblog-4.jpg'
@@ -189,6 +190,9 @@ export default () => (
         <p>
           Significant savings on software development.
           (This topic is worthy of another post).
+          </p>
+          <p>
+          Download our Design Sprint e-book as a pdf <TransitionLink to='https://wunderdog.fi/design-sprint'>here.</TransitionLink>
           </p>
     </Chapter>
   </Fragment>

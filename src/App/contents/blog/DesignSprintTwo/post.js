@@ -9,7 +9,7 @@ export default () => (
       <p>
         <i>
           This is the second part of Wunderdog’s Design Sprint e-book. Get the
-          entire e-book as a pdf <TransitionLink to='http://landing.wunder.dog/designsprint'>here.</TransitionLink>
+          entire e-book as a pdf <TransitionLink to='https://wunderdog.fi/design-sprint'>here.</TransitionLink>
         </i>
       </p>
     </Chapter>

@@ -23,7 +23,7 @@ export default () => (
         </p>
         <p>
         <i>
-        You can download our Design Sprint e-book as a pdf <TransitionLink to='http://landing.wunder.dog/designsprint'>
+        You can download our Design Sprint e-book as a pdf <TransitionLink to='https://wunderdog.fi/design-sprint'>
         here.</TransitionLink>
         </i>
       </p>
