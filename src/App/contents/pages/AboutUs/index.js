@@ -13,7 +13,7 @@ import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 import TransitionLink from '../../../components/TransitionLink'
 
-import hero from './about-us-1.jpg'
+import hero from './wunderdog-office8.jpg'
 import photo1 from './wunderdog-office5.jpg'
 import photo2 from './about-us-2.jpg'
 
