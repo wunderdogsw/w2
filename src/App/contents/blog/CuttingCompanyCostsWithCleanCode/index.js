@@ -5,7 +5,7 @@ export default {
   title: 'Cutting Company Costs with Clean Code',
   author: {
     name: 'Mostafa Shawki',
-    title: 'Service Designer'
+    title: 'Software Developer'
   },
   publishDate: 'April 28, 2020',
   readTimeMinutes: 4,
