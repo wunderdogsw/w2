@@ -44,8 +44,10 @@ export default () => (
       mutta uudistuminen saattaa olla vaikeaa. Meidän työmme on auttaa sinua tässä.
       </p>
       <p>
-      Tarvitaan taitoa tunnistaa todelliset ongelmat, luovuutta keksiä
-      uusia lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja teknologista
+      Tarvitaan taitoa tunnistaa liiketoiminnan kasvumahdollisuudet ja
+      todelliset haasteet, luovuutta keksiä
+      uusia lähestymistapoja, inhimillisyyttä ymmärtää loppukäyttäjiä ja
+      teknologista
       kompetenssia toteuttaa toimivia ratkaisuja.
       </p>
       <p>
@@ -64,7 +66,7 @@ export default () => (
       arvoa tuottaviin tekijöihin.
       </h2>
       <p><b>1.</b> Ota yhteyttä <a className="noHyphen" href="mailto:antero.torhonen@wunderdog.fi">antero.torhonen<span>@</span>wunderdog.fi</a> tai täytä listan alla oleva lomake</p>
-      <p><b>2.</b> Sovitaan 30 min maksuton sparrailupuhelu ja kartoitetaan tilanteesi yhdessä</p>
+      <p><b>2.</b> Sovitaan 30 min sparrailupuhelu ja kartoitetaan tilanteesi yhdessä</p>
       <p><b>3.</b> Päätetään joko lähteä ratkomaan ongelmia yhdessä ja käynnistetään projekti tai todetaan, että tilanteessasi on järkevämpää edetä toisella tavalla </p>
     </Chapter>
 
