@@ -7,7 +7,7 @@ import Chapter from '../../../components/Chapter'
 import CallToAction from '../../../components/CallToAction'
 import { OpenPositions } from '../../callToActions'
 import hero from './wunderdog-office1.jpg'
-import photo1 from './wunderdog-office2.jpg'
+import photo1 from './wunderdog-office4.jpg'
 import photo2 from './wunderdog-office3.jpg'
 
 export default () => (
