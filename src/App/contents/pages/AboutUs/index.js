@@ -13,9 +13,9 @@ import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 import TransitionLink from '../../../components/TransitionLink'
 
-import hero from './wunderdog-office8.jpg'
-import photo1 from './wunderdog-office5.jpg'
-import photo2 from './about-us-2.jpg'
+import hero from './wunderdog-office3.jpg'
+import photo1 from './wunderdog-office2.jpg'
+import photo2 from './wunderdog-office.jpg'
 
 export default () => (
   <Fragment>
