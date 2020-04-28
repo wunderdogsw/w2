@@ -32,26 +32,24 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>Design Sprint</MainTitle>
+    <MainTitle narrow>Design Sprint tuotekehityksen tueksi</MainTitle>
 
     <Video src='https://player.vimeo.com/external/407896117.hd.mp4?s=af58b4132c6328cdd12e1a83392380fc19b6ce4a&profile_id=175' useUnmute/>
 
     <Chapter>
     <h2>Wunderdogin Design Sprint on tuotekehityksen helikopterikyyti.</h2>
       <p>
-      <b>Tiestikö, että fasilitoimme viikon mittaisia Design Sprinttejä myös täysin
-      etänä?</b> Ongelmiesi ratkaisua voidaan lähestyä viikon mittaisella Design
-      Sprintillä.
+      Tiesitkö, että fasilitoimme Design Sprinttejä nyt myös täysin
+      etänä? Viikon mittaisella Design Sprintillä ennen kuukausien projektien aloitusta:
       </p>
+      <p><b>1)</b> Varmistat, että keskityt relevantteihin ongelmiin</p>
+      <p><b>2)</b> Saat konkreettisia tuloksia päätöksen teon tueksi vain yhdessä viikossa </p>
+      <p><b>3)</b> Suunnittelet tehokkaasti projektin seuraavat askelmerkit</p>
       <p>
-      Design Sprint pureutuu oleelliseen eli keskusteluun varsinaisten käyttäjien
-      kanssa ennen
-      kuin ollaan liian pitkällä. Sitä voisikin kutsua kurkistukseksi
-      tulevaisuuteen - onko
-      konseptissa sitä jotain ja miten loppukäyttäjät reagoivat ideaan.
-      Jo ohuenkin
-      käyttäjähavainnoinnin perusteella on helpompaa päättää kalliiseen
-      jatkokehitykseen sitoutumisesta.
+      Design Sprint pureutuu oleelliseen, eli keskusteluun ja idean validointiin
+      varsinaisten loppukäyttäjien kanssa ennen projektiin investointia. Jo kevyenkin
+      käyttäjätutkimuksen perusteella voidaan tehdä parempi päätös siitä, kannattaako
+      kehitysprojektiin sitoutua.
       </p>
       <p>
       <b>Lataa Design Sprint e-kirja alta.</b> Etsitkö englannin kielistä versiota?
