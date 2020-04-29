@@ -32,8 +32,9 @@ export default () => (
       }}
     </CssVars>
       <MainTitle narrow>Let's future-proof your business.</MainTitle>
+      <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175' useUnmute/>
+
       <Chapter>
-      <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175'/>
       <h2>
       We're here to help.
       </h2>
@@ -69,7 +70,7 @@ export default () => (
 
     <HubspotForm
     portalId='1704241'
-    formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
+    formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
     css=''
     />
     <Chapter>
@@ -138,13 +139,13 @@ export default () => (
         +358505281678</i>
         </p>
         <p>
-        or leave your contact informatio:
+        or leave your contact information:
         </p>
 
 
         <HubspotForm
         portalId='1704241'
-        formId='e4b0b759-034f-438e-bdaf-f8013c58c323'
+        formId='adfafc87-e8ad-42c7-a7d3-dfa1dfd591b5'
         css=''
         />
 
