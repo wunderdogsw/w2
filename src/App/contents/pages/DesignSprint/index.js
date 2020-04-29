@@ -15,8 +15,9 @@ import TransitionLink from 'App/components/TransitionLink'
 import SubTitle from 'App/components/SubTitle'
 import Video from 'App/components/Video'
 import BlockQuote from 'App/components/BlockQuote'
-import HubspotForm from 'react-hubspot-form'
+import HubspotForm from 'App/components/HubspotForm'
 import './index.css'
+import ReactGA from 'react-ga'
 
 import photo1 from './juha-larm2.jpg'
 import photo2 from './Design-Sprint-L&T.jpg'
@@ -65,9 +66,16 @@ export default () => (
     </Chapter>
 
     <HubspotForm
-    portalId='1704241'
-    formId='28009ea5-cd0d-4d8d-b15f-b3b0787b95f5'
-    css=''  />
+      formId='28009ea5-cd0d-4d8d-b15f-b3b0787b95f5'
+
+      onSubmit={() => {
+        ReactGA.event({
+          category: 'Content Downloads',
+          action: 'E-Book',
+          label: 'Design Spring E-Book',
+        })
+      }}
+      />
 
     <Image src={ photo5 } alt="Design Sprint Wunderdog" indent="left" hero/>
 
