@@ -9,13 +9,11 @@ export default () => (
   <Fragment>
     <Image src={ home } alt="Wunderdog" indent hero/>
     <Chapter>
-      <h2>High-end consultancy in creating digital
-        products and services</h2>
+      <h2>We make sustainable & user-friendly software for our clients.</h2>
       <p>
-        We guide our customers through the maze of crafting digital products
-        and services from ideation to execution. By combining smart ways of
-        working, human-centered design and high-quality code, we build future
-        products and services together with our customers.
+        We offer expert consultancy in creating digital services and products that
+        last. Combining high-quality code, human-centered design and smart ways of
+        working we create scalable services together with our clients.
       </p>
     </Chapter>
   </Fragment>
