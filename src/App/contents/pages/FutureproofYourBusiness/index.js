@@ -32,8 +32,8 @@ export default () => (
       }}
     </CssVars>
       <MainTitle narrow>Let's future-proof your business.</MainTitle>
+      <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175'useUnmute/>
       <Chapter>
-      <Video src='https://player.vimeo.com/external/408322729.hd.mp4?s=2f0a25ba9df33b1e02c06206dc945eafe070e419&profile_id=175'/>
       <h2>
       We're here to help.
       </h2>
