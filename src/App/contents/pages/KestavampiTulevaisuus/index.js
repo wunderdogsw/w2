@@ -105,8 +105,16 @@ export default () => (
       <h2>
       Yhdessä rakennamme hyvistä ideoista digitaalista todellisuutta.
       </h2>
+      <p><i>Loimme <b><TransitionLink to='https://wunderdog.fi/work/sanoma-pro'> digitaalisen oppimisympäristön</TransitionLink> </b>
+      Sanomapron kanssa, jotta opiskelu olisi mukavaa myös etänä.</i></p>
+      <p><i>Autoimme Suomen biopankkeja rakentamaan <b><TransitionLink to='https://www.facebook.com/wunderdogofficial/posts/2972412549491165/'> kampanjan, jonka avulla
+      kerätään biopankkisuostumuksia, </TransitionLink></b> joita käytetään hoitojen ja ennaltaehkäisevien
+      menetelmien kehittämisessä tauteja, kuten koronavirusta vastaan. </i></p>
+      <p><i>Loimme <b><TransitionLink to='https://wunderdog.fi/work/someturva'> Someturva-sovelluksen, </TransitionLink></b>
+      jonka avulla voit turvata itsesi ja läheisesi somessa nettikiusaamisen
+      lisääntyessä. </i></p>
       <p>
-      Lisää meistä ja tekemistämme asiakasprojekteista <TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink>
+      Lisää meistä ja muista tekemistämme asiakasprojekteista <b><TransitionLink to='https://wunder.dog/work'>täällä.</TransitionLink></b>
         </p>
       </Chapter>
       <Indent twice>
