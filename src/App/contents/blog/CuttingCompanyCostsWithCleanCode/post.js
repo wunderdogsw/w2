@@ -14,7 +14,7 @@ export default () => (
           Learning to write clean code is hard work. It requires more than just
           the knowledge of principles and patterns. Taking decisions is
           difficult, but at the end of the day, when you are a developer,
-          ‘clean code’ is a proof of expertise and proficient delivery. If you
+          clean code is a proof of expertise and proficient delivery. If you
           are a business, relying on clean code will make your business more
           agile and will save you unnecessary costs in the long run. Here’s why.
         </i>
@@ -23,14 +23,14 @@ export default () => (
     <Chapter>
     <h2>What is dirty code, and why is it so expensive?</h2>
       <p>
-      Before learning what ‘clean code’ means, we need an idea of what
-      ‘dirty code’ is. Dirty code usually happens when a developer or a team is
+      Before learning what clean code means, we need an idea of what
+      dirty code is. Dirty code usually happens when a developer or a team is
       trying to code fast and add new features quickly without considering the
-      code quality. The binomial “clean” vs. “dirty” comes from the idea that
+      code quality. The binomial clean vs. dirty comes from the idea that
       the code can be “cleaned up later” which often doesn’t happen.
       </p>
       <p>
-      One of the negative consequences of fast coding or ‘dirty code’ is that it
+      One of the negative consequences of fast coding or dirty code is that it
       often comes at a high cost. The code can function, but in the long run,
       it can entail countless hours of fixing, refactoring, or spending on
       resources, especially when it has been poorly written or has become messy.
@@ -40,10 +40,6 @@ export default () => (
       eventually, you’ll have to rewrite it, forcing your business to invest
       extra capital on it and your developers to sweat it out.
       </p>
-        <BlockQuote>
-        One of the negative consequences of fast coding or ‘dirty code’ is that
-        it often comes at a high cost.
-        </BlockQuote>
         <h2>What is clean code, and why is it so effective?</h2>
         <p>
       Clean code makes your code logic straightforward. It’s easy to maintain
@@ -85,10 +81,6 @@ export default () => (
       On top of this, if for any reason you developed a quick and dirty patch
       (perhaps a hotfix, or a last-minute requirement), always keep track of
       this technical debt and reserve some time each sprint to tackle it.</p>
-      <BlockQuote>
-      A tip: classes and objects
-      should have noun names, and functions should have verb names.
-      </BlockQuote>
       <p><b>5. Meaningful naming vs. comments. </b> Meaningful names and comments
       in programming have an inverse relationship, which means the more you have
       meaningful names in your program, the more you don’t need to add comments
