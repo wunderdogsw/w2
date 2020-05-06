@@ -13,8 +13,6 @@ export const CreatingHealthierFutureWithGameChangingTechnology = importedCompone
 export const CustombuiltSolutionsForYourDigitalChallenges = importedComponent(() => import('./CustombuiltSolutionsForYourDigitalChallenges'))
 export const DesignSprint = importedComponent(() => import('./DesignSprint'))
 export const DesignSprintEkirja = importedComponent(() => import('./DesignSprintEkirja'))
-export const FutureProof = importedComponent(() => import('./FutureProof'))
-export const FutureProofEng = importedComponent(() => import('./FutureProofEng'))
 export const FutureproofYourBusiness = importedComponent(() => import('./FutureproofYourBusiness'))
 export const InvestoiParempaanTulevaisuuteen = importedComponent(() => import('./InvestoiParempaanTulevaisuuteen'))
 export const JoinUs = importedComponent(() => import('./JoinUs'))
