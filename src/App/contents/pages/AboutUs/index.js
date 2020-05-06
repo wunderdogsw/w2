@@ -64,7 +64,7 @@ export default () => (
 
     <Chapter>
     <h2>
-    High-end consulting in creating digital products and services
+    High-end consultancy in creating digital products and services
     </h2>
     <p>
     We guide our customers through the maze of crafting digital products and
