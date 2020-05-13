@@ -107,9 +107,8 @@ export default () => (
     <h2>
       Registration
     </h2>
-      <p id="register">Register by filling in the form below. This puts you in the waiting list. We aim to fit
-      as many attendees as possible. Final registrations will be confirmed few weeks
-      prior to the event.
+      <p id="register">Register by filling in the form below. A confirmation will be
+      sent to you by email.
       </p>
       <HubspotForm
         portalId='1704241'
