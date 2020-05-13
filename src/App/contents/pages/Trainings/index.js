@@ -30,28 +30,40 @@ export default () => (
     <MainTitle narrow>Our experienced coaches are here to help</MainTitle>
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
-      <h2>We know our way around trainings</h2>
+      <h2>Sharing our knowledge is at the core of our operations</h2>
     </Chapter>
     <Chapter>
       <p>
-        <i>Remote or not, we can help you broaden your skills to meet the needs of
-        the constantly changing digital world.</i>
+        Over the years of consulting, we've learned to recognised important
+        topics that require attention at our clients' and that we arwe experts
+        in. Some of the themes are bigger and require time dedicated to studying
+        and understanding them - more than we have time or resources to share while
+        doing our regular consulting work. Here are few important topics that we've
+        packet into compact training sessions. Remote or not, we can help you broaden
+        your skills to meet the needs of the constantly changing digital world.
       </p>
     </Chapter>
 
     <Chapter>
-      <p><b>° TypeScript</b><br /> We organise TypeScript sessions for novices
+      <p><b>TypeScript</b><br /> We organise TypeScript and Advanced TypeScript sessions for novices
       and advanced developers.</p>
-      <p><b>° API-Development</b><br /> Protocols, error handling, and code
+      <p><b>API-Development</b><br /> Protocols, error handling, and code
       modularity are just some of the questions your team needs to address
       before building a great API.</p>
-      <p><b>° Design Sprint </b><br /> You'll learn how to use this method to find
+      <p><b>Design Sprint </b><br /> You'll learn how to use this method to find
       out how potential users would react to your idea and, as a result, you
       will be able to make a well-founded
       decision on how to progress.</p>
-      <p><b>° Elements of a successful software project</b><br /> This training
+      <p><b>Elements of a successful software project</b><br /> This training
       is designed for anyone who works or is interested in working in the
       digital world.</p>
+
+      <Chapter>
+      <p>
+       <i>Contact us for more information. We're happy to
+       answer any question and tailor our offering according to your needs!</i>
+      </p>
+      </Chapter>
     </Chapter>
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
