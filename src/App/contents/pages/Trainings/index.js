@@ -34,19 +34,22 @@ export default () => (
     </Chapter>
     <Chapter>
       <p>
-        Over the years of consulting, we've learned to recognised important
-        topics that require attention at our clients' and that we arwe experts
+        Over the years of consulting, we've learned to recognise important
+        topics that require attention at our clients' and in that we are experts
         in. Some of the themes are bigger and require time dedicated to studying
         and understanding them - more than we have time or resources to share while
         doing our regular consulting work. Here are few important topics that we've
-        packet into compact training sessions. Remote or not, we can help you broaden
+        packed into compact training sessions. Remote or not, we can help you broaden
         your skills to meet the needs of the constantly changing digital world.
       </p>
     </Chapter>
 
     <Chapter>
-      <p><b>TypeScript</b><br /> We organise TypeScript and Advanced TypeScript sessions for novices
-      and advanced developers.</p>
+      <p><b>TypeScript</b><br /> We organise TypeScript and Advanced TypeScript
+      sessions for novices and advanced developers. During these sessions
+      we'll go through the background of TypeScript and why TypeScript is the
+      way it is. We will also cover some TypeScript features and how they can
+      improve your code and increase your productivity.</p>
       <p><b>API-Development</b><br /> Protocols, error handling, and code
       modularity are just some of the questions your team needs to address
       before building a great API.</p>
@@ -66,7 +69,7 @@ export default () => (
       </Chapter>
     </Chapter>
     <CallToAction color="blue" large grid>
-      <CaseContactInfo slogan="Let's talk.">
+      <CaseContactInfo slogan="Let's learn together.">
         <AnteroTorhonen />
       </CaseContactInfo>
     </CallToAction>
