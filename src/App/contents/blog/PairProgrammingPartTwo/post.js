@@ -11,7 +11,7 @@ export default () => (
   <Fragment>
     <Chapter>
       <p>This is part II of our “Pair Programming — Uncharted Territories” blog
-      posts. See also Part I.</p>
+      posts. <TransitionLink to='https://wunderdog.fi/blog/pair-programming'> See also Part I. </TransitionLink></p>
     </Chapter>
     <Chapter>
       <p>

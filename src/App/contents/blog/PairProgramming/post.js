@@ -8,7 +8,9 @@ import photo1 from './pairprog1.png'
 export default () => (
   <Fragment>
     <Chapter>
-      <p>This is part I of our “Pair Programming — Uncharted Territories” blog posts. See also Part II.</p>
+      <p>This is part I of our “Pair Programming — Uncharted Territories” blog posts.
+      <TransitionLink to='https://wunderdog.fi/blog/pair-programming-part-two'> See also Part II. </TransitionLink>
+        </p>
     </Chapter>
     <Chapter>
       <p>
@@ -21,9 +23,7 @@ export default () => (
         We know that when the size of a programming team increases, its relative efficiency often drops. So is pair
         programming doomed to be a method used only in special cases? A well-known software developer Martin Fowler has
         a rule of thumb which says that{' '}
-        <TransitionLink to='https://www.martinfowler.com/bliki/CheaperTalentHypothesis.html'>
-          the efficiency of a programming team is the square root of the number of the programmers.
-        </TransitionLink>
+        <TransitionLink to='https://www.martinfowler.com/bliki/CheaperTalentHypothesis.html'> the efficiency of a programming team is the square root of the number of the programmers. </TransitionLink>
         For example, if a team consists of two programmers, the real efficiency would equal 1.4 times a single
         programmer. Question is, can you surpass this limit with pair programming?
       </p>
