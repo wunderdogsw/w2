@@ -4,9 +4,9 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import photo2 from './SanomaPro-case.jpg'
-import photo3 from './Design-Sprint.jpg'
-import photo4 from './Design-Sprint1.jpg'
+import photo2 from './Sanomapro-case-student.jpg'
+import photo3 from './kampus-sanoma.jpg'
+import photo4 from './Design-Sprint.jpg'
 import {VilleArponen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
