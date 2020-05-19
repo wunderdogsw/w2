@@ -55,8 +55,7 @@ export default () => (
       before building a great API.</p>
       <p><b>Design Sprint </b><br /> You'll learn how to use this method to find
       out how potential users would react to your idea and, as a result, you
-      will be able to make a well-founded
-      decision on how to progress.</p>
+      will be able to make a well-founded decision on how to progress.</p>
       <p><b>Elements of a successful software project</b><br /> This training
       is designed for anyone who works or is interested in working in the
       digital world.</p>
