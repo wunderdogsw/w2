@@ -26,10 +26,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>We believe things can be done better</MainTitle>
-    <p>
-    We are currently serving 100% of our customers remotely. Would you also like to be served?
-    <TransitionLink to='https://wunderdog.fi/smarter-future'> See more.</TransitionLink>
-    </p>
+  
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>Born years later than the leaders in the field, we inevitably
