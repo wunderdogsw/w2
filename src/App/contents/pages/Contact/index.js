@@ -15,7 +15,7 @@ import {
   JoannaRindell,
   JasperVanGhemen,
   MariaStenberg,
-  MeriTuuliOlkkonen,
+  EmiliaVesa,
   LauriPaalama
 } from '../../contactFaces'
 import helsinki from './office_helsinki.jpg'
@@ -34,7 +34,7 @@ export default () => (
         <MikaViskari />
         <AnteroTorhonen />
         <MariaStenberg />
-        <MeriTuuliOlkkonen />
+        <EmiliaVesa />
       </ContactRow>
     </Indent>
 
