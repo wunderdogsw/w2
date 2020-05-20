@@ -5,6 +5,7 @@ import importedComponent from 'react-imported-component'
 
 export const AnnaMariaLaFiura = importedComponent(() => import('./AnnaMariaLaFiura'))
 export const AnteroTorhonen = importedComponent(() => import('./AnteroTorhonen'))
+export const EmiliaVesa = importedComponent(() => import('./EmiliaVesa'))
 export const JasperVanGhemen = importedComponent(() => import('./JasperVanGhemen'))
 export const JoannaRindell = importedComponent(() => import('./JoannaRindell'))
 export const LauriPaalama = importedComponent(() => import('./LauriPaalama'))
