@@ -29,7 +29,7 @@ export default () => (
       </p>
       <p>We believe you cannot only surpass it but surpass it clearly — if some conditions are met.</p>
       <p>
-        In this first part, we will go through the advantages of pair programming. In Part II TÄHÄN LINKKI, we list
+        In this first part, we will go through the advantages of pair programming. <TransitionLink to='https://wunder.dog/blog/pair-programming-part-two'> In Part II </TransitionLink>, we list
         different levels of pair programming and explain what is needed to fine-tune your pair programming from Opel
         Astra to Bugatti Chiron!
       </p>
