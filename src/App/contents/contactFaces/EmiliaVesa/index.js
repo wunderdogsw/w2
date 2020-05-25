@@ -4,7 +4,7 @@ export default () => (
   <Fragment>
     <h5>Emilia Vesa</h5>
     <p>
-      People Opreations & Talent Lead
+      People Operations & Talent Lead
       <br />
       +358 40 7370792
       <br />
