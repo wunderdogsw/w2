@@ -7,6 +7,8 @@ import photo2 from './live-share.gif'
 import photo3 from './pairprog3.png'
 import photo1 from './piispavissy.jpg'
 
+import Video from 'App/components/Video'
+
 export default () => (
   <Fragment>
     <Chapter>
@@ -60,9 +62,7 @@ export default () => (
         do not have time to argue all the time about semicolons, commit message formats or sufficient test coverage.
       </p>
     </Chapter>
-    <Chapter>
-      <Image src={photo1} alt='PiispaVissy' />
-    </Chapter>
+
     <Chapter>
       <h2>3. Battlecruiser X Robot Hand Remote Warp Speed Edition</h2>
       <p>
@@ -72,7 +72,7 @@ export default () => (
       </p>
     </Chapter>
     <Chapter>
-      <Image src={photo2} alt='LiveShare' />
+    <Video src="https://player.vimeo.com/external/423080231.sd.mp4?s=5dada440d744fc2ee3b8e471381d184dc44a8c79&profile_id=165"/>
     </Chapter>
     <Chapter>
       <p>
