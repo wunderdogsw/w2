@@ -63,12 +63,12 @@ export default () => (
       <Chapter>
       <p>
        <i>Contact us for more information. We're happy to
-       answer any question and tailor our offering according to your needs!</i>
+       answer any questions and tailor our offering according to your needs!</i>
       </p>
       </Chapter>
     </Chapter>
     <CallToAction color="blue" large grid>
-      <CaseContactInfo slogan="Let's learn together.">
+      <CaseContactInfo slogan="Let's make ideas fly.">
         <AnteroTorhonen />
       </CaseContactInfo>
     </CallToAction>
