@@ -75,7 +75,7 @@ export default () => (
         that you can already do today in your workplace to uplift spirits and
         connect with your colleagues? Please feel free to recycle our ideas and,
         if you come up with something new, share them with us! Our Instagram at
-        @wunderdogsw is one good place to do so. Let’s win the fight against
+        @wunderdogofficial is one good place to do so. Let’s win the fight against
         Covid-19 together!
       </p>
     </Chapter>

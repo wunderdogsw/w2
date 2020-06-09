@@ -20,7 +20,7 @@ export default () => (
         switch (match.url) {
           case '/instagram':
           case '/instagram-1':
-            window.location = 'https://www.instagram.com/wunderdogsw'
+            window.location = 'https://www.instagram.com/wunderdogofficial'
             break
 
           case '/kulttuurimme':
