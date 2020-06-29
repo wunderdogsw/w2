@@ -13,9 +13,9 @@ import { Clients, Ecosystem } from 'App/contents/other'
 import CssVars from 'App/components/CssVars'
 import TransitionLink from '../../../components/TransitionLink'
 
-import hero from './wunderdog-office3.jpg'
-import photo1 from './wunderdog-office4.jpg'
-import photo2 from './wunderdog-office.jpg'
+import hero from './5.jpg'
+import photo1 from './6.jpg'
+import photo2 from './7.jpg'
 
 export default () => (
   <Fragment>
@@ -26,7 +26,7 @@ export default () => (
       }}
     </CssVars>
     <MainTitle narrow>We believe things can be done better</MainTitle>
-  
+
     <Image src={ hero } alt="Wunderdog people" indent hero/>
     <Chapter>
       <h2>Born years later than the leaders in the field, we inevitably

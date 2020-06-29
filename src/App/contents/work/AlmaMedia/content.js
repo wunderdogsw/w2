@@ -6,6 +6,7 @@ import Chapter from '../../../components/Chapter'
 import BlockQuote from '../../../components/BlockQuote'
 import photo1 from './alma-photo1.jpg'
 import photo2 from './alma-photo2.jpg'
+import photo3 from './alma-mockup1.jpg'
 import {AnteroTorhonen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -48,7 +49,10 @@ export default () => (
       help them develop top-quality digital services using modern technologies.
       </p>
     </Chapter>
+    <ImageRow>
     <Image src={ photo1 } alt="Wunderdog team at work" />
+    <Image src={ photo3 } alt="mockup1" />
+    </ImageRow>
     <Chapter>
       <h2>The inevitable challenge</h2>
       <p>
