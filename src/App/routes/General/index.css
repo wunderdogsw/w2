@@ -204,7 +204,8 @@
 }
 
 .Chapter > p,
-.Chapter > ul {
+.Chapter > ul,
+.Chapter > ol {
   position: relative;
   margin-left: 30vw;
   box-sizing: border-box;

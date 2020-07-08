@@ -17,6 +17,8 @@ import fashionecommerce from './FashionEcommerce'
 export const FashionEcommerce = fashionecommerce
 import grib from './Grib'
 export const Grib = grib
+import honeypot from './Honeypot'
+export const Honeypot = honeypot
 import mieli from './Mieli'
 export const Mieli = mieli
 import oodi from './Oodi'
