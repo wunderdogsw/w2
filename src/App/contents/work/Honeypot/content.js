@@ -8,7 +8,7 @@ import { CaseContactInfo } from "../../callToActions";
 import { JasperVanGhemen } from "../../contactSalesFaces";
 
 import image1 from "./HoneypotCult-Wunderdog2.jpg";
-import image2 from "./HoneypotCult-Wunderdog3.jpg";
+import image2 from "./HoneypotCult-Wunderdog4.jpg";
 
 export default () => (
   <Fragment>
