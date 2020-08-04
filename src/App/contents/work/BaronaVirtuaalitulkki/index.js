@@ -4,7 +4,7 @@ import image from './Barona-virtuaalitulkki-wunderdog1.png'
 export default {
   title: 'Generating business asset by boosting payroll efficiency',
   client: 'Barona Logistiikka',
-  publishDate: 'May 315, 2020',
+  publishDate: 'May 31, 2020',
   keywords: 'Design Sprints',
   category: 'retail',
   image: image,
