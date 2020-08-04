@@ -4,9 +4,9 @@ import BlockQuote from '../../../components/BlockQuote'
 import Image from '../../../components/Image'
 import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
-import photo2 from './SanomaPro-case.jpg'
-import photo3 from './Design-Sprint.jpg'
-import photo4 from './Design-Sprint1.jpg'
+import photo2 from './Barona-wunderdog1.png'
+import photo3 from './Barona-wunderdog2.png'
+import photo4 from './Barona-wunderdog4.png'
 import {VilleArponen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -91,7 +91,7 @@ export default () => (
       beyond payroll.
       </p>
     </Chapter>
-    
+
     <CallToAction color="blue" large grid>
       <CaseContactInfo slogan="Let's talk.">
         <VilleArponen />

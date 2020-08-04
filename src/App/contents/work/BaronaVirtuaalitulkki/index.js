@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './design-sprint-kampus.jpg'
+import image from './Barona-virtuaalitulkki-wunderdog1.png'
 
 export default {
   title: 'Generating business asset by boosting payroll efficiency',
