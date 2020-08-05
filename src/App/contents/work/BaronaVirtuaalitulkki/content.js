@@ -28,7 +28,7 @@ export default () => (
         with our payroll experts and managed grasp the sometimes byzantine rules
         and regulations of the Finnish collective agreements and employment legislation.
         The new Virtuaalitulkki-system has over the months revealed itself to be
-        a real business assets that is enabling us to not only do payroll more efficiently
+        a real business asset that is enabling us to not only do payroll more efficiently
         but develop new business.
       </BlockQuote>
       </Chapter>
