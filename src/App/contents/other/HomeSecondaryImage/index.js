@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Image from '../../../components/Image'
-import home from './wunderdog-office1.jpg'
+import home from './wunderdog-socks.jpg'
 
 export default () => (
   <Fragment>

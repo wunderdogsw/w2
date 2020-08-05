@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import Chapter from '../../../components/Chapter'
 import Image from '../../../components/Image'
 
-import home from './wunderdog-office2.jpg'
+import home from './wunderdog-team.jpg'
 
 export default () => (
   <Fragment>

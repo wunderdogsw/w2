@@ -18,8 +18,8 @@ import {
   EmiliaVesa,
   LauriPaalama
 } from '../../contactFaces'
-import helsinki from './office_helsinki.jpg'
-import berlin from './office_berlin.jpg'
+import helsinki from './wunderdog-helsinki.jpg'
+import berlin from './wunderdog-berlin.jpg'
 
 export default () => (
   <Fragment>
