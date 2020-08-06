@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './control-freak.png'
+import image from './control-freak-wunderdog.jpg'
 
 export default {
   title: 'I had a problem: I’m a control freak and I think I like it',

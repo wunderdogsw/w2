@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './your-name.jpg'
+import image from './your-name-wunderdog.jpg'
 
 export default {
   title: 'I had a problem: What’s your name again?',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './kanki.jpeg'
+import image from './kanki-wunderdog.jpg'
 
 export default {
   title: 'I feel I’ve now seen the Finnish organisational extremes',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './open-source.jpg'
+import image from './open-source-wunderdog.jpg'
 
 export default {
   title: 'Open to good ideas',

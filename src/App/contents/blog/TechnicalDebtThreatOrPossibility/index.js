@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './technical-dept.jpg'
+import image from './wunderdog-office-helsinki.jpg'
 
 
 export default {

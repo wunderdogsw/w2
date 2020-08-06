@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './anni.jpg'
+import image from './anni-tet.jpg'
 
 export default {
   title: 'My feelings about the work practice programme at Wunderdog',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './iiro.jpeg'
+import image from './iiro-tet.jpg'
 
 export default {
   title: 'My expectations vs. reality about the work practice programme at Wunderdog',

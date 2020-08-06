@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './pomo-developer.jpg'
+import image from './pomo-developer-wunderdog.jpg'
 
 export default {
   title: 'I actually consider the computer as my current main musical instrument',

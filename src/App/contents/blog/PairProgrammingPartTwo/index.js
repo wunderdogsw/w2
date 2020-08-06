@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './piispavissy.jpg'
+import image from './piispavissy-wunderdog.jpg'
 
 export default {
   title: 'Uncharted Territories — Part II',

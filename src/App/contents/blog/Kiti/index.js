@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './kiti.jpg'
+import image from './kiti-wunderdog.jpg'
 
 export default {
   title: 'I was supposed to be a math teacher but programming got me hooked by half-accident',

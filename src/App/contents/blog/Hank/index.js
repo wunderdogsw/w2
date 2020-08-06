@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './hank.png'
+import image from './Juho-wunderdog.jpg'
 
 export default {
   title: 'Without these skills even the best code wizard wouldn’t get along',

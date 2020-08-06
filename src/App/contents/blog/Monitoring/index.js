@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './monitoring.jpeg'
+import image from './monitoring-wunderdog.jpg'
 
 export default {
   title: 'Why should every developer care about monitoring',
