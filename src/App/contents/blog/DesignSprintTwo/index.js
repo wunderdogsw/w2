@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './designsprint-hero.jpg'
+import image from './designsprint-wunderdog2.jpg'
 
 export default {
   title: 'Design Sprint: Why, What For and What Not For? Pt2',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './invisible.jpeg'
+import image from './invisible-code-wunderdog.jpg'
 
 export default {
   title: 'Make your software as invisible as possible',
