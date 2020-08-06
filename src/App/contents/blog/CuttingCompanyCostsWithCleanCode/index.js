@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './clean-code-wunderdog1.jpg'
+import image from './clean-code-wunderdog.jpg'
 
 export default {
   title: 'Cutting Company Costs with Clean Code',

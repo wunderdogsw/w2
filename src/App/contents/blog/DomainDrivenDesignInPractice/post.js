@@ -6,8 +6,7 @@ import Image from '../../../components/Image'
 import BlockQuote from '../../../components/BlockQuote'
 import TransitionLink from '../../../components/TransitionLink'
 import SubTitle from '../../../components/SubTitle'
-import photo1 from './ecommerce.jpg'
-import photo2 from './clothing.jpg'
+
 
 export default () => (
   <Fragment>

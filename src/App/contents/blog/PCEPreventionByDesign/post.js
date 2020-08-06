@@ -4,9 +4,7 @@ import BlockQuote from '../../../components/BlockQuote'
 import Chapter from '../../../components/Chapter'
 import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
-import photo1 from './designblog-1.jpg'
-import photo2 from './designblog-2.jpg'
-import photo3 from './designblog-4.jpg'
+
 
 export default () => (
   <Fragment>
@@ -68,7 +66,6 @@ export default () => (
           Simple software can be designed for one user role. Consumers make the
           decision to buy, stay or leave themselves – not a board.
       </p>
-        <Image src={photo1} alt='designblog-1' />
         <p>
           In business, the core software is heavy on data and features.
           Users come in numerous roles. Decisions to buy or back off are
@@ -140,7 +137,6 @@ export default () => (
           The most camouflaged business risks rely on the ​belief​ that the
           app does the job.
       </p>
-          <Image src={photo2} alt='designblog-2' />
       <p>
           Before doing market research or benchmarking, ​map the features​
           that are needed while executing that exact part of your production
@@ -164,7 +160,6 @@ export default () => (
           there are no apps for the need in the market, you've already done a
           big part of the software specification.
         </p>
-        <Image src={photo3} alt='designblog-4' />
         <h2>Regimen</h2>
         <p>
           To map features an easy and professional way, take a designer to do

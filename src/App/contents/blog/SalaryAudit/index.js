@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './salary-audit.jpg'
+import image from './Meri-Tuuli-Wunderdog.jpg'
 
 export default {
   title: 'We reported ourselves to equality consultants',

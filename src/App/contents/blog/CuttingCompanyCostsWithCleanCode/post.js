@@ -4,7 +4,7 @@ import BlockQuote from '../../../components/BlockQuote'
 import Chapter from '../../../components/Chapter'
 import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
-import photo2 from './clean-code-wunderdog2.jpg'
+
 
 export default () => (
   <Fragment>
