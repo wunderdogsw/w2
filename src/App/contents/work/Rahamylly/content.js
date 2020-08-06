@@ -11,8 +11,7 @@ import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 
-import photo1 from './rahamylly-photo1.jpg'
-import photo2 from './rahamylly-photo2.jpg'
+import photo1 from './rahamylly-photo2.jpg'
 
 import {AnteroTorhonen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
@@ -91,7 +90,7 @@ export default () => (
       reality.
       </p>
       </Chapter>
-      <Image src={ photo2 } alt="Rahamylly website2" />
+      
       <Chapter>
       <h2>Success that speaks for itself</h2>
       <p>

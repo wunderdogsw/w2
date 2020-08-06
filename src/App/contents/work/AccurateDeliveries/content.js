@@ -11,7 +11,6 @@ import BlockQuote from 'App/components/BlockQuote'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 
-import photo1 from './GlobalSportsRetailer-Wunderdog2.jpg'
 import {JasperVanGhemen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -74,7 +73,7 @@ export default () => (
       frontend.
       </p>
     </Chapter>
-    <Image src={ photo1 } alt="Wunderdog at work" />
+
     <Chapter>
       <h2>The inevitable challenge</h2>
       <p>

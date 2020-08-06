@@ -5,7 +5,6 @@ import ImageRow from '../../../components/ImageRow'
 import Chapter from '../../../components/Chapter'
 import BlockQuote from '../../../components/BlockQuote'
 import photo1 from './alma-photo1.jpg'
-import photo2 from './alma-photo2.jpg'
 import photo3 from './alma-mockup1.jpg'
 import {AnteroTorhonen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
@@ -82,12 +81,6 @@ export default () => (
       partnership that has lasted years. The collaboration has been fruitful
       for both parties; we learn from each other and are continuously
       evolving professionally.
-      </p>
-    </Chapter>
-    <Image src={ photo2 } alt="Alma media" />
-    <Chapter>
-      <p>
-        <i>*Photos by Alma Media</i>
       </p>
     </Chapter>
     <CallToAction color="blue" large grid>
