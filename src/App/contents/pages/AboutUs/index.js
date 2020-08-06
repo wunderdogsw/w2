@@ -15,7 +15,7 @@ import TransitionLink from '../../../components/TransitionLink'
 
 import hero from './wunderdogs-developers.jpg'
 import photo1 from './wunderdog-office.jpg'
-import photo2 from './working-at-wunderdog.jpg'
+import photo2 from './wunderdog-helsinki-office.jpg'
 
 export default () => (
   <Fragment>
