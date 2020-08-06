@@ -9,7 +9,6 @@ import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
 
 import photo1 from './Design-Sprint-calendar.jpg'
-import photo3 from './Design-Sprint-L&T2.jpg'
 import photo4 from './design-sprint-sketch.jpg'
 
 export default () => (
@@ -194,7 +193,6 @@ export default () => (
       would stop to read the value proposition as well as put items into their
       carts, indicating that they perceived this to be an actual product.
       </p>
-      <Image src={photo3} alt='Design-Sprint-L&T2' />
       <p>
       The second research case discovered a potential business opportunity for
       an after-market of unused construction material, which, surprisingly, was

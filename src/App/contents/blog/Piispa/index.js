@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './piispa.png'
+import image from './piispa-wunderdog.jpg'
 
 export default {
   title: 'Fresh git, shiny stack, getting things done & mega cool pöhinä',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './communication.png'
+import image from './communication-wunderdog.jpg'
 
 export default {
   title: 'The importance of communications in product development',

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './pairprog1.png'
+import image from './pairprogramming-wunderdog.jpg'
 
 export default {
   title: 'Uncharted Territories — Part I',

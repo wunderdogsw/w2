@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './Seiskavisa-Wunderdog-office.jpg'
+import image from './wunderdog-culture.jpg'
 
 export default {
   title: 'An Asset Called Culture to Carry You Through Hard Times',

@@ -5,11 +5,8 @@ import Image from '../../../components/Image'
 import TransitionLink from '../../../components/TransitionLink'
 import ImageRow from '../../../components/ImageRow'
 
-
-import photo1 from './Seiskavisa-Wunderdog-office1.jpg'
-import photo2 from './Slack-Wunderdog-coffeebreak (1).jpg'
-import photo3 from './remote-work-wunderdog.jpg'
-import photo4 from './remote-work-wunderdog(2).JPG'
+import photo1 from './Slack-Wunderdog-coffeebreak (1).jpg'
+import photo2 from './remote-work-wunderdog.jpg'
 
 
 export default () => (
@@ -36,7 +33,7 @@ export default () => (
         o’clock coffee break, planking session, and another quirky habit of ours, our
         weekly Seiska magazine quiz.
         </p>
-        <Image src={photo1} alt="Seiskavisa-Wunderdog-office1"/>
+
         <p>
         Last week was a long week, every day bringing new news. The situation is
         changing extremely fast, thus transparent and accurate communication is required to
@@ -48,7 +45,7 @@ export default () => (
         Hangouts facilitated coffee breaks and sticking to weekly routines -
         even remotely - can make all the difference.
       </p>
-      <Image src={photo2} alt='Slack-Wunderdog-coffeebreak' />
+      <Image src={photo1} alt='Slack-Wunderdog-coffeebreak' />
       <p>
         Keeping the required distance now means staying closer in spirit;
         communal breaks over Hangouts, learning about our shared love for
@@ -58,7 +55,7 @@ export default () => (
         united and uplifted. Our distance is paradoxically bringing us closer.
         It has shown how powerful a community can be.
       </p>
-        <Image src={photo3} alt='remote-work-wunderdog' />
+        <Image src={photo2} alt='remote-work-wunderdog' />
       <p>
         The most important thing to do right now is to stay safe and healthy.
         We are aware of the economic effects of the situation and how it might

@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './domain-driven-design.jpg'
+import image from './domain-driven-design-wunderdog.jpg'
 
 export default {
   title: 'Domain Driven Design In Practice: An Isomorphic TypeScript Project (Part I)',

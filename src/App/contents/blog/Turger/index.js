@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './turger.jpeg'
+import image from './taru-wunderdog.jpg'
 
 export default {
   title: 'At the age of 12 I found the browser DevTools that revolutionized my life',

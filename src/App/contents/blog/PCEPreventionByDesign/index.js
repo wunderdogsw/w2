@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './designblog-3.jpg'
+import image from './product-chain-erosion-wunderdog.jpg'
 
 export default {
   title: 'Production Chain Erosion Prevention by Design',

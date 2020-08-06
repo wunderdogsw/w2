@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './are-we-ceos.png'
+import image from './are-we-ceos-wunderdog.jpg'
 
 export default {
   title: 'Are we CEOs everyone?',

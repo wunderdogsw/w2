@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './Design-Sprint-L&T.jpg'
+import image from './juha-larm-design-sprint-wunderdog.jpg'
 
 export default {
   title: 'How Lassila & Tikanoja Experimented With New Business Models Using a Design Sprint',

@@ -1,10 +1,10 @@
 import importedComponent from 'react-imported-component'
-import image from './typescript.jpg'
+import image from './Ville-Heikkinen-Wunderdog.jpg'
 
 export default {
   title: 'A Bespoke TypeScript Presentation',
   author: {
-    name: 'Joni Katajamäki',
+    name: 'Ville Heikkinen',
     title: 'Senior Developer'
   },
   publishDate: 'Dec 17, 2019',

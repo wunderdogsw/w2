@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './product-development.jpg'
+import image from './product-development-wunderdog.jpg'
 
 export default {
   title: 'Improving your product starts with a feature review',

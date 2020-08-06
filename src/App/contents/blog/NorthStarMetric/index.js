@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './north-star.jpg'
+import image from './north-star-wunderdog.jpg'
 
 export default {
   title: 'The first mistake in your software project',
