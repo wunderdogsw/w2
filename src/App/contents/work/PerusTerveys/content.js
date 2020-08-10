@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import Image from '../../../components/Image'
 import Chapter from '../../../components/Chapter'
-import photo from './perusterveys-photo.png'
 import {PirkkaSuominen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -44,7 +43,7 @@ export default () => (
         development.
       </p>
     </Chapter>
-    <Image src={ photo } alt="Crew photo" />
+
     <Chapter>
       <h2>Our simple yet smart solution</h2>
       <p>
