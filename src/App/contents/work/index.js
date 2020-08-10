@@ -3,8 +3,6 @@
 
 import importedComponent from 'react-imported-component'
 
-import accuratedeliveries from './AccurateDeliveries'
-export const AccurateDeliveries = accuratedeliveries
 import almamedia from './AlmaMedia'
 export const AlmaMedia = almamedia
 import baronavirtuaalitulkki from './BaronaVirtuaalitulkki'

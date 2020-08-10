@@ -4,7 +4,7 @@ import image from './AngryBirdsFriends-Wunderdog.jpg'
 export default {
   title: 'Cleaning up the bugs for some friendly angry birds',
   client: 'Rovio',
-  publishDate: 'April 22, 2020',
+  publishDate: 'July 11, 2020',
   keywords: 'scrum, full-stack development',
   category: 'consumers, media',
   image: image,

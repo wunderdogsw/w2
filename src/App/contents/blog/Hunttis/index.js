@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './ville-wunderdog.jpg'
+import image from './Ville-wunderdog.jpg'
 
 export default {
   title: 'Coding is like digital carpentry',
