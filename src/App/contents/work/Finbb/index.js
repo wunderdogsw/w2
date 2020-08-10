@@ -6,7 +6,7 @@ export default {
   client: 'FinBB',
   publishDate: 'June 11, 2020',
   keywords: 'scrum, full-stack development',
-  category: 'consumers, media',
+  category: 'healthcare',
   image: image,
 
   content: importedComponent(() => import('./content')),
