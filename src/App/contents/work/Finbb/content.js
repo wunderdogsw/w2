@@ -6,8 +6,8 @@ import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 import BlockQuote from 'App/components/BlockQuote'
-import photo1 from './annatkoluvan-wunderdog.jpg'
-import photo2 from './biopankkisuostumus-annatkoluvan-wunderdog.jpg'
+import photo1 from './biobankki-wunderdog.jpg'
+import photo2 from './annatkoluvan-wunderdog.jpg'
 import {AnteroTorhonen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"
@@ -53,10 +53,9 @@ export default () => (
   </BlockQuote>
 </Chapter>
 
-<ImageRow>
-  <Image src={ photo1 } alt="Annatko luvan" />
-  <Image src={ photo2 } alt="Annatko luvan tulokset" />
-</ImageRow>
+
+  <Image src={ photo2 } alt="FinBB Wunderdog" />
+
 
     <Chapter>
       <h2>The bright idea</h2>
