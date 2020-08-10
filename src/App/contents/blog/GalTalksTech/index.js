@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './gal-talks-tech-joanna-wunderdog.jpg'
+import image from './Joanna-wunderdog-galtalkstech.jpg'
 
 export default {
   title: 'Joanna in Gal Talks Tech',
