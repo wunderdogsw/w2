@@ -15,6 +15,8 @@ import elisasantamonica from './ElisaSantaMonica'
 export const ElisaSantaMonica = elisasantamonica
 import fashionecommerce from './FashionEcommerce'
 export const FashionEcommerce = fashionecommerce
+import finbb from './Finbb'
+export const Finbb = finbb
 import grib from './Grib'
 export const Grib = grib
 import honeypot from './Honeypot'
