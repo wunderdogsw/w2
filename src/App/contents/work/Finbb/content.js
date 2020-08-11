@@ -6,8 +6,8 @@ import Chapter from 'App/components/Chapter'
 import Stats from 'App/components/Stats'
 import Indent from 'App/components/Indent'
 import BlockQuote from 'App/components/BlockQuote'
-import photo1 from './wunderdog-finbb-suomenbiopankit.jpg'
-import photo2 from './wunderdog-finbb-covid.jpg'
+import photo1 from './FinBB14.jpg'
+import photo2 from './FinBB13.jpg'
 import {AnteroTorhonen} from '../../contactSalesFaces'
 import CallToAction from "../../../components/CallToAction"
 import {CaseContactInfo} from "../../callToActions"

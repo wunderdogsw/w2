@@ -1,5 +1,5 @@
 import importedComponent from 'react-imported-component'
-import image from './finbb-logo-wunderdog.jpg'
+import image from './FinBB17.jpg'
 
 export default {
   title: 'Increasing the number of consenting adults',
