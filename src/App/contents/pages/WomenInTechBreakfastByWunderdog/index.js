@@ -27,23 +27,24 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>Registration to WIT virtual breakfast date: how to build
+    <MainTitle narrow>Registration to WIT virtual breakfast date:
     psychologically sustainable remote work practices
+
 </MainTitle>
     <Chapter>
       <p>
       <i>It's 2020 and remote work is here to stay. We need to make sure our
       working environments meet the needs of our employees not only for
-      successful navigation through the tough times but also, for a
-      sustainable future of work.</i>
+      successful navigation through the tough times but also, for a sustainable
+      future of work.</i>
       </p>
 
       <p><i>
-      <b>Tuesday 8th September, 08:00-09:30 Helsinki time (GMT+3).</b>
+      <b>Tuesday 8th September, 08:00-09:30 Helsinki time.</b>
       </i></p>
 
-      <p><i>Welcome to join Wunderdog for this breakfast event to discuss how to
-      build psychologically sustainable remote work practices.
+      <p><i>Welcome to join Wunderdog for this breakfast event to discuss how
+      to build psychologically sustainable remote work practices.
       </i></p>
 
       </Chapter>
@@ -52,9 +53,7 @@ export default () => (
       <h2>
         Registration
       </h2>
-        <p id="register">Register by filling in the form below. A confirmation will be
-        sent to you by email.
-        </p>
+
         <HubspotForm
           portalId='1704241'
           formId='bfbc8420-202e-407a-8180-181491765f5a'
@@ -83,7 +82,7 @@ export default () => (
       <h2>
         Event Details
       </h2>
-      <p><b>Date & Time</b><br />8th September, 08:00-09:30am Helsinki time (GMT + 3)</p>
+      <p><b>Date & Time</b><br />8th September, 08:00-09:30am Helsinki time</p>
       <p><b>Location</b><br />This event is organized online. The link to the
       event will be shared to all registered participants closer to the event</p>
       </Chapter>
@@ -93,7 +92,7 @@ export default () => (
     </h2>
       <p>
       Founded in Helsinki in 2014, Wunderdog is a Software Development Consulting
-      company headquartered in Helsinki, Finland (www.wunderdog.fi) with a branch
+      company headquartered in Helsinki, Finland with a branch
       in Berlin since 2018. The company employs over 100 software development
       and design professionals. Together with their clients, Wunderdog crafts
       digital solutions in a variety of industries, company sizes and projects,
