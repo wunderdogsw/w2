@@ -27,7 +27,7 @@ export default () => (
         '--color-text-on-accent': '#000000',
       }}
     </CssVars>
-    <MainTitle narrow>Registration to WIT virtual breakfast date:
+    <MainTitle narrow>Registration to WIT virtual breakfast:
     psychologically sustainable remote work practices
 
 </MainTitle>
@@ -43,8 +43,9 @@ export default () => (
       <b>Tuesday 8th September, 08:00-09:30 Helsinki time.</b>
       </i></p>
 
-      <p><i>Welcome to join Wunderdog for this breakfast event to discuss how
-      to build psychologically sustainable remote work practices.
+      <p><i>Welcome to join Wunderdog for the Women in Tech virtual breakfast
+      date to discuss how to build psychologically sustainable remote work
+      practices.
       </i></p>
 
       </Chapter>
