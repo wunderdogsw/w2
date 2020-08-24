@@ -73,7 +73,7 @@ export default () => (
       sharing useful insights for the participants to take into practice.
       </p>
       <p>The session will be hosted by Wunderdog's Head of People Operations,
-      Emilia Vesa and Wunderdog GmbH COO Joanna Rindell.
+      Emilia Vesa and Wunderdog GmbH Country Manager Joanna Rindell.
       </p>
 
       </Chapter>
