@@ -3,13 +3,18 @@ label {
 }
 
 fieldset,
-.field {
+.field,
+form p {
   margin: 0 0 20px 0;
+}
+
+form p {
+  padding-top: var(--spacing-small);
 }
 
 textarea,
 input {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   padding: 5px 10px !important;
   font-size: 18px;
   max-width: 100px;
@@ -28,7 +33,7 @@ input:focus {
 legend {
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .hs-error-msgs {
@@ -36,7 +41,7 @@ legend {
   padding: 0;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .hs-error-msgs label {
