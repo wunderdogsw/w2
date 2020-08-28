@@ -1,11 +1,16 @@
 fieldset,
-.field {
+.field,
+form p {
   margin-left: 30vw;
+}
+
+form p {
+  padding-top: var(--spacing-small);
 }
 
 textarea,
 input {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   padding: 5px 10px !important;
   font-size: 18px;
   max-width: 100px;
@@ -42,5 +47,5 @@ input[type="submit"]:hover {
 }
 label.hs-error-msg {
   font-size: 12px;
-  color: 	#FF0000
+  color: #ff0000;
 }
