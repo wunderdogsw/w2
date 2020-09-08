@@ -1,3 +1,5 @@
+**We are no longer using w2 for our website. Our new website is deployed using [https://github.com/wunderdogsw/w3](https://github.com/wunderdogsw/w3).**
+
 ![Wunderdog](https://avatars1.githubusercontent.com/u/8065613?s=200&v=4)
 
 
@@ -62,7 +64,7 @@ export default () => (
     <Hero>
       <Content />
     </Hero>
-  </div>  
+  </div>
 )
 ```
 
