@@ -39,6 +39,8 @@ import sanomapro from './SanomaPro'
 export const SanomaPro = sanomapro
 import smartly from './Smartly'
 export const Smartly = smartly
+import smartum from './Smartum'
+export const Smartum = smartum
 import someturva from './Someturva'
 export const Someturva = someturva
 import tridify from './Tridify'
