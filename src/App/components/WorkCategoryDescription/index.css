@@ -1,0 +1,8 @@
+.WorkCategoryDescription {
+
+  & > .WorkCategoryDescription__inner {
+    /* Apparently the only way to use variables for negative values */
+    margin-top: calc(var(--spacing-large) * -1);
+    margin-bottom: calc(var(--spacing-medium) * -1);
+  }
+}
